@@ -1,0 +1,19 @@
+\frametitle{Transient vs Steady State Stability}
+\begin{tabularx}{\textwidth}{
+			@{\hspace{1.5em}}% Space for left bullet
+			>{\leavevmode\raggedright}% Left bullet + formatting of column
+			X% Left column specification
+			@{\quad\hspace{1.5em}}% Space between columns + right bullet space
+			>{\leavevmode\raggedright\arraybackslash}% Right bullet + formatting of column
+			X% Right column specification
+			@{}% No column space on right
+		}
+		\textbf{Transient Stability} & \textbf{Steady State Stability}\\
+		\toprule
+		A sudden, out-of-trend, high magnitude change in a state variable(s) causes blackouts. &
+		Accumulation of several seemingly minor trends in state variables over time, ultimately leading to a \textcolor{red}{critical point} where a small change could cause blackouts.\\
+		Chief parameters of concern are ROCOF, frequency nadir, steady-state frequency deviation. &
+		\textcolor{red}{Autocorrelation} and covariance are some of the commonly used parameters for prognosis.\\
+		Inertia is a fundamental parameter here. & Inertia plays a minor role here.\\
+		\bottomrule
+	\end{tabularx}
