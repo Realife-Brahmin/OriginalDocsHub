@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.14.0 (MiKTeX 21.10) (format=lualatex 2021.11.21)  5 MAR 2022 17:17
+This is LuaHBTeX, Version 1.14.0 (MiKTeX 21.10) (format=lualatex 2021.11.21)  5 MAR 2022 18:34
  restricted system commands enabled.
 **showcase.tex
 (./showcase.tex
@@ -1681,11 +1681,7 @@ File: biblatex.cfg
 ))
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 32.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 32.
+(hyperref)                removing `\\' on input line 33.
 
 
 ("C:/Users/aryan/AppData/Local/Programs/MiKTeX 2.9/tex/latex/beamertheme-metrop
@@ -1698,32 +1694,32 @@ echnical note
  (./showcase.aux)
 \openout1 = showcase.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 36.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 37.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 3
-6.
+7.
 
 ("C:/Users/aryan/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/ts1cmr.fd"
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
@@ -1785,7 +1781,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 sys.cfg"
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 36.
+Package hyperref Info: Link coloring OFF on input line 37.
 
 ("C:/Users/aryan/AppData/Local/Programs/MiKTeX 2.9/tex/latex/hyperref/nameref.s
 ty"
@@ -1801,67 +1797,67 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count520
 )
-LaTeX Info: Redefining \ref on input line 36.
-LaTeX Info: Redefining \pageref on input line 36.
-LaTeX Info: Redefining \nameref on input line 36.
+LaTeX Info: Redefining \ref on input line 37.
+LaTeX Info: Redefining \pageref on input line 37.
+LaTeX Info: Redefining \nameref on input line 37.
  (./showcase.out) (./showcase.out)
 \@outlinefile=\write6
 
 \openout6 = showcase.out
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 36.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 37.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 36.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 37.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmr/m/n on input line 36.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 36.
+(Font)                  OT1/cmss/m/n --> TU/lmr/m/n on input line 37.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> TU/FiraSansLight(0)/b/n on input line 
-36.
+37.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
 (Font)                  OT1/cmr/bx/n --> TU/FiraSansLight(0)/b/n on input line 
-36.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 36.
+37.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
 (Font)                  OT1/cmss/m/n --> TU/FiraSansLight(0)/m/n on input line 
-36.
+37.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  OT1/cmss/bx/n --> TU/FiraSansLight(0)/m/n on input line
- 36.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 36.
+ 37.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> TU/FiraSansLight(0)/m/it on input line
- 36.
+ 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> TU/FiraSansLight(0)/m/it on input lin
-e 36.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 36.
+e 37.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/FiraMono(0)/m/n on input line 36.
+(Font)                  OT1/cmtt/m/n --> TU/FiraMono(0)/m/n on input line 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/FiraMono(0)/m/n on input line 36.
+(Font)                  OT1/cmtt/m/n --> TU/FiraMono(0)/m/n on input line 37.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
 (Font)                  TU/FiraSansLight(0)/m/n --> TU/FiraSansLight(0)/b/n on 
-input line 36.
+input line 37.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  TU/FiraSansLight(0)/m/it --> TU/FiraSansLight(0)/b/it o
-n input line 36.
+n input line 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> TU/lmr/b/n on input line 36.
+(Font)                  OT1/cmss/b/n --> TU/lmr/b/n on input line 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
 (Font)                  TU/FiraSansLight(0)/b/n --> TU/FiraSansLight(0)/b/n on 
-input line 36.
+input line 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  TU/FiraSansLight(0)/m/n --> TU/FiraSansLight(0)/b/n on 
-input line 36.
+input line 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  TU/FiraSansLight(0)/m/it --> TU/FiraSansLight(0)/b/it o
-n input line 36.
+n input line 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  TU/FiraMono(0)/m/n --> TU/FiraMono(0)/b/n on input line
- 36.
+ 37.
 
 ("C:/Users/aryan/AppData/Local/Programs/MiKTeX 2.9/tex/latex/translator/transla
 tor-basic-dictionary-English.dict"
@@ -1925,26 +1921,26 @@ Package biblatex Warning: BibTeX reported the following issues
 (biblatex)                - Invalid format of field 'month'.
 
 )
-Package biblatex Info: Reference section=0 on input line 36.
-Package biblatex Info: Reference segment=0 on input line 36.
+Package biblatex Info: Reference section=0 on input line 37.
+Package biblatex Info: Reference segment=0 on input line 37.
  (./showcase.nav)
-<../figures/logo_iitd.png, id=36, 496.35036pt x 238.92462pt>
+<../figures/logo_iitd.png, id=32, 496.35036pt x 238.92462pt>
 File: ../figures/logo_iitd.png Graphic file (type png)
 <use ../figures/logo_iitd.png>
-Package luatex.def Info: ../figures/logo_iitd.png  used on input line 38.
+Package luatex.def Info: ../figures/logo_iitd.png  used on input line 39.
 (luatex.def)             Requested size: 150.0pt x 72.20291pt.
 
-Overfull \vbox (212.20291pt too high) detected at line 38
+Overfull \vbox (212.20291pt too high) detected at line 39
  []
 
 
-Overfull \vbox (13.79993pt too high) detected at line 38
+Overfull \vbox (13.79993pt too high) detected at line 39
  []
 
 [1
 
 {C:/Users/aryan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}<../figures/lo
-go_iitd.png>] (../sections/../sections/Introduction.tex
+go_iitd.png>] (../sections/../sections/lasso_introduction.tex
 LaTeX Font Info:    Trying to load font information for U+msa on input line 1.
 
 ("C:/Users/aryan/AppData/Local/Programs/MiKTeX 2.9/tex/latex/amsfonts/umsa.fd"
@@ -1958,38 +1954,50 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ]
 \openout4 = showcase.vrb
  (./showcase.vrb)
-<../sections/../figures/logo_iitd.png, id=53, 496.35036pt x 238.92462pt>
+<../sections/../figures/logo_iitd.png, id=49, 496.35036pt x 238.92462pt>
 File: ../sections/../figures/logo_iitd.png Graphic file (type png)
 <use ../sections/../figures/logo_iitd.png>
 Package luatex.def Info: ../sections/../figures/logo_iitd.png  used on input li
-ne 23.
+ne 24.
 (luatex.def)             Requested size: 40.0pt x 19.25288pt.
  [3
 
-<../sections/../figures/logo_iitd.png>]
-File: ../sections/../figures/logo_iitd.png Graphic file (type png)
-<use ../sections/../figures/logo_iitd.png>
-Package luatex.def Info: ../sections/../figures/logo_iitd.png  used on input li
-ne 27.
-(luatex.def)             Requested size: 40.0pt x 19.25288pt.
- [4
+<../sections/../figures/logo_iitd.png>])
+(../sections/../sections/lasso_theory.tex [4
 
 ]
-File: ../sections/../figures/logo_iitd.png Graphic file (type png)
-<use ../sections/../figures/logo_iitd.png>
-Package luatex.def Info: ../sections/../figures/logo_iitd.png  used on input li
-ne 39.
-(luatex.def)             Requested size: 40.0pt x 19.25288pt.
- [5
+\openout4 = showcase.vrb
+ (./showcase.vrb
 
-])
-(../sections/../sections/Theory.tex [6
+! Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
 
-]
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.12 		\end{align}
+                
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+)
 File: ../sections/../figures/logo_iitd.png Graphic file (type png)
 <use ../sections/../figures/logo_iitd.png>
 Package luatex.def Info: ../sections/../figures/logo_iitd.png  used on input li
 ne 17.
+(luatex.def)             Requested size: 40.0pt x 19.25288pt.
+ [5
+
+]) (../sections/../sections/Introduction.tex [6
+
+]
+\openout4 = showcase.vrb
+ (./showcase.vrb)
+File: ../sections/../figures/logo_iitd.png Graphic file (type png)
+<use ../sections/../figures/logo_iitd.png>
+Package luatex.def Info: ../sections/../figures/logo_iitd.png  used on input li
+ne 23.
 (luatex.def)             Requested size: 40.0pt x 19.25288pt.
  [7
 
@@ -1997,12 +2005,20 @@ ne 17.
 File: ../sections/../figures/logo_iitd.png Graphic file (type png)
 <use ../sections/../figures/logo_iitd.png>
 Package luatex.def Info: ../sections/../figures/logo_iitd.png  used on input li
-ne 32.
+ne 27.
 (luatex.def)             Requested size: 40.0pt x 19.25288pt.
- [8
 
-])
-(../sections/../sections/Procedure.tex [9
+[8
+
+]
+File: ../sections/../figures/logo_iitd.png Graphic file (type png)
+<use ../sections/../figures/logo_iitd.png>
+Package luatex.def Info: ../sections/../figures/logo_iitd.png  used on input li
+ne 39.
+(luatex.def)             Requested size: 40.0pt x 19.25288pt.
+ [9
+
+]) (../sections/../sections/Procedure.tex [10
 
 ]
 File: ../sections/../figures/logo_iitd.png Graphic file (type png)
@@ -2010,13 +2026,13 @@ File: ../sections/../figures/logo_iitd.png Graphic file (type png)
 Package luatex.def Info: ../sections/../figures/logo_iitd.png  used on input li
 ne 13.
 (luatex.def)             Requested size: 40.0pt x 19.25288pt.
- [10
+ [11
 
 ])
-(../sections/../sections/Results.tex [11
+(../sections/../sections/Results.tex [12
 
 ]
-<../sections/../figures/pdf/pdf_frequency_rte_2019_09.png, id=119, 1927.2pt x 9
+<../sections/../figures/pdf/pdf_frequency_rte_2019_09.png, id=118, 1927.2pt x 9
 78.65625pt>
 File: ../sections/../figures/pdf/pdf_frequency_rte_2019_09.png Graphic file (ty
 pe png)
@@ -2029,10 +2045,10 @@ File: ../sections/../figures/logo_iitd.png Graphic file (type png)
 Package luatex.def Info: ../sections/../figures/logo_iitd.png  used on input li
 ne 11.
 (luatex.def)             Requested size: 40.0pt x 19.25288pt.
- [12
+ [13
 
 <../sections/../figures/pdf/pdf_frequency_rte_2019_09.png>]
-<../sections/../figures/pdf/pdf_frequency_spain_mallorca_2019_05_f1.png, id=127
+<../sections/../figures/pdf/pdf_frequency_spain_mallorca_2019_05_f1.png, id=126
 , 1927.2pt x 978.65625pt>
 File: ../sections/../figures/pdf/pdf_frequency_spain_mallorca_2019_05_f1.png Gr
 aphic file (type png)
@@ -2045,10 +2061,10 @@ File: ../sections/../figures/logo_iitd.png Graphic file (type png)
 Package luatex.def Info: ../sections/../figures/logo_iitd.png  used on input li
 ne 20.
 (luatex.def)             Requested size: 40.0pt x 19.25288pt.
- [13
+ [14
 
 <../sections/../figures/pdf/pdf_frequency_spain_mallorca_2019_05_f1.png>]
-<../sections/../figures/pdf/pdf_frequency_rte_2021_01_blackout.png, id=134, 192
+<../sections/../figures/pdf/pdf_frequency_rte_2021_01_blackout.png, id=133, 192
 7.2pt x 978.65625pt>
 File: ../sections/../figures/pdf/pdf_frequency_rte_2021_01_blackout.png Graphic
  file (type png)
@@ -2061,7 +2077,7 @@ File: ../sections/../figures/logo_iitd.png Graphic file (type png)
 Package luatex.def Info: ../sections/../figures/logo_iitd.png  used on input li
 ne 29.
 (luatex.def)             Requested size: 40.0pt x 19.25288pt.
- [14
+ [15
 
 <../sections/../figures/pdf/pdf_frequency_rte_2021_01_blackout.png>] (../sectio
 ns/../figures/autocorr/comparison_five_no_title.tex)
@@ -2073,7 +2089,7 @@ File: ../sections/../figures/logo_iitd.png Graphic file (type png)
 Package luatex.def Info: ../sections/../figures/logo_iitd.png  used on input li
 ne 38.
 (luatex.def)             Requested size: 40.0pt x 19.25288pt.
-[15
+[16
 
 ] (../tables/../tables/inverseAutocorrelationValues.tex
 
@@ -2117,53 +2133,7 @@ File: ../sections/../figures/logo_iitd.png Graphic file (type png)
 Package luatex.def Info: ../sections/../figures/logo_iitd.png  used on input li
 ne 47.
 (luatex.def)             Requested size: 40.0pt x 19.25288pt.
- [16
-
-])
-(../sections/../sections/FutureWork.tex [17
-
-]
-File: ../sections/../figures/logo_iitd.png Graphic file (type png)
-<use ../sections/../figures/logo_iitd.png>
-Package luatex.def Info: ../sections/../figures/logo_iitd.png  used on input li
-ne 11.
-(luatex.def)             Requested size: 40.0pt x 19.25288pt.
- [18
-
-]
-File: ../sections/../figures/logo_iitd.png Graphic file (type png)
-<use ../sections/../figures/logo_iitd.png>
-Package luatex.def Info: ../sections/../figures/logo_iitd.png  used on input li
-ne 11.
-(luatex.def)             Requested size: 40.0pt x 19.25288pt.
- [19
-
-]
-File: ../sections/../figures/logo_iitd.png Graphic file (type png)
-<use ../sections/../figures/logo_iitd.png>
-Package luatex.def Info: ../sections/../figures/logo_iitd.png  used on input li
-ne 11.
-(luatex.def)             Requested size: 40.0pt x 19.25288pt.
- [20
-
-]
-File: ../sections/../figures/logo_iitd.png Graphic file (type png)
-<use ../sections/../figures/logo_iitd.png>
-Package luatex.def Info: ../sections/../figures/logo_iitd.png  used on input li
-ne 11.
-(luatex.def)             Requested size: 40.0pt x 19.25288pt.
- [21
-
-])
-(../sections/../sections/References.tex [22
-
-]
-File: ../sections/../figures/logo_iitd.png Graphic file (type png)
-<use ../sections/../figures/logo_iitd.png>
-Package luatex.def Info: ../sections/../figures/logo_iitd.png  used on input li
-ne 6.
-(luatex.def)             Requested size: 40.0pt x 19.25288pt.
- [23
+ [17
 
 ])
 \tf@nav=\write7
@@ -2175,41 +2145,39 @@ ne 6.
 \tf@snm=\write9
 
 \openout9 = showcase.snm
- (./showcase.aux)
+
+(./showcase.aux)
 Package rerunfilecheck Info: File `showcase.out' has not changed.
-(rerunfilecheck)             Checksum: FE1D77DAF6D1FFF56B77257E0C7DE265;528.
+(rerunfilecheck)             Checksum: DFEF188C37C4D9557D4FF09559538045;445.
 Package logreq Info: Writing requests to 'showcase.run.xml'.
 
 \openout1 = showcase.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 49530 strings out of 477887
+ 49269 strings out of 477887
  125031,1977958 words of node,token memory allocated
- 5376 words of node memory still in use:
-   37 hlist, 10 vlist, 6 rule, 18 disc, 3 local_par, 4 math, 116 glue, 63 kern, 
-38 penalty, 277 glyph, 170 attribute, 83 glue_spec, 170 attribute_list, 4 write,
- 28 pdf_literal, 2 pdf_start_link, 2 pdf_end_link, 2 pdf_dest, 2 pdf_action, 42 
-pdf_colorstack nodes
-   avail lists: 1:3,2:3755,3:3384,4:210,5:385,6:32,7:2952,8:43,9:1106,10:13,11:1
-74
- 67819 multiletter control sequences out of 65536+600000
- 82 fonts using 19126727 bytes
+ 6733 words of node memory still in use:
+   60 hlist, 12 vlist, 15 rule, 26 disc, 4 local_par, 16 math, 193 glue, 73 kern
+, 39 penalty, 297 glyph, 206 attribute, 82 glue_spec, 206 attribute_list, 8 writ
+e, 28 pdf_literal, 2 pdf_dest, 48 pdf_colorstack nodes
+   avail lists: 1:3,2:3673,3:3381,4:198,5:371,6:33,7:2843,8:34,9:1072,10:13,11:1
+66
+ 67587 multiletter control sequences out of 65536+600000
+ 82 fonts using 19350087 bytes
  128i,20n,131p,1853b,2340s stack positions out of 5000i,500n,10000p,200000b,80000s
 <C:/Users/aryan/AppData/Local/Programs/MiKTeX 2.9/fonts/opentype/public/fira/fir
-amono-regular.otf><C:/Users/aryan/AppData/Local/Programs/MiKTeX 2.9/fonts/openty
-pe/public/fira/firasans-lightitalic.otf><C:/Users/aryan/AppData/Local/Programs/M
-iKTeX 2.9/fonts/opentype/public/fira/firasans-light.otf><C:/Users/aryan/AppData/
-Local/Programs/MiKTeX 2.9/fonts/opentype/public/fira/firasans-regular.otf><C:/Us
-ers/aryan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex1
-0.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
-nts/cm/cmmi10.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmss10.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/aryan/AppData/Local/Programs
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on showcase.pdf (23 pages, 1496513 bytes).
+asans-lightitalic.otf><C:/Users/aryan/AppData/Local/Programs/MiKTeX 2.9/fonts/op
+entype/public/fira/firasans-light.otf><C:/Users/aryan/AppData/Local/Programs/MiK
+TeX 2.9/fonts/opentype/public/fira/firasans-regular.otf><C:/Users/aryan/AppData/
+Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/ar
+yan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb>
+<C:/Users/aryan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmsy10.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmsy7.pfb>
+Output written on showcase.pdf (17 pages, 1470042 bytes).
 
-PDF statistics: 256 PDF objects out of 1000 (max. 8388607)
- 69 named destinations out of 1000 (max. 131072)
- 64 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 192 PDF objects out of 1000 (max. 8388607)
+ 52 named destinations out of 1000 (max. 131072)
+ 56 words of extra memory for PDF output out of 10000 (max. 100000000)
 

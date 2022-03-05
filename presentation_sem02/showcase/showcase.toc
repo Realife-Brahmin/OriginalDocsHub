@@ -2,12 +2,10 @@
 \defcounter {refsection}{0}\relax 
 \beamer@sectionintoc {1}{Introduction}{2}{0}{1}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {2}{Theory}{6}{0}{2}
+\beamer@sectionintoc {2}{Theory}{4}{0}{2}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {3}{Procedure}{9}{0}{3}
+\beamer@sectionintoc {3}{Introduction}{6}{0}{3}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {4}{Results}{11}{0}{4}
+\beamer@sectionintoc {4}{Procedure}{10}{0}{4}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {5}{FutureWork}{17}{0}{5}
-\defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {6}{References}{22}{0}{6}
+\beamer@sectionintoc {5}{Results}{12}{0}{5}
