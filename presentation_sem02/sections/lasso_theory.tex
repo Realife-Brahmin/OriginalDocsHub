@@ -21,3 +21,29 @@
 		& \underset{\scriptscriptstyle m\times 1}{\textbf{u}(t)} : \text{forced oscillation vector}
 	\end{align*}
 \end{frame}
+
+\begin{frame}[fragile]{Forced Oscillation Vector}
+	Express Forced Oscillations based on locations of origin and signal composition:
+	\begin{equation}
+		\label{eq:u1}
+		\begin{align*}
+			\dot{\textbf{u}}(t) &= 
+			\textbf{A}\textbf{x}(t)
+			+ \textbf{B}\textbf{u}(t)\\
+			\textbf{y}(t) &= 
+			\textbf{C}\textbf{x}(t)\\  
+			& a_{r,l} \geq0 \\
+			& \omega_{r,l} = 2*\pi*f \geq 0 \\
+			& \phi_{r,l} \text{ are the phase for the} \\
+			& l^{th} \text{ sinusoid at the} \\
+			& r^{th} \text{location}
+				
+		\end{align*}
+	\end{equation}
+	
+	%	where $a$ is lens radius
+	\begin{align*}
+		& \underset{\scriptscriptstyle n\times 1}{\textbf{x}(t)} : \text{internal state variables + controller variables vector}                                                                      \\
+		& \underset{\scriptscriptstyle m\times 1}{\textbf{u}(t)} : \text{forced oscillation vector}
+	\end{align*}
+\end{frame}
