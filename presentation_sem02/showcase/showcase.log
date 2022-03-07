@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.14.0 (MiKTeX 21.10) (format=lualatex 2021.11.21)  5 MAR 2022 18:34
+This is LuaHBTeX, Version 1.14.0 (MiKTeX 21.10) (format=lualatex 2021.11.21)  7 MAR 2022 10:50
  restricted system commands enabled.
 **showcase.tex
 (./showcase.tex
@@ -1924,23 +1924,13 @@ Package biblatex Warning: BibTeX reported the following issues
 Package biblatex Info: Reference section=0 on input line 37.
 Package biblatex Info: Reference segment=0 on input line 37.
  (./showcase.nav)
-<../figures/logo_iitd.png, id=32, 496.35036pt x 238.92462pt>
-File: ../figures/logo_iitd.png Graphic file (type png)
-<use ../figures/logo_iitd.png>
-Package luatex.def Info: ../figures/logo_iitd.png  used on input line 39.
-(luatex.def)             Requested size: 150.0pt x 72.20291pt.
-
-Overfull \vbox (212.20291pt too high) detected at line 39
- []
-
-
 Overfull \vbox (13.79993pt too high) detected at line 39
  []
 
 [1
 
-{C:/Users/aryan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}<../figures/lo
-go_iitd.png>] (../sections/../sections/lasso_introduction.tex
+{C:/Users/aryan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+(../sections/../sections/lasso_introduction.tex
 LaTeX Font Info:    Trying to load font information for U+msa on input line 1.
 
 ("C:/Users/aryan/AppData/Local/Programs/MiKTeX 2.9/tex/latex/amsfonts/umsa.fd"
@@ -1954,7 +1944,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ]
 \openout4 = showcase.vrb
  (./showcase.vrb)
-<../sections/../figures/logo_iitd.png, id=49, 496.35036pt x 238.92462pt>
+<../sections/../figures/logo_iitd.png, id=47, 496.35036pt x 238.92462pt>
 File: ../sections/../figures/logo_iitd.png Graphic file (type png)
 <use ../sections/../figures/logo_iitd.png>
 Package luatex.def Info: ../sections/../figures/logo_iitd.png  used on input li
@@ -1967,39 +1957,37 @@ ne 24.
 
 ]
 \openout4 = showcase.vrb
- (./showcase.vrb
-
-! Package amsmath Error: Erroneous nesting of equation structures;
-(amsmath)                trying to recover with `aligned'.
-
-See the amsmath package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.12 		\end{align}
-                
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-)
+ (./showcase.vrb)
 File: ../sections/../figures/logo_iitd.png Graphic file (type png)
 <use ../sections/../figures/logo_iitd.png>
 Package luatex.def Info: ../sections/../figures/logo_iitd.png  used on input li
-ne 17.
+ne 21.
 (luatex.def)             Requested size: 40.0pt x 19.25288pt.
  [5
 
-]) (../sections/../sections/Introduction.tex [6
+]
+\openout4 = showcase.vrb
+
+(./showcase.vrb)
+File: ../sections/../figures/logo_iitd.png Graphic file (type png)
+<use ../sections/../figures/logo_iitd.png>
+Package luatex.def Info: ../sections/../figures/logo_iitd.png  used on input li
+ne 49.
+(luatex.def)             Requested size: 40.0pt x 19.25288pt.
+ [6
+
+]) (../sections/../sections/Introduction.tex [7
 
 ]
 \openout4 = showcase.vrb
- (./showcase.vrb)
+
+(./showcase.vrb)
 File: ../sections/../figures/logo_iitd.png Graphic file (type png)
 <use ../sections/../figures/logo_iitd.png>
 Package luatex.def Info: ../sections/../figures/logo_iitd.png  used on input li
 ne 23.
 (luatex.def)             Requested size: 40.0pt x 19.25288pt.
- [7
+ [8
 
 ]
 File: ../sections/../figures/logo_iitd.png Graphic file (type png)
@@ -2007,8 +1995,7 @@ File: ../sections/../figures/logo_iitd.png Graphic file (type png)
 Package luatex.def Info: ../sections/../figures/logo_iitd.png  used on input li
 ne 27.
 (luatex.def)             Requested size: 40.0pt x 19.25288pt.
-
-[8
+ [9
 
 ]
 File: ../sections/../figures/logo_iitd.png Graphic file (type png)
@@ -2016,9 +2003,9 @@ File: ../sections/../figures/logo_iitd.png Graphic file (type png)
 Package luatex.def Info: ../sections/../figures/logo_iitd.png  used on input li
 ne 39.
 (luatex.def)             Requested size: 40.0pt x 19.25288pt.
- [9
+ [10
 
-]) (../sections/../sections/Procedure.tex [10
+]) (../sections/../sections/Procedure.tex [11
 
 ]
 File: ../sections/../figures/logo_iitd.png Graphic file (type png)
@@ -2026,13 +2013,13 @@ File: ../sections/../figures/logo_iitd.png Graphic file (type png)
 Package luatex.def Info: ../sections/../figures/logo_iitd.png  used on input li
 ne 13.
 (luatex.def)             Requested size: 40.0pt x 19.25288pt.
- [11
 
-])
-(../sections/../sections/Results.tex [12
+[12
+
+]) (../sections/../sections/Results.tex [13
 
 ]
-<../sections/../figures/pdf/pdf_frequency_rte_2019_09.png, id=118, 1927.2pt x 9
+<../sections/../figures/pdf/pdf_frequency_rte_2019_09.png, id=125, 1927.2pt x 9
 78.65625pt>
 File: ../sections/../figures/pdf/pdf_frequency_rte_2019_09.png Graphic file (ty
 pe png)
@@ -2045,10 +2032,10 @@ File: ../sections/../figures/logo_iitd.png Graphic file (type png)
 Package luatex.def Info: ../sections/../figures/logo_iitd.png  used on input li
 ne 11.
 (luatex.def)             Requested size: 40.0pt x 19.25288pt.
- [13
+ [14
 
 <../sections/../figures/pdf/pdf_frequency_rte_2019_09.png>]
-<../sections/../figures/pdf/pdf_frequency_spain_mallorca_2019_05_f1.png, id=126
+<../sections/../figures/pdf/pdf_frequency_spain_mallorca_2019_05_f1.png, id=133
 , 1927.2pt x 978.65625pt>
 File: ../sections/../figures/pdf/pdf_frequency_spain_mallorca_2019_05_f1.png Gr
 aphic file (type png)
@@ -2061,10 +2048,10 @@ File: ../sections/../figures/logo_iitd.png Graphic file (type png)
 Package luatex.def Info: ../sections/../figures/logo_iitd.png  used on input li
 ne 20.
 (luatex.def)             Requested size: 40.0pt x 19.25288pt.
- [14
+ [15
 
 <../sections/../figures/pdf/pdf_frequency_spain_mallorca_2019_05_f1.png>]
-<../sections/../figures/pdf/pdf_frequency_rte_2021_01_blackout.png, id=133, 192
+<../sections/../figures/pdf/pdf_frequency_rte_2021_01_blackout.png, id=140, 192
 7.2pt x 978.65625pt>
 File: ../sections/../figures/pdf/pdf_frequency_rte_2021_01_blackout.png Graphic
  file (type png)
@@ -2077,10 +2064,10 @@ File: ../sections/../figures/logo_iitd.png Graphic file (type png)
 Package luatex.def Info: ../sections/../figures/logo_iitd.png  used on input li
 ne 29.
 (luatex.def)             Requested size: 40.0pt x 19.25288pt.
- [15
+ [16
 
-<../sections/../figures/pdf/pdf_frequency_rte_2021_01_blackout.png>] (../sectio
-ns/../figures/autocorr/comparison_five_no_title.tex)
+<../sections/../figures/pdf/pdf_frequency_rte_2021_01_blackout.png>]
+(../sections/../figures/autocorr/comparison_five_no_title.tex)
 Overfull \vbox (8.6063pt too high) detected at line 38
  []
 
@@ -2089,7 +2076,7 @@ File: ../sections/../figures/logo_iitd.png Graphic file (type png)
 Package luatex.def Info: ../sections/../figures/logo_iitd.png  used on input li
 ne 38.
 (luatex.def)             Requested size: 40.0pt x 19.25288pt.
-[16
+[17
 
 ] (../tables/../tables/inverseAutocorrelationValues.tex
 
@@ -2133,7 +2120,7 @@ File: ../sections/../figures/logo_iitd.png Graphic file (type png)
 Package luatex.def Info: ../sections/../figures/logo_iitd.png  used on input li
 ne 47.
 (luatex.def)             Requested size: 40.0pt x 19.25288pt.
- [17
+ [18
 
 ])
 \tf@nav=\write7
@@ -2157,27 +2144,31 @@ Package logreq Info: Writing requests to 'showcase.run.xml'.
 Here is how much of LuaTeX's memory you used:
  49269 strings out of 477887
  125031,1977958 words of node,token memory allocated
- 6733 words of node memory still in use:
-   60 hlist, 12 vlist, 15 rule, 26 disc, 4 local_par, 16 math, 193 glue, 73 kern
-, 39 penalty, 297 glyph, 206 attribute, 82 glue_spec, 206 attribute_list, 8 writ
+ 6738 words of node memory still in use:
+   61 hlist, 12 vlist, 15 rule, 26 disc, 4 local_par, 16 math, 193 glue, 73 kern
+, 39 penalty, 297 glyph, 205 attribute, 82 glue_spec, 205 attribute_list, 8 writ
 e, 28 pdf_literal, 2 pdf_dest, 48 pdf_colorstack nodes
-   avail lists: 1:3,2:3673,3:3381,4:198,5:371,6:33,7:2843,8:34,9:1072,10:13,11:1
+   avail lists: 1:3,2:3673,3:3381,4:198,5:371,6:33,7:2843,8:30,9:1072,10:13,11:1
 66
- 67587 multiletter control sequences out of 65536+600000
+ 67572 multiletter control sequences out of 65536+600000
  82 fonts using 19350087 bytes
  128i,20n,131p,1853b,2340s stack positions out of 5000i,500n,10000p,200000b,80000s
 <C:/Users/aryan/AppData/Local/Programs/MiKTeX 2.9/fonts/opentype/public/fira/fir
 asans-lightitalic.otf><C:/Users/aryan/AppData/Local/Programs/MiKTeX 2.9/fonts/op
 entype/public/fira/firasans-light.otf><C:/Users/aryan/AppData/Local/Programs/MiK
 TeX 2.9/fonts/opentype/public/fira/firasans-regular.otf><C:/Users/aryan/AppData/
-Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/ar
-yan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb>
+Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/ar
+yan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
 <C:/Users/aryan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmsy10.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmsy7.pfb>
-Output written on showcase.pdf (17 pages, 1470042 bytes).
+/cmmi7.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmss10.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmss8.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/aryan/AppData/Local/Prog
+rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/aryan/AppData
+/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on showcase.pdf (18 pages, 918734 bytes).
 
-PDF statistics: 192 PDF objects out of 1000 (max. 8388607)
- 52 named destinations out of 1000 (max. 131072)
+PDF statistics: 210 PDF objects out of 1000 (max. 8388607)
+ 53 named destinations out of 1000 (max. 131072)
  56 words of extra memory for PDF output out of 10000 (max. 100000000)
 
