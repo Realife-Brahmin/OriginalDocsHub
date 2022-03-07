@@ -75,8 +75,8 @@
 		
 		Let $k = 0, 1, \ldots$ and define $\textbf{x}[k]  \triangleq \textbf{x}(kT)$, $\textbf{u}[k] \triangleq \textbf{u}(kT)$ and $\textbf{y}[k] \triangleq \textbf{y}(kT)$. Suppose that $\textbf{u}(t)$ is piece-wise constant during $kT \leq t \leq (k+1)T$. Then
 		\begin{alignat}{2}
-			\dimensions{\textbf{x}[k+1]}{n}{1} &=
-			\dimensions{\textbf{A_d}}{n}{n} \dimensions{\textbf{x}[k]}{n}{1} + \dimensions{\textbf{B_d}}{n}{m} \dimensions{\textbf{u}[k]}{m}{1} //
-			\dimensions{\textbf{y}[k]}{b}{1} &= \dimensions{\textbf{C}}{b}{n} \dimensions{\textbf{x}[k]}{n}{1}
+			\dimensions{\boldsymbol{x}[k+1]}{n}{1} &=
+			\dimensions{\boldsymbol{A_d}}{n}{n} \dimensions{\boldsymbol{x}[k]}{n}{1} + \dimensions{\boldsymbol{B_d}}{n}{m} \dimensions{\boldsymbol{u}[k]}{m}{1} //
+			\dimensions{\boldsymbol{y}[k]}{b}{1} &= \dimensions{\boldsymbol{C}}{b}{n} \dimensions{\boldsymbol{x}[k]}{n}{1}
 		\end{alignat}
 	\end{frame}
