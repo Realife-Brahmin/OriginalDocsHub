@@ -4,14 +4,14 @@
 \begin{frame}[fragile]{State Space Representation}
 	Express Power System Dynamics in State Space:
 
-		\begin{align*}
-			\dot{\textbf{x}}(t) &= 
-			\textbf{A}\textbf{x}(t)
-			+ \textbf{B}\textbf{u}(t)\\
-			\textbf{y}(t) &= 
-			\textbf{C}\textbf{x}(t)\\  
-			& \forall t\geq0	
-		\end{align*}
+	\begin{align*}
+		\dot{\textbf{x}}(t) &= 
+		\textbf{A}\textbf{x}(t)
+		+ \textbf{B}\textbf{u}(t)\\
+		\textbf{y}(t) &= 
+		\textbf{C}\textbf{x}(t)\\  
+		& \forall t\geq0	
+	\end{align*}
 	
 %	where $a$ is lens radius
 	\begin{align*}
@@ -34,4 +34,11 @@
 			\end{bmatrix}		
 		\end{align*}
 	
+	\begin{align}
+		& a_{r,l} \geq0 \\
+		& \omega_{r,l} = 2*\pi*f \geq 0 \\
+		& \phi_{r,l} \text{ are the phase for the} \\
+		& l^{th} \text{ sinusoid at the} \\
+		& r^{th} \text{location}
+	\end{align}
 \end{frame}
