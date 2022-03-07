@@ -1,53 +1,53 @@
 \section[Theory]{Theory}
 \label{sec:lasso_theory}
 
-\begin{frame}[fragile]{State Space Representation}
-	Express Power System Dynamics in State Space:
-
-	\begin{align}
-		\dimensions{\dot{\textbf{x}}(t)}{n}{1} &= 
-		\dimensions{\textbf{A}}{n}{n} \dimensions{\textbf{x}(t)}{n}{1}
-		+ \dimensions{\textbf{B}}{n}{m} \dimensions{\textbf{u}(t)}{m}{1} \nonumber\\
-		\dimensions{\textbf{y}(t)}{b}{1} &= 
-		\dimensions{\textbf{C}}{b}{n} \dimensions{\textbf{x}(t)}{n}{1}\\  
-		& \forall t\geq0 \nonumber
-	\end{align}
+	\begin{frame}[fragile]{State Space Representation}
+		Express Power System Dynamics in State Space:
 	
-%	where $a$ is lens radius
-	\begin{align*}
-		& \underset{\scriptscriptstyle n\times 1}{\textbf{x}(t)} : \text{internal state variables + controller variables vector}                                                                      \\
-		& \underset{\scriptscriptstyle m\times 1}{\textbf{u}(t)} : \text{forced oscillation vector}
-	\end{align*}
-\end{frame}
-
-\begin{frame}[fragile]{Forced Oscillation Vector}
-	Express Forced Oscillations based on locations of origin and signal composition:
-	\begin{alignat}{2}
-		\dimensions{\textbf{u}(t)}{m}{1} 
-		&= 
-		\dimensions{
-			\begin{bmatrix}
-				u_1(t) \\
-				u_2(t) \\
-				\vdots \\
-				u_m(t)
-			\end{bmatrix}}
-		{m}{1} 
-		& &=
-		\dimensions{
-			\begin{bmatrix}
-				\sum_{l=1}^{M_1} a_{1,l} \sin(\omega_{1,l}t + \phi_{1,l}) \\
-				\sum_{l=2}^{M_2} a_{2,l} \sin(\omega_{2,l}t + \phi_{2,l}) \\
-				\vdots \\
-				\sum_{l=m}^{M_m} a_{m,l} \sin(\omega_{m,l}t + \phi_{m,l})
-			\end{bmatrix}}
-		{m}{1}		
-	\end{alignat}
+		\begin{align}
+			\dimensions{\dot{\textbf{x}}(t)}{n}{1} &= 
+			\dimensions{\textbf{A}}{n}{n} \dimensions{\textbf{x}(t)}{n}{1}
+			+ \dimensions{\textbf{B}}{n}{m} \dimensions{\textbf{u}(t)}{m}{1} \nonumber\\
+			\dimensions{\textbf{y}(t)}{b}{1} &= 
+			\dimensions{\textbf{C}}{b}{n} \dimensions{\textbf{x}(t)}{n}{1}\\  
+			& \forall t\geq0 \nonumber
+		\end{align}
+		
+	%	where $a$ is lens radius
+		\begin{align*}
+			& \underset{\scriptscriptstyle n\times 1}{\textbf{x}(t)} : \text{internal state variables + controller variables vector}                                                                      \\
+			& \underset{\scriptscriptstyle m\times 1}{\textbf{u}(t)} : \text{forced oscillation vector}
+		\end{align*}
+	\end{frame}
 	
-	\begin{align*}
-		& a_{r,l} \geq0 \\
-		& \omega_{r,l} = 2\pi f \geq 0 \\
-		& (r,l) \text{ refer to the } l^{th} \text{ sinusoid at the }  r^{th} \text{ location}
-	\end{align*}
-
-\end{frame}
+	\begin{frame}[fragile]{Forced Oscillation Vector}
+		Express Forced Oscillations based on locations of origin and signal composition:
+		\begin{alignat}{2}
+			\dimensions{\textbf{u}(t)}{m}{1} 
+			&= 
+			\dimensions{
+				\begin{bmatrix}
+					u_1(t) \\
+					u_2(t) \\
+					\vdots \\
+					u_m(t)
+				\end{bmatrix}}
+			{m}{1} 
+			& &=
+			\dimensions{
+				\begin{bmatrix}
+					\sum_{l=1}^{M_1} a_{1,l} \sin(\omega_{1,l}t + \phi_{1,l}) \\
+					\sum_{l=2}^{M_2} a_{2,l} \sin(\omega_{2,l}t + \phi_{2,l}) \\
+					\vdots \\
+					\sum_{l=m}^{M_m} a_{m,l} \sin(\omega_{m,l}t + \phi_{m,l})
+				\end{bmatrix}}
+			{m}{1}		
+		\end{alignat}
+		
+		\begin{align*}
+			& a_{r,l} \geq0 \\
+			& \omega_{r,l} = 2\pi f \geq 0 \\
+			& (r,l) \text{ refer to the } l^{th} \text{ sinusoid at the }  r^{th} \text{ location}
+		\end{align*}
+	
+	\end{frame}
