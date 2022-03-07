@@ -71,5 +71,5 @@
 	\begin{frame}[fragile]{Discrete State Space Representation}
 		Most PMUs sample at $30 Hz$ or $60 Hz$. So the sampling time period is $T = 1/30 s$ or $1/60 s$.
 		
-		Let $\dimensions{\boldsymbol{A_d}}{n}{n} = \exp{(\boldsymbol{A}T)}$ and $\dimensions{\boldsymbol{B_d}}{n}{m} = (\int_{0}^{T} \exp{(\boldsymbol{A}(T-s))}ds) \boldsymbol{B}$
+		Let $\dimensions{\boldsymbol{A_d}}{n}{n} = \exp{(\boldsymbol{A}T)}$ and $\dimensions{\boldsymbol{B_d}}{n}{m} = \{ \int_{0}^{T} \exp{(\boldsymbol{A}(T-s))}ds \} \boldsymbol{B}$
 	\end{frame}
