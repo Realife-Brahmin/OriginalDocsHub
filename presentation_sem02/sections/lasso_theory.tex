@@ -7,9 +7,9 @@
 		\begin{align}
 			\dimensions{\dot{\textbf{x}}(t)}{n}{1} &= 
 			\dimensions{\textbf{A}}{n}{n} \dimensions{\textbf{x}(t)}{n}{1}
-			+ \dimensions{\textbf{B}}{n}{m} \dimensions{\textbf{u}(t)}{m}{1} \nonumber\\
-			\dimensions{\textbf{y}(t)}{b}{1} &= 
-			\dimensions{\textbf{C}}{b}{n} \dimensions{\textbf{x}(t)}{n}{1}\\  
+			+ \dimensions{\textbf{p}}{n}{m} \dimensions{\textbf{u}(t)}{m}{1} \nonumber\\
+			\dimensions{\textbf{y}(t)}{p}{1} &= 
+			\dimensions{\textbf{C}}{p}{n} \dimensions{\textbf{x}(t)}{n}{1}\\  
 			& \forall t\geq0 \nonumber
 		\end{align}
 		
@@ -76,14 +76,14 @@
 	\begin{frame}[fragile]{Discrete State Space Representation}
 		Most PMUs sample at $30 Hz$ or $60 Hz$. So the sampling time period is $T = 1/30 s$ or $1/60 s$.
 		
-		Let $\dimensions{\boldsymbol{A_d}}{n}{n} = \exp{(\boldsymbol{A}T)}$ and $\dimensions{\boldsymbol{B_d}}{n}{m} = \{ \int_{0}^{T} \exp{(\boldsymbol{A}(T-s))}ds \} \boldsymbol{B}$.
+		Let $\dimensions{\boldsymbol{A_d}}{n}{n} = \exp{(\boldsymbol{A}T)}$ and $\dimensions{\boldsymbol{B_d}}{n}{m} = \{ \int_{0}^{T} \exp{(\boldsymbol{A}(T-s))}ds \} \boldsymbol{p}$.
 		
 		Let $k = 0, 1, \ldots$ and define $\textbf{x}[k]  \triangleq \textbf{x}(kT)$, $\textbf{u}[k] \triangleq \textbf{u}(kT)$ and $\textbf{y}[k] \triangleq \textbf{y}(kT)$. Suppose that $\textbf{u}(t)$ is piece-wise constant during $kT \leq t \leq (k+1)T$. \\
 		Then
 		\begin{alignat}{2}
 			\dimensions{\boldsymbol{x}[k+1]}{n}{1} &=
 			\dimensions{\boldsymbol{A_d}}{n}{n} \dimensions{\boldsymbol{x}[k]}{n}{1} + \dimensions{\boldsymbol{B_d}}{n}{m} \dimensions{\boldsymbol{u}[k]}{m}{1} \nonumber \\
-			\dimensions{\boldsymbol{y}[k]}{b}{1} &= \dimensions{\boldsymbol{C}}{b}{n} \dimensions{\boldsymbol{x}[k]}{n}{1}
+			\dimensions{\boldsymbol{y}[k]}{p}{1} &= \dimensions{\boldsymbol{C}}{p}{n} \dimensions{\boldsymbol{x}[k]}{n}{1}
 		\end{alignat}
 		
 		We assume $\textbf{x}[0] = 0$ as our focus is only on inputs triggered by FOs.
@@ -91,7 +91,7 @@
 
 	\begin{frame}[fragile]{Transfer Function from Discrete State Space Representation}
 		
-		Let $\dimensions{\boldsymbol{H_z}}{b}{m} = \dimensions{\boldsymbol{C}[z]}{b}{m} \dimensions{\boldsymbol{[zI-A_d]}}{n}{n}^{-1} \dimensions{\boldsymbol{B_d}}{b}{m}$.
+		Let $\dimensions{\boldsymbol{H_z}}{p}{m} = \dimensions{\boldsymbol{C}[z]}{p}{m} \dimensions{\boldsymbol{[zI-A_d]}}{n}{n}^{-1} \dimensions{\boldsymbol{B_d}}{p}{m}$.
 		
 		From standard Linear System Analysis, we may conclude that $\dimensions{Y[z]}{p}{1} = \dimensions{H[z]}{p}{m} \dimensions{U[z]}{m}{1}$ \\
 		where $Y[z]$, $U[z]$ are the Z-Transforms of $y[n]$ and $u[n]$. \\
