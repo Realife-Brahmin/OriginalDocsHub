@@ -103,27 +103,3 @@
 		
 	\end{frame}
 
-	\begin{frame}[fragile]{Transfer Function of the Forced Oscillation Vector}
-	Using DTFT to obtain $\boldsymbol{U}[\Omega]$:
-		\begin{alignat}{2}
-			\dimensions{\textbf{U}(\Omega)}{m}{1} 
-			&= 
-			\dimensions{
-				\begin{bmatrix}
-					U_1(\Omega) \\
-					U_2(\Omega) \\
-					\vdots \\
-					U_m(\Omega)
-			\end{bmatrix}}
-			{m}{1} 
-			& &= $j\pi$
-			\dimensions{
-				\begin{bmatrix}
-					\sum_{l=1}^{M_1} a_{1,l}[exp(-j\phi_{1,l})\delta{\Omega+\omega_{1,l}}] \sin(\omega_{1,l}t + \phi_{1,l}) \\
-					\sum_{l=2}^{M_2} a_{2,l} \sin(\omega_{2,l}t + \phi_{2,l}) \\
-					\vdots \\
-					\sum_{l=m}^{M_m} a_{m,l} \sin(\omega_{m,l}t + \phi_{m,l})
-			\end{bmatrix}}
-			{m}{1}		
-		\end{alignat}
-	\end{frame}	
