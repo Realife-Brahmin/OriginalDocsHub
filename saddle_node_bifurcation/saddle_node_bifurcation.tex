@@ -23,7 +23,7 @@ such that:
 	
 	\begin{equation}
 		\label{eq:saddleNodeEqui}
-		\frac{dx_e}{dt} = \mu - x_0^2 = 0 
+		\frac{dx_0}{dt} = \mu - x_0^2 = 0 
 	\end{equation}
 	
 	
@@ -31,26 +31,26 @@ Perturbing $x$ around an equilibrium point $x_0$ by a small value $\tilde x$, we
 	
 	\begin{equation}
 		\label{eq:saddleNodePerturbed}
-		\frac{d(x)}{dt} = \frac{d(x_0 + \tilde x)}{dt} =\frac{dx_e}{dt} + \frac{d \tilde x}{dt} = \frac{d \tilde x}{dt} 
+		\frac{d(x)}{dt} = \frac{d(x_0 + \tilde x)}{dt} =\frac{dx_0}{dt} + \frac{d \tilde x}{dt} = \frac{d \tilde x}{dt} 
 	\end{equation}
 and putting $x = x_0 + \tilde x$ in the RHS of equation (\ref{eq:saddleNode}), we get:
 	
 	\begin{equation}
 		\label{eq:saddleNodePerturbed2}
 		\frac{d\tilde x}{dt} = \mu - (x_0+\tilde x)^2 \\
-		\frac{d\tilde x}{dt} = \mu - x_0^2 - -2x_e\tilde x - \tilde x^2
+		\frac{d\tilde x}{dt} = \mu - x_0^2 - -2x_0\tilde x - \tilde x^2
 	\end{equation}
 	
 Using equation (\ref{eq:saddleNode}) and equation (\ref{eq:saddleNodeEqui}) in equation (\ref{eq:saddleNodePerturbed2}) and neglecting the small last term in the RHS, we get:
 	
 	\begin{equation}
-		\frac{d\tilde x}{dt} = -2x_e\tilde x
+		\frac{d\tilde x}{dt} = -2x_0\tilde x
 	\end{equation}
 
 which is a first order differential equation with constant coefficients whose solution can be expressed as:
 
 	\begin{equation}
-		\tilde{x}(t) = x(0)\exp{(-2x_et)} 
+		\tilde{x}(t) = x(0)\exp{(-2x_0t)} 
 	\end{equation}
 
 \end{document}
