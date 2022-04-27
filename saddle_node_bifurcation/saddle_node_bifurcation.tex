@@ -29,10 +29,12 @@ such that:
 	
 Perturbing $x$ around an equilibrium point $x_0$ by a small value $\tilde x$, we can rewrite equation (\ref{eq:saddleNode}) as:
 	
-	\begin{equation}
+	\begin{align}
 		\label{eq:saddleNodePerturbed}
-		\frac{d(x)}{dt} = \frac{d(x_0 + \tilde x)}{dt} =\frac{dx_0}{dt} + \frac{d \tilde x}{dt} = \frac{d \tilde x}{dt} 
-	\end{equation}
+		\frac{dx}{dt} &= \frac{d(x_0 + \tilde x)}{dt} \\
+		\frac{dx}{dt} &= \frac{dx_0}{dt} + \frac{d \tilde x}{dt}
+		\frac{dx}{dt} &= \frac{d \tilde x}{dt} 
+	\end{align}
 and putting $x = x_0 + \tilde x$ in the RHS of equation (\ref{eq:saddleNode}), we get:
 	
 	\begin{align}
