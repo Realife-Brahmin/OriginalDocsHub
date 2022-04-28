@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.14.0 (MiKTeX 21.10) (format=lualatex 2021.11.21)  14 MAR 2022 20:20
+This is LuaHBTeX, Version 1.14.0 (MiKTeX 21.10) (format=lualatex 2021.11.21)  27 APR 2022 21:23
  restricted system commands enabled.
 **showcase.tex
 (./showcase.tex
@@ -1914,13 +1914,7 @@ Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'showcase.bbl' found.
- (./showcase.bbl
-
-Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'lrydin01':
-(biblatex)                - Invalid format of field 'month'.
-
-)
+ (./showcase.bbl)
 Package biblatex Info: Reference section=0 on input line 39.
 Package biblatex Info: Reference segment=0 on input line 39.
  (./showcase.nav)
@@ -2174,7 +2168,32 @@ ne 47.
 (luatex.def)             Requested size: 40.0pt x 19.25288pt.
  [22
 
-])
+]
+<../sections/../figures/pdf/_ieee9busVoltages_9_T_3_sec.pdf, id=185, 1734.48pt 
+x 867.24pt>
+File: ../sections/../figures/pdf/_ieee9busVoltages_9_T_3_sec.pdf Graphic file (
+type pdf)
+<use ../sections/../figures/pdf/_ieee9busVoltages_9_T_3_sec.pdf>
+Package luatex.def Info: ../sections/../figures/pdf/_ieee9busVoltages_9_T_3_sec
+.pdf  used on input line 56.
+(luatex.def)             Requested size: 346.88986pt x 173.44493pt.
+
+Overfull \hbox (39.59999pt too wide) in paragraph at lines 56--56
+ [] 
+ []
+
+
+Overfull \vbox (34.638pt too high) detected at line 56
+ []
+
+File: ../sections/../figures/logo_iitd.png Graphic file (type png)
+<use ../sections/../figures/logo_iitd.png>
+Package luatex.def Info: ../sections/../figures/logo_iitd.png  used on input li
+ne 56.
+(luatex.def)             Requested size: 40.0pt x 19.25288pt.
+[23
+
+<../sections/../figures/pdf/_ieee9busVoltages_9_T_3_sec.pdf>])
 \tf@nav=\write7
 
 \openout7 = showcase.nav
@@ -2194,15 +2213,16 @@ Package logreq Info: Writing requests to 'showcase.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 49381 strings out of 477887
+ 49387 strings out of 477887
  125031,1977958 words of node,token memory allocated
- 6738 words of node memory still in use:
-   61 hlist, 12 vlist, 15 rule, 26 disc, 4 local_par, 16 math, 193 glue, 73 kern
-, 39 penalty, 297 glyph, 205 attribute, 82 glue_spec, 205 attribute_list, 8 writ
-e, 28 pdf_literal, 2 pdf_dest, 48 pdf_colorstack nodes
-   avail lists: 1:3,2:3673,3:3381,4:216,5:372,6:33,7:2843,8:64,9:1072,10:14,11:1
-66
- 67596 multiletter control sequences out of 65536+600000
+ 3654 words of node memory still in use:
+   47 hlist, 9 vlist, 7 rule, 12 disc, 4 local_par, 88 glue, 36 kern, 30 penalty
+, 109 glyph, 135 attribute, 81 glue_spec, 135 attribute_list, 6 write, 28 pdf_li
+teral, 1 pdf_dest, 38 pdf_colorstack, 1 pdf_setmatrix, 1 pdf_save, 1 pdf_restore
+ nodes
+   avail lists: 1:2,2:3813,3:3389,4:226,5:412,6:33,7:3203,8:65,9:1097,10:16,11:1
+80
+ 67587 multiletter control sequences out of 65536+600000
  95 fonts using 21358239 bytes
  128i,20n,131p,1853b,2340s stack positions out of 5000i,500n,10000p,200000b,80000s
 <C:/Users/aryan/AppData/Local/Programs/MiKTeX 2.9/fonts/opentype/public/fira/fir
@@ -2222,9 +2242,9 @@ Users/aryan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cms
 y5.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsf
 onts/cm/cmsy7.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
 public/amsfonts/symbols/msam10.pfb>
-Output written on showcase.pdf (22 pages, 952713 bytes).
+Output written on showcase.pdf (23 pages, 1634222 bytes).
 
-PDF statistics: 246 PDF objects out of 1000 (max. 8388607)
- 61 named destinations out of 1000 (max. 131072)
+PDF statistics: 253 PDF objects out of 1000 (max. 8388607)
+ 64 named destinations out of 1000 (max. 131072)
  56 words of extra memory for PDF output out of 10000 (max. 100000000)
 
