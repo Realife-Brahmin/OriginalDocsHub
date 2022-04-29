@@ -39,9 +39,16 @@
 	and putting $x = x_0 + \tilde x$ and $\mu = \mu_0 + \tilde{\mu}$ in the RHS of equation (\ref{eq:startingEquation}), we get:
 	
 	\begin{alignat}{1}
-		\label{eq:saddleNodePerturbed2}
+		\label{eq:startingEquationPerturbed2}
 		\frac{d\tilde x}{dt} &= -(x_0+\tilde{x})\{(x_0+\tilde{x})^2-2(x_0+\tilde{x})-(\mu_0+\tilde{\mu})\} \nonumber \\
 		\frac{d\tilde x}{dt} &= -(x_0+\tilde{x})\{x_0^2 + 2x_0\tilde{x} +\tilde{x}^2 -2x_0 -2\tilde{x}-\mu_0 -\tilde{\mu}\}
+	\end{alignat}
+
+Re-arranging equation (\ref{eq:startingEquationPerturbed2}) as a polynomial in $\tilde{x}$, we get:
+
+	\begin{alignat}
+		\label{eq:startingEquationPerturbed3}
+		\frac{d\tilde{x}}{dt} = -(\tilde{x}+x_0)\{\tilde{x}^2 + (2x_0-2)\tilde{x} + (x_0^2-2x_0-\mu_0-\tilde{\mu})\}
 	\end{alignat}
 	
 	Using equation (\ref{eq:saddleNode}) and equation (\ref{eq:saddleNodeEqui}) in equation (\ref{eq:saddleNodePerturbed2}) and neglecting the small last term in the RHS, we get:
