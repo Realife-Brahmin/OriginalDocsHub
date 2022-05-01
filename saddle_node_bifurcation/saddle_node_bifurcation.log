@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.14.0 (MiKTeX 21.10) (format=lualatex 2021.11.21)  28 APR 2022 17:43
+This is LuaHBTeX, Version 1.14.0 (MiKTeX 21.10) (format=lualatex 2021.11.21)  2 MAY 2022 02:21
  restricted system commands enabled.
 **saddle_node_bifurcation.tex
 (./saddle_node_bifurcation.tex
@@ -169,7 +169,7 @@ Here is how much of LuaTeX's memory you used:
  524 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 15 attribute, 51 glue_spec
 , 15 attribute_list, 1 write nodes
-   avail lists: 1:1,2:383,3:92,4:10,5:199,6:27,7:1979,8:22,9:638,10:8,11:76
+   avail lists: 1:1,2:383,3:92,4:10,5:201,6:27,7:1951,8:22,9:638,10:8,11:76
  21839 multiletter control sequences out of 65536+600000
  49 fonts using 4402583 bytes
  54i,11n,59p,308b,199s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -182,7 +182,7 @@ sers/aryan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr1
 0.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
 nts/cm/cmr7.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
 blic/amsfonts/cm/cmsy10.pfb>
-Output written on saddle_node_bifurcation.pdf (2 pages, 55417 bytes).
+Output written on saddle_node_bifurcation.pdf (2 pages, 55216 bytes).
 
 PDF statistics: 46 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
