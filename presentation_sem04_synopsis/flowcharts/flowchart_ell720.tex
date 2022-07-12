@@ -1,0 +1,87 @@
+\documentclass[article]{standalone}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric}
+\usetikzlibrary{arrows.meta}
+
+\begin{document}   
+	
+	\tikzset{
+		>={Latex[width=2mm,length=2mm]},
+		base/.style = {draw=black,
+			minimum width=2cm, minimum height=1cm,
+			text centered, font=\sffamily},
+		s/.style = {base, rectangle, fill=color_s,rounded corners,},
+		p/.style = {base, rectangle, fill=color_p},
+		io/.style = {base,  trapezium, minimum width=1.5cm,trapezium left angle=60, trapezium right angle=120, fill=color_io,
+			%font=\ttfamily
+		},
+		d/.style={base, diamond, aspect=2, fill=color_d},                   
+	}
+	
+	\definecolor{color_s}{HTML}{a0aa8b}
+	\definecolor{color_io}{HTML}{fdb74f}
+	\definecolor{color_p}{HTML}{fef2e4}
+	\definecolor{color_d}{HTML}{e6e660}
+	
+	\begin{tikzpicture}[node distance=1.5cm,
+		every node/.style={fill=white, font=\sffamily}, align=center]
+		
+		\node (start)[s]{Start};
+		
+		\node (ioLoad)[io, below of=start,yshift = -15]{
+			Load Data
+		};
+	
+		
+		\node (dTime1min) [d, below of=ioLoad,
+		yshift = -50]{
+		    Sampling rate less \\than 1 sample/minute?
+		};
+		
+		\node (pDiscard) [p, right of = dTime1min,
+		xshift = 140]{
+		    Discard the data
+		};
+		
+		\node (pDownsample) [p, below of = dTime1min,
+		yshift = -50]{
+		    Downsample data to\\ 1 sample/minute.
+		};
+		
+		
+		\node (pPdf) [p, below of = pDownsample,yshift = -15,xshift = 175]{
+		    Plot frequency PDFs. \\
+		    Compare against \\
+		    Gaussian distribution.
+		};
+		
+		\node (pAutocorr) [p, below of = pDownsample,yshift = -15,xshift = 0]{
+		    Compute and plot\\ autocorrelations
+		};
+		
+		\node (ioExtractTau) [io, below of = pAutocorr, yshift = -15]{
+		    Extract inverse correlation\\ time from initial  decay
+		};
+		
+		\node (pAnalyze) [p, below of=pDownsample,
+		yshift = -140]{
+		    Analyze
+		};
+		
+		\node (stop) [s, below of= pAnalyze, yshift = -15] {Stop};
+        
+		\draw[->] (start) -- (ioLoad);
+		\draw[->] (ioLoad) -- (dTime1min);
+		\draw[->] (dTime1min) -- node{No}(pDownsample);
+		\draw[->] (pDownsample) -- (pAutocorr);
+		\draw[->] (pDownsample) -| (pPdf);
+		\draw[->] (pPdf) |- (pAnalyze);
+		\draw[->] (pAutocorr) -- (ioExtractTau);
+		\draw[->] (ioExtractTau) -- (pAnalyze);
+        \draw[->] (dTime1min) -- node{Yes}(pDiscard);
+        \draw[->] (pAnalyze) -- (stop);
+
+	\end{tikzpicture}
+	
+\end{document}
