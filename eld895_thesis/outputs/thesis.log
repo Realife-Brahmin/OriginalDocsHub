@@ -479,10 +479,9 @@ tex.def
 File: l3backend-luatex.def 2022-04-20 L3 backend support: PDF output (LuaTeX)
 \l__color_backend_stack_int=\count287
 \l__pdf_internal_box=\box52
-)
-No file thesis.aux.
-
+) (./thesis.aux)
 \openout1 = thesis.aux
+
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
 LaTeX Font Info:    ... okay on input line 31.
 LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
@@ -494,6 +493,7 @@ LaTeX Font Info:    ... okay on input line 31.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 31.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 3
 1.
+
 (C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
@@ -553,4 +553,196 @@ ii
 \nofMPsegments=\count289
 \nofMParguments=\count290
 \everyMPshowfont=\toks26
-\MP
+\MPscratchCnt=\count291
+\MPscratchDim=\dimen171
+\MPnumerator=\count292
+\makeMPintoPDFobject=\count293
+\everyMPtoPDFconversion=\toks27
+)
+(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/epstopdf-pkg/epstopdf-b
+ase.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/00miktex/epstopdf-sys.c
+fg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
+Package caption Info: End \AtBeginDocument code.
+Package hyperref Info: Link coloring OFF on input line 31.
+
+(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/nameref.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+
+(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/generic/gettitlestring/gettit
+lestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count294
+)
+LaTeX Info: Redefining \ref on input line 31.
+LaTeX Info: Redefining \pageref on input line 31.
+LaTeX Info: Redefining \nameref on input line 31.
+ (./thesis.out) (./thesis.out)
+\@outlinefile=\write3
+
+\openout3 = thesis.out
+<iitd_logo.png, id=51, 2007.5pt x 2007.5pt>
+File: iitd_logo.png Graphic file (type png)
+<use iitd_logo.png>
+Package luatex.def Info: iitd_logo.png  used on input line 47.
+(luatex.def)             Requested size: 108.37581pt x 108.37581pt.
+ [0
+
+{C:/Users/aryan/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}<./iitd_logo.pn
+g
+warning  (pngwrite): large interlaced bitmap might cause out of memory
+>]
+Certificate
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
+
+ []
+
+
+warning  (pdf backend): ignoring duplicate destination with the name 'page.'
+[0
+
+] [1
+
+] [2
+
+] (./thesis.toc)
+\tf@toc=\write4
+
+\openout4 = thesis.toc
+ [3
+
+] (./thesis.lot)
+\tf@lot=\write5
+
+\openout5 = thesis.lot
+ [4
+
+] (./thesis.lof)
+\tf@lof=\write6
+
+\openout6 = thesis.lof
+ [5
+
+] [6
+
+]
+[7
+
+]
+Chapter 1.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
+65.
+(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+) [1
+
+
+]
+File: iitd_logo.png Graphic file (type png)
+<use iitd_logo.png>
+Package luatex.def Info: iitd_logo.png  used on input line 227.
+(luatex.def)             Requested size: 2007.49512pt x 2007.49512pt.
+File: iitd_logo.png Graphic file (type png)
+<use iitd_logo.png>
+Package luatex.def Info: iitd_logo.png  used on input line 228.
+(luatex.def)             Requested size: 2007.49512pt x 2007.49512pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[2]
+
+Package natbib Warning: Author undefined for citation`viz:mayavi' 
+(natbib)                on page 3 on input line 285.
+
+
+Package natbib Warning: Author undefined for citation`pan:pr:flat-fst' 
+(natbib)                on page 3 on input line 287.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[3]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[4]
+Appendix A.
+(./thesis.bbl [5
+
+]
+Underfull \hbox (badness 3250) in paragraph at lines 23--26
+[]\T1/lmr/m/n/12 Prabhu Ra-machan-dran, S. C. Ra-jan, and M. Ra-makr-ishna.  A 
+fast,
+ []
+
+
+Underfull \hbox (badness 2088) in paragraph at lines 23--26
+\T1/lmr/m/n/12 two-dimensional panel method.  \T1/lmr/m/it/12 SIAM Jour-nal on 
+Sci-en-tific Com-put-ing\T1/lmr/m/n/12 ,
+ []
+
+) [6
+
+] [7
+
+] (./thesis.aux)
+Package rerunfilecheck Info: File `thesis.out' has not changed.
+(rerunfilecheck)             Checksum: 33187CB6E839E21434C57FAB30FB474C;1590.
+)
+
+Here is how much of LuaTeX's memory you used:
+ 13290 strings out of 477752
+ 100000,662416 words of node,token memory allocated
+ 540 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 15 attribute, 56 glue_spec
+, 9 attribute_list, 1 write, 2 pdf_action nodes
+   avail lists: 2:616,3:151,4:12,5:387,6:39,7:6196,8:29,9:389,10:8,11:423
+ 33467 multiletter control sequences out of 65536+600000
+ 46 fonts using 2854343 bytes
+ 70i,14n,74p,322b,462s stack positions out of 10000i,1000n,20000p,200000b,80000s
+{C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/U
+sers/aryan/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Users
+/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
+C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8
+.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.
+pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx8.pf
+b><C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb>
+<C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:
+/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/
+Users/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri8.pfb><C:/Us
+ers/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
+Output written on thesis.pdf (16 pages, 413510 bytes).
+
+PDF statistics: 210 PDF objects out of 1000 (max. 8388607)
+ 39 named destinations out of 1000 (max. 131072)
+ 117 words of extra memory for PDF output out of 10000 (max. 100000000)
+
