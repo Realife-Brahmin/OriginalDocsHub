@@ -1,0 +1,32 @@
+\section[Theory]{Theory}
+\label{sec:theory}
+
+%kappa represents the vector of stochastic processes in the power system
+%we can assume kappa to represent frequency (omega)
+%References typically represent kappa by Ornstein Uhlenbeck Process (OUP)
+%alpha and beta represent the drift and diffusion terms of the stochastic process.
+%if the drift is a vector of linear functions, then alpha represents the autocorrelation coefficients.
+%the faster the stochastic process, the greater the value of alpha
+%eta represents white noise	
+
+\begin{frame}{Autocorrelation Definition}
+	\begin{equation}
+		\label{eq:autocorrDef}
+		\int_{-\infty}^{\infty} x(t)*x(t+\tau) \,dt = c(\tau)
+	\end{equation} 
+\end{frame}
+
+%autocorrelation in the most general sense, quantifies the dependece of present and future values on past values, with time lag Tau modelling the time gap parameter.
+%For OUP, autcorrelation decays exponentially with time lag Tau
+
+\begin{frame}{Autcorrelation Decay}
+	\begin{equation}
+		\label{eq:autocorrDecay1}
+		c(\tau) \propto \exp(-\alpha\tau)
+	\end{equation}
+	
+	\begin{equation}
+		\label{eq:autocorrDecay2}
+		c(\tau) \sim \exp(-\tau/T)
+	\end{equation}
+\end{frame}

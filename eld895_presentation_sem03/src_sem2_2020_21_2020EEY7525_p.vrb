@@ -1,0 +1,5 @@
+\frametitle{SDE Representation of the Power System}
+\begin{equation}
+		\dot{\kappa} = -\alpha(\kappa - \mu) + \beta\eta
+	\end{equation}
+	$\kappa$, which can represent any power system stochastic variable (say, grid frequency $\omega$), is modeled as an \textcolor{red}{Ornstein Uhlenbeck Process or OUP}.
