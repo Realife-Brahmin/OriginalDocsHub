@@ -165,45 +165,6 @@ xxxxxxxxxxx \= xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx \kill
 \chapter{INTRODUCTION}
 \label{chap:intro}
 
-
-To generate PDF's with the links from the \verb+hyperref+ package use
-the following command:
-\begin{verbatim}
-% dvipdfm -o thesis.pdf thesis.dvi
-\end{verbatim}
-
-\section{Package Options}
-
-Use this thesis as a basic template to format your thesis.  The
-\verb+iitddiss+ class can be used by simply using something like this:
-\begin{verbatim}
-\documentclass[PhD]{iitddiss}
-\end{verbatim}
-
-To change the title page for different degrees just change the option
-from \verb+PhD+ to one of \verb+MS+, \verb+MTech+ or \verb+BTech+.
-The dual degree pages are not supported yet but should be quite easy
-to add.  The title page formatting really depends on how large or
-small your thesis title is.  Consequently it might require some hand
-tuning.  Edit your version of \verb+iitddiss.cls+ suitably to do this.
-I recommend that this be done once your title is final.
-
-To write a synopsis simply use the \verb+synopsis.tex+ file as a
-simple template.  The synopsis option turns this on and can be used as
-shown below.
-\begin{verbatim}
-\documentclass[PhD,synopsis]{iitddiss}
-\end{verbatim}
-
-Once again the title page may require some small amount of fine
-tuning.  This is again easily done by editing the class file.
-
-This sample file uses the \verb+hyperref+ package that makes all
-labels and references clickable in both the generated DVI and PDF
-files.  These are very useful when reading the document online and do
-not affect the output when the files are printed.
-
-
 \section{Example Figures and tables}
 
 Fig.~\ref{fig:iitd} shows a simple figure for illustration along with
