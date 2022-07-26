@@ -168,7 +168,7 @@
             {\bf \large{\@author}\par\par}
             {\bf {\@entrynumber}\par\par}
             \vskip 5ex%
-            {\normalsize \em under the guidance of}
+            {\normalsize \em under the guidance of \par}
             {\bf \large{\@advisor}\par\par}
             \vskip 5ex%}
             {\normalsize \em for the award of the degree }\par
