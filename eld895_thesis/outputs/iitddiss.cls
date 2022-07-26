@@ -172,7 +172,7 @@
             {\bf \large{\@advisor}\par\par}
             \vskip 3ex%}
             {\normalsize \em for the award of the degree }\par
-            \vskip 3ex%
+%            \vskip 3ex%
             {\em of} \par
             \vskip 3ex%
             {\bf \large {Master Of Science}} \par
