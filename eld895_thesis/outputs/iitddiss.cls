@@ -158,7 +158,7 @@
          {\bf \large {Doctor of Philosophy}} \par
        \else
          \if@MS
-            {\em A THESIS }
+            {\em A THESIS }\par
 %            \vskip 3ex%
             \if@Synopsis
             {\normalsize \em to be submitted by \par}
