@@ -159,7 +159,7 @@
        \else
          \if@MS
             {\em A THESIS }\par
-            \vskip 5ex%
+            \vskip 3ex%
             \if@Synopsis
             {\normalsize \em to be submitted by \par}
             \else
@@ -167,28 +167,28 @@
             \fi
             {\bf \large{\@author}\par\par}
             {\bf {\@entrynumber}\par\par}
-            \vskip 5ex%
+            \vskip 3ex%
             {\normalsize \em under the guidance of \par}
             {\bf \large{\@advisor}\par\par}
-            \vskip 5ex%}
+            \vskip 3ex%}
             {\normalsize \em for the award of the degree }\par
-            \vskip 5ex%
+            \vskip 3ex%
             {\em of} \par
-            \vskip 5ex%
+            \vskip 3ex%
             {\bf \large {Master Of Science}} \par
             (by Research) \par
          \else
            {\em Thesis submitted by \par}
-           \vskip 5ex%
+           \vskip 3ex%
            {\bf \large{\@author}\par\par}
            {\bf {\@entrynumber}\par\par}
-           \vskip 5ex%
+           \vskip 3ex%
            {\normalsize \em under the guidance of\par}
            {\bf \large{\@advisor}\par}
-           \vskip 5ex%}
+           \vskip 3ex%}
            {\normalsize \em in partial fulfilment of the requirements\par
              for the award of the degree of \par}
-           \vskip 5ex%
+           \vskip 3ex%
            \if@MTech
              {\bf Master of Technology}
            \fi
