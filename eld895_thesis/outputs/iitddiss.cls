@@ -160,6 +160,11 @@
          \if@MS
             {\em A THESIS }\par
             \vskip 5ex%
+            \if@Synopsis
+            {\normalsize \em to be submitted by \par}
+            \else
+            {\normalsize \em submitted by \par}
+            \fi
             {\bf \large{\@author}\par\par}
             {\bf {\@entrynumber}\par\par}
             \vskip 5ex%
