@@ -1,8 +1,0 @@
-\babel@toc {english}{}\relax 
-\contentsline {chapter}{ACKNOWLEDGEMENTS}{i}{chapter*.1}%
-\contentsline {chapter}{ABSTRACT}{ii}{chapter*.2}%
-\contentsline {chapter}{LIST OF TABLES}{iv}{chapter*.4}%
-\contentsline {chapter}{LIST OF FIGURES}{v}{chapter*.5}%
-\contentsline {chapter}{ABBREVIATIONS}{vi}{chapter*.6}%
-\contentsline {chapter}{\numberline {1}INTRODUCTION}{1}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Example Figures and tables}{1}{section.1.1}%
