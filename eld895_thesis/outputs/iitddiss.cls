@@ -159,7 +159,7 @@
        \else
          \if@MS
             {\em A THESIS }\par
-            \vskip 3ex%
+%            \vskip 3ex%
             \if@Synopsis
             {\normalsize \em to be submitted by \par}
             \else
