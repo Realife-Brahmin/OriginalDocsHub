@@ -1,6 +1,86 @@
-\begin{thebibliography}{bib}
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
 
-\bibitem[bib]{biblatex-control}
 
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{schafer01}{article}{}
+      \name{author}{5}{}{%
+        {{hash=0ad70260b413c18a75ff650ee6dd5198}{%
+           family={Schäfer},
+           familyi={S\bibinitperiod},
+           given={Benjamin},
+           giveni={B\bibinitperiod}}}%
+        {{hash=53a777055b139b74439193de18ada60c}{%
+           family={Beck},
+           familyi={B\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+        {{hash=17bac810ea2d913d7172e1bd0dff5eef}{%
+           family={Aihara},
+           familyi={A\bibinitperiod},
+           given={Kazuyuki},
+           giveni={K\bibinitperiod}}}%
+        {{hash=859926a53961da695b213bca6844ef5a}{%
+           family={Witthaut},
+           familyi={W\bibinitperiod},
+           given={Dirk},
+           giveni={D\bibinitperiod}}}%
+        {{hash=63afed2aaea16ab8c8a23ddadcfd84b8}{%
+           family={Timme},
+           familyi={T\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{fb9e260d727a2f0949351b95c0543e07}
+      \strng{fullhash}{9dad30e9e8742281c42815411f1b9052}
+      \strng{bibnamehash}{fb9e260d727a2f0949351b95c0543e07}
+      \strng{authorbibnamehash}{fb9e260d727a2f0949351b95c0543e07}
+      \strng{authornamehash}{fb9e260d727a2f0949351b95c0543e07}
+      \strng{authorfullhash}{9dad30e9e8742281c42815411f1b9052}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2058-7546}
+      \field{journaltitle}{Nature Energy}
+      \field{month}{1}
+      \field{number}{2}
+      \field{title}{Non-Gaussian power grid frequency fluctuations characterized by Lévy-stable laws and superstatistics}
+      \field{volume}{3}
+      \field{year}{2018}
+      \field{pages}{119\bibrangedash 126}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1038/s41560-017-0058-z
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1038/s41560-017-0058-z
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1038/s41560-017-0058-z
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
 
-\end{thebibliography}

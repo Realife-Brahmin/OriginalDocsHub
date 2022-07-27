@@ -2,8 +2,12 @@
 \usepackage{times}
 \usepackage{t1enc}
 \usepackage{lipsum}
-%\usepackage[backend=bibtex,sorting=none,style=numeric-comp]{biblatex}
-%\bibliography{references.bib}
+
+%\usepackage[utf8]{inputenc}
+%\usepackage[T1]{fontenc}
+\usepackage[backend=biber, style=numeric-comp, sorting=none]{biblatex}
+\addbibresource{references.bib}
+
 
 \usepackage{graphicx}
 \usepackage{hyperref} % hyperlinks for references.
@@ -51,8 +55,7 @@
 
 \input{../sections/FutureWork}
 
-\input{../sections/References}
 
-
+\printbibliography
 \end{document}
 
