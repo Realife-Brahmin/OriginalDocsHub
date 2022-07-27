@@ -80,6 +80,216 @@
       \verb http://dx.doi.org/10.1038/s41560-017-0058-z
       \endverb
     \endentry
+    \entry{ghanvati01}{article}{}
+      \name{author}{3}{}{%
+        {{hash=4869d0745b321410c83de35d889d1963}{%
+           family={Ghanavati},
+           familyi={G\bibinitperiod},
+           given={Goodarz},
+           giveni={G\bibinitperiod}}}%
+        {{hash=e9886e60d8f4b6add22ccba074a9b653}{%
+           family={Hines},
+           familyi={H\bibinitperiod},
+           given={Paul\bibnamedelimb D.\bibnamedelimi H.},
+           giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=b8d986bc0d8ecfdc45524f6566a26fa1}{%
+           family={Lakoba},
+           familyi={L\bibinitperiod},
+           given={Taras\bibnamedelima I.},
+           giveni={T\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \strng{namehash}{7a8b2b281270ca32f876cd7ced15b772}
+      \strng{fullhash}{7a8b2b281270ca32f876cd7ced15b772}
+      \strng{bibnamehash}{7a8b2b281270ca32f876cd7ced15b772}
+      \strng{authorbibnamehash}{7a8b2b281270ca32f876cd7ced15b772}
+      \strng{authornamehash}{7a8b2b281270ca32f876cd7ced15b772}
+      \strng{authorfullhash}{7a8b2b281270ca32f876cd7ced15b772}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Power Systems}
+      \field{number}{2}
+      \field{title}{Identifying Useful Statistical Indicators of Proximity to Instability in Stochastic Power Systems}
+      \field{volume}{31}
+      \field{year}{2016}
+      \field{pages}{1360\bibrangedash 1368}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1109/TPWRS.2015.2412115
+      \endverb
+    \endentry
+    \entry{sanchez01}{article}{}
+      \name{author}{3}{}{%
+        {{hash=0596e76f19a751b92a479242259c7c30}{%
+           family={Cotilla-Sanchez},
+           familyi={C\bibinithyphendelim S\bibinitperiod},
+           given={Eduardo},
+           giveni={E\bibinitperiod}}}%
+        {{hash=e9886e60d8f4b6add22ccba074a9b653}{%
+           family={Hines},
+           familyi={H\bibinitperiod},
+           given={Paul\bibnamedelimb D.\bibnamedelimi H.},
+           giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=5fc866d4ae873b776e72f5bac184a570}{%
+           family={Danforth},
+           familyi={D\bibinitperiod},
+           given={Christopher\bibnamedelima M.},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{d033d5578804d830bf914705d0171e68}
+      \strng{fullhash}{d033d5578804d830bf914705d0171e68}
+      \strng{bibnamehash}{d033d5578804d830bf914705d0171e68}
+      \strng{authorbibnamehash}{d033d5578804d830bf914705d0171e68}
+      \strng{authornamehash}{d033d5578804d830bf914705d0171e68}
+      \strng{authorfullhash}{d033d5578804d830bf914705d0171e68}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Smart Grid}
+      \field{number}{4}
+      \field{title}{Predicting Critical Transitions From Time Series Synchrophasor Data}
+      \field{volume}{3}
+      \field{year}{2012}
+      \field{pages}{1832\bibrangedash 1840}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1109/TSG.2012.2213848
+      \endverb
+    \endentry
+    \entry{schefferEarlyWarningSignalsForCriticalTransitions}{article}{}
+      \name{author}{10}{}{%
+        {{hash=928c6696327fbb9942013ec7d598f6be}{%
+           family={Scheffer},
+           familyi={S\bibinitperiod},
+           given={Marten},
+           giveni={M\bibinitperiod}}}%
+        {{hash=b71c47fff97792c37706210243e23ae5}{%
+           family={Bascompte},
+           familyi={B\bibinitperiod},
+           given={Jordi},
+           giveni={J\bibinitperiod}}}%
+        {{hash=6f5d40c431b42a410b15757c401dc63e}{%
+           family={Brock},
+           familyi={B\bibinitperiod},
+           given={William\bibnamedelima A.},
+           giveni={W\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=3f5d1a8ec74aaba08e9a743b6db4c722}{%
+           family={Brovkin},
+           familyi={B\bibinitperiod},
+           given={Victor},
+           giveni={V\bibinitperiod}}}%
+        {{hash=c1fd2baa8d75981b7b3c44aff66b9bec}{%
+           family={Carpenter},
+           familyi={C\bibinitperiod},
+           given={Stephen\bibnamedelima R.},
+           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=10beb6c905e8929a07d6e9b526bfd536}{%
+           family={Dakos},
+           familyi={D\bibinitperiod},
+           given={Vasilis},
+           giveni={V\bibinitperiod}}}%
+        {{hash=386ba6ad629863537c8e8b769b4b7e83}{%
+           family={Held},
+           familyi={H\bibinitperiod},
+           given={Hermann},
+           giveni={H\bibinitperiod}}}%
+        {{hash=21a854e8dd43fbdb413f40027fd47736}{%
+           family={Nes},
+           familyi={N\bibinitperiod},
+           given={Egbert\bibnamedelima H.},
+           giveni={E\bibinitperiod\bibinitdelim H\bibinitperiod},
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+        {{hash=af88854af2808d409b54c917b495f554}{%
+           family={Rietkerk},
+           familyi={R\bibinitperiod},
+           given={Max},
+           giveni={M\bibinitperiod}}}%
+        {{hash=1d90ee645f52e4685666c6c0c748b606}{%
+           family={Sugihara},
+           familyi={S\bibinitperiod},
+           given={George},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{9dd74bc466019c8d66becb6042640aed}
+      \strng{fullhash}{35973f46bae8424665c531363c81be18}
+      \strng{bibnamehash}{9dd74bc466019c8d66becb6042640aed}
+      \strng{authorbibnamehash}{9dd74bc466019c8d66becb6042640aed}
+      \strng{authornamehash}{9dd74bc466019c8d66becb6042640aed}
+      \strng{authorfullhash}{35973f46bae8424665c531363c81be18}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1476-4687}
+      \field{journaltitle}{Nature}
+      \field{month}{9}
+      \field{title}{{Early-warning signals for critical transitions}}
+      \field{volume}{461}
+      \field{year}{2009}
+      \field{pages}{53\bibrangedash 59}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1038/nature08227
+      \endverb
+    \endentry
+    \entry{csdNotDetectedByAutocorrAndVariance01}{article}{}
+      \name{author}{3}{}{%
+        {{hash=269f83eea8687bd39c94fa0f8c5081ba}{%
+           family={Boerlijst},
+           familyi={B\bibinitperiod},
+           given={Maarten\bibnamedelima C.},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=7b302a6c5fc54072f5b5e98194133d1a}{%
+           family={Oudman},
+           familyi={O\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=460575c4e4439de7b4315aa868b16f9e}{%
+           family={Roos},
+           familyi={R\bibinitperiod},
+           given={André\bibnamedelima M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Public Library of Science}%
+      }
+      \strng{namehash}{88926ec487746e6a138d7259f04abb22}
+      \strng{fullhash}{88926ec487746e6a138d7259f04abb22}
+      \strng{bibnamehash}{88926ec487746e6a138d7259f04abb22}
+      \strng{authorbibnamehash}{88926ec487746e6a138d7259f04abb22}
+      \strng{authornamehash}{88926ec487746e6a138d7259f04abb22}
+      \strng{authorfullhash}{88926ec487746e6a138d7259f04abb22}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Catastrophic and sudden collapses of ecosystems are sometimes preceded by early warning signals that potentially could be used to predict and prevent a forthcoming catastrophe. Universality of these early warning signals has been proposed, but no formal proof has been provided. Here, we show that in relatively simple ecological models the most commonly used early warning signals for a catastrophic collapse can be silent. We underpin the mathematical reason for this phenomenon, which involves the direction of the eigenvectors of the system. Our results demonstrate that claims on the universality of early warning signals are not correct, and that catastrophic collapses can occur without prior warning. In order to correctly predict a collapse and determine whether early warning signals precede the collapse, detailed knowledge of the mathematical structure of the approaching bifurcation is necessary. Unfortunately, such knowledge is often only obtained after the collapse has already occurred.}
+      \field{journaltitle}{PLOS ONE}
+      \field{month}{04}
+      \field{number}{4}
+      \field{title}{Catastrophic Collapse Can Occur without Early Warning: Examples of Silent Catastrophes in Structured Ecological Models}
+      \field{volume}{8}
+      \field{year}{2013}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1371/journal.pone.0062033
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1371/journal.pone.0062033
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1371/journal.pone.0062033
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

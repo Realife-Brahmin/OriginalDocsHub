@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (MiKTeX 22.3) (format=lualatex 2022.7.14)  27 JUL 2022 12:15
+This is LuaHBTeX, Version 1.15.0 (MiKTeX 22.3) (format=lualatex 2022.7.14)  27 JUL 2022 17:08
  restricted system commands enabled.
 **synopsis_report_aryan_ritwajeet_jha.tex
 (./synopsis_report_aryan_ritwajeet_jha.tex
@@ -135,10 +135,7 @@ Package caption Info: Standard document class detected.
 )
 \c@caption@flags=\count194
 \c@continuedfloat=\count195
-)) (C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/psnfss/times.sty
-Package: times 2020/03/25 PSNFSS-v9.3 (SPQR) 
-)
-(./t1enc.sty
+)) (./t1enc.sty
 Package: t1enc 1994/06/01 Standard LaTeX package
 LaTeX Font Info:    Trying to load font information for T1+lmr on input line 57
 .
@@ -658,12 +655,7 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 )))
 \@quotelevel=\count420
 \@quotereset=\count421
-LaTeX Font Info:    Trying to load font information for T1+ptm on input line 27
-.
- (C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/psnfss/t1ptm.fd
-File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
-)
-(./synopsis_report_aryan_ritwajeet_jha.aux)
+ (./synopsis_report_aryan_ritwajeet_jha.aux)
 \openout1 = synopsis_report_aryan_ritwajeet_jha.aux
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
@@ -788,18 +780,18 @@ warning  (pngwrite): large interlaced bitmap might cause out of memory
 \openout5 = synopsis_report_aryan_ritwajeet_jha.toc
  [1]
 (../sections/Introduction.tex
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 4.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 4
+.
 
-
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/psnfss/t1pcr.fd
-File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-Overfull \hbox (68.54419pt too wide) in paragraph at lines 4--5
-\T1/ptm/m/n/12 to man-i-fest as a ma-jor up-set to the grid []\T1/pcr/m/n/12 CIT
-E HERE FOR FRENCH GRID COLLAPSE IN August 2020
+Overfull \hbox (104.29292pt too wide) in paragraph at lines 4--5
+\T1/lmr/m/n/12 late over time to man-i-fest as a ma-jor up-set to the grid []\T
+1/lmtt/m/n/12 CITE HERE FOR FRENCH GRID COLLAPSE IN August 2020
  []
 
-) (../sections/LiteratureReview.tex)
+) (../sections/LiteratureReview.tex) (../sections/Objectives.tex)
 
 Package lipsum Warning: Unknown language 'latin'. Hyphenation patterns for
 (lipsum)                'english' will be used instead.
@@ -807,10 +799,10 @@ Package lipsum Warning: Unknown language 'latin'. Hyphenation patterns for
 (lipsum)                With LuaTeX, lipsum requires babel to get proper
 (lipsum)                hyphenation (you can use \usepackage[base]{babel}).
 
-(../sections/Objectives.tex) (../sections/Theory.tex) [2]
-(../sections/OfflineAnalysis.tex) (../sections/OnlineAnalysis.tex)
-(../sections/Conclusions.tex) [3] (../sections/FutureWork.tex) [4]
-(./synopsis_report_aryan_ritwajeet_jha.aux)
+[2] (../sections/Theory.tex) (../sections/OfflineAnalysis.tex)
+(../sections/OnlineAnalysis.tex [3] [4]) (../sections/Conclusions.tex)
+(../sections/FutureWork.tex) [5] [6] (./synopsis_report_aryan_ritwajeet_jha.aux
+)
 Package rerunfilecheck Info: File `synopsis_report_aryan_ritwajeet_jha.out' has
  not changed.
 (rerunfilecheck)             Checksum: 9E4A06266E5033489CB6604E68C76ECC;1032.
@@ -821,24 +813,33 @@ un.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 19795 strings out of 477491
+ 19754 strings out of 477491
  125161,1373583 words of node,token memory allocated
- 805 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 2 glue, 42 kern, 1 glyph, 21 attribute, 65 glue_spe
-c, 21 attribute_list, 1 write, 1 pdf_action nodes
-   avail lists: 2:185,3:123,4:14,5:118,6:46,7:5165,8:49,9:174,10:8,11:399
- 40061 multiletter control sequences out of 65536+600000
- 48 fonts using 3160679 bytes
- 72i,5n,74p,707b,1151s stack positions out of 10000i,1000n,20000p,200000b,80000s
-{C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Us
-ers/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/U
-sers/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Us
-ers/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Use
-rs/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on synopsis_report_aryan_ritwajeet_jha.pdf (5 pages, 286333 bytes
+ 592 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 11 attribute, 66 glue_spec
+, 11 attribute_list, 1 write, 3 pdf_action nodes
+   avail lists: 1:1,2:454,3:228,4:24,5:348,6:46,7:5850,8:51,9:205,10:14,11:415
+ 40045 multiletter control sequences out of 65536+600000
+ 38 fonts using 2356471 bytes
+ 72i,5n,74p,1114b,1223s stack positions out of 10000i,1000n,20000p,200000b,80000s
+{C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/U
+sers/aryan/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Users
+/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><
+C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi
+12.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmmi6.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmmi8.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmr12.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/lm/lmbx12.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX
+/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX
+/fonts/type1/public/lm/lmr12.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/lm/lmri12.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX/fo
+nts/type1/public/lm/lmtt12.pfb>
+Output written on synopsis_report_aryan_ritwajeet_jha.pdf (7 pages, 420119 bytes
 ).
 
-PDF statistics: 97 PDF objects out of 1000 (max. 8388607)
- 17 named destinations out of 1000 (max. 131072)
+PDF statistics: 161 PDF objects out of 1000 (max. 8388607)
+ 29 named destinations out of 1000 (max. 131072)
  65 words of extra memory for PDF output out of 10000 (max. 100000000)
 
