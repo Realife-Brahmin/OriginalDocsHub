@@ -2357,8 +2357,9 @@
     <bcf:citekey order="3" intorder="1">sanchez01</bcf:citekey>
     <bcf:citekey order="4" intorder="1">ghanvati01</bcf:citekey>
     <bcf:citekey order="4" intorder="2">sanchez01</bcf:citekey>
-    <bcf:citekey order="5" intorder="1">schefferEarlyWarningSignalsForCriticalTransitions</bcf:citekey>
-    <bcf:citekey order="6" intorder="1">csdNotDetectedByAutocorrAndVariance01</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">sanchez01</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">schefferEarlyWarningSignalsForCriticalTransitions</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">csdNotDetectedByAutocorrAndVariance01</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
