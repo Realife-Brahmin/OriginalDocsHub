@@ -193,84 +193,6 @@
       \verb https://github.com/LRydin/Power-Grid-Frequency
       \endverb
     \endentry
-    \entry{ce2019}{article}{}
-      \name{author}{2}{}{%
-        {{hash=b976e63ae8d01133326408c8b625b19b}{%
-           family={Thingvad},
-           familyi={T\bibinitperiod},
-           given={Andreas},
-           giveni={A\bibinitperiod}}}%
-        {{hash=e45bcd8560488ad2c1035d0390361caf}{%
-           family={Marinelli},
-           familyi={M\bibinitperiod},
-           given={Mattia},
-           giveni={M\bibinitperiod}}}%
-      }
-      \strng{namehash}{5efd27cbd853233f9c53fa0217e61330}
-      \strng{fullhash}{5efd27cbd853233f9c53fa0217e61330}
-      \strng{bibnamehash}{5efd27cbd853233f9c53fa0217e61330}
-      \strng{authorbibnamehash}{5efd27cbd853233f9c53fa0217e61330}
-      \strng{authornamehash}{5efd27cbd853233f9c53fa0217e61330}
-      \strng{authorfullhash}{5efd27cbd853233f9c53fa0217e61330}
-      \field{extraname}{1}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{8}
-      \field{title}{Grid Frequency Measurements of the Continental European Power System during 2019}
-      \field{year}{2020}
-      \verb{doi}
-      \verb 10.11583/DTU.12758429.v1
-      \endverb
-      \verb{urlraw}
-      \verb https://data.dtu.dk/articles/dataset/Grid_Frequency_Measurements_of_the_Continental_European_Power_System_during_2019/12758429
-      \endverb
-      \verb{url}
-      \verb https://data.dtu.dk/articles/dataset/Grid_Frequency_Measurements_of_the_Continental_European_Power_System_during_2019/12758429
-      \endverb
-    \endentry
-    \entry{ce2020}{article}{}
-      \name{author}{3}{}{%
-        {{hash=b976e63ae8d01133326408c8b625b19b}{%
-           family={Thingvad},
-           familyi={T\bibinitperiod},
-           given={Andreas},
-           giveni={A\bibinitperiod}}}%
-        {{hash=e45bcd8560488ad2c1035d0390361caf}{%
-           family={Marinelli},
-           familyi={M\bibinitperiod},
-           given={Mattia},
-           giveni={M\bibinitperiod}}}%
-        {{hash=fa5116699843df696874205e738be435}{%
-           family={Calearo},
-           familyi={C\bibinitperiod},
-           given={Lisa},
-           giveni={L\bibinitperiod}}}%
-      }
-      \strng{namehash}{961acb6b60225f53d19de76763499372}
-      \strng{fullhash}{961acb6b60225f53d19de76763499372}
-      \strng{bibnamehash}{961acb6b60225f53d19de76763499372}
-      \strng{authorbibnamehash}{961acb6b60225f53d19de76763499372}
-      \strng{authornamehash}{961acb6b60225f53d19de76763499372}
-      \strng{authorfullhash}{961acb6b60225f53d19de76763499372}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{5}
-      \field{title}{Grid Frequency Measurements of the Continental European Power System during 2020}
-      \field{year}{2021}
-      \verb{doi}
-      \verb 10.11583/DTU.14604927.v1
-      \endverb
-      \verb{urlraw}
-      \verb https://data.dtu.dk/articles/dataset/Grid_Frequency_Measurements_of_the_Continental_European_Power_System_during_2020/14604927
-      \endverb
-      \verb{url}
-      \verb https://data.dtu.dk/articles/dataset/Grid_Frequency_Measurements_of_the_Continental_European_Power_System_during_2020/14604927
-      \endverb
-    \endentry
     \entry{tokyo2017}{article}{}
       \name{author}{3}{}{%
         {{hash=fa5116699843df696874205e738be435}{%
@@ -372,7 +294,7 @@
       \strng{authorbibnamehash}{5efd27cbd853233f9c53fa0217e61330}
       \strng{authornamehash}{5efd27cbd853233f9c53fa0217e61330}
       \strng{authorfullhash}{5efd27cbd853233f9c53fa0217e61330}
-      \field{extraname}{2}
+      \field{extraname}{1}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -409,7 +331,7 @@
       \strng{authorbibnamehash}{5efd27cbd853233f9c53fa0217e61330}
       \strng{authornamehash}{5efd27cbd853233f9c53fa0217e61330}
       \strng{authorfullhash}{5efd27cbd853233f9c53fa0217e61330}
-      \field{extraname}{3}
+      \field{extraname}{2}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -425,6 +347,84 @@
       \endverb
       \verb{url}
       \verb https://data.dtu.dk/articles/dataset/Grid_Frequency_Measurements_of_the_Nordic_Power_System_during_2019/12758573
+      \endverb
+    \endentry
+    \entry{ce2019}{article}{}
+      \name{author}{2}{}{%
+        {{hash=b976e63ae8d01133326408c8b625b19b}{%
+           family={Thingvad},
+           familyi={T\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+        {{hash=e45bcd8560488ad2c1035d0390361caf}{%
+           family={Marinelli},
+           familyi={M\bibinitperiod},
+           given={Mattia},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{5efd27cbd853233f9c53fa0217e61330}
+      \strng{fullhash}{5efd27cbd853233f9c53fa0217e61330}
+      \strng{bibnamehash}{5efd27cbd853233f9c53fa0217e61330}
+      \strng{authorbibnamehash}{5efd27cbd853233f9c53fa0217e61330}
+      \strng{authornamehash}{5efd27cbd853233f9c53fa0217e61330}
+      \strng{authorfullhash}{5efd27cbd853233f9c53fa0217e61330}
+      \field{extraname}{3}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{8}
+      \field{title}{Grid Frequency Measurements of the Continental European Power System during 2019}
+      \field{year}{2020}
+      \verb{doi}
+      \verb 10.11583/DTU.12758429.v1
+      \endverb
+      \verb{urlraw}
+      \verb https://data.dtu.dk/articles/dataset/Grid_Frequency_Measurements_of_the_Continental_European_Power_System_during_2019/12758429
+      \endverb
+      \verb{url}
+      \verb https://data.dtu.dk/articles/dataset/Grid_Frequency_Measurements_of_the_Continental_European_Power_System_during_2019/12758429
+      \endverb
+    \endentry
+    \entry{ce2020}{article}{}
+      \name{author}{3}{}{%
+        {{hash=b976e63ae8d01133326408c8b625b19b}{%
+           family={Thingvad},
+           familyi={T\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+        {{hash=e45bcd8560488ad2c1035d0390361caf}{%
+           family={Marinelli},
+           familyi={M\bibinitperiod},
+           given={Mattia},
+           giveni={M\bibinitperiod}}}%
+        {{hash=fa5116699843df696874205e738be435}{%
+           family={Calearo},
+           familyi={C\bibinitperiod},
+           given={Lisa},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{961acb6b60225f53d19de76763499372}
+      \strng{fullhash}{961acb6b60225f53d19de76763499372}
+      \strng{bibnamehash}{961acb6b60225f53d19de76763499372}
+      \strng{authorbibnamehash}{961acb6b60225f53d19de76763499372}
+      \strng{authornamehash}{961acb6b60225f53d19de76763499372}
+      \strng{authorfullhash}{961acb6b60225f53d19de76763499372}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{5}
+      \field{title}{Grid Frequency Measurements of the Continental European Power System during 2020}
+      \field{year}{2021}
+      \verb{doi}
+      \verb 10.11583/DTU.14604927.v1
+      \endverb
+      \verb{urlraw}
+      \verb https://data.dtu.dk/articles/dataset/Grid_Frequency_Measurements_of_the_Continental_European_Power_System_during_2020/14604927
+      \endverb
+      \verb{url}
+      \verb https://data.dtu.dk/articles/dataset/Grid_Frequency_Measurements_of_the_Continental_European_Power_System_during_2020/14604927
       \endverb
     \endentry
     \entry{ukNationalGridESOData}{misc}{}
@@ -452,6 +452,38 @@
       \endverb
       \verb{url}
       \verb https://data.nationalgrideso.com/system/system-frequency-data
+      \endverb
+    \endentry
+    \entry{adeen01}{article}{}
+      \name{author}{2}{}{%
+        {{hash=675776ebd45b06099ec38f52f0d18f26}{%
+           family={Adeen},
+           familyi={A\bibinitperiod},
+           given={Muhammad},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a6a624e10979d64f225ea3eecae2f258}{%
+           family={Milano},
+           familyi={M\bibinitperiod},
+           given={Federico},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{bd60833c38276c2f925660cbb4965c4a}
+      \strng{fullhash}{bd60833c38276c2f925660cbb4965c4a}
+      \strng{bibnamehash}{bd60833c38276c2f925660cbb4965c4a}
+      \strng{authorbibnamehash}{bd60833c38276c2f925660cbb4965c4a}
+      \strng{authornamehash}{bd60833c38276c2f925660cbb4965c4a}
+      \strng{authorfullhash}{bd60833c38276c2f925660cbb4965c4a}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Power Systems}
+      \field{title}{On the Impact of Auto-Correlation of Stochastic Processes on the Transient Behavior of Power Systems}
+      \field{year}{2021}
+      \field{pages}{1\bibrangedash 1}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1109/TPWRS.2021.3068038
       \endverb
     \endentry
     \entry{schefferEarlyWarningSignalsForCriticalTransitions}{article}{}
@@ -518,8 +550,8 @@
       \strng{authorbibnamehash}{9dd74bc466019c8d66becb6042640aed}
       \strng{authornamehash}{9dd74bc466019c8d66becb6042640aed}
       \strng{authorfullhash}{35973f46bae8424665c531363c81be18}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1476-4687}
@@ -551,8 +583,8 @@
       \strng{authorbibnamehash}{ff0ad26f8008ce1c3798d74f83f5de55}
       \strng{authornamehash}{ff0ad26f8008ce1c3798d74f83f5de55}
       \strng{authorfullhash}{ff0ad26f8008ce1c3798d74f83f5de55}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0167-2789}
@@ -582,8 +614,8 @@
       \strng{authorbibnamehash}{39878c41ca2338687a0064bcc2ba2922}
       \strng{authornamehash}{39878c41ca2338687a0064bcc2ba2922}
       \strng{authorfullhash}{39878c41ca2338687a0064bcc2ba2922}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{arXiv}
@@ -595,6 +627,80 @@
       \endverb
       \verb{eprint}
       \verb 2012.14591
+      \endverb
+    \endentry
+    \entry{chenBifurcationsAndChaosInEngineering}{book}{}
+      \name{author}{2}{}{%
+        {{hash=3b751e579cb44b5d9b7d8096077211df}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Yushu},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=f753b031993055c8fc365545820e4f6b}{%
+           family={Leung},
+           familyi={L\bibinitperiod},
+           given={Andrew\bibnamedelimb Y.\bibnamedelimi T.},
+           giveni={A\bibinitperiod\bibinitdelim Y\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {London, England, UK}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{a1b9f137295313bd2c01c74bbf3419b4}
+      \strng{fullhash}{a1b9f137295313bd2c01c74bbf3419b4}
+      \strng{bibnamehash}{a1b9f137295313bd2c01c74bbf3419b4}
+      \strng{authorbibnamehash}{a1b9f137295313bd2c01c74bbf3419b4}
+      \strng{authornamehash}{a1b9f137295313bd2c01c74bbf3419b4}
+      \strng{authorfullhash}{a1b9f137295313bd2c01c74bbf3419b4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-1-4471-1575-5}
+      \field{journaltitle}{SpringerLink}
+      \field{title}{{Bifurcation and Chaos in Engineering}}
+      \verb{urlraw}
+      \verb https://link.springer.com/book/10.1007/978-1-4471-1575-5
+      \endverb
+      \verb{url}
+      \verb https://link.springer.com/book/10.1007/978-1-4471-1575-5
+      \endverb
+    \endentry
+    \entry{mohlerDyanmicsAndControlPartOne}{book}{}
+      \name{author}{1}{}{%
+        {{hash=0a0bf0ab0fabeceaa10011f321963607}{%
+           family={Mohler},
+           familyi={M\bibinitperiod},
+           given={Ronald\bibnamedelima R.},
+           giveni={R\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Upper Saddle River, NJ, USA}%
+      }
+      \list{publisher}{1}{%
+        {Prentice Hall}%
+      }
+      \strng{namehash}{0a0bf0ab0fabeceaa10011f321963607}
+      \strng{fullhash}{0a0bf0ab0fabeceaa10011f321963607}
+      \strng{bibnamehash}{0a0bf0ab0fabeceaa10011f321963607}
+      \strng{authorbibnamehash}{0a0bf0ab0fabeceaa10011f321963607}
+      \strng{authornamehash}{0a0bf0ab0fabeceaa10011f321963607}
+      \strng{authorfullhash}{0a0bf0ab0fabeceaa10011f321963607}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-0-13623489-0}
+      \field{month}{6}
+      \field{title}{{Nonlinear Systems, Volume 1}}
+      \field{year}{1990}
+      \verb{urlraw}
+      \verb https://www.goodreads.com/book/show/15197243-nonlinear-systems-volume-1
+      \endverb
+      \verb{url}
+      \verb https://www.goodreads.com/book/show/15197243-nonlinear-systems-volume-1
       \endverb
     \endentry
     \entry{ghanvati01}{article}{}
@@ -621,8 +727,8 @@
       \strng{authorbibnamehash}{7a8b2b281270ca32f876cd7ced15b772}
       \strng{authornamehash}{7a8b2b281270ca32f876cd7ced15b772}
       \strng{authorfullhash}{7a8b2b281270ca32f876cd7ced15b772}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEE Transactions on Power Systems}
@@ -660,8 +766,8 @@
       \strng{authorbibnamehash}{d033d5578804d830bf914705d0171e68}
       \strng{authornamehash}{d033d5578804d830bf914705d0171e68}
       \strng{authorfullhash}{d033d5578804d830bf914705d0171e68}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEE Transactions on Smart Grid}
@@ -673,6 +779,102 @@
       \range{pages}{9}
       \verb{doi}
       \verb 10.1109/TSG.2012.2213848
+      \endverb
+    \endentry
+    \entry{francesca01}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=445163699f5595d0c2319f82836e9261}{%
+           family={Mele},
+           familyi={M\bibinitperiod},
+           given={Francesca\bibnamedelima Madia},
+           giveni={F\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=3d9d556d4cbedd4345ccb686de24ea0b}{%
+           family={Ortega},
+           familyi={O\bibinitperiod},
+           given={Álvaro},
+           giveni={Á\bibinitperiod}}}%
+        {{hash=474f12f153452593361372feabbccc19}{%
+           family={Zárate-Miñano},
+           familyi={Z\bibinithyphendelim M\bibinitperiod},
+           given={Rafael},
+           giveni={R\bibinitperiod}}}%
+        {{hash=a6a624e10979d64f225ea3eecae2f258}{%
+           family={Milano},
+           familyi={M\bibinitperiod},
+           given={Federico},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{82d4df3c30fe2dbcc1b570aacda096d2}
+      \strng{fullhash}{c838446bf41aa7450ab6211439d7430f}
+      \strng{bibnamehash}{82d4df3c30fe2dbcc1b570aacda096d2}
+      \strng{authorbibnamehash}{82d4df3c30fe2dbcc1b570aacda096d2}
+      \strng{authornamehash}{82d4df3c30fe2dbcc1b570aacda096d2}
+      \strng{authorfullhash}{c838446bf41aa7450ab6211439d7430f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2016 Power Systems Computation Conference (PSCC)}
+      \field{title}{Impact of variability, uncertainty and frequency regulation on power system frequency distribution}
+      \field{year}{2016}
+      \field{pages}{1\bibrangedash 8}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/PSCC.2016.7540970
+      \endverb
+    \endentry
+    \entry{vorobev01}{article}{}
+      \name{author}{6}{}{%
+        {{hash=1ee0199ca7e52f0f19b4d1b73ff5ebbb}{%
+           family={Vorobev},
+           familyi={V\bibinitperiod},
+           given={Petr},
+           giveni={P\bibinitperiod}}}%
+        {{hash=1d19ebd13c3db9869dade6d44ab09fee}{%
+           family={Greenwood},
+           familyi={G\bibinitperiod},
+           given={David\bibnamedelima M.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=17118073b437d3ea8695d7beee21a096}{%
+           family={Bell},
+           familyi={B\bibinitperiod},
+           given={John\bibnamedelima H.},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=e89451b4016c146c1e88dd1376b852ec}{%
+           family={Bialek},
+           familyi={B\bibinitperiod},
+           given={Janusz\bibnamedelima W.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=8ff2a0afc6db59af5bbef92fbe47b5f1}{%
+           family={Taylor},
+           familyi={T\bibinitperiod},
+           given={Philip\bibnamedelima C.},
+           giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=08f910463933ecbf69e6bda104ef663c}{%
+           family={Turitsyn},
+           familyi={T\bibinitperiod},
+           given={Konstantin},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{1f97ed289e819b16bbdfea8d230bc65e}
+      \strng{fullhash}{1af0718f3fd2d0e7624c7fd8ac64f203}
+      \strng{bibnamehash}{1f97ed289e819b16bbdfea8d230bc65e}
+      \strng{authorbibnamehash}{1f97ed289e819b16bbdfea8d230bc65e}
+      \strng{authornamehash}{1f97ed289e819b16bbdfea8d230bc65e}
+      \strng{authorfullhash}{1af0718f3fd2d0e7624c7fd8ac64f203}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Power Systems}
+      \field{number}{4}
+      \field{title}{Deadbands, Droop, and Inertia Impact on Power System Frequency Distribution}
+      \field{volume}{34}
+      \field{year}{2019}
+      \field{pages}{3098\bibrangedash 3108}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1109/TPWRS.2019.2895547
       \endverb
     \endentry
     \entry{csdNotDetectedByAutocorrAndVariance01}{article}{}
@@ -704,8 +906,8 @@
       \strng{authorbibnamehash}{88926ec487746e6a138d7259f04abb22}
       \strng{authornamehash}{88926ec487746e6a138d7259f04abb22}
       \strng{authorfullhash}{88926ec487746e6a138d7259f04abb22}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Catastrophic and sudden collapses of ecosystems are sometimes preceded by early warning signals that potentially could be used to predict and prevent a forthcoming catastrophe. Universality of these early warning signals has been proposed, but no formal proof has been provided. Here, we show that in relatively simple ecological models the most commonly used early warning signals for a catastrophic collapse can be silent. We underpin the mathematical reason for this phenomenon, which involves the direction of the eigenvectors of the system. Our results demonstrate that claims on the universality of early warning signals are not correct, and that catastrophic collapses can occur without prior warning. In order to correctly predict a collapse and determine whether early warning signals precede the collapse, detailed knowledge of the mathematical structure of the approaching bifurcation is necessary. Unfortunately, such knowledge is often only obtained after the collapse has already occurred.}

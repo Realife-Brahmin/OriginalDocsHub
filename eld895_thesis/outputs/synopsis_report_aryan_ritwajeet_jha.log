@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (MiKTeX 22.3) (format=lualatex 2022.7.14)  28 JUL 2022 16:58
+This is LuaHBTeX, Version 1.15.0 (MiKTeX 22.3) (format=lualatex 2022.7.14)  29 JUL 2022 12:38
  restricted system commands enabled.
 **synopsis_report_aryan_ritwajeet_jha.tex
 (./synopsis_report_aryan_ritwajeet_jha.tex
@@ -791,7 +791,7 @@ Overfull \hbox (104.29292pt too wide) in paragraph at lines 4--5
 1/lmtt/m/n/12 CITE HERE FOR FRENCH GRID COLLAPSE IN August 2020
  []
 
-) (../sections/LiteratureReview.tex) [2] (../sections/Objectives.tex)
+) (../sections/LiteratureReview.tex [2]) (../sections/Objectives.tex)
 
 Package lipsum Warning: Unknown language 'latin'. Hyphenation patterns for
 (lipsum)                'english' will be used instead.
@@ -799,15 +799,9 @@ Package lipsum Warning: Unknown language 'latin'. Hyphenation patterns for
 (lipsum)                With LuaTeX, lipsum requires babel to get proper
 (lipsum)                hyphenation (you can use \usepackage[base]{babel}).
 
-(../sections/Theory.tex [3]) (../sections/OfflineAnalysis.tex)
-(../sections/OnlineAnalysis.tex [4]
-Overfull \hbox (4.16953pt too wide) in paragraph at lines 15--16
-\T1/lmr/m/n/12 taken for any drop in bus volt-ages/grid fre-quency or any in-cre
-ase in line cur-rents/MVAs. 
- []
-
-) (../sections/Conclusions.tex [5] [6]) (../sections/FutureWork.tex) [7]
-[8]
+(../sections/Theory.tex [3]) (../sections/OfflineAnalysis.tex) [4]
+(../sections/OnlineAnalysis.tex [5]) (../sections/Conclusions.tex [6])
+(../sections/FutureWork.tex) [7] [8]
 Overfull \hbox (0.31636pt too wide) in paragraph at lines 60--60
 \T1/lmr/m/n/12 fast–slow sys-tems and stochas-tic dy-nam-ics''. In: \T1/lmr/m
 /it/12 Phys-ica D \T1/lmr/m/n/12 240.12 (June 2011), pp. 1020
@@ -815,7 +809,7 @@ Overfull \hbox (0.31636pt too wide) in paragraph at lines 60--60
 
 [9
 Missing character: There is no – (U+2013) in font ec-lmr12!
-] (./synopsis_report_aryan_ritwajeet_jha.aux)
+] [10] (./synopsis_report_aryan_ritwajeet_jha.aux)
 Package rerunfilecheck Info: File `synopsis_report_aryan_ritwajeet_jha.out' has
  not changed.
 (rerunfilecheck)             Checksum: 9E4A06266E5033489CB6604E68C76ECC;1032.
@@ -826,15 +820,15 @@ un.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 19804 strings out of 477491
+ 19828 strings out of 477491
  125161,1373583 words of node,token memory allocated
- 708 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 25 attribute, 66 glue_spec
-, 25 attribute_list, 1 write, 13 pdf_action nodes
-   avail lists: 2:627,3:471,4:46,5:452,6:40,7:7486,8:139,9:214,10:27,11:630
- 40079 multiletter control sequences out of 65536+600000
+ 728 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 27 attribute, 66 glue_spec
+, 27 attribute_list, 1 write, 15 pdf_action nodes
+   avail lists: 2:666,3:438,4:30,5:376,6:38,7:6850,8:139,9:178,10:15,11:604
+ 40097 multiletter control sequences out of 65536+600000
  38 fonts using 2356471 bytes
- 72i,6n,74p,1486b,1246s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 72i,6n,74p,1543b,1246s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/U
 sers/aryan/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Users
 /aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><
@@ -851,10 +845,10 @@ ograms/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/aryan/AppData/Local/Pr
 ograms/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/aryan/AppData/Local/Prog
 rams/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/aryan/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on synopsis_report_aryan_ritwajeet_jha.pdf (10 pages, 469625 byte
+Output written on synopsis_report_aryan_ritwajeet_jha.pdf (11 pages, 479933 byte
 s).
 
-PDF statistics: 248 PDF objects out of 1000 (max. 8388607)
- 45 named destinations out of 1000 (max. 131072)
+PDF statistics: 275 PDF objects out of 1000 (max. 8388607)
+ 51 named destinations out of 1000 (max. 131072)
  65 words of extra memory for PDF output out of 10000 (max. 100000000)
 

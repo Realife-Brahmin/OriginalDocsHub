@@ -12,7 +12,7 @@ Using the concepts of Bifurcation Theory, a small change in system parameters, s
 	\end{equation} 
 	Here, we've assigned $\Delta P_{L}$ values randomly between $8-12\%$ for every load bus, $\sigma_v = 0.01$ and $\Delta t = 0.1$ seconds.
 	\item Simulation ODE solver solves for the new state variables and parameters for the system every $0.01$ seconds. This means that the simulation output can be likened to a stream of PMU data whose sampling rate is $100$ Hz.
-	\item Protection mechanisms were disabled. There will be no remedial/corrective action taken for any drop in bus voltages/grid frequency or any increase in line currents/MVAs.
+	\item Protection mechanisms were disabled. No remedial/corrective action was taken for any drop in bus voltages/grid frequency or any increase in line currents/MVAs.
 	\item `Dummy' governors were placed on the three generators (at buses 1, 2 and 3) which can respond instantly to load changes by changing the set reference generation powers $P_{Gen}$(s) with zero time lag.
 	\item The generator limits for $P_{Gen_{MAX}}$, $Q_{Gen_{MAX}}$, etc. were removed. Thus the generators had complete freedom to `chase' the load increments at the load buses, including factoring in the extra line-losses.
 \end{enumerate} 

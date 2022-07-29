@@ -2355,33 +2355,39 @@
     <bcf:citekey order="1" intorder="1">schafer01</bcf:citekey>
     <bcf:citekey order="2" intorder="1">lrydin01</bcf:citekey>
     <bcf:citekey order="2" intorder="2">lrydinGithub</bcf:citekey>
-    <bcf:citekey order="2" intorder="3">ce2019</bcf:citekey>
-    <bcf:citekey order="2" intorder="4">ce2020</bcf:citekey>
-    <bcf:citekey order="2" intorder="5">tokyo2017</bcf:citekey>
-    <bcf:citekey order="2" intorder="6">tokyo2020</bcf:citekey>
-    <bcf:citekey order="2" intorder="7">nordic2018</bcf:citekey>
-    <bcf:citekey order="2" intorder="8">nordic2019</bcf:citekey>
+    <bcf:citekey order="2" intorder="3">tokyo2017</bcf:citekey>
+    <bcf:citekey order="2" intorder="4">tokyo2020</bcf:citekey>
+    <bcf:citekey order="2" intorder="5">nordic2018</bcf:citekey>
+    <bcf:citekey order="2" intorder="6">nordic2019</bcf:citekey>
+    <bcf:citekey order="2" intorder="7">ce2019</bcf:citekey>
+    <bcf:citekey order="2" intorder="8">ce2020</bcf:citekey>
     <bcf:citekey order="2" intorder="9">ukNationalGridESOData</bcf:citekey>
     <bcf:citekey order="3" intorder="1">schafer01</bcf:citekey>
-    <bcf:citekey order="4" intorder="1">schefferEarlyWarningSignalsForCriticalTransitions</bcf:citekey>
-    <bcf:citekey order="5" intorder="1">kuehnMathematicalFrameworkForCriticalTransitions</bcf:citekey>
-    <bcf:citekey order="6" intorder="1">nathanKutzNotesOnBifurcationTheoryAndNormalForms</bcf:citekey>
-    <bcf:citekey order="7" intorder="1">ghanvati01</bcf:citekey>
-    <bcf:citekey order="8" intorder="1">sanchez01</bcf:citekey>
-    <bcf:citekey order="9" intorder="1">lrydin01</bcf:citekey>
-    <bcf:citekey order="9" intorder="2">lrydinGithub</bcf:citekey>
-    <bcf:citekey order="10" intorder="1">nordic2018</bcf:citekey>
-    <bcf:citekey order="10" intorder="2">nordic2019</bcf:citekey>
-    <bcf:citekey order="11" intorder="1">tokyo2017</bcf:citekey>
-    <bcf:citekey order="11" intorder="2">tokyo2020</bcf:citekey>
-    <bcf:citekey order="12" intorder="1">ce2019</bcf:citekey>
-    <bcf:citekey order="12" intorder="2">ce2020</bcf:citekey>
-    <bcf:citekey order="13" intorder="1">ukNationalGridESOData</bcf:citekey>
-    <bcf:citekey order="14" intorder="1">ghanvati01</bcf:citekey>
-    <bcf:citekey order="14" intorder="2">sanchez01</bcf:citekey>
-    <bcf:citekey order="15" intorder="1">sanchez01</bcf:citekey>
-    <bcf:citekey order="16" intorder="1">schefferEarlyWarningSignalsForCriticalTransitions</bcf:citekey>
-    <bcf:citekey order="17" intorder="1">csdNotDetectedByAutocorrAndVariance01</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">adeen01</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">schefferEarlyWarningSignalsForCriticalTransitions</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">kuehnMathematicalFrameworkForCriticalTransitions</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">nathanKutzNotesOnBifurcationTheoryAndNormalForms</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">chenBifurcationsAndChaosInEngineering</bcf:citekey>
+    <bcf:citekey order="8" intorder="2">mohlerDyanmicsAndControlPartOne</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">ghanvati01</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">sanchez01</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">lrydin01</bcf:citekey>
+    <bcf:citekey order="11" intorder="2">lrydinGithub</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">tokyo2017</bcf:citekey>
+    <bcf:citekey order="12" intorder="2">tokyo2020</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">nordic2018</bcf:citekey>
+    <bcf:citekey order="13" intorder="2">nordic2019</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">ce2019</bcf:citekey>
+    <bcf:citekey order="14" intorder="2">ce2020</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">ukNationalGridESOData</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">francesca01</bcf:citekey>
+    <bcf:citekey order="16" intorder="2">vorobev01</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">schafer01</bcf:citekey>
+    <bcf:citekey order="18" intorder="1">ghanvati01</bcf:citekey>
+    <bcf:citekey order="18" intorder="2">sanchez01</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">sanchez01</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">schefferEarlyWarningSignalsForCriticalTransitions</bcf:citekey>
+    <bcf:citekey order="21" intorder="1">csdNotDetectedByAutocorrAndVariance01</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
