@@ -1,17 +1,17 @@
 \section[Theory]{Theory}
 \label{sec:theory}
 
-\textbf{Detrended Fluctuation Analysis}: A method of analyzing real-world time series for self-affinity, i.e. how correlated a signal's future value is to it's past values. Say, $x(t)$ is a natural process, then in order to detrend it, it can first be passed via a low-pass filter $\verb|LPF|$ to obtain \verb|LPF|$(x(t))$ and the resultant signal be subtracted from the original in order to obtain the detrended version of the signal $\tilde{x}(t)$ or $d(x(t))$:
+\textbf{Detrended Fluctuation Analysis}: A method of analyzing real-world time series for self-affinity, i.e. how correlated a signal's future value is to it's past values. Say, $x(t)$ is a signal from a natural process, then in order to detrend it, it can first be passed via a low-pass filter $\verb|LPF|$ to obtain \verb|LPF|$(x(t))$ and the resultant signal be subtracted from the original in order to obtain the detrended version of the natural process signal $\tilde{x}(t)$ or $d(x(t))$:
 \begin{equation}
 	\tilde{x}(t) \verb| or | d(x(t)) = x(t) - \verb|LPF|(x(t))
 \end{equation}
 
-\textbf{Autocorrelation function}: A statistical measure of the correlation of a state variable with a time-lagged version of itself, autocorrelation $c(t, \tau)$ of any detrended physical/natural signal $\tilde{x}(t)$ or $d(x(t))$, should decrease exponentially as the time-lag $\tau$ is increased.
+\textbf{Autocorrelation function}: A statistical measure of the correlation of a state variable with a time-lagged version of itself. Autocorrelation $c(t, \tau)$ of any detrended physical/natural signal $\tilde{x}(t)$ or $d(x(t))$, should decrease exponentially as the time-lag $\tau$ is increased.
 \begin{equation}
 	c(x(t), \tau) = \int_{-\infty}^{\infty}x(t)x(t+\tau)dt  
 \end{equation}
 
-\textbf{Bifurcation Theory}: We'll be using the concepts Bifurcations and Critical Bifurcations to explain why a small yet steady change in the parameters of a dynamical system (such as the power grid) can remain inconspicuous only to, upon reaching a `tipping' point or `Critical Transition', manifest as a sudden major upset to the `motion' of the dynamical system. We use the words Bifurcations and Critical Bifurcations almost interchangeably, although only Critical Bifurcations are the ones which cause upsets significant enough to alter the dynamics of a system from stable to unstable.
+\textbf{Bifurcation Theory}: We'll be using the concepts Bifurcations and Critical Bifurcations to explain why a small yet steady change in the parameters of a dynamical system (such as the power grid) can remain inconspicuous only to, upon reaching a `tipping' point or `Critical Transition', manifest as a sudden major upset to the `motion' of the dynamical system. We use the words Bifurcations and Critical Bifurcations almost interchangeably, although only Critical Bifurcations are significant enough to alter the dynamics of a system from stable to unstable.
 
 \textbf{Critical Slowing Down}: The theory of Critical Slowing Down applies on dynamical systems on the verge of `tipping' or `bifurcation' and how they show warning signs before breaking down or descending into instability. These warning signs such as an `increased time to settle', `increased autocorrelation and variance of fluctuations', etc. \cite{schefferEarlyWarningSignalsForCriticalTransitions} can be statistically analyzed to predict the onset of such a bifurcation for a given system.
 

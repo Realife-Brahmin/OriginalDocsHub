@@ -340,6 +340,35 @@
       \verb 10.1109/TPWRS.2015.2412115
       \endverb
     \endentry
+    \entry{nathanKutzNotesOnBifurcationTheoryAndNormalForms}{article}{}
+      \name{author}{1}{}{%
+        {{hash=39878c41ca2338687a0064bcc2ba2922}{%
+           family={Kutz},
+           familyi={K\bibinitperiod},
+           given={J.\bibnamedelimi Nathan},
+           giveni={J\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \strng{namehash}{39878c41ca2338687a0064bcc2ba2922}
+      \strng{fullhash}{39878c41ca2338687a0064bcc2ba2922}
+      \strng{bibnamehash}{39878c41ca2338687a0064bcc2ba2922}
+      \strng{authorbibnamehash}{39878c41ca2338687a0064bcc2ba2922}
+      \strng{authornamehash}{39878c41ca2338687a0064bcc2ba2922}
+      \strng{authorfullhash}{39878c41ca2338687a0064bcc2ba2922}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv}
+      \field{month}{12}
+      \field{title}{{Advanced Differential Equations: Asymptotics {\&} Perturbations}}
+      \field{year}{2020}
+      \verb{doi}
+      \verb 10.48550/arXiv.2012.14591
+      \endverb
+      \verb{eprint}
+      \verb 2012.14591
+      \endverb
+    \endentry
     \entry{chenBifurcationsAndChaosInEngineering}{book}{}
       \name{author}{2}{}{%
         {{hash=3b751e579cb44b5d9b7d8096077211df}{%
@@ -412,35 +441,6 @@
       \endverb
       \verb{url}
       \verb https://www.goodreads.com/book/show/15197243-nonlinear-systems-volume-1
-      \endverb
-    \endentry
-    \entry{nathanKutzNotesOnBifurcationTheoryAndNormalForms}{article}{}
-      \name{author}{1}{}{%
-        {{hash=39878c41ca2338687a0064bcc2ba2922}{%
-           family={Kutz},
-           familyi={K\bibinitperiod},
-           given={J.\bibnamedelimi Nathan},
-           giveni={J\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
-      }
-      \strng{namehash}{39878c41ca2338687a0064bcc2ba2922}
-      \strng{fullhash}{39878c41ca2338687a0064bcc2ba2922}
-      \strng{bibnamehash}{39878c41ca2338687a0064bcc2ba2922}
-      \strng{authorbibnamehash}{39878c41ca2338687a0064bcc2ba2922}
-      \strng{authornamehash}{39878c41ca2338687a0064bcc2ba2922}
-      \strng{authorfullhash}{39878c41ca2338687a0064bcc2ba2922}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{arXiv}
-      \field{month}{12}
-      \field{title}{{Advanced Differential Equations: Asymptotics {\&} Perturbations}}
-      \field{year}{2020}
-      \verb{doi}
-      \verb 10.48550/arXiv.2012.14591
-      \endverb
-      \verb{eprint}
-      \verb 2012.14591
       \endverb
     \endentry
     \entry{schefferEarlyWarningSignalsForCriticalTransitions}{article}{}
