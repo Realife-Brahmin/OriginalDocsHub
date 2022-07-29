@@ -742,6 +742,38 @@
       \verb 10.1109/TPWRS.2015.2412115
       \endverb
     \endentry
+    \entry{psatMilano}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=5eaccbad866e09adc2a72588890a3a89}{%
+           family={Vanfretti},
+           familyi={V\bibinitperiod},
+           given={Luigi},
+           giveni={L\bibinitperiod}}}%
+        {{hash=a6a624e10979d64f225ea3eecae2f258}{%
+           family={Milano},
+           familyi={M\bibinitperiod},
+           given={Federico},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{63c4b2c4e802ef977ab5f318edd7ea69}
+      \strng{fullhash}{63c4b2c4e802ef977ab5f318edd7ea69}
+      \strng{bibnamehash}{63c4b2c4e802ef977ab5f318edd7ea69}
+      \strng{authorbibnamehash}{63c4b2c4e802ef977ab5f318edd7ea69}
+      \strng{authornamehash}{63c4b2c4e802ef977ab5f318edd7ea69}
+      \strng{authorfullhash}{63c4b2c4e802ef977ab5f318edd7ea69}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{07}
+      \field{title}{Application of the PSAT, an Open Source Software, for Educational and Research Purposes}
+      \field{year}{2007}
+      \field{pages}{1\bibrangedash 7}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/PES.2007.385952
+      \endverb
+    \endentry
     \entry{sanchez01}{article}{}
       \name{author}{3}{}{%
         {{hash=0596e76f19a751b92a479242259c7c30}{%
@@ -779,6 +811,21 @@
       \range{pages}{9}
       \verb{doi}
       \verb 10.1109/TSG.2012.2213848
+      \endverb
+    \endentry
+    \entry{psspyWebsite}{misc}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{month}{7}
+      \field{note}{[Online; accessed 29. Jul. 2022]}
+      \field{title}{{Help - Python for PSSE help forum}}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://psspy.org/psse-help-forum/help
+      \endverb
+      \verb{url}
+      \verb https://psspy.org/psse-help-forum/help
       \endverb
     \endentry
     \entry{francesca01}{inproceedings}{}

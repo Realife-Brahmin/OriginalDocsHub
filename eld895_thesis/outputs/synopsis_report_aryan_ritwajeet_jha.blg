@@ -1,15 +1,15 @@
 [0] Config.pm:306> INFO - This is Biber 2.18
 [0] Config.pm:309> INFO - Logfile is 'synopsis_report_aryan_ritwajeet_jha.blg'
-[107] biber-MSWIN64:340> INFO - === 
-[140] Biber.pm:418> INFO - Reading 'synopsis_report_aryan_ritwajeet_jha.bcf'
-[259] Biber.pm:978> INFO - Found 21 citekeys in bib section 0
-[276] Biber.pm:4401> INFO - Processing section 0
-[288] Biber.pm:4592> INFO - Looking for bibtex file 'references.bib' for section 0
-[341] bibtex.pm:1713> INFO - LaTeX decoding ...
-[375] bibtex.pm:1518> INFO - Found BibTeX data source 'references.bib'
-[538] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[538] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[538] Biber.pm:4221> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[538] Biber.pm:4227> INFO - No sort tailoring available for locale 'en-US'
-[558] bbl.pm:654> INFO - Writing 'synopsis_report_aryan_ritwajeet_jha.bbl' with encoding 'UTF-8'
-[571] bbl.pm:757> INFO - Output to synopsis_report_aryan_ritwajeet_jha.bbl
+[115] biber-MSWIN64:340> INFO - === 
+[148] Biber.pm:418> INFO - Reading 'synopsis_report_aryan_ritwajeet_jha.bcf'
+[273] Biber.pm:978> INFO - Found 23 citekeys in bib section 0
+[290] Biber.pm:4401> INFO - Processing section 0
+[303] Biber.pm:4592> INFO - Looking for bibtex file 'references.bib' for section 0
+[356] bibtex.pm:1713> INFO - LaTeX decoding ...
+[392] bibtex.pm:1518> INFO - Found BibTeX data source 'references.bib'
+[568] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[568] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[569] Biber.pm:4221> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[569] Biber.pm:4227> INFO - No sort tailoring available for locale 'en-US'
+[590] bbl.pm:654> INFO - Writing 'synopsis_report_aryan_ritwajeet_jha.bbl' with encoding 'UTF-8'
+[604] bbl.pm:757> INFO - Output to synopsis_report_aryan_ritwajeet_jha.bbl
