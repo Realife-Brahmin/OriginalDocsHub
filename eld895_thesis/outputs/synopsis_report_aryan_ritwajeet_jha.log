@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (MiKTeX 22.3) (format=lualatex 2022.7.14)  29 JUL 2022 13:56
+This is LuaHBTeX, Version 1.15.0 (MiKTeX 22.3) (format=lualatex 2022.7.14)  29 JUL 2022 15:03
  restricted system commands enabled.
 **synopsis_report_aryan_ritwajeet_jha.tex
 (./synopsis_report_aryan_ritwajeet_jha.tex
@@ -778,31 +778,27 @@ warning  (pngwrite): large interlaced bitmap might cause out of memory
 \tf@toc=\write5
 
 \openout5 = synopsis_report_aryan_ritwajeet_jha.toc
- [1]
-(../sections/Introduction.tex
+
+warning  (pdf backend): ignoring duplicate destination with the name 'page.'
+[0] (../sections/Introduction.tex) (../sections/LiteratureReview.tex [1]
+[2]) (../sections/Objectives.tex) (../sections/Theory.tex
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 4
 .
 
 (C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-Overfull \hbox (104.29292pt too wide) in paragraph at lines 4--5
-\T1/lmr/m/n/12 late over time to man-i-fest as a ma-jor up-set to the grid []\T
-1/lmtt/m/n/12 CITE HERE FOR FRENCH GRID COLLAPSE IN August 2020
- []
-
-) (../sections/LiteratureReview.tex [2]) (../sections/Objectives.tex) [3]
-(../sections/Theory.tex) (../sections/OfflineAnalysis.tex [4])
-(../sections/OnlineAnalysis.tex [5] [6]) (../sections/Conclusions.tex [7])
-(../sections/FutureWork.tex) [8] [9]
-Overfull \hbox (0.31636pt too wide) in paragraph at lines 60--60
+) [3])
+(../sections/OfflineAnalysis.tex [4]) (../sections/OnlineAnalysis.tex [5])
+(../sections/Conclusions.tex [6] [7]) (../sections/FutureWork.tex) [8] [9]
+[10]
+Overfull \hbox (0.31636pt too wide) in paragraph at lines 62--62
 \T1/lmr/m/n/12 fast–slow sys-tems and stochas-tic dy-nam-ics''. In: \T1/lmr/m
 /it/12 Phys-ica D \T1/lmr/m/n/12 240.12 (June 2011), pp. 1020
  []
 
-[10
+[11
 Missing character: There is no – (U+2013) in font ec-lmr12!
-] [11] (./synopsis_report_aryan_ritwajeet_jha.aux)
+] (./synopsis_report_aryan_ritwajeet_jha.aux)
 Package rerunfilecheck Info: File `synopsis_report_aryan_ritwajeet_jha.out' has
  not changed.
 (rerunfilecheck)             Checksum: 9E4A06266E5033489CB6604E68C76ECC;1032.
@@ -813,13 +809,13 @@ un.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 19837 strings out of 477491
+ 19847 strings out of 477491
  125161,1373583 words of node,token memory allocated
- 738 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 28 attribute, 66 glue_spec
-, 28 attribute_list, 1 write, 16 pdf_action nodes
-   avail lists: 1:1,2:712,3:465,4:32,5:412,6:36,7:6657,8:150,9:205,10:15,11:546
- 40103 multiletter control sequences out of 65536+600000
+ 748 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 29 attribute, 66 glue_spec
+, 29 attribute_list, 1 write, 17 pdf_action nodes
+   avail lists: 1:2,2:822,3:492,4:44,5:458,6:39,7:7776,8:151,9:214,10:17,11:712
+ 40111 multiletter control sequences out of 65536+600000
  38 fonts using 2356471 bytes
  72i,6n,74p,1543b,1246s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/U
@@ -838,10 +834,10 @@ ograms/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/aryan/AppData/Local/Pr
 ograms/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/aryan/AppData/Local/Prog
 rams/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/aryan/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on synopsis_report_aryan_ritwajeet_jha.pdf (12 pages, 483708 byte
+Output written on synopsis_report_aryan_ritwajeet_jha.pdf (13 pages, 491035 byte
 s).
 
-PDF statistics: 288 PDF objects out of 1000 (max. 8388607)
- 54 named destinations out of 1000 (max. 131072)
+PDF statistics: 312 PDF objects out of 1000 (max. 8388607)
+ 56 named destinations out of 1000 (max. 131072)
  65 words of extra memory for PDF output out of 10000 (max. 100000000)
 

@@ -1,7 +1,7 @@
 \section[Theory]{Theory}
 \label{sec:theory}
 
-\textbf{Detrended Fluctuation Analysis}: A method of analyzing real-world time series for self-affinity, i.e. how correlated a signal's future value is to it's past values. Say, $x(t)$ is a natural process, then in order to detrend it, it can first be passed via a low-pass filter to obtain \verb|LPF|$(x(t))$ and the resultant signal be subtracted from the original in order to obtain the detrended version of the signal $\tilde{x}(t)$ or $d(x(t))$:
+\textbf{Detrended Fluctuation Analysis}: A method of analyzing real-world time series for self-affinity, i.e. how correlated a signal's future value is to it's past values. Say, $x(t)$ is a natural process, then in order to detrend it, it can first be passed via a low-pass filter $\verb|LPF|$ to obtain \verb|LPF|$(x(t))$ and the resultant signal be subtracted from the original in order to obtain the detrended version of the signal $\tilde{x}(t)$ or $d(x(t))$:
 \begin{equation}
 	\tilde{x}(t) \verb| or | d(x(t)) = x(t) - \verb|LPF|(x(t))
 \end{equation}
