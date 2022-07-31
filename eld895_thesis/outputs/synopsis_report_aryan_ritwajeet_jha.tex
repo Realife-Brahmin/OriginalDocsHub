@@ -2,8 +2,8 @@
 \usepackage[utf8]{inputenc}
 \usepackage[english]{babel}
 %\usepackage[showframe]{geometry}
-%\usepackage{t1enc}
-%\usepackage{lipsum}
+\usepackage{t1enc}
+\usepackage{lipsum}
 
 \usepackage[backend=biber, style=numeric-comp, sorting=none]{biblatex}
 \addbibresource{../chapters/references.bib}
@@ -19,9 +19,9 @@
 \usepackage{titletoc}
 
 \titleformat{\section}[display]%
-{\null\vskip1em\sffamily\bfseries\filcenter}{Chapter \thesection}{0em}{}[]
+{\null\vskip1em\Large\bfseries\filcenter}{Chapter \thesection}{0em}{}[]
 \titleformat{name = \section, numberless}[block]%
-{\null\vskip1em\sffamily\bfseries\filcenter}{}{0em}{}
+{\null\vskip1em\bfseries\filcenter}{}{0em}{}
 \titlespacing*{\section}{0em}{1em}{1em}
 
 
@@ -43,21 +43,14 @@
 
 \begin{document}
 
-%\nocite{*}
 \maketitle
-
-
-
 \newpage
-
 \renewcommand{\contentsname}{Proposed Chapters for the Thesis}
-
 \setcounter{page}{0}
-
 \tableofcontents
-
 \newpage
 \pagenumbering{arabic}
+
 \input{../chapters/Introduction}
 
 \input{../chapters/LiteratureReview}
