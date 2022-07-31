@@ -81,7 +81,7 @@
       <file>synopsis_report_aryan_ritwajeet_jha.bcf</file>
     </requires>
     <requires type="editable">
-      <file>references.bib</file>
+      <file>../chapters/references.bib</file>
     </requires>
   </external>
 </requests>

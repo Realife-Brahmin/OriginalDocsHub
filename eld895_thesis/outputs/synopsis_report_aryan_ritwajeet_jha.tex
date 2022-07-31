@@ -1,12 +1,12 @@
 \documentclass[MS,synopsis]{iitddiss}
-%\usepackage{times}
-\usepackage{t1enc}
-\usepackage{lipsum}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+%\usepackage[showframe]{geometry}
+%\usepackage{t1enc}
+%\usepackage{lipsum}
 
-%\usepackage[utf8]{inputenc}
-%\usepackage[T1]{fontenc}
 \usepackage[backend=biber, style=numeric-comp, sorting=none]{biblatex}
-\addbibresource{references.bib}
+\addbibresource{../chapters/references.bib}
 
 
 \usepackage{graphicx}
@@ -15,12 +15,29 @@
 \usepackage{graphicx}
 \usepackage{epstopdf}
 
+\usepackage{titlesec}
+\usepackage{titletoc}
+
+\titleformat{\section}[display]%
+{\null\vskip1em\sffamily\bfseries\filcenter}{Chapter \thesection}{0em}{}[]
+\titleformat{name = \section, numberless}[block]%
+{\null\vskip1em\sffamily\bfseries\filcenter}{}{0em}{}
+\titlespacing*{\section}{0em}{1em}{1em}
+
+
+\titlecontents{section}
+[7em] % ie, width of contentslabel + 0.5em
+{\medskip}
+{\contentslabel[\chaptername~\thecontentslabel]{6.5em}}%\thecontentslabel
+{\hspace*{-6.5em}}
+{\titlerule*[0.5pc]{.}\contentspage}
+
 \title{Data Analysis for Predicting Instabilities in Power Systems}
 
 \author{Aryan Ritwajeet Jha}
 \entrynumber{2020EEY7525}
 \advisor{Prof. Nilanjan Senroy}
-\date{July 2022}
+\date{August 2022}
 \department{Electrical Engineering}
 
 
@@ -33,7 +50,7 @@
 
 \newpage
 
-\renewcommand{\contentsname}{Proposed Contents of the Thesis}
+\renewcommand{\contentsname}{Proposed Chapters for the Thesis}
 
 \setcounter{page}{0}
 
@@ -41,21 +58,21 @@
 
 \newpage
 \pagenumbering{arabic}
-\input{../sections/Introduction}
+\input{../chapters/Introduction}
 
-\input{../sections/LiteratureReview}
+\input{../chapters/LiteratureReview}
 
-\input{../sections/Objectives}
+\input{../chapters/Objectives}
 
-\input{../sections/Theory}
+\input{../chapters/Theory}
 
-\input{../sections/OfflineAnalysis}
+\input{../chapters/OfflineAnalysis}
 
-\input{../sections/OnlineAnalysis}
+\input{../chapters/OnlineAnalysis}
 
-\input{../sections/Conclusions}
+\input{../chapters/Conclusions}
 
-\input{../sections/FutureWork}
+\input{../chapters/FutureWork}
 
 
 \printbibliography
