@@ -1,7 +1,7 @@
-This is LuaHBTeX, Version 1.15.0 (MiKTeX 22.7.30) (format=lualatex 2022.7.31)  5 AUG 2022 16:43
+This is LuaHBTeX, Version 1.15.0 (MiKTeX 22.7.30) (format=lualatex 2022.7.31)  5 AUG 2022 16:48
  restricted system commands enabled.
-**synopsis_evaluation_form.tex
-(./synopsis_evaluation_form.tex
+**synopsis_evaluation_form_ms_eld895_aryan_ritwajeet_jha.tex
+(./synopsis_evaluation_form_ms_eld895_aryan_ritwajeet_jha.tex
 LaTeX2e <2022-06-01> patch level 5
 Lua module: luaotfload 2022-06-15 3.22 Lua based OpenType font support
 Lua module: lualibs 2021-05-20 2.74 ConTeXt Lua standard libraries.
@@ -103,8 +103,8 @@ tex.def
 File: l3backend-luatex.def 2022-07-01 L3 backend support: PDF output (LuaTeX)
 \l__color_backend_stack_int=\count194
 \l__pdf_internal_box=\box53
-) (./synopsis_evaluation_form.aux)
-\openout1 = synopsis_evaluation_form.aux
+) (./synopsis_evaluation_form_ms_eld895_aryan_ritwajeet_jha.aux)
+\openout1 = synopsis_evaluation_form_ms_eld895_aryan_ritwajeet_jha.aux
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
 LaTeX Font Info:    ... okay on input line 7.
@@ -160,7 +160,7 @@ Overfull \hbox (42.77pt too wide) in paragraph at lines 28--33
 [1
 
 {C:/Users/aryan/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-(./synopsis_evaluation_form.aux))
+(./synopsis_evaluation_form_ms_eld895_aryan_ritwajeet_jha.aux))
 
 Here is how much of LuaTeX's memory you used:
  783 strings out of 477474
@@ -171,11 +171,12 @@ Here is how much of LuaTeX's memory you used:
    avail lists: 2:181,3:66,4:10,5:112,6:14,7:2406,8:1,9:116,10:9,11:192
  21840 multiletter control sequences out of 65536+600000
  37 fonts using 2300247 bytes
- 39i,8n,46p,574b,197s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 39i,8n,46p,604b,197s stack positions out of 10000i,1000n,20000p,200000b,80000s
 <//?/c:/users/aryan/appdata/local/programs/miktex/fonts/opentype/public/lm/lmrom
 an10-regular.otf><//?/c:/users/aryan/appdata/local/programs/miktex/fonts/opentyp
 e/public/lm/lmroman10-bold.otf>
-Output written on synopsis_evaluation_form.pdf (1 page, 17323 bytes).
+Output written on synopsis_evaluation_form_ms_eld895_aryan_ritwajeet_jha.pdf (1
+ page, 17323 bytes).
 
 PDF statistics: 20 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
