@@ -5,10 +5,10 @@
 \usepackage{booktabs}
 \usepackage[scale=2]{ccicons}
 \usepackage{pgfplots}
-%\usepgfplotslibrary{dateplot}
-
+\usepackage{lipsum}
 \usepackage[subpreambles=false]{standalone}
 \usepackage{import}
+\usepackage{graphicx}
 \usepackage{textcomp}
 \usepackage{tabularx}
 \usepackage{adjustbox}
@@ -17,8 +17,8 @@
 \usepackage{pdfpages}
 %\usepackage[sort,compress]{cite}
 %\usepackage[sorting=none]{biblatex}
-\usepackage[backend=bibtex,sorting=none,style=numeric-comp]{biblatex}
-\bibliography{references.bib}
+\usepackage[backend=biber,sorting=none,style=numeric-comp]{biblatex}
+\bibliography{../chapters/references.bib}
 \usepackage{xspace}
 \newcommand{\themename}{\textbf{\textsc{metropolis}}\xspace}
 
@@ -29,8 +29,6 @@
 	\end{picture}
 }
 
-
-%\titlegraphic{\vspace{75pt} \includegraphics[width=250pt]{../figures/iitd_logo.pdf}}
 \title{Master of Science in Electrical Engineering}
 \subtitle{Data Analysis for Predicting Instabilities in Power Systems}
 \date{}
@@ -39,40 +37,26 @@
 \logo{\includegraphics[width=40pt]{../figures/logo_iitd.png}}
 
 \author{Aryan Ritwajeet Jha | 2020EEY7525}
-\institute{Under the supervision of Dr. Nilanjan Senroy\\ Department of Electrical Engineering | IIT Delhi}
-% \titlegraphic{\hfill\includegraphics[height=1.5cm]{logo.pdf}}
+\institute{Under the supervision of Prof. Nilanjan Senroy\\ Department of Electrical Engineering | IIT Delhi}
 
 \begin{document}
 
 \maketitle
 
-%\begin{frame}{Table of contents}
-%  \setbeamertemplate{section in toc}[sections numbered]
-%  \tableofcontents%[hideallsubsections]
-%\end{frame}
+\begin{frame}{Table of contents}
+  \setbeamertemplate{section in toc}[sections numbered]
+  \tableofcontents%[hideallsubsections]
+\end{frame}
 
-%questions: what are the dummy governor's parameters?
-%which generators were used? Why GENROU and GENSAL?
+\import{../chapters}{Introduction}
+\import{../chapters}{LiteratureReview}
+\import{../chapters}{Objectives}
+\import{../chapters}{Theory}
+\import{../chapters}{OfflineAnalysis}
+\import{../chapters}{OnlineAnalysis}
+\import{../chapters}{Conclusions}
+\import{../chapters}{FutureWork}
 
-
-%section 1 Introduction about me. My position. Third sem of MS. First sem of onboarding.
-%section 2 With figure, explain what is critical bifurcation, critical slowing down wrt dynamical systems and specifically power systems. Simulation 'blows up'. Physical system may be blacked out.
-%section 3 Briefly tell about last semester's investigation of CSD symptoms from real world grids' frequency time series. with figure
-%section 4 For this semester's work, introduce the IEEE 9 bus system in PSSE 34.0. It is unprotected against system failures. Time domain simulation (step = 0.01s) is run. Load demand fluctuations are modeled by an additional white noise component N(0,0.01) in the loads. Additionally, the mean load demands (at the load buses 5, 6 and 8) are deliberately increased at 20-30% per minute, in order to drive the system to bifurcation. Generator limits are ignored. Simulation is run until 'Network Not Converged' achieved.
-%section 5 What did I do? First detrended the data using a Gaussian Kernel Smoothing function. The smoothed 'mean' voltage curve is deducted from the original voltage curve in order to obtain the voltage fluctuations. Show the window size in comparison with the simulation time. Then computed their variance and autoregression 1 coefficients. (Show equations for both).
-%section 6 Result: Typically both these statistical parameters increase as system becomes less steady state stable. Show the effect of window size and bus type on the graphs. Practical application is that grid real time data from a PMU may be subjected to such statistical scrutiny in order to identify CSD.
-%section 7 Future Work: Other bus systems. Other statistical parameters. Other electrial parameters. Potentially develop an algorithm to compute time to bifurcation using several parameters.
-
-\import{../sections}{Introduction}
-
-\import{../sections}{LastSemesterWork}
-
-\import{../sections}{Procedure}
-
-\import{../sections}{Results}
-
-\import{../sections}{FutureWork}
-
-\import{../sections}{References}
+\import{../chapters}{References}
 
 \end{document}

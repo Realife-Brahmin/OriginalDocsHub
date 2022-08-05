@@ -1,19 +1,19 @@
-This is LuaHBTeX, Version 1.15.0 (MiKTeX 22.3) (format=lualatex 2022.5.11)  13 JUL 2022 05:16
+This is LuaHBTeX, Version 1.15.0 (MiKTeX 22.7.30) (format=lualatex 2022.7.31)  3 AUG 2022 13:59
  restricted system commands enabled.
-**Introduction.tex
-(./Introduction.tex
-LaTeX2e <2021-11-15> patch level 1
-Lua module: luaotfload 2022-03-18 3.21 Lua based OpenType font support
+**Theory.tex
+(./Theory.tex
+LaTeX2e <2022-06-01> patch level 5
+Lua module: luaotfload 2022-06-15 3.22 Lua based OpenType font support
 Lua module: lualibs 2021-05-20 2.74 ConTeXt Lua standard libraries.
 Lua module: lualibs-extended 2021-05-20 2.74 ConTeXt Lua libraries -- extended c
 ollection.
 luaotfload | conf : Root cache directory is "C:/Users/aryan/AppData/Local/MiKTeX
 /luatex-cache/generic/names".
-luaotfload | init : Loading fontloader "fontloader-2022-02-24.lua" from kpse-res
+luaotfload | init : Loading fontloader "fontloader-2022-06-15.lua" from kpse-res
 olved path "C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/luatex/luaotfload/f
-ontloader-2022-02-24.lua".
+ontloader-2022-06-15.lua".
 Lua-only attribute luaotfload@noligature = 1
-luaotfload | init : Context OpenType loader version 3.119
+luaotfload | init : Context OpenType loader version 3.120
 Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
 Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
 Inserting `luaotfload.glyph_stream' at position 1 in `glyph_stream_provider'.
@@ -45,11 +45,11 @@ Inserting `luaotfload.aux.set_capheight' at position 4 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.aux.set_xheight' at position 5 in `luaotfload.patch_font'.
 Inserting `luaotfload.rewrite_fontname' at position 6 in `luaotfload.patch_font'
-. L3 programming layer <2022-04-29>
+. L3 programming layer <2022-07-15>
 Inserting `tracingstacklevels' at position 1 in `input_level_string'.
 ! Undefined control sequence.
 l.1 \section
-          [Introduction]{Introduction}
+          [Theory]{Theory}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -64,13 +64,13 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.1 \section[
-           Introduction]{Introduction}
+           Theory]{Theory}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 1--3
-[][Introduction]Introduction
+[][Theory]Theory
  []
 
 
@@ -145,15 +145,6 @@ l.9 	\begin{figure}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
-
-! Undefined control sequence.
-l.11 		\includegraphics
-                     [scale=1.00]{../figures/transcriticalBifurcation}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
 
 ! LaTeX Error: \caption outside float.
@@ -249,32 +240,85 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.23 	\begin{itemize}
+l.24 	\begin{itemize}
                    
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 23--23
+Overfull \hbox (20.0pt too wide) in paragraph at lines 24--24
 [] 
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 30--32
+[]The
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.33 \begin{frame}{AR1 and Variance}
+                                  
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 33--34
+[][] 
+ []
+
+
+Overfull \hbox (91.9561pt too wide) detected at line 37
+[]\OML/cmm/m/it/10 d\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 k\OT1/cmr/m/n/10 ] = \OML
+/cmm/m/it/10 a[]d\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 k \OMS/cmsy/m/n/10 ^^@ \OT1/
+cmr/m/n/10 1] + \OML/cmm/m/it/10 e\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 k\OT1/cmr/m
+/n/10 ]
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.40 	\begin{equation}
+                    
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 40--40
+[] 
+ []
+
+
+Overfull \hbox (75.86064pt too wide) detected at line 43
+[]\OML/cmm/m/it/10 [] \OT1/cmr/m/n/10 = [] [] \OML/cmm/m/it/10 d\OT1/cmr/m/n/1
+0 [\OML/cmm/m/it/10 k\OT1/cmr/m/n/10 ][]
  []
 
 )
 ! Emergency stop.
-<*> Introduction.tex
-                 
+<*> Theory.tex
+           
 *** (job aborted, no legal \end found)
 
 
 
 Here is how much of LuaTeX's memory you used:
- 28 strings out of 477752
- 100000,383344 words of node,token memory allocated 8513 words of node memory still in use:
-   55 hlist, 4 vlist, 13 rule, 6 disc, 10 local_par, 1 dir, 218 glue, 10 kern, 3
-1 penalty, 788 glyph, 70 attribute, 39 glue_spec, 70 attribute_list, 1 temp, 2 w
+ 28 strings out of 477474
+ 100000,383344 words of node,token memory allocated 10020 words of node memory still in use:
+   85 hlist, 7 vlist, 18 rule, 7 disc, 14 local_par, 1 dir, 273 glue, 22 kern, 4
+2 penalty, 866 glyph, 95 attribute, 39 glue_spec, 95 attribute_list, 1 temp, 4 w
 rite nodes
-   avail lists: 4:34,5:11,8:12,10:33
- 20890 multiletter control sequences out of 65536+600000
+   avail lists: 3:20,4:34,5:2,8:18,10:33
+ 21168 multiletter control sequences out of 65536+600000
  26 fonts using 1476743 bytes
- 18i,3n,12p,301b,115s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 18i,3n,12p,295b,119s stack positions out of 10000i,1000n,20000p,200000b,80000s
 !  ==> Fatal error occurred, no output PDF file produced!
