@@ -1,376 +1,242 @@
-This is LuaHBTeX, Version 1.15.0 (MiKTeX 22.7.30) (format=lualatex 2022.7.31)  6 AUG 2022 22:00
- restricted system commands enabled.
-**thesis_ms_eld895_aryan_ritwajeet_jha.tex
-(./thesis_ms_eld895_aryan_ritwajeet_jha.tex
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7.30) (preloaded format=pdflatex 2022.7.31)  7 AUG 2022 03:54
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./thesis_ms_eld895_aryan_ritwajeet_jha.tex
+(thesis_ms_eld895_aryan_ritwajeet_jha.tex
 LaTeX2e <2022-06-01> patch level 5
-Lua module: luaotfload 2022-06-15 3.22 Lua based OpenType font support
-Lua module: lualibs 2021-05-20 2.74 ConTeXt Lua standard libraries.
-Lua module: lualibs-extended 2021-05-20 2.74 ConTeXt Lua libraries -- extended c
-ollection.
-luaotfload | conf : Root cache directory is "C:/Users/aryan/AppData/Local/MiKTeX
-/luatex-cache/generic/names".
-luaotfload | init : Loading fontloader "fontloader-2022-06-15.lua" from kpse-res
-olved path "C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/luatex/luaotfload/f
-ontloader-2022-06-15.lua".
-Lua-only attribute luaotfload@noligature = 1
-luaotfload | init : Context OpenType loader version 3.120
-Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
-Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
-Inserting `luaotfload.glyph_stream' at position 1 in `glyph_stream_provider'.
-Inserting `luaotfload.define_font' at position 1 in `define_font'.
-Lua-only attribute luaotfload_color_attribute = 2
-luaotfload | conf : Root cache directory is "C:/Users/aryan/AppData/Local/MiKTeX
-/luatex-cache/generic/names".
-Inserting `luaotfload.harf.strip_prefix' at position 1 in `find_opentype_file'.
-Inserting `luaotfload.harf.strip_prefix' at position 1 in `find_truetype_file'.
-Removing  `luaotfload.glyph_stream' from `glyph_stream_provider'.
-Inserting `luaotfload.harf.glyphstream' at position 1 in `glyph_stream_provider'
-.
-Inserting `luaotfload.harf.finalize_vlist' at position 1 in `post_linebreak_filt
-er'.
-Inserting `luaotfload.harf.finalize_hlist' at position 2 in `hpack_filter'.
-Inserting `luaotfload.cleanup_files' at position 1 in `wrapup_run'.
-Inserting `luaotfload.harf.finalize_unicode' at position 1 in `finish_pdffile'.
-Inserting `luaotfload.glyphinfo' at position 1 in `glyph_info'.
-Lua-only attribute luaotfload.letterspace_done = 3
-Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
-font'.
-Inserting `luaotfload.aux.set_font_index' at position 2 in `luaotfload.patch_fon
-t'.
-Inserting `luaotfload.aux.patch_cambria_domh' at position 3 in `luaotfload.patch
-_font'.
-Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_fon
-t_unsafe'.
-Inserting `luaotfload.aux.set_capheight' at position 4 in `luaotfload.patch_font
-'.
-Inserting `luaotfload.aux.set_xheight' at position 5 in `luaotfload.patch_font'.
-Inserting `luaotfload.rewrite_fontname' at position 6 in `luaotfload.patch_font'
-. L3 programming layer <2022-07-15>
-Inserting `tracingstacklevels' at position 1 in `input_level_string'. (./iitddi
-ss.cls
+L3 programming layer <2022-07-15> (iitddiss.cls
 Document Class: iitddiss 2005/03/09 Class for IIT-Delhi Dissertations
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/base/report.cls
-Document Class: report 2021/10/04 v1.4n Standard LaTeX document class
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/base/size12.clo
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
 File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
-luaotfload | db : Font names database loaded from C:/Users/aryan/AppData/Local/M
-iKTeX/luatex-cache/generic/names/luaotfload-names.luc.gz)
-\c@part=\count183
-\c@chapter=\count184
-\c@section=\count185
-\c@subsection=\count186
-\c@subsubsection=\count187
-\c@paragraph=\count188
-\c@subparagraph=\count189
-\c@figure=\count190
-\c@table=\count191
+)
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
-\bibindent=\dimen137
+\bibindent=\dimen138
 )
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.sty
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/graphics/keyval.sty
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 )
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/generic/iftex/ifvtex.sty
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/generic/iftex/iftex.sty
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 ))
-\Gm@cnth=\count192
-\Gm@cntv=\count193
-\c@Gm@tempcnt=\count194
-\Gm@bindingoffset=\dimen138
-\Gm@wd@mp=\dimen139
-\Gm@odd@mp=\dimen140
-\Gm@even@mp=\dimen141
-\Gm@layoutwidth=\dimen142
-\Gm@layoutheight=\dimen143
-\Gm@layouthoffset=\dimen144
-\Gm@layoutvoffset=\dimen145
+\Gm@cnth=\count193
+\Gm@cntv=\count194
+\c@Gm@tempcnt=\count195
+\Gm@bindingoffset=\dimen139
+\Gm@wd@mp=\dimen140
+\Gm@odd@mp=\dimen141
+\Gm@even@mp=\dimen142
+\Gm@layoutwidth=\dimen143
+\Gm@layoutheight=\dimen144
+\Gm@layouthoffset=\dimen145
+\Gm@layoutvoffset=\dimen146
 \Gm@dimlist=\toks17
 
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.cfg)) (C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/graphics/graphicx.sty
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/graphics/graphics.sty
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
 
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/graphics/trig.sty
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
 )
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/graphics-cfg/graphics.c
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
 fg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: luatex.def on input line 107.
+Package graphics Info: Driver file: pdftex.def on input line 107.
 
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/graphics-def/luatex.def
-File: luatex.def 2021/06/01 v1.2c Graphics/color driver for luatex
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen146
-\Gin@req@width=\dimen147
+\Gin@req@height=\dimen147
+\Gin@req@width=\dimen148
 )
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/setspace/setspace.sty
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-(./atbeginend.sty)
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/caption/caption.sty
+(atbeginend.sty)
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2022/03/01 v3.6b Customizing captions (AR)
 
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/caption/caption3.sty
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
 Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
-\caption@tempdima=\dimen148
-\captionmargin=\dimen149
-\caption@leftmargin=\dimen150
-\caption@rightmargin=\dimen151
-\caption@width=\dimen152
-\caption@indent=\dimen153
-\caption@parindent=\dimen154
-\caption@hangindent=\dimen155
+\caption@tempdima=\dimen149
+\captionmargin=\dimen150
+\caption@leftmargin=\dimen151
+\caption@rightmargin=\dimen152
+\caption@width=\dimen153
+\caption@indent=\dimen154
+\caption@parindent=\dimen155
+\caption@hangindent=\dimen156
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count195
-\c@continuedfloat=\count196
-)) (C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/base/inputenc.sty
+\c@caption@flags=\count196
+\c@continuedfloat=\count197
+)) (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks18
 \inpenc@posthook=\toks19
-
-
-Package inputenc Warning: inputenc package ignored with utf8 based engines.
-
-) (C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/generic/babel/babel.sty
-Package: babel 2022/07/20 3.78 The Babel package
-
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/generic/babel/luababel.def
-\bbl@readstream=\read2
-\l@afrikaans=\language2
-Package babel Info: Non-standard hyphenation setup on input line 118.
-\l@ancientgreek=\language3
-\l@armenian=\language4
-\l@assamese=\language5
-\l@basque=\language6
-\l@belarusian=\language7
-\l@bengali=\language8
-\l@bokmal=\language9
-\l@bulgarian=\language10
-\l@catalan=\language11
-\l@churchslavonic=\language12
-\l@classiclatin=\language13
-\l@coptic=\language14
-\l@croatian=\language15
-\l@czech=\language16
-\l@danish=\language17
-\l@dutch=\language18
-\l@esperanto=\language19
-\l@estonian=\language20
-\l@ethiopic=\language21
-\l@finnish=\language22
-\l@french=\language23
-\l@friulan=\language24
-\l@galician=\language25
-\l@georgian=\language26
-\l@german=\language27
-\l@greek=\language28
-\l@gujarati=\language29
-\l@hindi=\language30
-\l@hungarian=\language31
-\l@icelandic=\language32
-\l@indonesian=\language33
-\l@interlingua=\language34
-\l@irish=\language35
-\l@italian=\language36
-\l@kannada=\language37
-\l@kurmanji=\language38
-\l@latin=\language39
-\l@latvian=\language40
-\l@lithuanian=\language41
-\l@liturgicallatin=\language42
-\l@macedonian=\language43
-\l@malayalam=\language44
-\l@marathi=\language45
-\l@mongolian=\language46
-\l@mongolianlmc=\language47
-\l@monogreek=\language48
-\l@ngerman=\language49
-\l@nynorsk=\language50
-\l@occitan=\language51
-\l@oriya=\language52
-\l@pali=\language53
-\l@panjabi=\language54
-\l@piedmontese=\language55
-\l@polish=\language56
-\l@portuguese=\language57
-\l@romanian=\language58
-\l@romansh=\language59
-\l@russian=\language60
-\l@sanskrit=\language61
-\l@serbian=\language62
-\l@serbianc=\language63
-\l@slovak=\language64
-\l@slovenian=\language65
-\l@spanish=\language66
-\l@swedish=\language67
-\l@swissgerman=\language68
-\l@tamil=\language69
-\l@telugu=\language70
-\l@thai=\language71
-\l@turkish=\language72
-\l@turkmen=\language73
-\l@ukenglish=\language74
-\l@ukrainian=\language75
-\l@uppersorbian=\language76
-\l@usenglishmax=\language77
-\l@welsh=\language78
-\babelcatcodetablenum=\catcodetable12
-\bbl@pattcodes=\catcodetable13
 )
-\babel@savecnt=\count197
-\U@D=\dimen156
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2022/07/20 3.78 The Babel package
+\babel@savecnt=\count198
+\U@D=\dimen157
 \l@unhyphenated=\language79
 
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/generic/babel/luababel.def
-\bbl@attr@locale=\attribute4
-)
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count199
+
 *************************************
 * Local config file bblopts.cfg used
 *
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/arabi/bblopts.cfg
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/babel-english/english.l
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\english.l
 df
 Language: english 2017/06/06 v3.3r English support from the babel system
 Package babel Info: Hyphen rules for 'canadian' set to \l@english
 (babel)             (\language0). Reported on input line 102.
 Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
-(babel)             (\language74). Reported on input line 105.
+(babel)             (\language73). Reported on input line 105.
 Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
-(babel)             (\language74). Reported on input line 108.
+(babel)             (\language73). Reported on input line 108.
 ))
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/generic/babel/locale/en/babel
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/en\babel
 -english.tex
 Package babel Info: Importing font and identification data for english
 (babel)             from babel-en.ini. Reported on input line 11.
-) (./t1enc.sty
+) (t1enc.sty
 Package: t1enc 1994/06/01 Standard LaTeX package
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 57
-.
-
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/lm/t1lmr.fd
-File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-))
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/lipsum/lipsum.sty
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/l3packages/l3keys2e/l3k
+)
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.sty
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3k
 eys2e.sty
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/l3kernel/expl3.sty
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
 Package: expl3 2022-07-15 L3 programming layer (loader) 
 
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-lua
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
-File: l3backend-luatex.def 2022-07-01 L3 backend support: PDF output (LuaTeX)
-\l__color_backend_stack_int=\count198
+File: l3backend-pdftex.def 2022-07-01 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count266
 \l__pdf_internal_box=\box51
 ))
 Package: l3keys2e 2022-06-22 LaTeX2e option processing using LaTeX3 keys
 )
 Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
-\g__lipsum_par_int=\count199
-\l__lipsum_a_int=\count266
-\l__lipsum_b_int=\count267
+\g__lipsum_par_int=\count267
+\l__lipsum_a_int=\count268
+\l__lipsum_b_int=\count269
 
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/lipsum/lipsum.ltd.tex)) (C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/biblatex.sty
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex))
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
 Package: biblatex 2022/07/12 v3.18b programmable bibliographies (PK/MW)
 
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/generic/pdftexcmds/pdftexcmds
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
 .sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/generic/infwarerr/infwarerr.s
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
 ty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/generic/ltxcmds/ltxcmds.sty
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-\pdftexcmds@toks=\toks20
-) (C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/etoolbox/etoolbox.sty
+) (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count268
+\etb@tempcnta=\count270
 )
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/kvoptions/kvoptions.sty
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/generic/kvsetkeys/kvsetkeys.s
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.s
 ty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
-)) (C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/logreq/logreq.sty
+)) (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count269
+\lrq@indent=\count271
 
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/logreq/logreq.def
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/base/ifthen.sty
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 )
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\c@tabx@nest=\count270
-\c@listtotal=\count271
-\c@listcount=\count272
-\c@liststart=\count273
-\c@liststop=\count274
-\c@citecount=\count275
-\c@citetotal=\count276
-\c@multicitecount=\count277
-\c@multicitetotal=\count278
-\c@instcount=\count279
-\c@maxnames=\count280
-\c@minnames=\count281
-\c@maxitems=\count282
-\c@minitems=\count283
-\c@citecounter=\count284
-\c@maxcitecounter=\count285
-\c@savedcitecounter=\count286
-\c@uniquelist=\count287
-\c@uniquename=\count288
-\c@refsection=\count289
-\c@refsegment=\count290
-\c@maxextratitle=\count291
-\c@maxextratitleyear=\count292
-\c@maxextraname=\count293
-\c@maxextradate=\count294
-\c@maxextraalpha=\count295
-\c@abbrvpenalty=\count296
-\c@highnamepenalty=\count297
-\c@lownamepenalty=\count298
-\c@maxparens=\count299
-\c@parenlevel=\count300
-\blx@tempcnta=\count301
-\blx@tempcntb=\count302
-\blx@tempcntc=\count303
-\c@blx@maxsection=\count304
-\blx@maxsegment@0=\count305
-\blx@notetype=\count306
-\blx@parenlevel@text=\count307
-\blx@parenlevel@foot=\count308
-\blx@sectionciteorder@0=\count309
-\blx@sectionciteorderinternal@0=\count310
-\blx@entrysetcounter=\count311
-\blx@biblioinstance=\count312
+\c@tabx@nest=\count272
+\c@listtotal=\count273
+\c@listcount=\count274
+\c@liststart=\count275
+\c@liststop=\count276
+\c@citecount=\count277
+\c@citetotal=\count278
+\c@multicitecount=\count279
+\c@multicitetotal=\count280
+\c@instcount=\count281
+\c@maxnames=\count282
+\c@minnames=\count283
+\c@maxitems=\count284
+\c@minitems=\count285
+\c@citecounter=\count286
+\c@maxcitecounter=\count287
+\c@savedcitecounter=\count288
+\c@uniquelist=\count289
+\c@uniquename=\count290
+\c@refsection=\count291
+\c@refsegment=\count292
+\c@maxextratitle=\count293
+\c@maxextratitleyear=\count294
+\c@maxextraname=\count295
+\c@maxextradate=\count296
+\c@maxextraalpha=\count297
+\c@abbrvpenalty=\count298
+\c@highnamepenalty=\count299
+\c@lownamepenalty=\count300
+\c@maxparens=\count301
+\c@parenlevel=\count302
+\blx@tempcnta=\count303
+\blx@tempcntb=\count304
+\blx@tempcntc=\count305
+\c@blx@maxsection=\count306
+\blx@maxsegment@0=\count307
+\blx@notetype=\count308
+\blx@parenlevel@text=\count309
+\blx@parenlevel@foot=\count310
+\blx@sectionciteorder@0=\count311
+\blx@sectionciteorderinternal@0=\count312
+\blx@entrysetcounter=\count313
+\blx@biblioinstance=\count314
 \labelnumberwidth=\skip49
 \labelalphawidth=\skip50
 \biblabelsep=\skip51
@@ -382,87 +248,87 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \blx@bcfin=\read3
 \blx@bcfout=\write3
 \blx@langwohyphens=\language80
-\c@mincomprange=\count313
-\c@maxcomprange=\count314
-\c@mincompwidth=\count315
+\c@mincomprange=\count315
+\c@maxcomprange=\count316
+\c@mincompwidth=\count317
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/blx-dm.def
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
 File: blx-dm.def 2022/07/12 v3.18b biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'numeric-comp.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count316
-\c@savedafterword=\count317
-\c@annotator=\count318
-\c@savedannotator=\count319
-\c@author=\count320
-\c@savedauthor=\count321
-\c@bookauthor=\count322
-\c@savedbookauthor=\count323
-\c@commentator=\count324
-\c@savedcommentator=\count325
-\c@editor=\count326
-\c@savededitor=\count327
-\c@editora=\count328
-\c@savededitora=\count329
-\c@editorb=\count330
-\c@savededitorb=\count331
-\c@editorc=\count332
-\c@savededitorc=\count333
-\c@foreword=\count334
-\c@savedforeword=\count335
-\c@holder=\count336
-\c@savedholder=\count337
-\c@introduction=\count338
-\c@savedintroduction=\count339
-\c@namea=\count340
-\c@savednamea=\count341
-\c@nameb=\count342
-\c@savednameb=\count343
-\c@namec=\count344
-\c@savednamec=\count345
-\c@translator=\count346
-\c@savedtranslator=\count347
-\c@shortauthor=\count348
-\c@savedshortauthor=\count349
-\c@shorteditor=\count350
-\c@savedshorteditor=\count351
-\c@labelname=\count352
-\c@savedlabelname=\count353
-\c@institution=\count354
-\c@savedinstitution=\count355
-\c@lista=\count356
-\c@savedlista=\count357
-\c@listb=\count358
-\c@savedlistb=\count359
-\c@listc=\count360
-\c@savedlistc=\count361
-\c@listd=\count362
-\c@savedlistd=\count363
-\c@liste=\count364
-\c@savedliste=\count365
-\c@listf=\count366
-\c@savedlistf=\count367
-\c@location=\count368
-\c@savedlocation=\count369
-\c@organization=\count370
-\c@savedorganization=\count371
-\c@origlocation=\count372
-\c@savedoriglocation=\count373
-\c@origpublisher=\count374
-\c@savedorigpublisher=\count375
-\c@publisher=\count376
-\c@savedpublisher=\count377
-\c@language=\count378
-\c@savedlanguage=\count379
-\c@origlanguage=\count380
-\c@savedoriglanguage=\count381
-\c@pageref=\count382
-\c@savedpageref=\count383
+\c@afterword=\count318
+\c@savedafterword=\count319
+\c@annotator=\count320
+\c@savedannotator=\count321
+\c@author=\count322
+\c@savedauthor=\count323
+\c@bookauthor=\count324
+\c@savedbookauthor=\count325
+\c@commentator=\count326
+\c@savedcommentator=\count327
+\c@editor=\count328
+\c@savededitor=\count329
+\c@editora=\count330
+\c@savededitora=\count331
+\c@editorb=\count332
+\c@savededitorb=\count333
+\c@editorc=\count334
+\c@savededitorc=\count335
+\c@foreword=\count336
+\c@savedforeword=\count337
+\c@holder=\count338
+\c@savedholder=\count339
+\c@introduction=\count340
+\c@savedintroduction=\count341
+\c@namea=\count342
+\c@savednamea=\count343
+\c@nameb=\count344
+\c@savednameb=\count345
+\c@namec=\count346
+\c@savednamec=\count347
+\c@translator=\count348
+\c@savedtranslator=\count349
+\c@shortauthor=\count350
+\c@savedshortauthor=\count351
+\c@shorteditor=\count352
+\c@savedshorteditor=\count353
+\c@labelname=\count354
+\c@savedlabelname=\count355
+\c@institution=\count356
+\c@savedinstitution=\count357
+\c@lista=\count358
+\c@savedlista=\count359
+\c@listb=\count360
+\c@savedlistb=\count361
+\c@listc=\count362
+\c@savedlistc=\count363
+\c@listd=\count364
+\c@savedlistd=\count365
+\c@liste=\count366
+\c@savedliste=\count367
+\c@listf=\count368
+\c@savedlistf=\count369
+\c@location=\count370
+\c@savedlocation=\count371
+\c@organization=\count372
+\c@savedorganization=\count373
+\c@origlocation=\count374
+\c@savedoriglocation=\count375
+\c@origpublisher=\count376
+\c@savedorigpublisher=\count377
+\c@publisher=\count378
+\c@savedpublisher=\count379
+\c@language=\count380
+\c@savedlanguage=\count381
+\c@origlanguage=\count382
+\c@savedoriglanguage=\count383
+\c@pageref=\count384
+\c@savedpageref=\count385
 \shorthandwidth=\skip57
 \shortjournalwidth=\skip58
 \shortserieswidth=\skip59
@@ -477,66 +343,61 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \localshorttitlewidth=\skip68
 \localshortauthorwidth=\skip69
 \localshorteditorwidth=\skip70
-Package biblatex Info: Trying to load enhanced support for Unicode engines...
-Package biblatex Info: ... file 'blx-unicode.def' found.
-
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/blx-unicode.de
-f)
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/blx-compat.def
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
 File: blx-compat.def 2022/07/12 v3.18b biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
- (C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/biblatex.def
+ (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
 File: biblatex.def 2022/07/12 v3.18b biblatex compatibility (PK/MW)
-\c@textcitecount=\count384
-\c@textcitetotal=\count385
-\c@textcitemaxnames=\count386
-\c@biburlbigbreakpenalty=\count387
-\c@biburlbreakpenalty=\count388
-\c@biburlnumpenalty=\count389
-\c@biburlucpenalty=\count390
-\c@biburllcpenalty=\count391
+\c@textcitecount=\count386
+\c@textcitetotal=\count387
+\c@textcitemaxnames=\count388
+\c@biburlbigbreakpenalty=\count389
+\c@biburlbreakpenalty=\count390
+\c@biburlnumpenalty=\count391
+\c@biburlucpenalty=\count392
+\c@biburllcpenalty=\count393
 \biburlbigskip=\muskip17
 \biburlnumskip=\muskip18
 \biburlucskip=\muskip19
 \biburllcskip=\muskip20
-\c@smartand=\count392
+\c@smartand=\count394
 )
 Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.bbx' found.
 
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/bbx/numeric-co
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\numeric-co
 mp.bbx
 File: numeric-comp.bbx 2022/07/12 v3.18b biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
 
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/bbx/numeric.bb
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\numeric.bb
 x
 File: numeric.bbx 2022/07/12 v3.18b biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
 
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/bbx/standard.b
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.b
 bx
 File: standard.bbx 2022/07/12 v3.18b biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count393
-\c@bbx:relatedtotal=\count394
+\c@bbx:relatedcount=\count395
+\c@bbx:relatedtotal=\count396
 )))
 Package biblatex Info: Trying to load citation style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.cbx' found.
 
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/cbx/numeric-co
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\numeric-co
 mp.cbx
 File: numeric-comp.cbx 2022/07/12 v3.18b biblatex citation style (PK/MW)
-\c@cbx@tempcnta=\count395
-\c@cbx@tempcntb=\count396
-\c@cbx@tempcntc=\count397
-\c@cbx@tempcntd=\count398
+\c@cbx@tempcnta=\count397
+\c@cbx@tempcntb=\count398
+\c@cbx@tempcntc=\count399
+\c@cbx@tempcntd=\count400
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -552,74 +413,80 @@ Package biblatex Info: Redefining '\smartcites'.
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
 
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/biblatex.cfg
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.cfg
 File: biblatex.cfg 
 )
-Package biblatex Info: LuaTeX detected.
-(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Document encoding is UTF8 ....
 Package biblatex Info: ... and expl3
 (biblatex)             2022-07-15 L3 programming layer (loader) 
 (biblatex)             is new enough (at least 2020/04/06),
 (biblatex)             setting 'casechanger=expl3'.
 
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/blx-case-expl3
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-expl3
 .sty
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/l3packages/xparse/xpars
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpars
 e.sty
 Package: xparse 2022-06-22 L3 Experimental document command parser
 )
 Package: blx-case-expl3 2022/07/12 v3.18b expl3 case changing code for biblatex
 
 ))
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/hyperref.sty
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/import\import.sty
+Package: import 2020/04/01  v 6.2
+)
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
 Package: hyperref 2022-06-20 v7.00s Hypertext links for LaTeX
 
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/generic/kvdefinekeys/kvdefine
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
 keys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 )
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/generic/pdfescape/pdfescape.s
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.s
 ty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-) (C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/hycolor/hycolor.sty
+) (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/letltxmacro/letltxmacro
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacro
 .sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 )
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/auxhook/auxhook.sty
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/nameref.sty
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
 
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/refcount/refcount.sty
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/generic/gettitlestring/gettit
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettit
 lestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count399
+\c@section@level=\count401
 )
-\@linkdim=\dimen157
-\Hy@linkcounter=\count400
-\Hy@pagecounter=\count401
+\@linkdim=\dimen158
+\Hy@linkcounter=\count402
+\Hy@pagecounter=\count403
 
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/pd1enc.def
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2022-06-20 v7.00s Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
 )
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/generic/intcalc/intcalc.sty
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/generic/etexcmds/etexcmds.sty
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count402
- (C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/puenc.def
+\Hy@SavedSpaceFactor=\count404
+ (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2022-06-20 v7.00s Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
 )
 Package hyperref Info: Hyper figures OFF on input line 4162.
 Package hyperref Info: Link nesting OFF on input line 4167.
@@ -628,21 +495,21 @@ Package hyperref Info: Plain pages OFF on input line 4177.
 Package hyperref Info: Backreferencing OFF on input line 4182.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4408.
-\c@Hy@tempcnt=\count403
+\c@Hy@tempcnt=\count405
 LaTeX Info: Redefining \url on input line 4746.
-\XeTeXLinkMargin=\dimen158
+\XeTeXLinkMargin=\dimen159
 
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/generic/bitset/bitset.sty
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/generic/bigintcalc/bigintcalc
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc
 .sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count404
-\Field@Width=\dimen159
-\Fld@charsize=\dimen160
+\Fld@menulength=\count406
+\Field@Width=\dimen160
+\Fld@charsize=\dimen161
 Package hyperref Info: Hyper figures OFF on input line 6024.
 Package hyperref Info: Link nesting OFF on input line 6029.
 Package hyperref Info: Hyper index ON on input line 6032.
@@ -651,36 +518,31 @@ Package hyperref Info: Link coloring OFF on input line 6044.
 Package hyperref Info: Link coloring with OCG OFF on input line 6049.
 Package hyperref Info: PDF/A mode OFF on input line 6054.
 
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/base/atbegshi-ltx.sty
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count405
-\c@Item=\count406
-\c@Hfootnote=\count407
+\Hy@abspage=\count407
+\c@Item=\count408
+\c@Hfootnote=\count409
 )
-Package hyperref Info: Driver (autodetected): hluatex.
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/hluatex.def
-File: hluatex.def 2022-06-20 v7.00s Hyperref driver for luaTeX
+Package hyperref Info: Driver (autodetected): hpdftex.
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2022-06-20 v7.00s Hyperref driver for pdfTeX
 
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/generic/stringenc/stringenc.s
-ty
-Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
-)
-)
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/base/atveryend-ltx.sty
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-\Fld@listcount=\count408
-\c@bookmark@seq@number=\count409
+\Fld@listcount=\count410
+\c@bookmark@seq@number=\count411
 
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/rerunfil
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
 echeck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
 
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/generic/uniquecounter/uniquec
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquec
 ounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
@@ -689,34 +551,34 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip71
 )
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amsmath.sty
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2022/04/08 v2.17n AMS math features
 \@mathmargin=\skip72
 
 For additional information on amsmath, use the `?' option.
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amstext.sty
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
 
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amsgen.sty
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks21
-\ex@=\dimen161
+\@emptytoks=\toks20
+\ex@=\dimen162
 ))
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amsbsy.sty
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen162
+\pmbraise@=\dimen163
 )
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amsopn.sty
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count410
-LaTeX Info: Redefining \frac on input line 236.
-\uproot@=\count411
-\leftroot@=\count412
+\inf@bad=\count412
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count413
+\leftroot@=\count414
 LaTeX Info: Redefining \overline on input line 399.
 LaTeX Info: Redefining \colon on input line 410.
-\classnum@=\count413
-\DOTSCASE@=\count414
+\classnum@=\count415
+\DOTSCASE@=\count416
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
@@ -726,44 +588,44 @@ LaTeX Info: Redefining \big on input line 722.
 LaTeX Info: Redefining \Big on input line 723.
 LaTeX Info: Redefining \bigg on input line 724.
 LaTeX Info: Redefining \Bigg on input line 725.
-\big@size=\dimen163
+\big@size=\dimen164
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count415
+\macc@depth=\count417
 LaTeX Info: Redefining \bmod on input line 905.
 LaTeX Info: Redefining \pmod on input line 910.
 LaTeX Info: Redefining \smash on input line 940.
 LaTeX Info: Redefining \relbar on input line 970.
 LaTeX Info: Redefining \Relbar on input line 971.
-\c@MaxMatrixCols=\count416
+\c@MaxMatrixCols=\count418
 \dotsspace@=\muskip21
-\c@parentequation=\count417
-\dspbrk@lvl=\count418
-\tag@help=\toks22
-\row@=\count419
-\column@=\count420
-\maxfields@=\count421
-\andhelp@=\toks23
-\eqnshift@=\dimen164
-\alignsep@=\dimen165
-\tagshift@=\dimen166
-\tagwidth@=\dimen167
-\totwidth@=\dimen168
-\lineht@=\dimen169
-\@envbody=\toks24
+\c@parentequation=\count419
+\dspbrk@lvl=\count420
+\tag@help=\toks21
+\row@=\count421
+\column@=\count422
+\maxfields@=\count423
+\andhelp@=\toks22
+\eqnshift@=\dimen165
+\alignsep@=\dimen166
+\tagshift@=\dimen167
+\tagwidth@=\dimen168
+\totwidth@=\dimen169
+\lineht@=\dimen170
+\@envbody=\toks23
 \multlinegap=\skip73
 \multlinetaggap=\skip74
-\mathdisplay@stack=\toks25
+\mathdisplay@stack=\toks24
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 )
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/epstopdf-pkg/epstopdf.s
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf.s
 ty
 Package: epstopdf 2020-01-24 v2.11 Conversion with epstopdf on the fly (HO)
- (C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/grfext/grfext.sty
+ (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.sty
 Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
 )
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/epstopdf-pkg/epstopdf-b
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
 ase.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -773,66 +635,195 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 504.
 
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/00miktex/epstopdf-sys.c
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 )))
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/titlesec/titlesec.sty
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
 Package: titlesec 2021/07/05 v2.14 Sectioning titles
 \ttl@box=\box54
 \beforetitleunit=\skip75
 \aftertitleunit=\skip76
-\ttl@plus=\dimen170
-\ttl@minus=\dimen171
-\ttl@toksa=\toks26
-\titlewidth=\dimen172
-\titlewidthlast=\dimen173
-\titlewidthfirst=\dimen174
+\ttl@plus=\dimen171
+\ttl@minus=\dimen172
+\ttl@toksa=\toks25
+\titlewidth=\dimen173
+\titlewidthlast=\dimen174
+\titlewidthfirst=\dimen175
 )
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/titlesec/titletoc.sty
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titletoc.sty
 Package: titletoc 2021/07/05 v2.14 TOC entries
-\ttl@leftsep=\dimen175
+\ttl@leftsep=\dimen176
 )
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/svg\svg.sty
+Package: svg 2020/11/26 v2.02k (include SVG pictures)
+
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrbase.sty
+Package: scrbase 2022/07/04 v3.37 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile.st
+y
+Package: scrlfile 2022/07/04 v3.37 KOMA-Script package (file load hooks)
+
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile-ho
+ok.sty
+Package: scrlfile-hook 2022/07/04 v3.37 KOMA-Script package (using LaTeX hooks)
+
+
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlogo.sty
+Package: scrlogo 2022/07/04 v3.37 KOMA-Script package (logo)
+)))
+Applying: [2021/05/01] Usage of raw or classic option list on input line 252.
+Already applied: [0000/00/00] Usage of raw or classic option list on input line
+ 368.
+)
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/trimspaces\trimspaces.s
+ty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+) (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/tools\shellesc.sty
+Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
+Package shellesc Info: Restricted shell escape enabled on input line 77.
+)
+\c@svg@param@lastpage=\count424
+\svg@box=\box55
+\c@svg@param@currpage=\count425
+) (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex-dev/graphics\mathcolor.
+ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+)
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/transparent\transparent
+.sty
+Package: transparent 2019/11/29 v1.4 Transparency via pdfTeX's color stack (HO)
+
+)
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.
+sty
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.st
+y
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-common.tex
+\pgfutil@everybye=\toks26
+\pgfutil@tempdima=\dimen177
+\pgfutil@tempdimb=\dimen178
+
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-common-lists.tex))
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-latex.def
+\pgfutil@abb=\box56
+)
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.
+code.tex
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
+Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
+))
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s.code.tex
+Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+.code.tex
+\pgfkeys@pathtoks=\toks27
+\pgfkeys@temptoks=\toks28
+
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+filtered.code.tex
+\pgfkeys@tmptoks=\toks29
+))
+\pgf@x=\dimen179
+\pgf@y=\dimen180
+\pgf@xa=\dimen181
+\pgf@ya=\dimen182
+\pgf@xb=\dimen183
+\pgf@yb=\dimen184
+\pgf@xc=\dimen185
+\pgf@yc=\dimen186
+\pgf@xd=\dimen187
+\pgf@yd=\dimen188
+\w@pgf@writea=\write4
+\r@pgf@reada=\read4
+\c@pgf@counta=\count426
+\c@pgf@countb=\count427
+\c@pgf@countc=\count428
+\c@pgf@countd=\count429
+\t@pgf@toka=\toks30
+\t@pgf@tokb=\toks31
+\t@pgf@tokc=\toks32
+\pgf@sys@id@count=\count430
+
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.c
+fg
+File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s-pdftex.def
+File: pgfsys-pdftex.def 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s-common-pdf.def
+File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+ssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfsyssoftpath@smallbuffer@items=\count431
+\pgfsyssoftpath@bigbuffer@items=\count432
+)
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+sprotocol.code.tex
+File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))
 
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count422
-\@quotereset=\count423
-(./thesis_ms_eld895_aryan_ritwajeet_jha.aux)
-\openout1 = thesis_ms_eld895_aryan_ritwajeet_jha.aux
+\@quotelevel=\count433
+\@quotereset=\count434
+(thesis_ms_eld895_aryan_ritwajeet_jha.aux)
+\openout1 = `thesis_ms_eld895_aryan_ritwajeet_jha.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 44.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 4
-4.
-
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/base/ts1cmr.fd
-File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
 
 *geometry* driver: auto-detecting
-*geometry* detected driver: luatex
+*geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
-* driver: luatex
+* driver: pdftex
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -864,20 +855,20 @@ LaTeX Font Info:    ... okay on input line 44.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/context/base/mkii/supp-pdf.mk
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count424
-\scratchdimen=\dimen176
-\scratchbox=\box55
-\nofMPsegments=\count425
-\nofMParguments=\count426
-\everyMPshowfont=\toks27
-\MPscratchCnt=\count427
-\MPscratchDim=\dimen177
-\MPnumerator=\count428
-\makeMPintoPDFobject=\count429
-\everyMPtoPDFconversion=\toks28
+\scratchcounter=\count435
+\scratchdimen=\dimen189
+\scratchbox=\box57
+\nofMPsegments=\count436
+\nofMParguments=\count437
+\everyMPshowfont=\toks33
+\MPscratchCnt=\count438
+\MPscratchDim=\dimen190
+\MPnumerator=\count439
+\makeMPintoPDFobject=\count440
+\everyMPtoPDFconversion=\toks34
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
@@ -885,108 +876,116 @@ Package caption Info: End \AtBeginDocument code.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/lbx/english.lb
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\english.lb
 x
 File: english.lbx 2022/07/12 v3.18b biblatex localization (PK/MW)
 )
-Package biblatex Info: LuaTeX detected.
-(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
+\openout3 = `thesis_ms_eld895_aryan_ritwajeet_jha.bcf'.
 
-\openout3 = thesis_ms_eld895_aryan_ritwajeet_jha.bcf
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'thesis_ms_eld895_aryan_ritwajeet_jha.bbl' foun
 d.
- (./thesis_ms_eld895_aryan_ritwajeet_jha.bbl)
-Package biblatex Info: Reference section=0 on input line 44.
-Package biblatex Info: Reference segment=0 on input line 44.
-Package hyperref Info: Link coloring OFF on input line 44.
+ (thesis_ms_eld895_aryan_ritwajeet_jha.bbl)
+Package biblatex Info: Reference section=0 on input line 46.
+Package biblatex Info: Reference segment=0 on input line 46.
+Package hyperref Info: Link coloring OFF on input line 46.
 
-(./thesis_ms_eld895_aryan_ritwajeet_jha.out)
-(./thesis_ms_eld895_aryan_ritwajeet_jha.out)
-\@outlinefile=\write4
+(thesis_ms_eld895_aryan_ritwajeet_jha.out)
+(thesis_ms_eld895_aryan_ritwajeet_jha.out)
+\@outlinefile=\write5
+\openout5 = `thesis_ms_eld895_aryan_ritwajeet_jha.out'.
 
-\openout4 = thesis_ms_eld895_aryan_ritwajeet_jha.out
-<iitd_logo.png, id=35, 2007.5pt x 2007.5pt>
+<iitd_logo.png, id=34, 2007.5pt x 2007.5pt>
 File: iitd_logo.png Graphic file (type png)
 <use iitd_logo.png>
-Package luatex.def Info: iitd_logo.png  used on input line 47.
-(luatex.def)             Requested size: 108.37581pt x 108.37581pt.
+Package pdftex.def Info: iitd_logo.png  used on input line 49.
+(pdftex.def)             Requested size: 108.37581pt x 108.37581pt.
  [0
 
-{C:/Users/aryan/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}<./iitd_logo.pn
-g
-warning  (pngwrite): large interlaced bitmap might cause out of memory
->] (./thesis_ms_eld895_aryan_ritwajeet_jha.toc)
-\tf@toc=\write5
+{C:/Users/aryan/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./iitd_logo.
+png
 
-\openout5 = thesis_ms_eld895_aryan_ritwajeet_jha.toc
+pdfTeX warning: pdflatex.exe (file ./iitd_logo.png): large interlaced PNG might
+ cause out of memory (use non-interlaced PNG to fix this)
+>] (thesis_ms_eld895_aryan_ritwajeet_jha.toc)
+\tf@toc=\write6
+\openout6 = `thesis_ms_eld895_aryan_ritwajeet_jha.toc'.
 
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
-[0
 
-] (../chapters/Introduction.tex) [1] (../chapters/LiteratureReview.tex
-[2]) (../chapters/Objectives.tex [3]) (../chapters/Theory.tex
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 4
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.53 \newpage
+              [0] (../chapters/Introduction.tex) [1]
+(../chapters/LiteratureReview.tex [2]) (../chapters/Theory.tex [3]
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 4
 .
 
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
+File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+(../figures/../figures/bifurcationTranscriticalPdf1.pdf_tex
+<../figures/../figures//bifurcationTranscriticalPdf1.pdf, id=124, page=1, 219.0
+3035pt x 189.78543pt>
+File: ../figures/../figures//bifurcationTranscriticalPdf1.pdf Graphic file (typ
+e pdf)
+<use ../figures/../figures//bifurcationTranscriticalPdf1.pdf, page 1>
+Package pdftex.def Info: ../figures/../figures//bifurcationTranscriticalPdf1.pd
+f , page1 used on input line 56.
+(pdftex.def)             Requested size: 219.03033pt x 189.79654pt.
 ) [4])
-(../chapters/OfflineAnalysis.tex) [5] (../chapters/OnlineAnalysis.tex [6])
-(../chapters/Conclusions.tex [7]) (../chapters/FutureWork.tex [8]) [9] [10
-
-]
+(../chapters/OfflineAnalysis.tex) [5 <../figures/../figures//bifurcationTranscr
+iticalPdf1.pdf>] (../chapters/OnlineAnalysis.tex [6])
+(../chapters/Conclusions.tex [7] [8]) (../chapters/FutureWork.tex) [9] [10]
 [11]
-Overfull \hbox (0.31636pt too wide) in paragraph at lines 72--72
-\T1/lmr/m/n/12 fast–slow sys-tems and stochas-tic dy-nam-ics''. In: \T1/lmr/m
-/it/12 Phys-ica D \T1/lmr/m/n/12 240.12 (June 2011), pp. 1020
+Overfull \hbox (6.39029pt too wide) in paragraph at lines 72--72
+\T1/cmr/m/n/12 fast^^Uslow sys-tems and stochas-tic dy-nam-ics''. In: \T1/cmr/m
+/it/12 Phys-ica D \T1/cmr/m/n/12 240.12 (June 2011), pp. 1020^^U
  []
 
-[12
-Missing character: There is no – (U+2013) in font ec-lmr12!
-] [13] (./thesis_ms_eld895_aryan_ritwajeet_jha.aux)
+[12] (thesis_ms_eld895_aryan_ritwajeet_jha.aux)
 Package rerunfilecheck Info: File `thesis_ms_eld895_aryan_ritwajeet_jha.out' ha
 s not changed.
-(rerunfilecheck)             Checksum: F18D1769D7152A1D7EF8036DC57A1471;1129.
+(rerunfilecheck)             Checksum: 21C2A0CDB0BA675878218C35ADC880C1;939.
 Package logreq Info: Writing requests to 'thesis_ms_eld895_aryan_ritwajeet_jha.
 run.xml'.
+\openout1 = `thesis_ms_eld895_aryan_ritwajeet_jha.run.xml'.
 
-\openout1 = thesis_ms_eld895_aryan_ritwajeet_jha.run.xml
-)
-
-Here is how much of LuaTeX's memory you used:
- 21490 strings out of 477474
- 125123,1373583 words of node,token memory allocated
- 805 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 55 attribute, 67 glue_spec
-, 29 attribute_list, 1 write, 17 pdf_action nodes
-   avail lists: 1:5,2:1026,3:430,4:45,5:438,6:33,7:7545,8:143,9:198,10:24,11:653
-
- 41692 multiletter control sequences out of 65536+600000
- 36 fonts using 2191111 bytes
- 72i,5n,74p,1526b,1789s stack positions out of 10000i,1000n,20000p,200000b,80000s
-{C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/U
-sers/aryan/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Users
-/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><
-C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi
-12.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
-/cm/cmmi6.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
-msfonts/cm/cmmi8.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmr12.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/
-type1/public/amsfonts/cm/cmr8.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX/
-fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/aryan/AppData/Local/Programs
-/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/aryan/AppData/Local/P
-rograms/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/aryan/AppData/Local/Pr
-ograms/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/aryan/AppData/Local/Pr
-ograms/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/aryan/AppData/Local/Prog
-rams/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/aryan/AppData/Local/Progr
-ams/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on thesis_ms_eld895_aryan_ritwajeet_jha.pdf (15 pages, 492440 byt
-es).
-
-PDF statistics: 330 PDF objects out of 1000 (max. 8388607)
- 58 named destinations out of 1000 (max. 131072)
- 65 words of extra memory for PDF output out of 10000 (max. 100000000)
+ ) 
+Here is how much of TeX's memory you used:
+ 22976 strings out of 478337
+ 429653 string characters out of 2836666
+ 1262441 words of memory out of 3000000
+ 40986 multiletter control sequences out of 15000+600000
+ 478538 words of font info for 49 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 94i,15n,92p,1527b,1790s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ <C:\Users\aryan\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc
+1200.pk> <C:\Users\aryan\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
+0\tcrm1200.pk> <C:\Users\aryan\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
+/dpi600\ectt1200.pk> <C:\Users\aryan\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
+pen/ec/dpi600\ecrm1200.pk> <C:\Users\aryan\AppData\Local\MiKTeX\fonts/pk/ljfour
+/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\aryan\AppData\Local\MiKTeX\fonts/pk/
+ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\aryan\AppData\Local\MiKTeX\fon
+ts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\aryan\AppData\Local\MiKT
+eX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk><C:/Users/aryan/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/aryan/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/a
+ryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:
+/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8
+.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmr12.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmr8.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmsy10.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX/font
+s/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on thesis_ms_eld895_aryan_ritwajeet_jha.pdf (14 pages, 479456 by
+tes).
+PDF statistics:
+ 664 PDF objects out of 1000 (max. 8388607)
+ 55 named destinations out of 1000 (max. 500000)
+ 79 words of extra memory for PDF output out of 10000 (max. 10000000)
 

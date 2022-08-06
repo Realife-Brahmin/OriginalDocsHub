@@ -52,7 +52,7 @@
 \if@Synopsis
     \LoadClass[12pt,a4paper]{article}
 \else
-    \LoadClass[12pt,a4paper]{report}
+    \LoadClass[12pt,a4paper]{article}
 \fi
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -333,8 +333,8 @@
    \renewcommand\contentsname{\centering TABLE OF CONTENTS}
    \renewcommand\listfigurename{\centering LIST OF FIGURES}
    \renewcommand\listtablename{\centering LIST OF TABLES}
-   \renewcommand{\chaptername}{CHAPTER}
-   \renewcommand\bibname{\centering REFERENCES}
+%   \renewcommand{\chaptername}{CHAPTER}
+%   \renewcommand\bibname{\centering REFERENCES}
    \renewcommand\appendixname{APPENDIX}
 \fi
 
