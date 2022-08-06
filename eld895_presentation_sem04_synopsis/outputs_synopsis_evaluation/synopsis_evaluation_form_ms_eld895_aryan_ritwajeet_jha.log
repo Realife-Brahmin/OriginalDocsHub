@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (MiKTeX 22.7.30) (format=lualatex 2022.7.31)  5 AUG 2022 16:48
+This is LuaHBTeX, Version 1.15.0 (MiKTeX 22.7.30) (format=lualatex 2022.7.31)  5 AUG 2022 22:36
  restricted system commands enabled.
 **synopsis_evaluation_form_ms_eld895_aryan_ritwajeet_jha.tex
 (./synopsis_evaluation_form_ms_eld895_aryan_ritwajeet_jha.tex
@@ -92,68 +92,62 @@ Package: titling 2009/09/04 v2.1d maketitle typesetting
 \thanksmargin=\skip52
 \droptitle=\skip53
 )
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/changepage/changepage.s
-ty
-Package: changepage 2009/10/20 v1.0c check page and change page layout
-\c@cp@cntr=\count192
-\cp@tempcnt=\count193
-)
 (C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-lua
 tex.def
 File: l3backend-luatex.def 2022-07-01 L3 backend support: PDF output (LuaTeX)
-\l__color_backend_stack_int=\count194
+\l__color_backend_stack_int=\count192
 \l__pdf_internal_box=\box53
 ) (./synopsis_evaluation_form_ms_eld895_aryan_ritwajeet_jha.aux)
 \openout1 = synopsis_evaluation_form_ms_eld895_aryan_ritwajeet_jha.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 7.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 7
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 6.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 6
 .
 
 (C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 11.
+(Font)              <12> on input line 10.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 11.
+(Font)              <8> on input line 10.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 11.
+(Font)              <6> on input line 10.
 
 
 LaTeX Warning: No \author given.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 18--20
+Underfull \hbox (badness 10000) in paragraph at lines 17--19
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--23
+Underfull \hbox (badness 10000) in paragraph at lines 20--22
 
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 29.
+(Font)              <7> on input line 28.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 29.
+(Font)              <5> on input line 28.
 
-Overfull \hbox (42.77pt too wide) in paragraph at lines 28--33
+Overfull \hbox (42.77pt too wide) in paragraph at lines 27--32
  []|  [] 
  []
 
@@ -163,20 +157,20 @@ Overfull \hbox (42.77pt too wide) in paragraph at lines 28--33
 (./synopsis_evaluation_form_ms_eld895_aryan_ritwajeet_jha.aux))
 
 Here is how much of LuaTeX's memory you used:
- 783 strings out of 477474
+ 723 strings out of 477474
  100000,383344 words of node,token memory allocated
  426 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 4 attribute, 52 glue_spec,
  4 attribute_list, 1 write nodes
-   avail lists: 2:181,3:66,4:10,5:112,6:14,7:2406,8:1,9:116,10:9,11:192
- 21840 multiletter control sequences out of 65536+600000
- 37 fonts using 2300247 bytes
- 39i,8n,46p,604b,197s stack positions out of 10000i,1000n,20000p,200000b,80000s
+   avail lists: 2:175,3:66,4:11,5:104,6:14,7:2400,8:1,9:116,10:9,11:192
+ 21789 multiletter control sequences out of 65536+600000
+ 38 fonts using 2431935 bytes
+ 39i,8n,46p,601b,197s stack positions out of 10000i,1000n,20000p,200000b,80000s
 <//?/c:/users/aryan/appdata/local/programs/miktex/fonts/opentype/public/lm/lmrom
 an10-regular.otf><//?/c:/users/aryan/appdata/local/programs/miktex/fonts/opentyp
 e/public/lm/lmroman10-bold.otf>
 Output written on synopsis_evaluation_form_ms_eld895_aryan_ritwajeet_jha.pdf (1
- page, 17323 bytes).
+ page, 17317 bytes).
 
 PDF statistics: 20 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
