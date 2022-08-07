@@ -1,6 +1,6 @@
 %% Creator: Inkscape 1.2 (dc2aedaf03, 2022-05-15), www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
-%% Accompanies image file 'bifurcationTranscriticalPdf1.pdf' (pdf, eps, ps)
+%% Accompanies image file 'bifurcationPitchforkPdf.pdf' (pdf, eps, ps)
 %%
 %% To include the image in your LaTeX document, write
 %%   \input{<filename>.pdf_tex}
@@ -53,8 +53,8 @@
   \begin{picture}(1,0.86648012)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
-    \put(0,0){\includegraphics[width=\unitlength,page=1]{bifurcationTranscriticalPdf1.pdf}}%
-    \put(0.08629736,0.13372771){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{$\frac{dx}{dt} = \mu x - x^3$}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{bifurcationPitchforkPdf.pdf}}%
+    \put(0.06569083,0.10375457){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{$\frac{dx}{dt} = \mu x - x^3$}\end{tabular}}}}%
     \put(0.46353151,0.80661945){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{$x$}\end{tabular}}}}%
     \put(0.73375452,0.65009151){\color[rgb]{0,0.50196078,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{stable}\end{tabular}}}}%
     \put(0.73375452,0.29385559){\color[rgb]{0,0.50196078,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{stable}\end{tabular}}}}%
