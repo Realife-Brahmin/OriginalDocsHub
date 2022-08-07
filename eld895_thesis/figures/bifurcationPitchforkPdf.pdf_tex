@@ -54,12 +54,12 @@
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{bifurcationPitchforkPdf.pdf}}%
-    \put(0.06569083,0.10375457){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{$\frac{dx}{dt} = \mu x - x^3$}\end{tabular}}}}%
-    \put(0.46353151,0.80661945){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{$x$}\end{tabular}}}}%
-    \put(0.73375452,0.65009151){\color[rgb]{0,0.50196078,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{stable}\end{tabular}}}}%
-    \put(0.73375452,0.29385559){\color[rgb]{0,0.50196078,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{stable}\end{tabular}}}}%
-    \put(0.61327293,0.46837521){\color[rgb]{1,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{unstable}\end{tabular}}}}%
-    \put(0.1795392,0.46117854){\color[rgb]{0,0.50196078,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{stable}\end{tabular}}}}%
-    \put(0.87134311,0.3903435){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{$\mu$}\end{tabular}}}}%
+    \put(0.06633365,0.10598833){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{$\frac{dx}{dt} = \mu x - x^3$}\end{tabular}}}}%
+    \put(0.46417434,0.80885321){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{$x$}\end{tabular}}}}%
+    \put(0.73439735,0.65232527){\color[rgb]{0,0.50196078,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{stable}\end{tabular}}}}%
+    \put(0.73439735,0.29608935){\color[rgb]{0,0.50196078,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{stable}\end{tabular}}}}%
+    \put(0.61391575,0.47060897){\color[rgb]{1,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{unstable}\end{tabular}}}}%
+    \put(0.18018203,0.46341229){\color[rgb]{0,0.50196078,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{stable}\end{tabular}}}}%
+    \put(0.87198594,0.39257726){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{$\mu$}\end{tabular}}}}%
   \end{picture}%
 \endgroup%

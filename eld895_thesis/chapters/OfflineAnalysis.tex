@@ -4,6 +4,99 @@
 Various frequency time-series archives for a diverse set of real-world grids were obtained and analyzed by plotting their bulk distribution probability density functions and autocorrelation decay functions. The data for most European and US grids was conveniently curated by the authors of \cite{lrydin01, lrydinGithub}. For the other regions of the world, \cite{tokyo2017, tokyo2020} had the data for the Tokyo grid, \cite{nordic2018, nordic2019} for the Nordic grids, \cite{ce2019, ce2020} for Continental European grid and \cite{ukNationalGridESOData} for the UK Grid.
 All time series were collected at sampling rates between 0.5 seconds (Tokyo) and 10 seconds (Continental Europe).
 
+Here is a table of sampling times and total duration of times over which the frequency time series archive were obtained.
+
+\renewcommand{\arraystretch}{1.0}
+
+\begin{table}[!ht]
+	\centering
+	\caption{Grid-wise sampling data}
+	\begin{tabular}{c|c|c|c|c}
+		\toprule
+		Grid & 
+		\begin{tabular}{c}
+			Nominal\\
+			Frequency\\
+		\end{tabular} & 
+	\begin{tabular}{c}
+		Sampling \\
+		time\\
+	\end{tabular} & 
+	\begin{tabular}{c}
+		Total\\
+		Sampled\\
+		Duration\\
+	\end{tabular} & 
+	\begin{tabular}{c}
+	Presented\\
+	in Fixed Time\\
+	Autocorrelation Plot?\\
+	\end{tabular}\\
+		\midrule
+		\begin{tabular}{c}
+			Continental \\
+			European (CE) \\
+		\end{tabular}
+		& $50$Hz & $1$s &  \begin{tabular}{c}
+			$1$ year\\
+			(2019)\\
+		\end{tabular} & Yes \\[15pt]
+		Nordic & $50$Hz & $0.5$s & \begin{tabular}{c}
+			$2$ years\\
+			(2018 and 2019)\\
+		\end{tabular} & Yes \\[15pt]
+		\begin{tabular}{c}
+			Great\\
+			Britain (GB)
+		\end{tabular} & $50$Hz & $0.5$s & \begin{tabular}{c}
+		$2$ years\\
+		(2019 and 2020)\\
+	\end{tabular} & Yes\\[15pt]
+		\begin{tabular}{c}
+			Mallorcan \\
+			(Spain) \\
+		\end{tabular} & $50$Hz &  $1$s & \begin{tabular}{c}
+		$3$ months\\
+		(Oct to Dec 2019)\\
+	\end{tabular} & Yes\\[15pt]
+		\begin{tabular}{c}
+			Western\\
+			Interconnection \\
+			(US-WI)\\
+		\end{tabular} & $60$Hz & $1$s & \begin{tabular}{c}
+		$7$ days\\
+		(in May 2019)\\
+	\end{tabular} & Yes\\[25pt]
+		\begin{tabular}{c}
+			Texas\\
+			(US-TX)\\
+		\end{tabular} & $60$Hz & $1$s & \begin{tabular}{c}
+		$3$ days\\
+		(in May 2019)\\
+	\end{tabular} & No\\[15pt]
+		Tokyo & $50$Hz & $1$s & \begin{tabular}{c}
+			$5$ months\\
+			(Jan, July, Aug,\\
+			 Oct, Dec 2020)\\
+		\end{tabular} & No\\[25pt]
+		\begin{tabular}{c}
+			France\\
+			(RTE)
+		\end{tabular} & $50$Hz & $10$s & \begin{tabular}{c}
+		$1$ year\\
+		(2019)\\
+	\end{tabular} & No\\[15pt]
+		\begin{tabular}{c}
+			Indian\\
+			(NRLDC)
+		\end{tabular} & $50$Hz & $30$s & \begin{tabular}{c}
+			$5$ days\\
+			($3$ days in 2019\\
+			 and $2$ days in 2020)\\
+		\end{tabular} & No\\[25pt] 
+	\bottomrule
+	\end{tabular}
+\end{table}
 The plotted bulk distribution PDFs visually revealed insights including any deadbands \cite{francesca01, vorobev01} mandated in their grid operation, their skewness, thickness of their tails, etc. A quantitative study of their moments like kurtosis and skewness was not conducted as was done in \cite{schafer01}.
 
 In the plotted autocorrelation decay curves, all grids showed exponentially decreasing autocorrelations $c(\tau$) for smaller values of $\tau$. In order to confirm if the decrease was indeed exponential with a grid-specific decay constant also called as the inverse-time correlation or ${t_{corr}}^{-1}$, semi-log graphs ($\log(c(\tau))$ vs $\tau$) were also plotted. The decay constants were computed by calculating the slopes of the semi-log graphs and it was found that the grids which were bigger, more robust and showed bulk distribution PDFs which were less-deviating from Gaussian distributions, had greater values of inverse-time correlation ${t_{corr}}^{-1}$. This parameter can also be construed as $\alpha$, the relative damping strength of the grid for small oscillations and can be an indicator of the overall robustness of the grid.

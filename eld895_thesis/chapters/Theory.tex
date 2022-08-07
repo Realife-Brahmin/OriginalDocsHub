@@ -6,10 +6,36 @@
 	\tilde{x}(t) \verb| or | d(x(t)) = x(t) - \verb|LPF|(x(t))
 \end{equation}
 
-\textbf{Autocorrelation function}: A statistical measure of the correlation of a state variable with a time-lagged version of itself. Autocorrelation $c(t, \tau)$ of any detrended physical/natural signal $\tilde{x}(t)$ or $d(x(t))$, should decrease exponentially as the time-lag $\tau$ is increased.
+\textbf{Autocorrelation function}: A statistical measure of the correlation of a state variable with a time-lagged version of itself. 
+
 \begin{equation}
 	c(x(t), \tau) = \int_{-\infty}^{\infty}x(t)x(t+\tau)dt  
 \end{equation}
+
+In terms of discrete time functions, autocorrelation may be expressed as:
+\begin{equation}
+	c(x[n], \tau) =  \sum_{-\infty}^{\infty} x[n]x[n+\tau]
+\end{equation}
+
+It may be noted that the autocorrelation function of any time-varying variable has two degrees of freedom, the first being continuous time $t$ (or instance $n$ for discrete time functions) and the second parameter being the lag $\tau$, i.e. the time duration by which the time-varying variable is displaced/lagged against itself for performing the autocorrelation.
+
+Since in this thesis the function is used in two ways where only one of the parameters is varying (with the other being kept constant) each time, two variations of the autocorrelation function with individual names are specified here:
+
+\textbf{Fixed Time Autocorrelation}: Autocorrelation function computed over a snapshot of a time-varying variable over a fixed time window. The usage of Fixed Time Autocorrelation can be seen in the Offline Analysis chapter of this thesis.
+
+\begin{equation}
+	c(\tau) = \frac{\sum_{1}^{W_{total}} x[n]x[n+\tau]}{\sum_{1}^{W_{total}} x[n]^2} 
+\end{equation}
+ 
+ In this thesis, the window length $W_{total}$ ranges from months to years.
+ 
+ \textbf{Fixed Lag Autocorrelation}: Autocorrelation function computed over a window running over a continuously generated stream of data in which the value of the lag $\tau$ is fixed. The usage of Fixed Lag Autocorrelation can be seen in the Online Analysis of this thesis.
+ 
+ \begin{equation}
+ 	c(t)|_{\tau = \tau_{fixed}} = \frac{\sum_{i}^{i+W} x[n]x[n+\tau_{fixed}]}{\sum_{i}^{i+W} x[n]^2} 
+ \end{equation}
+ 
+ In this thesis, the window length used is $W=15$ seconds. The value of $\tau$ used is $\tau_{fixed}=1$ second.
 
 \textbf{Bifurcation Theory}: We'll be using the concepts Bifurcations and Critical Bifurcations to explain why a small yet steady change in the parameters of a dynamical system (such as the power grid) can remain inconspicuous only to, upon reaching a `tipping' point or `Critical Transition', manifest as a sudden major upset to the `motion' of the dynamical system. We use the words Bifurcations and Critical Bifurcations almost interchangeably, although only Critical Bifurcations are significant enough to alter the dynamics of a system from stable to unstable.
 
@@ -23,4 +49,5 @@
 
 
 \textbf{Critical Slowing Down}: The theory of Critical Slowing Down applies on dynamical systems on the verge of `tipping' or `bifurcation' and how they show warning signs before breaking down or descending into instability. These warning signs such as an `increased time to settle', `increased autocorrelation and variance of fluctuations', etc. \cite{schefferEarlyWarningSignalsForCriticalTransitions} can be statistically analyzed to predict the onset of such a bifurcation for a given system.
+Autocorrelation $c(t, \tau)$ of any detrended physical/natural signal $\tilde{x}(t)$ or $d(x(t))$, should decrease exponentially as the time-lag $\tau$ is increased.
 
