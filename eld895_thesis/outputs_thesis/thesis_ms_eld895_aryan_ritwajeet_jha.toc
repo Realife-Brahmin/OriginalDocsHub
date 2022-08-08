@@ -6,4 +6,5 @@
 \contentsline {section}{\numberline {5}Online/Real-time Analysis}{8}{section.5}%
 \contentsline {section}{\numberline {6}Conclusions}{9}{section.6}%
 \contentsline {section}{\numberline {7}Future Work}{11}{section.7}%
+\contentsline {section}{\numberline {A}Effect of sampling duration on consistency of offline analysis of data}{14}{appendix.A}%
 \contentsfinish 

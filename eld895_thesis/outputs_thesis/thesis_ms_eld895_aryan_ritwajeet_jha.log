@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7.30) (preloaded format=pdflatex 2022.7.31)  8 AUG 2022 05:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7.30) (preloaded format=pdflatex 2022.7.31)  8 AUG 2022 06:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -918,7 +918,7 @@ Package hyperref Info: Link coloring OFF on input line 46.
 \@outlinefile=\write5
 \openout5 = `thesis_ms_eld895_aryan_ritwajeet_jha.out'.
 
-<iitd_logo.png, id=34, 2007.5pt x 2007.5pt>
+<iitd_logo.png, id=38, 2007.5pt x 2007.5pt>
 File: iitd_logo.png Graphic file (type png)
 <use iitd_logo.png>
 Package pdftex.def Info: iitd_logo.png  used on input line 49.
@@ -949,7 +949,7 @@ LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 4
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 [4] (../figures/../figures/bifurcationPitchforkPdf.pdf_tex
-<../figures/../figures//bifurcationPitchforkPdf.pdf, id=136, page=1, 219.03035p
+<../figures/../figures//bifurcationPitchforkPdf.pdf, id=142, page=1, 219.03035p
 t x 189.78543pt>
 File: ../figures/../figures//bifurcationPitchforkPdf.pdf Graphic file (type pdf
 )
@@ -959,7 +959,7 @@ age1 used on input line 56.
 (pdftex.def)             Requested size: 219.03033pt x 189.79654pt.
 )
 (../figures/../figures/bifurcationPitchforkNegativePdf.pdf_tex
-<../figures/../figures//bifurcationPitchforkNegativePdf.pdf, id=137, page=1, 21
+<../figures/../figures//bifurcationPitchforkNegativePdf.pdf, id=143, page=1, 21
 9.03035pt x 189.78543pt>
 File: ../figures/../figures//bifurcationPitchforkNegativePdf.pdf Graphic file (
 type pdf)
@@ -968,38 +968,50 @@ Package pdftex.def Info: ../figures/../figures//bifurcationPitchforkNegativePdf
 .pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 219.03033pt x 189.79654pt.
 ))
-(../chapters/OfflineAnalysis.tex [5]
-Overfull \hbox (45.5087pt too wide) in paragraph at lines 14--99
+(../chapters/OfflineAnalysis.tex [5] (../tables/realGridSamplingData.tex
+Overfull \hbox (45.5087pt too wide) in paragraph at lines 5--90
  [][] 
  []
 
-[6 <../figures/../figures//bifurcationPitchforkPdf.pdf> <../figures/../figures/
-/bifurcationPitchforkNegativePdf.pdf
+) [6 <../figures/../figures//bifurcationPitchforkPdf.pdf> <../figures/../figure
+s//bifurcationPitchforkNegativePdf.pdf
 
 pdfTeX warning: pdflatex.exe (file ../figures/../figures//bifurcationPitchforkN
 egativePdf.pdf): PDF inclusion: multiple pdfs with page group included in a sin
 gle page
 >]) (../chapters/OnlineAnalysis.tex [7] [8]) (../chapters/Conclusions.tex
 [9]) (../chapters/FutureWork.tex [10]) [11] [12] [13]
-Overfull \hbox (6.39029pt too wide) in paragraph at lines 72--72
+Overfull \hbox (6.39029pt too wide) in paragraph at lines 71--71
 \T1/cmr/m/n/12 fast^^Uslow sys-tems and stochas-tic dy-nam-ics''. In: \T1/cmr/m
 /it/12 Phys-ica D \T1/cmr/m/n/12 240.12 (June 2011), pp. 1020^^U
  []
 
-[14] (thesis_ms_eld895_aryan_ritwajeet_jha.aux)
+(../chapters/Appendix.tex [14]
+
+Package caption Warning: \label without proper reference on input line 3.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `tab:realGridSamplingData' on page 15 undefined on inp
+ut line 8.
+
+) [15] (thesis_ms_eld895_aryan_ritwajeet_jha.aux)
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `thesis_ms_eld895_aryan_ritwajeet_jha.out' ha
 s not changed.
-(rerunfilecheck)             Checksum: 21C2A0CDB0BA675878218C35ADC880C1;939.
+(rerunfilecheck)             Checksum: 2E011169DB33BCA9FFC81599605979F6;1363.
 Package logreq Info: Writing requests to 'thesis_ms_eld895_aryan_ritwajeet_jha.
 run.xml'.
 \openout1 = `thesis_ms_eld895_aryan_ritwajeet_jha.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23075 strings out of 478337
- 431880 string characters out of 2836666
- 1268232 words of memory out of 3000000
- 41072 multiletter control sequences out of 15000+600000
+ 23093 strings out of 478337
+ 432541 string characters out of 2836666
+ 1269427 words of memory out of 3000000
+ 41080 multiletter control sequences out of 15000+600000
  478538 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  94i,16n,92p,1527b,1790s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -1021,10 +1033,10 @@ cm/cmr12.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
 msfonts/cm/cmr8.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/p
 ublic/amsfonts/cm/cmsy10.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX/font
 s/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on thesis_ms_eld895_aryan_ritwajeet_jha.pdf (16 pages, 498718 by
+Output written on thesis_ms_eld895_aryan_ritwajeet_jha.pdf (17 pages, 503069 by
 tes).
 PDF statistics:
- 712 PDF objects out of 1000 (max. 8388607)
- 61 named destinations out of 1000 (max. 500000)
- 84 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 726 PDF objects out of 1000 (max. 8388607)
+ 63 named destinations out of 1000 (max. 500000)
+ 92 words of extra memory for PDF output out of 10000 (max. 10000000)
 
