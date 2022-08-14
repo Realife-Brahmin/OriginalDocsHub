@@ -12,4 +12,16 @@ Here is a table of sampling times and total duration of times over which the fre
 
 The plotted bulk distribution PDFs visually revealed insights including any deadbands \cite{francesca01, vorobev01} mandated in their grid operation, their skewness, thickness of their tails, etc. A quantitative study of their moments like kurtosis and skewness was not conducted as was done in \cite{schafer01}.
 
+%\begin{figure}
+%	\caption{Fixed Time Autocorrelation plots for five different power grids. The different rates of exponential decay in autocorrelation values indicates the difference in their relative damping strengths. The Continental European and Great Britain grids display peaks every $15$ minutes which may be explained from their energy dispatch routine.}
+%	\import{../figures/autocorr/comparison_five_no_title.tex}
+%\end{figure}
+
+\begin{figure}[ht]
+	\centering
+	\resizebox{0.75\linewidth}{!}{\import{../figures/autocorr}{comparison_five_no_title.tex}}
+	\caption{Autocorrelation decay of different synchronous regions.}
+	\label{fig:comp5}
+\end{figure}
+
 In the plotted autocorrelation decay curves, all grids showed exponentially decreasing autocorrelations $c(\tau$) for smaller values of $\tau$. In order to confirm if the decrease was indeed exponential with a grid-specific decay constant also called as the inverse-time correlation or ${t_{corr}}^{-1}$, semi-log graphs ($\log(c(\tau))$ vs $\tau$) were also plotted. The decay constants were computed by calculating the slopes of the semi-log graphs and it was found that the grids which were bigger, more robust and showed bulk distribution PDFs which were less-deviating from Gaussian distributions, had greater values of inverse-time correlation ${t_{corr}}^{-1}$. This parameter can also be construed as $\alpha$, the relative damping strength of the grid for small oscillations and can be an indicator of the overall robustness of the grid.
