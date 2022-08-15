@@ -20,7 +20,8 @@
 \usepackage{titlesec}
 \usepackage{titletoc}
 
-\usepackage{svg} %testing if an svg image can be included
+\usepackage{caption}
+\usepackage{subcaption}
 
 \titleformat{\section}[display]%
 {\null\vskip1em\Large\bfseries\filcenter}{Chapter \thesection}{0em}{}[]
@@ -44,7 +45,6 @@
 \date{August 2022}
 \department{Electrical Engineering}
 
-
 \begin{document}
 
 \maketitle
@@ -56,19 +56,19 @@
 \pagenumbering{arabic}
 
 \input{../chapters/Introduction}
-
+\newpage
 \input{../chapters/LiteratureReview}
-
+\newpage
 \input{../chapters/Theory}
-
+\newpage
 \input{../chapters/OfflineAnalysis}
-
+\newpage
 \input{../chapters/OnlineAnalysis}
-
+\newpage
 \input{../chapters/Conclusions}
-
+\newpage
 \input{../chapters/FutureWork}
-
+\newpage
 \printbibliography
 
 \input{../chapters/Appendix}

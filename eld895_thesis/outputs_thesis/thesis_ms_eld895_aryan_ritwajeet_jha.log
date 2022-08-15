@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7.30) (preloaded format=pdflatex 2022.7.31)  14 AUG 2022 13:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7.30) (preloaded format=pdflatex 2022.7.31)  15 AUG 2022 19:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1189,41 +1189,10 @@ Package: titlesec 2021/07/05 v2.14 Sectioning titles
 Package: titletoc 2021/07/05 v2.14 TOC entries
 \ttl@leftsep=\dimen323
 )
-(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/svg\svg.sty
-Package: svg 2020/11/26 v2.02k (include SVG pictures)
-
-(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrbase.sty
-Package: scrbase 2022/07/04 v3.37 KOMA-Script package (KOMA-Script-independent 
-basics and keyval usage)
-
-(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile.st
-y
-Package: scrlfile 2022/07/04 v3.37 KOMA-Script package (file load hooks)
-
-(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile-ho
-ok.sty
-Package: scrlfile-hook 2022/07/04 v3.37 KOMA-Script package (using LaTeX hooks)
-
-
-(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlogo.sty
-Package: scrlogo 2022/07/04 v3.37 KOMA-Script package (logo)
-)))
-Applying: [2021/05/01] Usage of raw or classic option list on input line 252.
-Already applied: [0000/00/00] Usage of raw or classic option list on input line
- 368.
-)
-(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/trimspaces\trimspaces.s
-ty
-Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
-)
-\c@svg@param@lastpage=\count460
-\svg@box=\box70
-\c@svg@param@currpage=\count461
-)
-(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/transparent\transparent
-.sty
-Package: transparent 2019/11/29 v1.4 Transparency via pdfTeX's color stack (HO)
-
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
+Package: subcaption 2022/01/07 v1.5 Sub-captions (AR)
+\c@subfigure=\count460
+\c@subtable=\count461
 )
 
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
@@ -1293,7 +1262,7 @@ ii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count464
 \scratchdimen=\dimen324
-\scratchbox=\box71
+\scratchbox=\box70
 \nofMPsegments=\count465
 \nofMParguments=\count466
 \everyMPshowfont=\toks44
@@ -1348,7 +1317,7 @@ ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into
 your preamble.
  on input line 48.
 
-<iitd_logo.png, id=42, 2007.5pt x 2007.5pt>
+<iitd_logo.png, id=34, 2007.5pt x 2007.5pt>
 File: iitd_logo.png Graphic file (type png)
 <use iitd_logo.png>
 Package pdftex.def Info: iitd_logo.png  used on input line 51.
@@ -1370,16 +1339,16 @@ een already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.55 \newpage
-              [0] (../chapters/Introduction.tex) [1]
-(../chapters/LiteratureReview.tex [2]) (../chapters/Theory.tex [3]
+              [0] (../chapters/Introduction.tex) [1] [2]
+(../chapters/LiteratureReview.tex [3]) [4] (../chapters/Theory.tex
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 4
 .
 
 (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-[4] (../figures/../figures/bifurcationPitchforkPdf.pdf_tex
-<../figures/../figures//bifurcationPitchforkPdf.pdf, id=148, page=1, 219.03035p
+[5] (../figures/../figures/bifurcationPitchforkPdf.pdf_tex
+<../figures/../figures//bifurcationPitchforkPdf.pdf, id=141, page=1, 219.03035p
 t x 189.78543pt>
 File: ../figures/../figures//bifurcationPitchforkPdf.pdf Graphic file (type pdf
 )
@@ -1389,7 +1358,7 @@ age1 used on input line 56.
 (pdftex.def)             Requested size: 219.03033pt x 189.79654pt.
 )
 (../figures/../figures/bifurcationPitchforkNegativePdf.pdf_tex
-<../figures/../figures//bifurcationPitchforkNegativePdf.pdf, id=149, page=1, 21
+<../figures/../figures//bifurcationPitchforkNegativePdf.pdf, id=142, page=1, 21
 9.03035pt x 189.78543pt>
 File: ../figures/../figures//bifurcationPitchforkNegativePdf.pdf Graphic file (
 type pdf)
@@ -1397,205 +1366,332 @@ type pdf)
 Package pdftex.def Info: ../figures/../figures//bifurcationPitchforkNegativePdf
 .pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 219.03033pt x 189.79654pt.
-))
-(../chapters/OfflineAnalysis.tex [5] (../tables/realGridSamplingData.tex
-Overfull \hbox (45.5087pt too wide) in paragraph at lines 5--90
- [][] 
- []
-
-) (../figures/autocorr/comparison_five_no_title.tex) [6 <../figures/../figures/
-/bifurcationPitchforkPdf.pdf> <../figures/../figures//bifurcationPitchforkNegat
-ivePdf.pdf
+)) [6]
+(../chapters/OfflineAnalysis.tex [7 <../figures/../figures//bifurcationPitchfor
+kPdf.pdf> <../figures/../figures//bifurcationPitchforkNegativePdf.pdf
 
 pdfTeX warning: pdflatex.exe (file ../figures/../figures//bifurcationPitchforkN
 egativePdf.pdf): PDF inclusion: multiple pdfs with page group included in a sin
 gle page
->]) (../chapters/OnlineAnalysis.tex [7] [8]) (../chapters/Conclusions.tex
-[9] [10]) (../chapters/FutureWork.tex) [11] [12] [13]
-Overfull \hbox (6.39029pt too wide) in paragraph at lines 73--73
-\T1/cmr/m/n/12 fast^^Uslow sys-tems and stochas-tic dy-nam-ics''. In: \T1/cmr/m
-/it/12 Phys-ica D \T1/cmr/m/n/12 240.12 (June 2011), pp. 1020^^U
+>] (../tables/realGridSamplingData.tex
+Overfull \hbox (45.5087pt too wide) in paragraph at lines 5--90
+ [][] 
  []
 
-(../chapters/Appendix.tex [14]
-
-Package caption Warning: \label without proper reference on input line 3.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `tab:realGridSamplingData' on page 15 undefined on inp
-ut line 8.
-
-<../figures/autocorr/fautocorrs_nordic_201801_to_201912.png, id=325, 1927.2pt x
- 978.65625pt>
-File: ../figures/autocorr/fautocorrs_nordic_201801_to_201912.png Graphic file (
-type png)
-<use ../figures/autocorr/fautocorrs_nordic_201801_to_201912.png>
-Package pdftex.def Info: ../figures/autocorr/fautocorrs_nordic_201801_to_201912
-.png  used on input line 11.
-(pdftex.def)             Requested size: 481.79883pt x 244.66347pt.
-
-Overfull \hbox (14.37715pt too wide) in paragraph at lines 11--12
-[][] 
- []
-
-<../figures/autocorr/fautocorrs_rte_201901_to_201912_202101.png, id=326, 1927.2
-pt x 978.65625pt>
-File: ../figures/autocorr/fautocorrs_rte_201901_to_201912_202101.png Graphic fi
-le (type png)
-<use ../figures/autocorr/fautocorrs_rte_201901_to_201912_202101.png>
-Package pdftex.def Info: ../figures/autocorr/fautocorrs_rte_201901_to_201912_20
-2101.png  used on input line 17.
-(pdftex.def)             Requested size: 481.79883pt x 244.66347pt.
-
-Overfull \hbox (14.37715pt too wide) in paragraph at lines 17--18
-[][] 
- []
-
-<../figures/autocorr/fautocorrs_uk_201901_to_202103_2.png, id=327, 1927.2pt x 9
+)
+<../figures/pdf/pdf_frequency_continental_europe_2019.png, id=202, 1927.2pt x 9
 78.65625pt>
-File: ../figures/autocorr/fautocorrs_uk_201901_to_202103_2.png Graphic file (ty
+File: ../figures/pdf/pdf_frequency_continental_europe_2019.png Graphic file (ty
 pe png)
-<use ../figures/autocorr/fautocorrs_uk_201901_to_202103_2.png>
-Package pdftex.def Info: ../figures/autocorr/fautocorrs_uk_201901_to_202103_2.p
-ng  used on input line 22.
-(pdftex.def)             Requested size: 481.79883pt x 244.66347pt.
-
-Overfull \hbox (14.37715pt too wide) in paragraph at lines 22--23
-[][] 
- []
-
-<../figures/autocorr/fautocorrs_tokyo_202001_to_202012.png, id=328, 1927.2pt x 
-978.65625pt>
-File: ../figures/autocorr/fautocorrs_tokyo_202001_to_202012.png Graphic file (t
-ype png)
-<use ../figures/autocorr/fautocorrs_tokyo_202001_to_202012.png>
-Package pdftex.def Info: ../figures/autocorr/fautocorrs_tokyo_202001_to_202012.
-png  used on input line 27.
+<use ../figures/pdf/pdf_frequency_continental_europe_2019.png>
+Package pdftex.def Info: ../figures/pdf/pdf_frequency_continental_europe_2019.p
+ng  used on input line 27.
 (pdftex.def)             Requested size: 481.79883pt x 244.66347pt.
 
 Overfull \hbox (14.37715pt too wide) in paragraph at lines 27--28
 [][] 
  []
 
-<../figures/autocorr/fautocorrs_nrldc_201904_to_202004.png, id=329, 1927.2pt x 
+<../figures/pdf/pdf_frequency_tokyo_2020_01.png, id=203, 1927.2pt x 978.65625pt
+>
+File: ../figures/pdf/pdf_frequency_tokyo_2020_01.png Graphic file (type png)
+<use ../figures/pdf/pdf_frequency_tokyo_2020_01.png>
+Package pdftex.def Info: ../figures/pdf/pdf_frequency_tokyo_2020_01.png  used o
+n input line 35.
+(pdftex.def)             Requested size: 481.79883pt x 244.66347pt.
+
+Overfull \hbox (14.37715pt too wide) in paragraph at lines 35--36
+ [][] 
+ []
+
+<../figures/pdf/pdf_frequency_nordic_2019.png, id=204, 1927.2pt x 978.65625pt>
+File: ../figures/pdf/pdf_frequency_nordic_2019.png Graphic file (type png)
+<use ../figures/pdf/pdf_frequency_nordic_2019.png>
+Package pdftex.def Info: ../figures/pdf/pdf_frequency_nordic_2019.png  used on 
+input line 41.
+(pdftex.def)             Requested size: 481.79883pt x 244.66347pt.
+
+Overfull \hbox (14.37715pt too wide) in paragraph at lines 41--42
+ [][] 
+ []
+
+<../figures/pdf/pdf_frequency_rte_2019_09.png, id=205, 1927.2pt x 978.65625pt>
+File: ../figures/pdf/pdf_frequency_rte_2019_09.png Graphic file (type png)
+<use ../figures/pdf/pdf_frequency_rte_2019_09.png>
+Package pdftex.def Info: ../figures/pdf/pdf_frequency_rte_2019_09.png  used on 
+input line 51.
+(pdftex.def)             Requested size: 481.79883pt x 244.66347pt.
+
+Overfull \hbox (14.37715pt too wide) in paragraph at lines 51--52
+ [][] 
+ []
+
+<../figures/pdf/pdf_frequency_uk_2020_04.png, id=206, 1927.2pt x 978.65625pt>
+File: ../figures/pdf/pdf_frequency_uk_2020_04.png Graphic file (type png)
+<use ../figures/pdf/pdf_frequency_uk_2020_04.png>
+Package pdftex.def Info: ../figures/pdf/pdf_frequency_uk_2020_04.png  used on i
+nput line 57.
+(pdftex.def)             Requested size: 481.79883pt x 244.66347pt.
+
+Overfull \hbox (14.37715pt too wide) in paragraph at lines 57--58
+ [][] 
+ []
+
+<../figures/pdf/pdf_frequency_rte_2021_01_blackout.png, id=207, 1927.2pt x 978.
+65625pt>
+File: ../figures/pdf/pdf_frequency_rte_2021_01_blackout.png Graphic file (type 
+png)
+<use ../figures/pdf/pdf_frequency_rte_2021_01_blackout.png>
+Package pdftex.def Info: ../figures/pdf/pdf_frequency_rte_2021_01_blackout.png 
+ used on input line 68.
+(pdftex.def)             Requested size: 481.79883pt x 244.66347pt.
+
+Overfull \hbox (14.37715pt too wide) in paragraph at lines 68--69
+ [][] 
+ []
+
+<../figures/pdf/pdf_frequency_uk_2019_08_blackout.png, id=208, 1927.2pt x 978.6
+5625pt>
+File: ../figures/pdf/pdf_frequency_uk_2019_08_blackout.png Graphic file (type p
+ng)
+<use ../figures/pdf/pdf_frequency_uk_2019_08_blackout.png>
+Package pdftex.def Info: ../figures/pdf/pdf_frequency_uk_2019_08_blackout.png  
+used on input line 74.
+(pdftex.def)             Requested size: 481.79883pt x 244.66347pt.
+
+Overfull \hbox (14.37715pt too wide) in paragraph at lines 74--75
+ [][] 
+ []
+
+<../figures/pdf/pdf_frequency_spain_mallorca_2019_05_f1.png, id=209, 1927.2pt x
+ 978.65625pt>
+File: ../figures/pdf/pdf_frequency_spain_mallorca_2019_05_f1.png Graphic file (
+type png)
+<use ../figures/pdf/pdf_frequency_spain_mallorca_2019_05_f1.png>
+Package pdftex.def Info: ../figures/pdf/pdf_frequency_spain_mallorca_2019_05_f1
+.png  used on input line 81.
+(pdftex.def)             Requested size: 481.79883pt x 244.66347pt.
+
+Overfull \hbox (14.37715pt too wide) in paragraph at lines 81--82
+[][] 
+ []
+
+[8] (../figures/autocorr/comparison_five_no_title.tex) [9]
+
+Package caption Warning: \label without proper reference on input line 3.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `tab:realGridSamplingData' on page 10 undefined on inp
+ut line 102.
+
+[10 <../figures/pdf/pdf_frequency_continental_europe_2019.png (PNG copy)>]
+[11 <../figures/pdf/pdf_frequency_tokyo_2020_01.png (PNG copy)> <../figures/pdf
+/pdf_frequency_nordic_2019.png (PNG copy)>]
+<../figures/autocorr/fautocorrs_nordic_201801_to_201912.png, id=245, 1927.2pt x
+ 978.65625pt>
+File: ../figures/autocorr/fautocorrs_nordic_201801_to_201912.png Graphic file (
+type png)
+<use ../figures/autocorr/fautocorrs_nordic_201801_to_201912.png>
+Package pdftex.def Info: ../figures/autocorr/fautocorrs_nordic_201801_to_201912
+.png  used on input line 105.
+(pdftex.def)             Requested size: 481.79883pt x 244.66347pt.
+
+Overfull \hbox (14.37715pt too wide) in paragraph at lines 105--106
+[][] 
+ []
+
+<../figures/autocorr/fautocorrs_rte_201901_to_201912_202101.png, id=246, 1927.2
+pt x 978.65625pt>
+File: ../figures/autocorr/fautocorrs_rte_201901_to_201912_202101.png Graphic fi
+le (type png)
+<use ../figures/autocorr/fautocorrs_rte_201901_to_201912_202101.png>
+Package pdftex.def Info: ../figures/autocorr/fautocorrs_rte_201901_to_201912_20
+2101.png  used on input line 111.
+(pdftex.def)             Requested size: 481.79883pt x 244.66347pt.
+
+Overfull \hbox (14.37715pt too wide) in paragraph at lines 111--112
+[][] 
+ []
+
+<../figures/autocorr/fautocorrs_uk_201901_to_202103_2.png, id=247, 1927.2pt x 9
+78.65625pt>
+File: ../figures/autocorr/fautocorrs_uk_201901_to_202103_2.png Graphic file (ty
+pe png)
+<use ../figures/autocorr/fautocorrs_uk_201901_to_202103_2.png>
+Package pdftex.def Info: ../figures/autocorr/fautocorrs_uk_201901_to_202103_2.p
+ng  used on input line 116.
+(pdftex.def)             Requested size: 481.79883pt x 244.66347pt.
+
+Overfull \hbox (14.37715pt too wide) in paragraph at lines 116--117
+[][] 
+ []
+
+<../figures/autocorr/fautocorrs_tokyo_202001_to_202012.png, id=248, 1927.2pt x 
+978.65625pt>
+File: ../figures/autocorr/fautocorrs_tokyo_202001_to_202012.png Graphic file (t
+ype png)
+<use ../figures/autocorr/fautocorrs_tokyo_202001_to_202012.png>
+Package pdftex.def Info: ../figures/autocorr/fautocorrs_tokyo_202001_to_202012.
+png  used on input line 121.
+(pdftex.def)             Requested size: 481.79883pt x 244.66347pt.
+
+Overfull \hbox (14.37715pt too wide) in paragraph at lines 121--122
+[][] 
+ []
+
+[12 <../figures/pdf/pdf_frequency_rte_2019_09.png (PNG copy)> <../figures/pdf/p
+df_frequency_uk_2020_04.png (PNG copy)>] [13 <../figures/pdf/pdf_frequency_rte_
+2021_01_blackout.png (PNG copy)> <../figures/pdf/pdf_frequency_uk_2019_08_black
+out.png (PNG copy)>]
+<../figures/autocorr/fautocorrs_nrldc_201904_to_202004.png, id=259, 1927.2pt x 
 978.65625pt>
 File: ../figures/autocorr/fautocorrs_nrldc_201904_to_202004.png Graphic file (t
 ype png)
 <use ../figures/autocorr/fautocorrs_nrldc_201904_to_202004.png>
 Package pdftex.def Info: ../figures/autocorr/fautocorrs_nrldc_201904_to_202004.
-png  used on input line 34.
+png  used on input line 128.
 (pdftex.def)             Requested size: 481.79883pt x 244.66347pt.
 
-Overfull \hbox (14.37715pt too wide) in paragraph at lines 34--35
+Overfull \hbox (14.37715pt too wide) in paragraph at lines 128--129
 [][] 
  []
 
-<../figures/pdf/nrldc/pdf_frequency_nrldc_01.png, id=330, 1927.2pt x 978.65625p
+<../figures/pdf/nrldc/pdf_frequency_nrldc_01.png, id=260, 1927.2pt x 978.65625p
 t>
 File: ../figures/pdf/nrldc/pdf_frequency_nrldc_01.png Graphic file (type png)
 <use ../figures/pdf/nrldc/pdf_frequency_nrldc_01.png>
 Package pdftex.def Info: ../figures/pdf/nrldc/pdf_frequency_nrldc_01.png  used 
-on input line 40.
+on input line 134.
 (pdftex.def)             Requested size: 210.33832pt x 106.80133pt.
-<../figures/pdf/nrldc/pdf_frequency_nrldc_02.png, id=331, 1927.2pt x 978.65625p
+<../figures/pdf/nrldc/pdf_frequency_nrldc_02.png, id=261, 1927.2pt x 978.65625p
 t>
 File: ../figures/pdf/nrldc/pdf_frequency_nrldc_02.png Graphic file (type png)
 <use ../figures/pdf/nrldc/pdf_frequency_nrldc_02.png>
 Package pdftex.def Info: ../figures/pdf/nrldc/pdf_frequency_nrldc_02.png  used 
-on input line 41.
+on input line 135.
 (pdftex.def)             Requested size: 210.33832pt x 106.80133pt.
-<../figures/pdf/nrldc/pdf_frequency_nrldc_03.png, id=332, 1927.2pt x 978.65625p
+<../figures/pdf/nrldc/pdf_frequency_nrldc_03.png, id=262, 1927.2pt x 978.65625p
 t>
 File: ../figures/pdf/nrldc/pdf_frequency_nrldc_03.png Graphic file (type png)
 <use ../figures/pdf/nrldc/pdf_frequency_nrldc_03.png>
 Package pdftex.def Info: ../figures/pdf/nrldc/pdf_frequency_nrldc_03.png  used 
-on input line 45.
+on input line 139.
 (pdftex.def)             Requested size: 210.33832pt x 106.80133pt.
-<../figures/pdf/nrldc/pdf_frequency_nrldc_04.png, id=333, 1927.2pt x 978.65625p
+<../figures/pdf/nrldc/pdf_frequency_nrldc_04.png, id=263, 1927.2pt x 978.65625p
 t>
 File: ../figures/pdf/nrldc/pdf_frequency_nrldc_04.png Graphic file (type png)
 <use ../figures/pdf/nrldc/pdf_frequency_nrldc_04.png>
 Package pdftex.def Info: ../figures/pdf/nrldc/pdf_frequency_nrldc_04.png  used 
-on input line 46.
+on input line 140.
 (pdftex.def)             Requested size: 210.33832pt x 106.80133pt.
-<../figures/pdf/nrldc/pdf_frequency_nrldc_05.png, id=334, 1927.2pt x 978.65625p
+<../figures/pdf/nrldc/pdf_frequency_nrldc_05.png, id=264, 1927.2pt x 978.65625p
 t>
 File: ../figures/pdf/nrldc/pdf_frequency_nrldc_05.png Graphic file (type png)
 <use ../figures/pdf/nrldc/pdf_frequency_nrldc_05.png>
 Package pdftex.def Info: ../figures/pdf/nrldc/pdf_frequency_nrldc_05.png  used 
-on input line 50.
+on input line 144.
 (pdftex.def)             Requested size: 210.33832pt x 106.80133pt.
-<../figures/pdf/nrldc/pdf_frequency_nrldc_06.png, id=335, 1927.2pt x 978.65625p
+<../figures/pdf/nrldc/pdf_frequency_nrldc_06.png, id=265, 1927.2pt x 978.65625p
 t>
 File: ../figures/pdf/nrldc/pdf_frequency_nrldc_06.png Graphic file (type png)
 <use ../figures/pdf/nrldc/pdf_frequency_nrldc_06.png>
 Package pdftex.def Info: ../figures/pdf/nrldc/pdf_frequency_nrldc_06.png  used 
-on input line 51.
+on input line 145.
 (pdftex.def)             Requested size: 210.33832pt x 106.80133pt.
-[15]) [16 <../figures/autocorr/fautocorrs_nordic_201801_to_201912.png (PNG copy
-)> <../figures/autocorr/fautocorrs_rte_201901_to_201912_202101.png (PNG copy)>]
-[17 <../figures/autocorr/fautocorrs_uk_201901_to_202103_2.png (PNG copy)> <../f
-igures/autocorr/fautocorrs_tokyo_202001_to_202012.png (PNG copy)>] [18 <../figu
-res/autocorr/fautocorrs_nrldc_201904_to_202004.png (PNG copy)>] [19 <../figures
-/pdf/nrldc/pdf_frequency_nrldc_01.png (PNG copy)> <../figures/pdf/nrldc/pdf_fre
-quency_nrldc_02.png (PNG copy)> <../figures/pdf/nrldc/pdf_frequency_nrldc_03.pn
-g (PNG copy)> <../figures/pdf/nrldc/pdf_frequency_nrldc_04.png (PNG copy)> <../
-figures/pdf/nrldc/pdf_frequency_nrldc_05.png (PNG copy)> <../figures/pdf/nrldc/
-pdf_frequency_nrldc_06.png (PNG copy)>]
-(thesis_ms_eld895_aryan_ritwajeet_jha.aux)
+<../figures/pdf/pdf_frequency_us_wi_2019_05.png, id=266, 1927.2pt x 978.65625pt
+>
+File: ../figures/pdf/pdf_frequency_us_wi_2019_05.png Graphic file (type png)
+<use ../figures/pdf/pdf_frequency_us_wi_2019_05.png>
+Package pdftex.def Info: ../figures/pdf/pdf_frequency_us_wi_2019_05.png  used o
+n input line 156.
+(pdftex.def)             Requested size: 481.79883pt x 244.66347pt.
+
+Overfull \hbox (14.37715pt too wide) in paragraph at lines 156--157
+ [][] 
+ []
+
+<../figures/pdf/pdf_frequency_us_tx_2019_05.png, id=267, 1927.2pt x 978.65625pt
+>
+File: ../figures/pdf/pdf_frequency_us_tx_2019_05.png Graphic file (type png)
+<use ../figures/pdf/pdf_frequency_us_tx_2019_05.png>
+Package pdftex.def Info: ../figures/pdf/pdf_frequency_us_tx_2019_05.png  used o
+n input line 162.
+(pdftex.def)             Requested size: 481.79883pt x 244.66347pt.
+
+Overfull \hbox (14.37715pt too wide) in paragraph at lines 162--163
+ [][] 
+ []
+
+) [14 <../figures/pdf/pdf_frequency_spain_mallorca_2019_05_f1.png (PNG copy)>]
+
+LaTeX Warning: Text page 15 contains only floats.
+
+[15 <../figures/autocorr/fautocorrs_nordic_201801_to_201912.png (PNG copy)>]
+(../chapters/OnlineAnalysis.tex [16 <../figures/autocorr/fautocorrs_rte_201901_
+to_201912_202101.png (PNG copy)> <../figures/autocorr/fautocorrs_uk_201901_to_2
+02103_2.png (PNG copy)>]
+Overfull \vbox (61.66707pt too high) has occurred while \output is active []
+
+
+[17 <../figures/autocorr/fautocorrs_tokyo_202001_to_202012.png (PNG copy)> <../
+figures/autocorr/fautocorrs_nrldc_201904_to_202004.png (PNG copy)>] [18 <../fig
+ures/pdf/nrldc/pdf_frequency_nrldc_01.png (PNG copy)> <../figures/pdf/nrldc/pdf
+_frequency_nrldc_02.png (PNG copy)> <../figures/pdf/nrldc/pdf_frequency_nrldc_0
+3.png (PNG copy)> <../figures/pdf/nrldc/pdf_frequency_nrldc_04.png (PNG copy)> 
+<../figures/pdf/nrldc/pdf_frequency_nrldc_05.png (PNG copy)> <../figures/pdf/nr
+ldc/pdf_frequency_nrldc_06.png (PNG copy)>] [19 <../figures/pdf/pdf_frequency_u
+s_wi_2019_05.png (PNG copy)> <../figures/pdf/pdf_frequency_us_tx_2019_05.png (P
+NG copy)>] [20]) [21] (../chapters/Conclusions.tex [22]) [23]
+(../chapters/FutureWork.tex) [24] [25] [26]
+Overfull \hbox (6.39029pt too wide) in paragraph at lines 73--73
+\T1/cmr/m/n/12 fast^^Uslow sys-tems and stochas-tic dy-nam-ics''. In: \T1/cmr/m
+/it/12 Phys-ica D \T1/cmr/m/n/12 240.12 (June 2011), pp. 1020^^U
+ []
+
+[27] (../chapters/Appendix.tex) [28] (thesis_ms_eld895_aryan_ritwajeet_jha.aux)
 
 LaTeX Warning: There were undefined references.
 
-
-Package rerunfilecheck Warning: File `thesis_ms_eld895_aryan_ritwajeet_jha.out'
- has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `thesis_ms_eld895_aryan_ritwajeet_jh
-a.out':
-(rerunfilecheck)             Before: 7B9D19F9729A6D68403045B510B38EAB;1762
-(rerunfilecheck)             After:  2E011169DB33BCA9FFC81599605979F6;1363.
+Package rerunfilecheck Info: File `thesis_ms_eld895_aryan_ritwajeet_jha.out' ha
+s not changed.
+(rerunfilecheck)             Checksum: 21C2A0CDB0BA675878218C35ADC880C1;939.
 Package logreq Info: Writing requests to 'thesis_ms_eld895_aryan_ritwajeet_jha.
 run.xml'.
 \openout1 = `thesis_ms_eld895_aryan_ritwajeet_jha.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 44079 strings out of 478337
- 1017292 string characters out of 2836666
- 1894212 words of memory out of 3000000
- 61688 multiletter control sequences out of 15000+600000
- 478538 words of font info for 49 fonts, out of 8000000 for 9000
+ 43463 strings out of 478337
+ 1006118 string characters out of 2836666
+ 1855786 words of memory out of 3000000
+ 61066 multiletter control sequences out of 15000+600000
+ 480075 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,21n,103p,1527b,2279s stack positions out of 10000i,1000n,20000p,200000b,80000s
-
-pdfTeX warning (dest): name{appendix.B} has been referenced but does not exist,
- replaced by a fixed one
-
- <C:\Users\aryan\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc12
-00.pk> <C:\Users\aryan\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\
-tcrm1200.pk> <C:\Users\aryan\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/d
-pi600\ectt1200.pk> <C:\Users\aryan\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappe
-n/ec/dpi600\ecrm1200.pk> <C:\Users\aryan\AppData\Local\MiKTeX\fonts/pk/ljfour/j
-knappen/ec/dpi600\ecbx1200.pk> <C:\Users\aryan\AppData\Local\MiKTeX\fonts/pk/lj
-four/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\aryan\AppData\Local\MiKTeX\fonts
-/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\aryan\AppData\Local\MiKTeX
-\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk><C:/Users/aryan/AppData/Local/P
-rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/aryan/AppDat
-a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/ary
-an/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/U
-sers/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.p
+ <C:\Users\aryan\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc
+1200.pk> <C:\Users\aryan\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
+0\ecrm1095.pk> <C:\Users\aryan\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
+/dpi600\tcrm1200.pk> <C:\Users\aryan\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
+pen/ec/dpi600\ectt1200.pk> <C:\Users\aryan\AppData\Local\MiKTeX\fonts/pk/ljfour
+/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\aryan\AppData\Local\MiKTeX\fonts/pk/
+ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\aryan\AppData\Local\MiKTeX\fon
+ts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\aryan\AppData\Local\MiKT
+eX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\aryan\AppData\Loca
+l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk><C:/Users/aryan/AppData
+/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/arya
+n/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/U
+sers/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.p
 fb><C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
-/cmr12.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmr8.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/pub
-lic/amsfonts/cm/cmsy10.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/
-type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on thesis_ms_eld895_aryan_ritwajeet_jha.pdf (21 pages, 1655930 b
+/cmmi8.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmr12.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmr8.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmsy10.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on thesis_ms_eld895_aryan_ritwajeet_jha.pdf (30 pages, 2403889 b
 ytes).
 PDF statistics:
- 770 PDF objects out of 1000 (max. 8388607)
- 75 named destinations out of 1000 (max. 500000)
- 155 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 874 PDF objects out of 1000 (max. 8388607)
+ 91 named destinations out of 1000 (max. 500000)
+ 189 words of extra memory for PDF output out of 10000 (max. 10000000)
 

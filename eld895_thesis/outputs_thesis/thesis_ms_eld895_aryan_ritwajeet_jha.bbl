@@ -978,6 +978,46 @@
       \verb https://psspy.org/psse-help-forum/help
       \endverb
     \endentry
+    \entry{woodAndWollenbergPowerGenerationOperationAndControl}{book}{}
+      \name{author}{2}{}{%
+        {{hash=5417126aa31dd46d264288357fd8d03e}{%
+           family={Wood},
+           familyi={W\bibinitperiod},
+           given={Allen\bibnamedelima J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=4e9c719ce44351cc081b24c12a7db641}{%
+           family={Wollenberg},
+           familyi={W\bibinitperiod},
+           given={Bruce\bibnamedelima F.},
+           giveni={B\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Chichester, England, UK}%
+      }
+      \list{publisher}{1}{%
+        {Wiley{–}Blackwell}%
+      }
+      \strng{namehash}{1eaffe416ee2a56808695bc4566c3459}
+      \strng{fullhash}{1eaffe416ee2a56808695bc4566c3459}
+      \strng{bibnamehash}{1eaffe416ee2a56808695bc4566c3459}
+      \strng{authorbibnamehash}{1eaffe416ee2a56808695bc4566c3459}
+      \strng{authornamehash}{1eaffe416ee2a56808695bc4566c3459}
+      \strng{authorfullhash}{1eaffe416ee2a56808695bc4566c3459}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-0-47158699-9}
+      \field{month}{3}
+      \field{title}{{Power Generation, Operation, and Control}}
+      \field{year}{1996}
+      \verb{urlraw}
+      \verb https://www.amazon.in/Power-Generation-Operation-Control-Allen/dp/0471586994
+      \endverb
+      \verb{url}
+      \verb https://www.amazon.in/Power-Generation-Operation-Control-Allen/dp/0471586994
+      \endverb
+    \endentry
     \entry{csdNotDetectedByAutocorrAndVariance01}{article}{}
       \name{author}{3}{}{%
         {{hash=269f83eea8687bd39c94fa0f8c5081ba}{%

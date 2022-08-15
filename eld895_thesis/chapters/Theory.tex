@@ -40,11 +40,18 @@ Since in this thesis the function is used in two ways where only one of the para
 \textbf{Bifurcation Theory}: We'll be using the concepts Bifurcations and Critical Bifurcations to explain why a small yet steady change in the parameters of a dynamical system (such as the power grid) can remain inconspicuous only to, upon reaching a `tipping' point or `Critical Transition', manifest as a sudden major upset to the `motion' of the dynamical system. We use the words Bifurcations and Critical Bifurcations almost interchangeably, although only Critical Bifurcations are significant enough to alter the dynamics of a system from stable to unstable.
 
 
-\begin{figure}[ht]
+\begin{figure}[!ht]
 	\centering{
 	\import{../figures/}{bifurcationPitchforkPdf.pdf_tex}
-	\import{../figures/}{bifurcationPitchforkNegativePdf.pdf_tex}}
-	\caption{Bifurcation diagram for the normal form of the Pitchfork Bifurcation $\frac{dx}{dt} = \mu x - x^3$. \\ For $\mu \leq 0$, the only stable equilibrium solution for the dynamical system is $x=0$. Upon reaching the critical `tipping' point $\mu=0$, $x=0$ no longer remains a stable equilibrium path for the dynamical system and instead two different stable paths emerge: $x = \sqrt{+\mu}$ and $x = -\sqrt{\mu}$. Such a critical point, in which one stable path bifurcates into at least two distinct paths is called a bifurcation point and the phenomenon is known as `Critical Bifurcation'.}
+	}
+	\caption{Bifurcation diagram for the normal form of the Supercritical Pitchfork Bifurcation $\frac{dx}{dt} = \mu x - x^3$. \\ For $\mu \leq 0$, the only stable equilibrium solution for the dynamical system (or fixed point) is $x=0$. Upon reaching the critical `tipping' point $\mu=0$, $x=0$ no longer remains a stable equilibrium path for the dynamical system and instead two different stable paths emerge: $x = \sqrt{+\mu}$ and $x = -\sqrt{\mu}$. Such a critical point, in which one stable path bifurcates into at least two distinct paths (which may or may not be stable) is called a bifurcation point and the phenomenon is known as `Critical Bifurcation'.}
+\end{figure}
+
+\begin{figure}[!ht]
+	\centering{
+		\import{../figures/}{bifurcationPitchforkNegativePdf.pdf_tex}
+	}
+	\caption{Bifurcation diagram for the normal form of the Subcritical Pitchfork Bifurcation $\frac{dx}{dt} = \mu x + x^3$. \\ For $\mu \leq 0$, the only stable equilibrium solution (or fixed point) for the dynamical system is $x=0$. Upon reaching the critical `tipping' point $\mu=0$, three different equilibrium solutions (or fixed points) emerge: $x=0$, $x = \sqrt{+\mu}$ and $x = -\sqrt{\mu}$, none of which are stable. Here too, $\mu=0$ is a bifurcation point.}
 \end{figure}
 
 
