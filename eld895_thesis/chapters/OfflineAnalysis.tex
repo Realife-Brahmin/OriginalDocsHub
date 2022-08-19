@@ -92,7 +92,15 @@ The plotted bulk distribution PDFs visually revealed insights including any dead
 	\label{fig:comp5}
 \end{figure}
 
-In the plotted autocorrelation decay curves, all grids showed exponentially decreasing autocorrelations $c(\tau$) for smaller values of $\tau$. In order to confirm if the decrease was indeed exponential with a grid-specific decay constant also called as the inverse-time correlation or ${t_{corr}}^{-1}$, semi-log graphs ($\log(c(\tau))$ vs $\tau$) were also plotted. The decay constants were computed by calculating the slopes of the semi-log graphs and it was found that the grids which were bigger, more robust and showed bulk distribution PDFs which were less-deviating from Gaussian distributions, had greater values of inverse-time correlation ${t_{corr}}^{-1}$. This parameter can also be construed as $\alpha$, the relative damping strength of the grid for small oscillations and can be an indicator of the overall robustness of the grid.
+In the plotted autocorrelation decay curves, all grids showed exponentially decreasing autocorrelations $c(\tau$) for smaller values of $\tau$. 
+
+\begin{equation}
+	c(\tau) \propto exp{\left(-\frac{\tau}{t_{corr}}\right)}
+\end{equation}
+
+where $t_{corr}$ is the correlation constant for the grid (the time period in which autocorrelation decays to $1/\exp$th of its original value). This is in agreement with the usual autocorrelation decay trends observed for natural stochastic processes, such as the Ornstein-Uhlenbeck Process \cite{numericalSolutionForStochasticDifferentailEquationsKloedenEckhard}. 
+Instead of the autocorrelation decay constant $t_{corr}$, sometimes its reciprocal, inverse-time autocorrelation decay constant $\frac{1}{t_{corr}}$ or simply $t_{corr}^{-1}$ is used.   
+In order to confirm if the decrease was indeed exponential with a grid-specific inverse-time autocorrelation decay constant, semi-log graphs ($\log(c(\tau))$ vs $\tau$) were also plotted. The decay constants were computed by calculating the slopes of the semi-log graphs and it was found that the grids which were bigger, more robust and showed bulk distribution PDFs which were less-deviating from Gaussian distributions, had greater values of inverse-time correlation ${t_{corr}}^{-1}$. This parameter can also be construed as $\alpha$, the relative damping strength of the grid for small oscillations and can be an indicator of the overall robustness of the grid.	
 
 \subsection*{Effect of sampling duration on consistency of offline analysis of data}
 \label{app:effectOfSamplingDuration}

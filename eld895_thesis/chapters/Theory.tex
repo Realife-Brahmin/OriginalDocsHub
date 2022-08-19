@@ -21,7 +21,7 @@ It may be noted that the autocorrelation function of any time-varying variable h
 
 Since in this thesis the function is used in two ways where only one of the parameters is varying (with the other being kept constant) each time, two variations of the autocorrelation function with individual names are specified here:
 
-\textbf{Fixed Time Autocorrelation}: Autocorrelation function computed over a snapshot of a time-varying variable over a fixed time window. The usage of Fixed Time Autocorrelation can be seen in the Offline Analysis chapter of this thesis.
+\textbf{Fixed Time Autocorrelation}: Autocorrelation function computed over a snapshot of a time-varying variable over a fixed time window. The usage of Fixed Time Autocorrelation can be seen in the Offline Analysis chapter (Chapter \ref{sec:offline}) of this thesis.
 
 \begin{equation}
 	c(\tau) = \frac{\sum_{1}^{W_{total}} x[n]x[n+\tau]}{\sum_{1}^{W_{total}} x[n]^2} 
@@ -29,7 +29,7 @@ Since in this thesis the function is used in two ways where only one of the para
  
  In this thesis, the window length $W_{total}$ ranges from months to years.
  
- \textbf{Fixed Lag Autocorrelation}: Autocorrelation function computed over a window running over a continuously generated stream of data in which the value of the lag $\tau$ is fixed. The usage of Fixed Lag Autocorrelation can be seen in the Online Analysis of this thesis.
+ \textbf{Fixed Lag Autocorrelation}: Autocorrelation function computed over a window running over a continuously generated stream of data in which the value of the lag $\tau$ is fixed. The usage of Fixed Lag Autocorrelation can be seen in the Online Analysis chapter (Chapter \ref{sec:online}) of this thesis.
  
  \begin{equation}
  	c(t)|_{\tau = \tau_{fixed}} = \frac{\sum_{i}^{i+W} x[n]x[n+\tau_{fixed}]}{\sum_{i}^{i+W} x[n]^2} 
@@ -37,10 +37,21 @@ Since in this thesis the function is used in two ways where only one of the para
  
  In this thesis, the window length used is $W=15$ seconds. The value of $\tau$ used is $\tau_{fixed}=1$ second.
 
-\textbf{Bifurcation Theory}: We'll be using the concepts Bifurcations and Critical Bifurcations to explain why a small yet steady change in the parameters of a dynamical system (such as the power grid) can remain inconspicuous only to, upon reaching a `tipping' point or `Critical Transition', manifest as a sudden major upset to the `motion' of the dynamical system. We use the words Bifurcations and Critical Bifurcations almost interchangeably, although only Critical Bifurcations are significant enough to alter the dynamics of a system from stable to unstable.
+\textbf{Variance}: Degree of overall deviation/fluctuation in the values of a data.
+
+\begin{equation}
+	\sigma^2(x) = E(x^2) - (E(x))^2 
+\end{equation}
+\hspace{75pt} where,
+\begin{equation}
+	E(x) = \frac{1}{W} \sum_{i}^{i+W} x[n]
+\end{equation}
+
+\textbf{Bifurcation Theory}: The concepts Bifurcations and Critical Bifurcations were used to explain why a small yet steady change in the parameters of a dynamical system (such as the power grid) can remain inconspicuous only to, upon reaching a `tipping' point or `Critical Transition', manifest as a sudden major upset to the `motion' of the dynamical system. The terms Bifurcations and Critical Bifurcations were used almost interchangeably, although technically only Critical Bifurcations are significant enough to alter the dynamics of a system from stable to unstable. Any dynamical system can be expressed as a set of differential algebraic equations. The  Figures \ref{fig:bifPitchforkSubcritical} and \ref{fig:bifPitchforkSubcritical} demonstrate this phenomena in a particular variation, the Pitchfork bifurcation.
 
 
 \begin{figure}[!ht]
+	\label{fig:bifPitchforkSupercritical}
 	\centering{
 	\import{../figures/}{bifurcationPitchforkPdf.pdf_tex}
 	}
@@ -48,6 +59,7 @@ Since in this thesis the function is used in two ways where only one of the para
 \end{figure}
 
 \begin{figure}[!ht]
+	\label{fig:bifPitchforkSubcritical}
 	\centering{
 		\import{../figures/}{bifurcationPitchforkNegativePdf.pdf_tex}
 	}
@@ -58,3 +70,30 @@ Since in this thesis the function is used in two ways where only one of the para
 \textbf{Critical Slowing Down}: The theory of Critical Slowing Down applies on dynamical systems on the verge of `tipping' or `bifurcation' and how they show warning signs before breaking down or descending into instability. These warning signs such as an `increased time to settle', `increased autocorrelation and variance of fluctuations', etc. \cite{schefferEarlyWarningSignalsForCriticalTransitions} can be statistically analyzed to predict the onset of such a bifurcation for a given system.
 Autocorrelation $c(t, \tau)$ of any detrended physical/natural signal $\tilde{x}(t)$ or $d(x(t))$, should decrease exponentially as the time-lag $\tau$ is increased.
 
+\textbf{Why do Autocorrelation and Variance increase with Critical Slowing Down?}:
+\cite{schefferEarlyWarningSignalsForCriticalTransitions} explains the increase of autocorrelation and variance when a dynamical system trends towards instability with the help of the example below:
+Consider a discrete-time stochastic dynamical system with the vector of state variables being depicted by $x$. Let $x_i$ depict the value of the state variable vector $x$ at discrete time instance $i$.
+Now, if an additive noise say, Gaussian noise, is added to the stochastic dynamical system at every discrete time interval $\Delta t$, the slightly perturbed set of state variables, say $x_{n+1}$, of the otherwise stable dynamical system, would attempt to return to the set of state variables before the perturbation $x_n$, with an exponential recovery speed.
+
+\begin{equation}
+	x_{n+1} - x_{n} = \exp{(\lambda \Delta t)}(x_{n+1}-x_{n}) + \zeta_n\sigma
+\end{equation}
+
+\hspace{25pt} where $\sigma$ is the standard deviation representing the stochastic noise (assumed Gaussian) inherent to the stochastic dynamical system and $\zeta_n$ represents a coefficient to $\sigma$ to model the magnitude of the stochastic noise at discrete-time instant $n$. $\lambda$ represents the rate of exponential recovery.
+
+The term $x_{n+1} - x_{n}$ may then simply be replaced with term $y_n$ which depicts the deviation of the vector of state variables $x$ between discrete-time instances $n$ and $n+1$.
+
+\begin{equation}
+	y_{n} = \exp{(\lambda \Delta t)}y_n + \zeta_n
+	\sigma
+\end{equation}
+
+Now if the time intervals between perturbations $\Delta t$ and the recovery rate $\lambda$ are independent of the state variables $x_{n}$ (and therefore their perturbations $y_{n}$), the above equation may be rewritten in the form of an autoregression model of the first order:
+
+\begin{equation}
+	y_{n} = \alpha y_{n} + \zeta_n\sigma
+\end{equation}
+
+The autocorrelation constant $\alpha \equiv \exp{\lambda \Delta t}$ is zero for a purely white gaussian noise and can be one or even greater for other kinds of highly correlated noises in stochastic processes such as brown noise (un-normalized data only).
+
+ 

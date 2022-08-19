@@ -1018,6 +1018,45 @@
       \verb https://www.amazon.in/Power-Generation-Operation-Control-Allen/dp/0471586994
       \endverb
     \endentry
+    \entry{numericalSolutionForStochasticDifferentailEquationsKloedenEckhard}{book}{}
+      \name{author}{2}{}{%
+        {{hash=7b32249850edcace60b1c231a0f5fb51}{%
+           family={Kloeden},
+           familyi={K\bibinitperiod},
+           given={Peter\bibnamedelima E.},
+           giveni={P\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=a4fb5859192206ba44cf72178b85abb6}{%
+           family={Platen},
+           familyi={P\bibinitperiod},
+           given={Eckhard},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin, Germany}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{0183f9b6362d5aa8d2faeea78d274490}
+      \strng{fullhash}{0183f9b6362d5aa8d2faeea78d274490}
+      \strng{bibnamehash}{0183f9b6362d5aa8d2faeea78d274490}
+      \strng{authorbibnamehash}{0183f9b6362d5aa8d2faeea78d274490}
+      \strng{authornamehash}{0183f9b6362d5aa8d2faeea78d274490}
+      \strng{authorfullhash}{0183f9b6362d5aa8d2faeea78d274490}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-3-662-12616-5}
+      \field{journaltitle}{SpringerLink}
+      \field{title}{{Numerical Solution of Stochastic Differential Equations}}
+      \verb{urlraw}
+      \verb https://link.springer.com/book/10.1007/978-3-662-12616-5
+      \endverb
+      \verb{url}
+      \verb https://link.springer.com/book/10.1007/978-3-662-12616-5
+      \endverb
+    \endentry
     \entry{csdNotDetectedByAutocorrAndVariance01}{article}{}
       \name{author}{3}{}{%
         {{hash=269f83eea8687bd39c94fa0f8c5081ba}{%
