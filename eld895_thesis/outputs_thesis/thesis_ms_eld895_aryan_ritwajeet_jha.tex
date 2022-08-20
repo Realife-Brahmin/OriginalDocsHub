@@ -11,7 +11,11 @@
 
 \usepackage{graphicx, import}
 \usepackage{hyperref} % hyperlinks for references.
-\usepackage{amsmath} % easier math formulae, align, subequations \ldots
+\usepackage{amsmath,amssymb}
+
+\DeclareRobustCommand{\bbone}{\text{\usefont{U}{bbold}{m}{n}1}}
+
+\DeclareMathOperator{\EX}{\mathbb{E}}% expected value
 \usepackage{graphicx}
 \usepackage{pgfplots}
 \usepackage[subpreambles=false]{standalone}

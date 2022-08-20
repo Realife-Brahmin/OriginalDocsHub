@@ -72,7 +72,7 @@ Autocorrelation $c(t, \tau)$ of any detrended physical/natural signal $\tilde{x}
 
 \textbf{Why do Autocorrelation and Variance increase with Critical Slowing Down?}:
 \cite{schefferEarlyWarningSignalsForCriticalTransitions} explains the increase of autocorrelation and variance when a dynamical system trends towards instability with the help of the example below:
-Consider a discrete-time stochastic dynamical system with the vector of state variables being depicted by $x$. Let $x_i$ depict the value of the state variable vector $x$ at discrete time instance $i$.
+Consider a discrete-time stochastic dynamical system with the vector of state variables being depicted by $x$. Let $x_n$ depict the value of the state variable vector $x$ at discrete time instance $n$.
 Now, if an additive noise say, Gaussian noise, is added to the stochastic dynamical system at every discrete time interval $\Delta t$, the slightly perturbed set of state variables, say $x_{n+1}$, of the otherwise stable dynamical system, would attempt to return to the set of state variables before the perturbation $x_n$, with an exponential recovery speed.
 
 \begin{equation}
@@ -81,19 +81,86 @@ Now, if an additive noise say, Gaussian noise, is added to the stochastic dynami
 
 \hspace{25pt} where $\sigma$ is the standard deviation representing the stochastic noise (assumed Gaussian) inherent to the stochastic dynamical system and $\zeta_n$ represents a coefficient to $\sigma$ to model the magnitude of the stochastic noise at discrete-time instant $n$. $\lambda$ represents the rate of exponential recovery.
 
-The term $x_{n+1} - x_{n}$ may then simply be replaced with term $y_n$ which depicts the deviation of the vector of state variables $x$ between discrete-time instances $n$ and $n+1$.
+The term $x_{n+1} - x_{n}$ may then simply be replaced with term $y_{n+1}$ which depicts the deviation of the vector of state variables $x$ between discrete-time instances $n$ and $n+1$.
 
 \begin{equation}
-	y_{n} = \exp{(\lambda \Delta t)}y_n + \zeta_n
+	y_{n+1} = \exp{(\lambda \Delta t)}y_n + \zeta_n
 	\sigma
 \end{equation}
 
 Now if the time intervals between perturbations $\Delta t$ and the recovery rate $\lambda$ are independent of the state variables $x_{n}$ (and therefore their perturbations $y_{n}$), the above equation may be rewritten in the form of an autoregression model of the first order:
 
 \begin{equation}
-	y_{n} = \alpha y_{n} + \zeta_n\sigma
+	\label{eq:autocorrNoConstant}
+	y_{n+1} = \alpha y_{n} + \zeta_n\sigma
 \end{equation}
 
-The autocorrelation constant $\alpha \equiv \exp{\lambda \Delta t}$ is zero for a purely white gaussian noise and can be one or even greater for other kinds of highly correlated noises in stochastic processes such as brown noise (un-normalized data only).
+The autocorrelation constant $\alpha \equiv \exp{(\lambda \Delta t)}$ is zero for a purely white gaussian noise and can be one or even greater for other kinds of highly correlated noises in stochastic processes such as brown noise (un-normalized data only).
 
+For the general equation of a lag-1 autoregression:
+\begin{equation}
+	\label{eq:autocorrGeneral}
+	y_{n+1} = \alpha_0 + \alpha y_{n} + \zeta_n\sigma
+\end{equation} 
+the expected value (mean) of $y_{n}$ may be computed using:
+\begin{equation}
+	\EX(y_{n+1}) = \EX(\alpha_0) + \EX(\alpha y_{n}) + \EX(\zeta_n \sigma)
+\end{equation}
+\hspace{25pt} or,
+\begin{equation}
+	\mu = \alpha_0 + \alpha\mu + 0
+\end{equation}
+\hspace{25pt} or
+\begin{equation}
+	\label{eq:meanFormulaGeneral}
+	\mu = \frac{\alpha_0}{1-\alpha}
+\end{equation}
+
+Thus, if $\alpha_0 = 0$, as in Equation \ref{eq:autocorrNoConstant}, the mean of autoregression $\mu$ will also be zero.
+
+The variance of $y_{n}$, $\sigma^2_{y_{n}}$ may be computed using the formula for variance:
+
+\begin{equation}
+	\sigma^2_{y_{n}} = \EX(y^2_{n}) - \left(\EX(y_{n})\right)^2
+\end{equation} 	
+\hspace{25pt} or,
+\begin{equation}
+	\label{eq:sigmaComputationBegins}
+	\sigma^2_{y_{n}} = \EX(y^2_{n}) - \mu^2
+\end{equation}
+
+For computing the first term of the RHS of Equation \ref{eq:sigmaComputationBegins}, Equation \ref{eq:autocorrGeneral} may once again be utilized by taking the squares on both of its sides:
+
+\begin{equation}
+	y^2_{n+1} = \alpha^2_0 + \alpha^2 y^2_{n} + \zeta^2_n \sigma^2 + 2\alpha_0 \alpha y_{n} + 2\alpha_0 \zeta_n \sigma + 2\alpha y_{n} \zeta_n \sigma
+\end{equation}
+\hspace{25pt} or,
+\begin{equation}
+	\EX(y^2_{n}) = \alpha^2_0 + \alpha^2 \EX(y^2_{n}) + \zeta^2_{n} \sigma^2 + 2\alpha_0\alpha\EX(y_{n}) + 0 + 0
+\end{equation}
+\hspace{25pt} or,
+\begin{equation}
+	\EX(y^2_{n}) = \frac{\alpha^2_{0} + 2\alpha_0\alpha\mu + \zeta^2_{n}\sigma^2}{1-\alpha^2}
+\end{equation}
+Substituting the value of $\mu$ as per Equation \ref{eq:meanFormulaGeneral}:
+\begin{equation}
+	\label{eq:computedExpectationOfSquaresOfPerturbations}
+	\EX(y^2_{n}) = \frac{\alpha^2_{0} + 2\alpha_0\alpha\frac{\alpha_0}{1-\alpha} + \zeta^2_{n}\sigma^2}{1-\alpha^2}
+\end{equation}
+
+ The LHS of Equation \ref{eq:computedExpectationOfSquaresOfPerturbations} and \ref{eq:meanFormulaGeneral} may now be substituted in Equation \ref{eq:sigmaComputationBegins} in order to get:
  
+ \begin{equation}
+ 	\sigma^2_{y_{n}} = \frac{\alpha^2_{0} + 2\alpha_0\alpha\frac{\alpha_0}{1-\alpha} + \zeta^2_{n}\sigma^2}{1-\alpha^2} - \left(\frac{\alpha_0}{1-\alpha}\right)^2
+ \end{equation}
+
+Putting $\alpha_0 = 0$ as per Equation \ref{eq:autocorrNoConstant}, the final expression for $\sigma^2_{y_n}$ comes out to be:
+
+\begin{equation}
+	\label{eq:varianceFormulaNoConstant}
+	\sigma^2_{y_n} = \frac{\zeta^2_{n}\sigma^2}{1-\alpha^2}
+\end{equation}
+
+As a process (represented by a vector of state variables, such as $x$) approaches towards a critical bifurcation point, it undergoes Critical Slowing Down in which its recovery rate $\lambda$ progressively slows down to zero.  The slowing down of the recovery of the process from any perturbation causes the perturbations to become progressively correlated (i.e. $\alpha$ increases towards one) and allows unrestricted increase in variance of its perturbations $\sigma^2_{y_{n}}$ (towards infinity).
+
+Thus the mathematical relationship between Critical Slowing Down and a corresponding increase in both Autocorrelation and Variance was established. 

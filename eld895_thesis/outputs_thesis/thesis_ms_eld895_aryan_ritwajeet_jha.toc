@@ -2,8 +2,8 @@
 \contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
 \contentsline {section}{\numberline {2}Literature Review and Objectives}{3}{section.2}%
 \contentsline {section}{\numberline {3}Theory}{5}{section.3}%
-\contentsline {section}{\numberline {4}Offline/Postmortem Analysis}{9}{section.4}%
-\contentsline {section}{\numberline {5}Online/Real-time Analysis}{21}{section.5}%
-\contentsline {section}{\numberline {6}Conclusions}{29}{section.6}%
-\contentsline {section}{\numberline {7}Future Work}{31}{section.7}%
+\contentsline {section}{\numberline {4}Offline/Postmortem Analysis}{11}{section.4}%
+\contentsline {section}{\numberline {5}Online/Real-time Analysis}{23}{section.5}%
+\contentsline {section}{\numberline {6}Conclusions}{31}{section.6}%
+\contentsline {section}{\numberline {7}Future Work}{33}{section.7}%
 \contentsfinish 
