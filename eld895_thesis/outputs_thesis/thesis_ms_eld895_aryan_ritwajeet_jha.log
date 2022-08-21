@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7.30) (preloaded format=pdflatex 2022.7.31)  21 AUG 2022 11:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7.30) (preloaded format=pdflatex 2022.7.31)  21 AUG 2022 11:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1350,7 +1350,7 @@ een already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.60 \newpage
-              [0] (../chapters/Introduction.tex) [1] [2]
+              [0] (../chapters/Introduction.tex [1]) [2]
 (../chapters/LiteratureReview.tex
 LaTeX Font Info:    Trying to load font information for U+msa on input line 8.
 
@@ -1855,7 +1855,7 @@ ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/aryan/AppData/Local
 ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/ar
 yan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pf
 b>
-Output written on thesis_ms_eld895_aryan_ritwajeet_jha.pdf (42 pages, 3720072 b
+Output written on thesis_ms_eld895_aryan_ritwajeet_jha.pdf (42 pages, 3721568 b
 ytes).
 PDF statistics:
  1058 PDF objects out of 1200 (max. 8388607)
