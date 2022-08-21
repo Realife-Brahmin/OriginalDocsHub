@@ -24,7 +24,7 @@ Since in this thesis the function is used in two ways where only one of the para
 \textbf{Fixed Time Autocorrelation}: Autocorrelation function computed over a snapshot of a time-varying variable over a fixed time window. The usage of Fixed Time Autocorrelation can be seen in the Offline Analysis chapter (Chapter \ref{sec:offline}) of this thesis.
 
 \begin{equation}
-	c(\tau) = \frac{\sum_{1}^{W_{total}} x[n]x[n+\tau]}{\sum_{1}^{W_{total}} x[n]^2} 
+	c(\tau) = \frac{\sum_{1}^{W_{total}-1} x[n]x[n+\tau]}{\sum_{1}^{W_{total}-1} x[n]^2} 
 \end{equation}
  
  In this thesis, the window length $W_{total}$ ranges from months to years.
@@ -32,7 +32,7 @@ Since in this thesis the function is used in two ways where only one of the para
  \textbf{Fixed Lag Autocorrelation}: Autocorrelation function computed over a window running over a continuously generated stream of data in which the value of the lag $\tau$ is fixed. The usage of Fixed Lag Autocorrelation can be seen in the Online Analysis chapter (Chapter \ref{sec:online}) of this thesis.
  
  \begin{equation}
- 	c(t)|_{\tau = \tau_{fixed}} = \frac{\sum_{i}^{i+W} x[n]x[n+\tau_{fixed}]}{\sum_{i}^{i+W} x[n]^2} 
+ 	c(t)|_{\tau = \tau_{fixed}} = \frac{\sum_{i}^{i+W-1} x[n]x[n+\tau_{fixed}]}{\sum_{i}^{i+W-1} x[n]^2} 
  \end{equation}
  
  In this thesis, the window length used is $W=15$ seconds. The value of $\tau$ used is $\tau_{fixed}=1$ second.
@@ -44,26 +44,26 @@ Since in this thesis the function is used in two ways where only one of the para
 \end{equation}
 \hspace{75pt} where,
 \begin{equation}
-	E(x) = \frac{1}{W} \sum_{i}^{i+W} x[n]
+	E(x) = \frac{1}{W} \sum_{i}^{i+W-1} x[n]
 \end{equation}
 
-\textbf{Bifurcation Theory}: The concepts Bifurcations and Critical Bifurcations were used to explain why a small yet steady change in the parameters of a dynamical system (such as the power grid) can remain inconspicuous only to, upon reaching a `tipping' point or `Critical Transition', manifest as a sudden major upset to the `motion' of the dynamical system. The terms Bifurcations and Critical Bifurcations were used almost interchangeably, although technically only Critical Bifurcations are significant enough to alter the dynamics of a system from stable to unstable. Any dynamical system can be expressed as a set of differential algebraic equations. The  Figures \ref{fig:bifPitchforkSubcritical} and \ref{fig:bifPitchforkSubcritical} demonstrate this phenomena in a particular variation, the Pitchfork bifurcation.
+\textbf{Bifurcation Theory}: The concepts Bifurcations and Critical Bifurcations were used to explain why a small yet steady change in the parameters of a dynamical system (such as the power grid) can remain inconspicuous only to, upon reaching a `tipping' point or `Critical Transition', manifest as a sudden major upset to the `motion' of the dynamical system. The terms Bifurcations and Critical Bifurcations were used almost interchangeably, although technically only Critical Bifurcations are significant enough to alter the dynamics of a system from stable to unstable. Any dynamical system can be expressed as a set of differential algebraic equations. The  Figures \ref{fig:bifPitchforkSupercritical} and \ref{fig:bifPitchforkSubcritical} demonstrate this phenomena in a particular variation, the Pitchfork bifurcation.
 
 
 \begin{figure}[!ht]
-	\label{fig:bifPitchforkSupercritical}
 	\centering{
 	\import{../figures/}{bifurcationPitchforkPdf.pdf_tex}
 	}
 	\caption{Bifurcation diagram for the normal form of the Supercritical Pitchfork Bifurcation $\frac{dx}{dt} = \mu x - x^3$. \\ For $\mu \leq 0$, the only stable equilibrium solution for the dynamical system (or fixed point) is $x=0$. Upon reaching the critical `tipping' point $\mu=0$, $x=0$ no longer remains a stable equilibrium path for the dynamical system and instead two different stable paths emerge: $x = \sqrt{+\mu}$ and $x = -\sqrt{\mu}$. Such a critical point, in which one stable path bifurcates into at least two distinct paths (which may or may not be stable) is called a bifurcation point and the phenomenon is known as `Critical Bifurcation'.}
+	\label{fig:bifPitchforkSupercritical}
 \end{figure}
 
 \begin{figure}[!ht]
-	\label{fig:bifPitchforkSubcritical}
 	\centering{
 		\import{../figures/}{bifurcationPitchforkNegativePdf.pdf_tex}
 	}
 	\caption{Bifurcation diagram for the normal form of the Subcritical Pitchfork Bifurcation $\frac{dx}{dt} = \mu x + x^3$. \\ For $\mu \leq 0$, the only stable equilibrium solution (or fixed point) for the dynamical system is $x=0$. Upon reaching the critical `tipping' point $\mu=0$, three different equilibrium solutions (or fixed points) emerge: $x=0$, $x = \sqrt{+\mu}$ and $x = -\sqrt{\mu}$, none of which are stable. Here too, $\mu=0$ is a bifurcation point.}
+	\label{fig:bifPitchforkSubcritical}
 \end{figure}
 
 
@@ -71,7 +71,69 @@ Since in this thesis the function is used in two ways where only one of the para
 Autocorrelation $c(t, \tau)$ of any detrended physical/natural signal $\tilde{x}(t)$ or $d(x(t))$, should decrease exponentially as the time-lag $\tau$ is increased.
 
 \textbf{Why do Autocorrelation and Variance increase with Critical Slowing Down?}:
-\cite{schefferEarlyWarningSignalsForCriticalTransitions} explains the increase of autocorrelation and variance when a dynamical system trends towards instability with the help of the example below:
+
+The question may be divided into two parts:
+\begin{enumerate}
+	\item How does the autocorrelation of the perturbations of a system's state variables increase when the system is undergoing Critical Slowing Down?
+	\item For a system with increasing autocorrelation of the perturbations its state variables, how does the variance of the perturbations also increase?
+\end{enumerate}
+
+As an answer to the first question, we may consider the example given in \cite{schefferEarlyWarningSignalsForCriticalTransitions}:
+
+Let a dynamical system be represented by the differential function
+
+\begin{equation}
+	\label{eq:exampleDynamicalSystem}
+	\frac{dx}{dt} = k(x-x_1)(x-x_2)
+\end{equation}
+where $k$ is a positive coefficient, $x_1$ and $x_2$ are parameters, possibly as result of inherent dynamics of the system infrastructure or an intentional control mechanism (in which case, they are also known as control parameters).
+
+Let $x_1$ be the stable equilibrium point (or stable fixed point) and $x_2$ be the unstable equilibrium point (unstable fixed point	). This implies that $x_1 < x_2$ (one may easily prove this by taking the second derivatives of Equation \ref{eq:exampleDynamicalSystem} and checking for its sign at the fixed points).
+
+Now if the system were to be perturbed at its stable fixed point $x_1$ by a small disturbance of $\Delta x$, the perturbed dynamical system could be expressed by a slight variation of Equation \ref{eq:exampleDynamicalSystem}:
+
+\begin{equation}
+	\frac{d(x_1+\Delta x)}{dt} = k(x_1+\Delta x-x_1)(x_1+\Delta x - x_2)
+\end{equation}
+\hspace{25pt} or,
+
+\begin{equation}
+	\frac{d(x_1)}{dt} + \frac{d(\Delta x)}{dt} = k(\Delta x)(\Delta x + x_1 - x_2)
+\end{equation}
+\hspace{25pt} or,
+
+\NewDocumentCommand{\evalat}{sO{\big}mm}{%
+	\IfBooleanTF{#1}
+	{\mleft. #3 \mright|_{#4}}
+	{#3#2|_{#4}}%
+}
+\begin{equation}
+	\evalat[\bigg]{\frac{d(\Delta x)}{dt}}{x_1} = k\left\{(x_1-x_2)\Delta x + (\Delta x)^2\right\}
+\end{equation}
+\hspace{25pt} Ignoring the second order terms:
+
+\begin{equation}
+	\evalat[\bigg]{\frac{d(\Delta x)}{dt}}{x_1} = k(x_1-x_2)\Delta x
+\end{equation}
+\hspace{25pt} Since the perturbation $\Delta x$ is independent of the parameters $x_1$ and $x_2$, the above equation may be rewritten by replacing $k(x_1-x_2)$ with $\lambda_1$:
+
+\begin{equation}
+	\evalat[\bigg]{\frac{d(\Delta x)}{dt}}{x_1} = \lambda_1 \Delta x 
+\end{equation}
+Thus the perturbation may be expressed as an explicit time domain equation:
+\begin{equation}
+	\Delta x(t)|_{x_1} = \exp{(\lambda_1 t)}
+\end{equation}
+which has a recovery rate of $\lambda_1 = k(x_1-x_2)$. On the other hand, a perturbation at the unstable fixed point $x_2$ would become exponentially increasing.
+\begin{equation}
+	\evalat[\bigg]{\frac{d(\Delta x)}{dt}}{x_2} = \exp{(\lambda_2 t)}
+\end{equation}
+ \hspace{25pt} where $\lambda_2 = -\lambda_1 = -k(x_1-x_2)$
+ 
+It may be seen from the above two equations representing the perturbations at the two fixed points that their recovery (or blow-up) rates depend on the difference in the values of the parameters $x_1$ and $x_2$. At the special case of $x_1 = x_2$, the fixed points exchange stability and the recovery rates tend to zero (Refer to the critical point $\mu$ in figures \ref{fig:bifPitchforkSupercritical} and \ref{fig:bifPitchforkSubcritical}) for an example of the phenomena in two variations of the Pitchfork Bifurcation).
+ 
+The same reference \cite{schefferEarlyWarningSignalsForCriticalTransitions} also explains the increase of autocorrelation and variance when a dynamical system trends towards instability with the help of the example below:
+
 Consider a discrete-time stochastic dynamical system with the vector of state variables being depicted by $x$. Let $x_n$ depict the value of the state variable vector $x$ at discrete time instance $n$.
 Now, if an additive noise say, Gaussian noise, is added to the stochastic dynamical system at every discrete time interval $\Delta t$, the slightly perturbed set of state variables, say $x_{n+1}$, of the otherwise stable dynamical system, would attempt to return to the set of state variables before the perturbation $x_n$, with an exponential recovery speed.
 

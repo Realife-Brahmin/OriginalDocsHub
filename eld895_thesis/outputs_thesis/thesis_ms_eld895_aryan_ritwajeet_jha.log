@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7.30) (preloaded format=pdflatex 2022.7.31)  20 AUG 2022 08:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7.30) (preloaded format=pdflatex 2022.7.31)  20 AUG 2022 23:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1214,24 +1214,24 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (thesis_ms_eld895_aryan_ritwajeet_jha.aux)
 \openout1 = `thesis_ms_eld895_aryan_ritwajeet_jha.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1312,9 +1312,9 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'thesis_ms_eld895_aryan_ritwajeet_jha.bbl' foun
 d.
  (thesis_ms_eld895_aryan_ritwajeet_jha.bbl)
-Package biblatex Info: Reference section=0 on input line 52.
-Package biblatex Info: Reference segment=0 on input line 52.
-Package hyperref Info: Link coloring OFF on input line 52.
+Package biblatex Info: Reference section=0 on input line 53.
+Package biblatex Info: Reference segment=0 on input line 53.
+Package hyperref Info: Link coloring OFF on input line 53.
 
 (thesis_ms_eld895_aryan_ritwajeet_jha.out)
 (thesis_ms_eld895_aryan_ritwajeet_jha.out)
@@ -1326,12 +1326,12 @@ Package hyperref Info: Link coloring OFF on input line 52.
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into 
 your preamble.
- on input line 52.
+ on input line 53.
 
 <iitd_logo.png, id=34, 2007.5pt x 2007.5pt>
 File: iitd_logo.png Graphic file (type png)
 <use iitd_logo.png>
-Package pdftex.def Info: iitd_logo.png  used on input line 55.
+Package pdftex.def Info: iitd_logo.png  used on input line 56.
 (pdftex.def)             Requested size: 108.37581pt x 108.37581pt.
 [0
 
@@ -1349,7 +1349,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.59 \newpage
+l.60 \newpage
               [0] (../chapters/Introduction.tex) [1] [2]
 (../chapters/LiteratureReview.tex
 LaTeX Font Info:    Trying to load font information for U+msa on input line 8.
@@ -1373,24 +1373,7 @@ File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 [5
 
-]
-
-Package caption Warning: \label without proper reference on input line 62.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:bifPitchforkSubcritical' on page 6 undefined on i
-nput line 50.
-
-
-Package caption Warning: \label without proper reference on input line 62.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:bifPitchforkSubcritical' on page 6 undefined on i
-nput line 50.
-
-(../figures/../figures/bifurcationPitchforkPdf.pdf_tex
+] (../figures/../figures/bifurcationPitchforkPdf.pdf_tex
 <../figures/../figures//bifurcationPitchforkPdf.pdf, id=145, page=1, 219.03035p
 t x 189.78543pt>
 File: ../figures/../figures//bifurcationPitchforkPdf.pdf Graphic file (type pdf
@@ -1415,16 +1398,16 @@ gures//bifurcationPitchforkNegativePdf.pdf
 pdfTeX warning: pdflatex.exe (file ../figures/../figures//bifurcationPitchforkN
 egativePdf.pdf): PDF inclusion: multiple pdfs with page group included in a sin
 gle page
->] [8] [9]) [10] (../chapters/OfflineAnalysis.tex
+>] [8] [9] [10] [11]) [12] (../chapters/OfflineAnalysis.tex
 (../tables/realGridSamplingData.tex
 Overfull \hbox (45.5087pt too wide) in paragraph at lines 5--90
  [][] 
  []
 
-) [11
+) [13
 
 ]
-<../figures/pdf/pdf_frequency_continental_europe_2019.png, id=261, 1927.2pt x 9
+<../figures/pdf/pdf_frequency_continental_europe_2019.png, id=284, 1927.2pt x 9
 78.65625pt>
 File: ../figures/pdf/pdf_frequency_continental_europe_2019.png Graphic file (ty
 pe png)
@@ -1437,7 +1420,7 @@ Overfull \hbox (14.37715pt too wide) in paragraph at lines 27--28
 [][] 
  []
 
-<../figures/pdf/pdf_frequency_tokyo_2020_01.png, id=262, 1927.2pt x 978.65625pt
+<../figures/pdf/pdf_frequency_tokyo_2020_01.png, id=285, 1927.2pt x 978.65625pt
 >
 File: ../figures/pdf/pdf_frequency_tokyo_2020_01.png Graphic file (type png)
 <use ../figures/pdf/pdf_frequency_tokyo_2020_01.png>
@@ -1449,7 +1432,7 @@ Overfull \hbox (14.37715pt too wide) in paragraph at lines 35--36
  [][] 
  []
 
-<../figures/pdf/pdf_frequency_nordic_2019.png, id=263, 1927.2pt x 978.65625pt>
+<../figures/pdf/pdf_frequency_nordic_2019.png, id=286, 1927.2pt x 978.65625pt>
 File: ../figures/pdf/pdf_frequency_nordic_2019.png Graphic file (type png)
 <use ../figures/pdf/pdf_frequency_nordic_2019.png>
 Package pdftex.def Info: ../figures/pdf/pdf_frequency_nordic_2019.png  used on 
@@ -1460,7 +1443,7 @@ Overfull \hbox (14.37715pt too wide) in paragraph at lines 41--42
  [][] 
  []
 
-<../figures/pdf/pdf_frequency_rte_2019_09.png, id=264, 1927.2pt x 978.65625pt>
+<../figures/pdf/pdf_frequency_rte_2019_09.png, id=287, 1927.2pt x 978.65625pt>
 File: ../figures/pdf/pdf_frequency_rte_2019_09.png Graphic file (type png)
 <use ../figures/pdf/pdf_frequency_rte_2019_09.png>
 Package pdftex.def Info: ../figures/pdf/pdf_frequency_rte_2019_09.png  used on 
@@ -1471,7 +1454,7 @@ Overfull \hbox (14.37715pt too wide) in paragraph at lines 51--52
  [][] 
  []
 
-<../figures/pdf/pdf_frequency_uk_2020_04.png, id=265, 1927.2pt x 978.65625pt>
+<../figures/pdf/pdf_frequency_uk_2020_04.png, id=288, 1927.2pt x 978.65625pt>
 File: ../figures/pdf/pdf_frequency_uk_2020_04.png Graphic file (type png)
 <use ../figures/pdf/pdf_frequency_uk_2020_04.png>
 Package pdftex.def Info: ../figures/pdf/pdf_frequency_uk_2020_04.png  used on i
@@ -1482,7 +1465,7 @@ Overfull \hbox (14.37715pt too wide) in paragraph at lines 57--58
  [][] 
  []
 
-<../figures/pdf/pdf_frequency_rte_2021_01_blackout.png, id=266, 1927.2pt x 978.
+<../figures/pdf/pdf_frequency_rte_2021_01_blackout.png, id=289, 1927.2pt x 978.
 65625pt>
 File: ../figures/pdf/pdf_frequency_rte_2021_01_blackout.png Graphic file (type 
 png)
@@ -1495,7 +1478,7 @@ Overfull \hbox (14.37715pt too wide) in paragraph at lines 68--69
  [][] 
  []
 
-<../figures/pdf/pdf_frequency_uk_2019_08_blackout.png, id=267, 1927.2pt x 978.6
+<../figures/pdf/pdf_frequency_uk_2019_08_blackout.png, id=290, 1927.2pt x 978.6
 5625pt>
 File: ../figures/pdf/pdf_frequency_uk_2019_08_blackout.png Graphic file (type p
 ng)
@@ -1508,7 +1491,7 @@ Overfull \hbox (14.37715pt too wide) in paragraph at lines 74--75
  [][] 
  []
 
-<../figures/pdf/pdf_frequency_spain_mallorca_2019_05_f1.png, id=268, 1927.2pt x
+<../figures/pdf/pdf_frequency_spain_mallorca_2019_05_f1.png, id=291, 1927.2pt x
  978.65625pt>
 File: ../figures/pdf/pdf_frequency_spain_mallorca_2019_05_f1.png Graphic file (
 type png)
@@ -1521,26 +1504,17 @@ Overfull \hbox (14.37715pt too wide) in paragraph at lines 81--82
 [][] 
  []
 
-(../figures/autocorr/comparison_five_no_title.tex) [12] [13 <../figures/pdf/pdf
+(../figures/autocorr/comparison_five_no_title.tex) [14] [15 <../figures/pdf/pdf
 _frequency_continental_europe_2019.png (PNG copy)>]
 Overfull \vbox (5.66806pt too high) has occurred while \output is active []
 
 
-[14 <../figures/pdf/pdf_frequency_tokyo_2020_01.png (PNG copy)> <../figures/pdf
-/pdf_frequency_nordic_2019.png (PNG copy)>] [15 <../figures/pdf/pdf_frequency_r
+[16 <../figures/pdf/pdf_frequency_tokyo_2020_01.png (PNG copy)> <../figures/pdf
+/pdf_frequency_nordic_2019.png (PNG copy)>] [17 <../figures/pdf/pdf_frequency_r
 te_2019_09.png (PNG copy)> <../figures/pdf/pdf_frequency_uk_2020_04.png (PNG co
-py)>]
-
-Package caption Warning: \label without proper reference on input line 3.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `tab:realGridSamplingData' on page 16 undefined on inp
-ut line 110.
-
-[16 <../figures/pdf/pdf_frequency_rte_2021_01_blackout.png (PNG copy)> <../figu
-res/pdf/pdf_frequency_uk_2019_08_blackout.png (PNG copy)>]
-<../figures/autocorr/fautocorrs_nordic_201801_to_201912.png, id=302, 1927.2pt x
+py)>] [18 <../figures/pdf/pdf_frequency_rte_2021_01_blackout.png (PNG copy)> <.
+./figures/pdf/pdf_frequency_uk_2019_08_blackout.png (PNG copy)>]
+<../figures/autocorr/fautocorrs_nordic_201801_to_201912.png, id=326, 1927.2pt x
  978.65625pt>
 File: ../figures/autocorr/fautocorrs_nordic_201801_to_201912.png Graphic file (
 type png)
@@ -1553,7 +1527,7 @@ Overfull \hbox (14.37715pt too wide) in paragraph at lines 113--114
 [][] 
  []
 
-<../figures/autocorr/fautocorrs_rte_201901_to_201912_202101.png, id=303, 1927.2
+<../figures/autocorr/fautocorrs_rte_201901_to_201912_202101.png, id=327, 1927.2
 pt x 978.65625pt>
 File: ../figures/autocorr/fautocorrs_rte_201901_to_201912_202101.png Graphic fi
 le (type png)
@@ -1566,7 +1540,7 @@ Overfull \hbox (14.37715pt too wide) in paragraph at lines 119--120
 [][] 
  []
 
-<../figures/autocorr/fautocorrs_uk_201901_to_202103_2.png, id=304, 1927.2pt x 9
+<../figures/autocorr/fautocorrs_uk_201901_to_202103_2.png, id=328, 1927.2pt x 9
 78.65625pt>
 File: ../figures/autocorr/fautocorrs_uk_201901_to_202103_2.png Graphic file (ty
 pe png)
@@ -1579,7 +1553,7 @@ Overfull \hbox (14.37715pt too wide) in paragraph at lines 124--125
 [][] 
  []
 
-<../figures/autocorr/fautocorrs_tokyo_202001_to_202012.png, id=305, 1927.2pt x 
+<../figures/autocorr/fautocorrs_tokyo_202001_to_202012.png, id=329, 1927.2pt x 
 978.65625pt>
 File: ../figures/autocorr/fautocorrs_tokyo_202001_to_202012.png Graphic file (t
 ype png)
@@ -1592,7 +1566,7 @@ Overfull \hbox (14.37715pt too wide) in paragraph at lines 129--130
 [][] 
  []
 
-<../figures/autocorr/fautocorrs_nrldc_201904_to_202004.png, id=306, 1927.2pt x 
+<../figures/autocorr/fautocorrs_nrldc_201904_to_202004.png, id=330, 1927.2pt x 
 978.65625pt>
 File: ../figures/autocorr/fautocorrs_nrldc_201904_to_202004.png Graphic file (t
 ype png)
@@ -1605,47 +1579,47 @@ Overfull \hbox (14.37715pt too wide) in paragraph at lines 136--137
 [][] 
  []
 
-[17 <../figures/pdf/pdf_frequency_spain_mallorca_2019_05_f1.png (PNG copy)>]
+[19 <../figures/pdf/pdf_frequency_spain_mallorca_2019_05_f1.png (PNG copy)>]
 
-LaTeX Warning: Text page 18 contains only floats.
+LaTeX Warning: Text page 20 contains only floats.
 
-[18 <../figures/autocorr/fautocorrs_nordic_201801_to_201912.png (PNG copy)>]
-<../figures/pdf/nrldc/pdf_frequency_nrldc_01.png, id=319, 1927.2pt x 978.65625p
+[20 <../figures/autocorr/fautocorrs_nordic_201801_to_201912.png (PNG copy)>]
+<../figures/pdf/nrldc/pdf_frequency_nrldc_01.png, id=342, 1927.2pt x 978.65625p
 t>
 File: ../figures/pdf/nrldc/pdf_frequency_nrldc_01.png Graphic file (type png)
 <use ../figures/pdf/nrldc/pdf_frequency_nrldc_01.png>
 Package pdftex.def Info: ../figures/pdf/nrldc/pdf_frequency_nrldc_01.png  used 
 on input line 142.
 (pdftex.def)             Requested size: 210.33832pt x 106.80133pt.
-<../figures/pdf/nrldc/pdf_frequency_nrldc_02.png, id=320, 1927.2pt x 978.65625p
+<../figures/pdf/nrldc/pdf_frequency_nrldc_02.png, id=343, 1927.2pt x 978.65625p
 t>
 File: ../figures/pdf/nrldc/pdf_frequency_nrldc_02.png Graphic file (type png)
 <use ../figures/pdf/nrldc/pdf_frequency_nrldc_02.png>
 Package pdftex.def Info: ../figures/pdf/nrldc/pdf_frequency_nrldc_02.png  used 
 on input line 143.
 (pdftex.def)             Requested size: 210.33832pt x 106.80133pt.
-<../figures/pdf/nrldc/pdf_frequency_nrldc_03.png, id=321, 1927.2pt x 978.65625p
+<../figures/pdf/nrldc/pdf_frequency_nrldc_03.png, id=344, 1927.2pt x 978.65625p
 t>
 File: ../figures/pdf/nrldc/pdf_frequency_nrldc_03.png Graphic file (type png)
 <use ../figures/pdf/nrldc/pdf_frequency_nrldc_03.png>
 Package pdftex.def Info: ../figures/pdf/nrldc/pdf_frequency_nrldc_03.png  used 
 on input line 147.
 (pdftex.def)             Requested size: 210.33832pt x 106.80133pt.
-<../figures/pdf/nrldc/pdf_frequency_nrldc_04.png, id=322, 1927.2pt x 978.65625p
+<../figures/pdf/nrldc/pdf_frequency_nrldc_04.png, id=345, 1927.2pt x 978.65625p
 t>
 File: ../figures/pdf/nrldc/pdf_frequency_nrldc_04.png Graphic file (type png)
 <use ../figures/pdf/nrldc/pdf_frequency_nrldc_04.png>
 Package pdftex.def Info: ../figures/pdf/nrldc/pdf_frequency_nrldc_04.png  used 
 on input line 148.
 (pdftex.def)             Requested size: 210.33832pt x 106.80133pt.
-<../figures/pdf/nrldc/pdf_frequency_nrldc_05.png, id=323, 1927.2pt x 978.65625p
+<../figures/pdf/nrldc/pdf_frequency_nrldc_05.png, id=346, 1927.2pt x 978.65625p
 t>
 File: ../figures/pdf/nrldc/pdf_frequency_nrldc_05.png Graphic file (type png)
 <use ../figures/pdf/nrldc/pdf_frequency_nrldc_05.png>
 Package pdftex.def Info: ../figures/pdf/nrldc/pdf_frequency_nrldc_05.png  used 
 on input line 152.
 (pdftex.def)             Requested size: 210.33832pt x 106.80133pt.
-<../figures/pdf/nrldc/pdf_frequency_nrldc_06.png, id=324, 1927.2pt x 978.65625p
+<../figures/pdf/nrldc/pdf_frequency_nrldc_06.png, id=347, 1927.2pt x 978.65625p
 t>
 File: ../figures/pdf/nrldc/pdf_frequency_nrldc_06.png Graphic file (type png)
 <use ../figures/pdf/nrldc/pdf_frequency_nrldc_06.png>
@@ -1653,9 +1627,9 @@ Package pdftex.def Info: ../figures/pdf/nrldc/pdf_frequency_nrldc_06.png  used
 on input line 153.
 (pdftex.def)             Requested size: 210.33832pt x 106.80133pt.
 
-[19 <../figures/autocorr/fautocorrs_rte_201901_to_201912_202101.png (PNG copy)>
+[21 <../figures/autocorr/fautocorrs_rte_201901_to_201912_202101.png (PNG copy)>
  <../figures/autocorr/fautocorrs_uk_201901_to_202103_2.png (PNG copy)>]
-<../figures/pdf/pdf_frequency_us_wi_2019_05.png, id=331, 1927.2pt x 978.65625pt
+<../figures/pdf/pdf_frequency_us_wi_2019_05.png, id=354, 1927.2pt x 978.65625pt
 >
 File: ../figures/pdf/pdf_frequency_us_wi_2019_05.png Graphic file (type png)
 <use ../figures/pdf/pdf_frequency_us_wi_2019_05.png>
@@ -1667,7 +1641,7 @@ Overfull \hbox (14.37715pt too wide) in paragraph at lines 164--165
  [][] 
  []
 
-<../figures/pdf/pdf_frequency_us_tx_2019_05.png, id=332, 1927.2pt x 978.65625pt
+<../figures/pdf/pdf_frequency_us_tx_2019_05.png, id=355, 1927.2pt x 978.65625pt
 >
 File: ../figures/pdf/pdf_frequency_us_tx_2019_05.png Graphic file (type png)
 <use ../figures/pdf/pdf_frequency_us_tx_2019_05.png>
@@ -1679,48 +1653,40 @@ Overfull \hbox (14.37715pt too wide) in paragraph at lines 170--171
  [][] 
  []
 
-) [20 <../figures/autocorr/fautocorrs_tokyo_202001_to_202012.png (PNG copy)> <.
-./figures/autocorr/fautocorrs_nrldc_201904_to_202004.png (PNG copy)>] [21 <../f
+) [22 <../figures/autocorr/fautocorrs_tokyo_202001_to_202012.png (PNG copy)> <.
+./figures/autocorr/fautocorrs_nrldc_201904_to_202004.png (PNG copy)>] [23 <../f
 igures/pdf/nrldc/pdf_frequency_nrldc_01.png (PNG copy)> <../figures/pdf/nrldc/p
 df_frequency_nrldc_02.png (PNG copy)> <../figures/pdf/nrldc/pdf_frequency_nrldc
 _03.png (PNG copy)> <../figures/pdf/nrldc/pdf_frequency_nrldc_04.png (PNG copy)
 > <../figures/pdf/nrldc/pdf_frequency_nrldc_05.png (PNG copy)> <../figures/pdf/
-nrldc/pdf_frequency_nrldc_06.png (PNG copy)>] [22 <../figures/pdf/pdf_frequency
+nrldc/pdf_frequency_nrldc_06.png (PNG copy)>] [24 <../figures/pdf/pdf_frequency
 _us_wi_2019_05.png (PNG copy)> <../figures/pdf/pdf_frequency_us_tx_2019_05.png 
-(PNG copy)>] (../chapters/OnlineAnalysis.tex [23
+(PNG copy)>] (../chapters/OnlineAnalysis.tex [25
 
 ]
-
-Package caption Warning: \label without proper reference on input line 23.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:psse_run02' on page 24 undefined on input line 20
-.
-
-<../figures/analysis_matlab/ploads_run02.png, id=360, 1927.2pt x 978.65625pt>
+<../figures/analysis_matlab/ploads_run02.png, id=383, 1927.2pt x 978.65625pt>
 File: ../figures/analysis_matlab/ploads_run02.png Graphic file (type png)
 <use ../figures/analysis_matlab/ploads_run02.png>
 Package pdftex.def Info: ../figures/analysis_matlab/ploads_run02.png  used on i
-nput line 27.
+nput line 26.
 (pdftex.def)             Requested size: 481.79883pt x 244.66347pt.
 
-Overfull \hbox (14.37715pt too wide) in paragraph at lines 27--28
+Overfull \hbox (14.37715pt too wide) in paragraph at lines 26--27
  [][] 
  []
 
-<../figures/analysis_matlab/pgens_run02.png, id=361, 1927.2pt x 978.65625pt>
+<../figures/analysis_matlab/pgens_run02.png, id=384, 1927.2pt x 978.65625pt>
 File: ../figures/analysis_matlab/pgens_run02.png Graphic file (type png)
 <use ../figures/analysis_matlab/pgens_run02.png>
 Package pdftex.def Info: ../figures/analysis_matlab/pgens_run02.png  used on in
-put line 33.
+put line 32.
 (pdftex.def)             Requested size: 481.79883pt x 244.66347pt.
 
-Overfull \hbox (14.37715pt too wide) in paragraph at lines 33--34
+Overfull \hbox (14.37715pt too wide) in paragraph at lines 32--33
  [][] 
  []
 
-<../figures/analysis_matlab/frequencies_run02.png, id=362, 1927.2pt x 978.65625
+<../figures/analysis_matlab/frequencies_run02.png, id=385, 1927.2pt x 978.65625
 pt>
 File: ../figures/analysis_matlab/frequencies_run02.png Graphic file (type png)
 <use ../figures/analysis_matlab/frequencies_run02.png>
@@ -1732,7 +1698,7 @@ Overfull \hbox (14.37715pt too wide) in paragraph at lines 44--45
  [][] 
  []
 
-<../figures/analysis_matlab/voltages_run02.png, id=363, 1927.2pt x 978.65625pt>
+<../figures/analysis_matlab/voltages_run02.png, id=386, 1927.2pt x 978.65625pt>
 
 File: ../figures/analysis_matlab/voltages_run02.png Graphic file (type png)
 <use ../figures/analysis_matlab/voltages_run02.png>
@@ -1744,7 +1710,7 @@ Overfull \hbox (14.37715pt too wide) in paragraph at lines 50--51
  [][] 
  []
 
-<../figures/analysis_matlab/currents_run02.png, id=364, 1927.2pt x 978.65625pt>
+<../figures/analysis_matlab/currents_run02.png, id=387, 1927.2pt x 978.65625pt>
 
 File: ../figures/analysis_matlab/currents_run02.png Graphic file (type png)
 <use ../figures/analysis_matlab/currents_run02.png>
@@ -1756,7 +1722,7 @@ Overfull \hbox (14.37715pt too wide) in paragraph at lines 60--61
  [][] 
  []
 
-<../figures/analysis_matlab/mvas_run02.png, id=365, 1927.2pt x 978.65625pt>
+<../figures/analysis_matlab/mvas_run02.png, id=388, 1927.2pt x 978.65625pt>
 File: ../figures/analysis_matlab/mvas_run02.png Graphic file (type png)
 <use ../figures/analysis_matlab/mvas_run02.png>
 Package pdftex.def Info: ../figures/analysis_matlab/mvas_run02.png  used on inp
@@ -1767,7 +1733,7 @@ Overfull \hbox (14.37715pt too wide) in paragraph at lines 66--67
  [][] 
  []
 
-<../figures/analysis_matlab/voltsDetrended_run02.png, id=366, 1927.2pt x 978.65
+<../figures/analysis_matlab/voltsDetrended_run02.png, id=389, 1927.2pt x 978.65
 625pt>
 File: ../figures/analysis_matlab/voltsDetrended_run02.png Graphic file (type pn
 g)
@@ -1780,7 +1746,7 @@ Overfull \hbox (14.37715pt too wide) in paragraph at lines 75--76
  [][] 
  []
 
-<../figures/analysis_matlab/ar1_run02.png, id=367, 1927.2pt x 978.65625pt>
+<../figures/analysis_matlab/ar1_run02.png, id=390, 1927.2pt x 978.65625pt>
 File: ../figures/analysis_matlab/ar1_run02.png Graphic file (type png)
 <use ../figures/analysis_matlab/ar1_run02.png>
 Package pdftex.def Info: ../figures/analysis_matlab/ar1_run02.png  used on inpu
@@ -1791,7 +1757,7 @@ Overfull \hbox (14.37715pt too wide) in paragraph at lines 82--83
  [][] 
  []
 
-<../figures/analysis_matlab/var_run02.png, id=368, 1927.2pt x 978.65625pt>
+<../figures/analysis_matlab/var_run02.png, id=391, 1927.2pt x 978.65625pt>
 File: ../figures/analysis_matlab/var_run02.png Graphic file (type png)
 <use ../figures/analysis_matlab/var_run02.png>
 Package pdftex.def Info: ../figures/analysis_matlab/var_run02.png  used on inpu
@@ -1802,7 +1768,7 @@ Overfull \hbox (14.37715pt too wide) in paragraph at lines 88--89
  [][] 
  []
 
-<../figures/analysis_matlab/mktcc_ar1_run02.png, id=369, 1927.2pt x 978.65625pt
+<../figures/analysis_matlab/mktcc_ar1_run02.png, id=392, 1927.2pt x 978.65625pt
 >
 File: ../figures/analysis_matlab/mktcc_ar1_run02.png Graphic file (type png)
 <use ../figures/analysis_matlab/mktcc_ar1_run02.png>
@@ -1814,7 +1780,7 @@ Overfull \hbox (14.37715pt too wide) in paragraph at lines 98--99
  [][] 
  []
 
-<../figures/analysis_matlab/mktcc_var_run02.png, id=370, 1927.2pt x 978.65625pt
+<../figures/analysis_matlab/mktcc_var_run02.png, id=393, 1927.2pt x 978.65625pt
 >
 File: ../figures/analysis_matlab/mktcc_var_run02.png Graphic file (type png)
 <use ../figures/analysis_matlab/mktcc_var_run02.png>
@@ -1826,31 +1792,28 @@ Overfull \hbox (14.37715pt too wide) in paragraph at lines 104--105
  [][] 
  []
 
-) [24] [25 <../figures/analysis_matlab/ploads_run02.png (PNG copy)> <../figures
-/analysis_matlab/pgens_run02.png (PNG copy)>] [26 <../figures/analysis_matlab/f
+) [26] [27 <../figures/analysis_matlab/ploads_run02.png (PNG copy)> <../figures
+/analysis_matlab/pgens_run02.png (PNG copy)>] [28 <../figures/analysis_matlab/f
 requencies_run02.png (PNG copy)> <../figures/analysis_matlab/voltages_run02.png
- (PNG copy)>] [27 <../figures/analysis_matlab/currents_run02.png (PNG copy)> <.
-./figures/analysis_matlab/mvas_run02.png (PNG copy)>] [28 <../figures/analysis_
-matlab/voltsDetrended_run02.png (PNG copy)>] [29 <../figures/analysis_matlab/ar
+ (PNG copy)>] [29 <../figures/analysis_matlab/currents_run02.png (PNG copy)> <.
+./figures/analysis_matlab/mvas_run02.png (PNG copy)>] [30 <../figures/analysis_
+matlab/voltsDetrended_run02.png (PNG copy)>] [31 <../figures/analysis_matlab/ar
 1_run02.png (PNG copy)> <../figures/analysis_matlab/var_run02.png (PNG copy)>]
-[30 <../figures/analysis_matlab/mktcc_ar1_run02.png (PNG copy)> <../figures/ana
+[32 <../figures/analysis_matlab/mktcc_ar1_run02.png (PNG copy)> <../figures/ana
 lysis_matlab/mktcc_var_run02.png (PNG copy)>] (../chapters/Conclusions.tex
-[31
+[33
 
-]) [32] (../chapters/FutureWork.tex) [33
+]) [34] (../chapters/FutureWork.tex) [35
 
-] [34
+] [36
 
-] [35]
-Overfull \hbox (6.39029pt too wide) in paragraph at lines 77--77
+] [37]
+Overfull \hbox (6.39029pt too wide) in paragraph at lines 78--78
 \T1/cmr/m/n/12 fast^^Uslow sys-tems and stochas-tic dy-nam-ics''. In: \T1/cmr/m
 /it/12 Phys-ica D \T1/cmr/m/n/12 240.12 (June 2011), pp. 1020^^U
  []
 
-[36] (../chapters/Appendix.tex) [37] (thesis_ms_eld895_aryan_ritwajeet_jha.aux)
-
-LaTeX Warning: There were undefined references.
-
+[38] (../chapters/Appendix.tex) [39] (thesis_ms_eld895_aryan_ritwajeet_jha.aux)
 Package rerunfilecheck Info: File `thesis_ms_eld895_aryan_ritwajeet_jha.out' ha
 s not changed.
 (rerunfilecheck)             Checksum: 21C2A0CDB0BA675878218C35ADC880C1;939.
@@ -1860,10 +1823,10 @@ run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 44170 strings out of 478337
- 1019252 string characters out of 2836666
- 1855955 words of memory out of 3000000
- 61710 multiletter control sequences out of 15000+600000
+ 44188 strings out of 478337
+ 1019444 string characters out of 2836666
+ 1856896 words of memory out of 3000000
+ 61716 multiletter control sequences out of 15000+600000
  482858 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,21n,103p,1527b,2279s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -1891,10 +1854,10 @@ ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/aryan/AppData/Local
 ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/ar
 yan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pf
 b>
-Output written on thesis_ms_eld895_aryan_ritwajeet_jha.pdf (39 pages, 3696647 b
+Output written on thesis_ms_eld895_aryan_ritwajeet_jha.pdf (41 pages, 3704887 b
 ytes).
 PDF statistics:
- 1006 PDF objects out of 1200 (max. 8388607)
- 125 named destinations out of 1000 (max. 500000)
+ 1031 PDF objects out of 1200 (max. 8388607)
+ 137 named destinations out of 1000 (max. 500000)
  244 words of extra memory for PDF output out of 10000 (max. 10000000)
 
