@@ -4,6 +4,6 @@
 \contentsline {section}{\numberline {3}Theory}{5}{section.3}%
 \contentsline {section}{\numberline {4}Offline/Postmortem Analysis}{13}{section.4}%
 \contentsline {section}{\numberline {5}Online/Real-time Analysis}{25}{section.5}%
-\contentsline {section}{\numberline {6}Conclusions}{33}{section.6}%
-\contentsline {section}{\numberline {7}Future Work}{35}{section.7}%
+\contentsline {section}{\numberline {6}Conclusions}{34}{section.6}%
+\contentsline {section}{\numberline {7}Future Work}{36}{section.7}%
 \contentsfinish 
