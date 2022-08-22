@@ -1,12 +1,10 @@
 \section[Offline/Postmortem Analysis]{Offline Analysis}
 \label{sec:offline}
 
-Power Grid studies on distribution of frequency deviation/fluctuation aid in developing suitable control mechanisms for power grid operators. Conventionally, the Gaussian model has been used to model the distribution \cite{woodAndWollenbergPowerGenerationOperationAndControl}, but certain features of real power grids such as heavier tails (i.e. when the PDF of frequency fluctuations at a distance of several standard deviation have a significantly higher magnitude than the corresponding PDF magnitudes of the assumed Gaussian distribution. This is also called as having a high kurtosis), skewness (frequency fluctuations being asymmetric around the mean) and even having bimodal or multimodal distributions are not explained by the simple model. The first part of the `Offline Analysis' chapter explores this aspect by plotting PDFs of several world power grid frequency archives and visually analyzing the results.
+Power grid studies on distribution of frequency deviation/fluctuation aid in developing suitable control mechanisms for power grid operators. Conventionally, the Gaussian model has been used to model its distribution \cite{woodAndWollenbergPowerGenerationOperationAndControl}, but certain features of real power grids such as heavier tails (i.e. when the PDF of frequency fluctuations at a distance of several standard deviation have a significantly higher magnitude than the corresponding PDF magnitudes of the assumed Gaussian distribution. This is also called as having a high kurtosis), skewness (frequency fluctuations being asymmetric around the mean) and even having bimodal or multimodal distributions are not explained by the simple model. The first part of the `Offline Analysis' chapter explores this aspect by plotting PDFs of several world power grid frequency archives and visually analyzing the results.
  
 Various frequency time-series archives for a diverse set of real-world grids were obtained and analyzed by plotting their bulk distribution probability density functions and autocorrelation decay functions. The data for most European and US grids was conveniently curated by the authors of \cite{lrydin01, lrydinGithub}. For the other regions of the world, \cite{tokyo2017, tokyo2020} had the data for the Tokyo grid, \cite{nordic2018, nordic2019} for the Nordic grids, \cite{ce2019, ce2020} for Continental European grid and \cite{ukNationalGridESOData} for the UK Grid.
-All time series were collected at sampling rates between 0.5 seconds (Tokyo) and 10 seconds (Continental Europe).
-
-Here is a table of sampling times and total duration of times over which the frequency time series archive were obtained.
+All time series were collected at sampling rates between 0.5 seconds (Tokyo) and 10 seconds (Continental Europe). Refer to Table \ref{tab:realGridSamplingData} for further details on sampling times and total duration of sampling.
 
 \renewcommand{\arraystretch}{1.0}
 
@@ -98,9 +96,11 @@ In the plotted autocorrelation decay curves, all grids showed exponentially decr
 	c(\tau) \propto exp{\left(-\frac{\tau}{t_{corr}}\right)}
 \end{equation}
 
-where $t_{corr}$ is the correlation constant for the grid (the time period in which autocorrelation decays to $1/\exp$th of its original value). This is in agreement with the usual autocorrelation decay trends observed for natural stochastic processes, such as the Ornstein-Uhlenbeck Process \cite{numericalSolutionForStochasticDifferentailEquationsKloedenEckhard}. 
+where $t_{corr}$ is the correlation constant for the grid (the time period in which autocorrelation decays to $\frac{1}{e}$th of its original value). This is in agreement with the usual autocorrelation decay trends observed for natural stochastic processes, such as the Ornstein-Uhlenbeck Process \cite{numericalSolutionForStochasticDifferentailEquationsKloedenEckhard}. 
 Instead of the autocorrelation decay constant $t_{corr}$, sometimes its reciprocal, inverse-time autocorrelation decay constant $\frac{1}{t_{corr}}$ or simply $t_{corr}^{-1}$ is used.   
-In order to confirm if the decrease was indeed exponential with a grid-specific inverse-time autocorrelation decay constant, semi-log graphs ($\log(c(\tau))$ vs $\tau$) were also plotted. The decay constants were computed by calculating the slopes of the semi-log graphs and it was found that the grids which were bigger, more robust and showed bulk distribution PDFs which were less-deviating from Gaussian distributions, had greater values of inverse-time correlation ${t_{corr}}^{-1}$. This parameter can also be construed as $\alpha$, the relative damping strength of the grid for small oscillations and can be an indicator of the overall robustness of the grid.	
+In order to confirm if the decrease was indeed exponential with a grid-specific inverse-time autocorrelation decay constant, semi-log graphs ($\log(c(\tau))$ vs $\tau$) were also plotted. The decay constants were computed by calculating the slopes of the semi-log graphs and it was found that the grids which were bigger, more robust and showed bulk distribution PDFs which were less-deviating from Gaussian distributions, had greater values of inverse-time correlation ${t_{corr}}^{-1}$. This parameter can also be construed as $\alpha$, the relative damping strength of the grid for small oscillations and can be an indicator of the overall robustness of the grid. Refer to Table \ref{tab:invCorr} for the computed values.
+
+\input{../tables/inverseAutocorrelationValues}
 
 \subsection*{Effect of sampling duration on consistency of offline analysis of data}
 \label{app:effectOfSamplingDuration}

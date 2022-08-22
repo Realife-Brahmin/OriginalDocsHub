@@ -27,7 +27,9 @@ Since in this thesis the function is used in two ways where only one of the para
 	c(\tau) = \frac{\sum_{1}^{W_{total}-1} x[n]x[n+\tau]}{\sum_{1}^{W_{total}-1} x[n]^2} 
 \end{equation}
  
- In this thesis, the window length $W_{total}$ ranges from months to years.
+In this thesis, the window length $W_{total}$ mostly ranges from months to years, with the exception of a few grids, where it can be for just a few days.
+  
+Fixed Time Autocorrelation $c(\tau)$ of any detrended physical/natural signal $\tilde{x}(t)$ or $d(x(t))$, should decrease exponentially as the time-lag $\tau$ is increased \cite{schafer01}. The decrement of Fixed Time Autocorrelation with respect to the lag $\tau$ is intuitive as it makes sense for a state variable's value to be more correlated with its value a few earlier or later ago than its value thirty minutes earlier or later.
  
  \textbf{Fixed Lag Autocorrelation}: Autocorrelation function computed over a window running over a continuously generated stream of data in which the value of the lag $\tau$ is fixed. The usage of Fixed Lag Autocorrelation can be seen in the Online Analysis chapter (Chapter \ref{sec:online}) of this thesis.
  
@@ -35,7 +37,7 @@ Since in this thesis the function is used in two ways where only one of the para
  	c(t)|_{\tau = \tau_{fixed}} = \frac{\sum_{i}^{i+W-1} x[n]x[n+\tau_{fixed}]}{\sum_{i}^{i+W-1} x[n]^2} 
  \end{equation}
  
- In this thesis, the window length used is $W=15$ seconds. The value of $\tau$ used is $\tau_{fixed}=1$ second.
+ In this thesis, the window length $W$ represents the number of consecutive discrete-time instances equivalent to $T=15$ seconds. The value of $\tau$ used is the number of consecutive discrete-time instances equivalent to $\tau_{fixed}=1$ second. More details in Chapter \ref{sec:online} of this thesis.
 
 \textbf{Variance}: Degree of overall deviation/fluctuation in the values of a data.
 
@@ -68,9 +70,8 @@ Since in this thesis the function is used in two ways where only one of the para
 
 
 \textbf{Critical Slowing Down}: The theory of Critical Slowing Down applies on dynamical systems on the verge of `tipping' or `bifurcation' and how they show warning signs before breaking down or descending into instability. These warning signs such as an `increased time to settle', `increased autocorrelation and variance of fluctuations', etc. \cite{schefferEarlyWarningSignalsForCriticalTransitions} can be statistically analyzed to predict the onset of such a bifurcation for a given system.
-Autocorrelation $c(t, \tau)$ of any detrended physical/natural signal $\tilde{x}(t)$ or $d(x(t))$, should decrease exponentially as the time-lag $\tau$ is increased.
 
-\textbf{Why do Autocorrelation and Variance increase with Critical Slowing Down?}:
+\noindent \textbf{Why do Autocorrelation and Variance increase with Critical Slowing Down?}:
 
 The question may be divided into two parts:
 \begin{enumerate}
@@ -81,12 +82,11 @@ The question may be divided into two parts:
 As an answer to the first question, we may consider the example given in \cite{schefferEarlyWarningSignalsForCriticalTransitions}:
 
 Let a dynamical system be represented by the differential function
-
 \begin{equation}
 	\label{eq:exampleDynamicalSystem}
 	\frac{dx}{dt} = k(x-x_1)(x-x_2)
 \end{equation}
-where $k$ is a positive coefficient, $x_1$ and $x_2$ are parameters, possibly as result of inherent dynamics of the system infrastructure or an intentional control mechanism (in which case, they are also known as control parameters).
+\hspace{25pt} where $k$ is a positive coefficient, $x_1$ and $x_2$ are parameters, possibly as result of inherent dynamics of the system infrastructure or an intentional control mechanism (in which case, they are also known as control parameters).
 
 Let $x_1$ be the stable equilibrium point (or stable fixed point) and $x_2$ be the unstable equilibrium point (unstable fixed point	). This implies that $x_1 < x_2$ (one may easily prove this by taking the second derivatives of Equation \ref{eq:exampleDynamicalSystem} and checking for its sign at the fixed points).
 

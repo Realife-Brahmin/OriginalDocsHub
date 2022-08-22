@@ -72,6 +72,7 @@ Based on the above conditions, simulations were run in PSSE. The simulations ran
 	\caption{Simulation results of the IEEE 9 Bus System as per the prescribed conditions.}
 \end{figure}
 
+\clearpage
 \textbf{Steps for Measuring Critical Slowing Down in the Simulation}
 
 \begin{enumerate}
@@ -80,7 +81,7 @@ Based on the above conditions, simulations were run in PSSE. The simulations ran
 	\item All instances of the bus voltages `covered' by the current window were:\\
 		\begin{enumerate}
 			\item Detrended via a Gaussian Kernel Smoothing function. \\
-			Detrending a time-series, i.e. filtering out only the fluctuations in the time-series for analysis and rejecting the long-term steady state trends is required for examining Critical Slowing Down as autocorrelation is meant for computation on detrended data, not on raw data, for effective analysis. The detrending was done by first passing the state variables (bus voltages) through a low pass filter, in this case, the Gaussian Kernel Smoothing filter and the resultant `smoothed' bus voltage signal were then subtracted from the original bus voltage signals.
+			Detrending a time-series, i.e. filtering out only the fluctuations in the time-series for analysis and rejecting the long-term slow trends is required for examining Critical Slowing Down as autocorrelation is meant for computation on detrended data, not on raw data, for effective analysis. The detrending was done by first passing the state variables (bus voltages) through a low pass filter, in this case, the Gaussian Kernel Smoothing filter and the resultant `smoothed' bus voltage signal were then subtracted from the original bus voltage signals.
 			\begin{equation}
 				GKS(n, \sigma_f) = \frac{1}{\sigma_f \sqrt{2\pi}}\exp{\left(-\frac{n^2}{2\sigma_f^2}\right)}
 			\end{equation}
@@ -92,7 +93,7 @@ Based on the above conditions, simulations were run in PSSE. The simulations ran
 			\hspace{25pt} for the $i$th bus.
 			The resultant detrended bus voltages may be viewed in Figure \ref{fig:detrendedBusVoltages}. 
 			
-			\item Subsequently, Fixed Lag Autocorrelation (with Lag $\tau = 1$ second) and Variance were computed over the detrended bus voltages. The autocorrelations were computed using \texttt{AR} function in MATLAB 2022a and variances were computed using the \texttt{var} function in MATLAB 2022a. Refer Figure \ref{fig:autocorrAndVariance} for the results.
+			\item Subsequently, Fixed Lag Autocorrelation (with Lag $\tau = 1$ second) and Variance were computed over the detrended bus voltages. The autocorrelations were computed using \texttt{AR} function and variances were computed using the \texttt{var} function in MATLAB 2022a. Refer to Figure \ref{fig:autocorrAndVariance} for the results.
 			
 			\item Lastly, in order to statistically test for serial dependence of the autocorrelation and variance data (i.e. whether they are significantly increasing wrt time to be actually considered to be symptoms of Critical Slowing Down), a new kind of statistical parameter, namely the Modified Kendall's Tau Correlation Coefficient was computed over both of the previously computed Fixed Lag Autocorrelation and Variance values. In order to explain this new parameter, firstly the regular Kendall's Tau Correlation Coefficient is briefly introduced:
 			\begin{equation}
@@ -124,7 +125,7 @@ Based on the above conditions, simulations were run in PSSE. The simulations ran
 	\begin{subfigure}{\textwidth}
 		\centering
 		\includegraphics[scale=0.25]{../figures/analysis_matlab/ar1_run02}
-		\caption{Fixed Lag Autocorrelations with Lag $\tau = 1s$ computed for the Detrended Bus Voltages for the simulated IEEE 9 Bus System vs simulation time.}
+		\caption{Fixed Lag Autocorrelations (un-normalized) with Lag $\tau = 1s$ computed for the Detrended Bus Voltages for the simulated IEEE 9 Bus System vs simulation time.}
 	\end{subfigure}
 	
 	\begin{subfigure}{\textwidth}
@@ -154,7 +155,12 @@ Based on the above conditions, simulations were run in PSSE. The simulations ran
 	\label{fig:mktccAutocorrAndVariance}
 \end{figure}
 
-It should be noted that while autocorrelation was used in both online/real-time (as Fixed Lag Autocorrelation) and offline/postmortem analyses (as Fixed Time Autocorrelation), the two usages were different in:
+\clearpage
+Continuous stress on the power grid in the form of a constantly increasing power demand on the generators is bound to cause a blackout in the grid. In simulation terms, this is when the `Network Not Converged' error message is thrown by PSSE, and in mathematical terms, this phenomenon is called as Critical Bifurcation.
+It was verified using visual inspection of the Fixed Lag Autocorrelation plots, Variance plots and their respective Modified Kendall's Tau Correlation Coefficient plots that Fixed Lag Autocorrelation and Variance of Bus Voltages are suitable early warning signs for indicators to instability in the power grids, predicting the critical bifurcation event a minute earlier. It may be noted that the time by which an advanced prediction of an impending critical bifurcation is does not carry much meaning without accommodating the size of the grid and the degree of load demand stress on the grid. Other simulations were done with lower stress (~5\% to 7\% increase in demand power per minute) whose analysis would lead to an earlier prediction of the impending critical bifurcation (around several minutes before the event). Similarly, a higher stress (~25\% per minute) could only be diagnosed around thirty seconds earlier.
+Ultimately, the figure of interest is the ratio of the time of prediction made vs the total simulation time. In all instances, the prediction was made at the latest, half-way through the simulation. This implies that the algorithm is appropriate to diagnose proximity to instabilities in a power grid before any harm is done. 
+
+Lastly, it should be noted that while autocorrelation was used in both online/real-time (as Fixed Lag Autocorrelation) and offline/postmortem analyses (as Fixed Time Autocorrelation), the two usages were different in:
 
 \begin{itemize}
 	\item their mode of procuring and processing input data (a running window of an incoming stream of data vs previously stored months/years worth of time series),
