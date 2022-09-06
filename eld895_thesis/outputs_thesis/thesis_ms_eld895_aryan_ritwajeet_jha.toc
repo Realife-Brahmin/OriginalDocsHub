@@ -6,4 +6,6 @@
 \contentsline {section}{\numberline {5}Online/Real-time Analysis}{26}{section.5}%
 \contentsline {section}{\numberline {6}Conclusions}{37}{section.6}%
 \contentsline {section}{\numberline {7}Future Work}{39}{section.7}%
+\contentsline {section}{\numberline {A}Ornstein-Uhlenbeck Process}{44}{appendix.A}%
+\contentsline {section}{\numberline {B}More Examples for Critical Bifurcation}{44}{appendix.B}%
 \contentsfinish 
