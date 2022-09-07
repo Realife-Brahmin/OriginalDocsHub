@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7.30) (preloaded format=pdflatex 2022.7.31)  5 SEP 2022 22:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7.30) (preloaded format=pdflatex 2022.7.31)  7 SEP 2022 01:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1829,10 +1829,25 @@ File: ../figures/../figures//bifurcationTranscriticalPdf.pdf Graphic file (type
 Package pdftex.def Info: ../figures/../figures//bifurcationTranscriticalPdf.pdf
  , page1 used on input line 56.
 (pdftex.def)             Requested size: 219.03033pt x 190.1374pt.
+)
+(../figures/../figures/bifurcationTranscriticalNegativePdf.pdf_tex
+<../figures/../figures//bifurcationTranscriticalNegativePdf.pdf, id=590, page=1
+, 219.50623pt x 190.54787pt>
+File: ../figures/../figures//bifurcationTranscriticalNegativePdf.pdf Graphic fi
+le (type pdf)
+<use ../figures/../figures//bifurcationTranscriticalNegativePdf.pdf, page 1>
+Package pdftex.def Info: ../figures/../figures//bifurcationTranscriticalNegativ
+ePdf.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 219.03033pt x 190.1374pt.
 )) [44
 
- <../figures/../figures//bifurcationTranscriticalPdf.pdf>]
-(thesis_ms_eld895_aryan_ritwajeet_jha.aux)
+ <../figures/../figures//bifurcationTranscriticalPdf.pdf> <../figures/../figure
+s//bifurcationTranscriticalNegativePdf.pdf
+
+pdfTeX warning: pdflatex.exe (file ../figures/../figures//bifurcationTranscriti
+calNegativePdf.pdf): PDF inclusion: multiple pdfs with page group included in a
+ single page
+>] (thesis_ms_eld895_aryan_ritwajeet_jha.aux)
 Package rerunfilecheck Info: File `thesis_ms_eld895_aryan_ritwajeet_jha.out' ha
 s not changed.
 (rerunfilecheck)             Checksum: 398165ABF2593B6ACAF7CF88732C196B;1362.
@@ -1842,10 +1857,10 @@ run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 44241 strings out of 478337
- 1020962 string characters out of 2836666
- 1860036 words of memory out of 3000000
- 61740 multiletter control sequences out of 15000+600000
+ 44254 strings out of 478337
+ 1021824 string characters out of 2836666
+ 1860474 words of memory out of 3000000
+ 61750 multiletter control sequences out of 15000+600000
  484388 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,21n,103p,1566b,2279s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -1873,10 +1888,10 @@ ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/aryan/AppData/Local
 ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/ar
 yan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pf
 b>
-Output written on thesis_ms_eld895_aryan_ritwajeet_jha.pdf (46 pages, 3740404 b
+Output written on thesis_ms_eld895_aryan_ritwajeet_jha.pdf (46 pages, 3745367 b
 ytes).
 PDF statistics:
- 1135 PDF objects out of 1200 (max. 8388607)
+ 1155 PDF objects out of 1200 (max. 8388607)
  158 named destinations out of 1000 (max. 500000)
- 265 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 270 words of extra memory for PDF output out of 10000 (max. 10000000)
 
