@@ -1,15 +1,15 @@
 [0] Config.pm:306> INFO - This is Biber 2.18
 [0] Config.pm:309> INFO - Logfile is 'thesis_ms_eld895_aryan_ritwajeet_jha.blg'
-[109] biber-MSWIN64:340> INFO - === 
-[142] Biber.pm:418> INFO - Reading 'thesis_ms_eld895_aryan_ritwajeet_jha.bcf'
-[262] Biber.pm:978> INFO - Found 27 citekeys in bib section 0
-[278] Biber.pm:4401> INFO - Processing section 0
-[290] Biber.pm:4592> INFO - Looking for bibtex file '../chapters/references.bib' for section 0
-[333] bibtex.pm:1713> INFO - LaTeX decoding ...
-[375] bibtex.pm:1518> INFO - Found BibTeX data source '../chapters/references.bib'
-[559] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[559] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[559] Biber.pm:4221> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[559] Biber.pm:4227> INFO - No sort tailoring available for locale 'en-US'
-[581] bbl.pm:654> INFO - Writing 'thesis_ms_eld895_aryan_ritwajeet_jha.bbl' with encoding 'UTF-8'
-[596] bbl.pm:757> INFO - Output to thesis_ms_eld895_aryan_ritwajeet_jha.bbl
+[114] biber-MSWIN64:340> INFO - === 
+[150] Biber.pm:418> INFO - Reading 'thesis_ms_eld895_aryan_ritwajeet_jha.bcf'
+[274] Biber.pm:978> INFO - Found 27 citekeys in bib section 0
+[290] Biber.pm:4401> INFO - Processing section 0
+[302] Biber.pm:4592> INFO - Looking for bibtex file '../chapters/references.bib' for section 0
+[350] bibtex.pm:1713> INFO - LaTeX decoding ...
+[392] bibtex.pm:1518> INFO - Found BibTeX data source '../chapters/references.bib'
+[590] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[590] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[590] Biber.pm:4221> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[590] Biber.pm:4227> INFO - No sort tailoring available for locale 'en-US'
+[613] bbl.pm:654> INFO - Writing 'thesis_ms_eld895_aryan_ritwajeet_jha.bbl' with encoding 'UTF-8'
+[628] bbl.pm:757> INFO - Output to thesis_ms_eld895_aryan_ritwajeet_jha.bbl
