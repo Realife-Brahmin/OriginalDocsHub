@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.8)  8 SEP 2022 07:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.8)  8 SEP 2022 20:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -535,14 +535,26 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+)) (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks22
+\thm@bodyfont=\toks23
+\thm@headfont=\toks24
+\thm@notefont=\toks25
+\thm@headpunct=\toks26
+\thm@preskip=\skip75
+\thm@postskip=\skip76
+\thm@headsep=\skip77
+\dth@everypar=\toks27
+)
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
 Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
 \col@sep=\dimen154
 \ar@mcellbox=\box54
 \extrarowheight=\dimen155
-\NC@list=\toks22
-\extratabsurround=\skip75
-\backup@length=\skip76
+\NC@list=\toks28
+\extratabsurround=\skip78
+\backup@length=\skip79
 \ar@cellbox=\box55
 )
 (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.sty
@@ -558,12 +570,27 @@ Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
 (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex))
 (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
-\labelindent=\skip77
+\labelindent=\skip80
 \enit@outerparindent=\dimen156
-\enit@toks=\toks23
+\enit@toks=\toks29
 \enit@inbox=\box56
 \enit@count@id=\count417
 \enitdp@description=\count418
+)
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/cleveref\cleveref.sty
+Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
+Package cleveref Info: `hyperref' support loaded on input line 2370.
+LaTeX Info: Redefining \cref on input line 2370.
+LaTeX Info: Redefining \Cref on input line 2370.
+LaTeX Info: Redefining \crefrange on input line 2370.
+LaTeX Info: Redefining \Crefrange on input line 2370.
+LaTeX Info: Redefining \cpageref on input line 2370.
+LaTeX Info: Redefining \Cpageref on input line 2370.
+LaTeX Info: Redefining \cpagerefrange on input line 2370.
+LaTeX Info: Redefining \Cpagerefrange on input line 2370.
+LaTeX Info: Redefining \labelcref on input line 2370.
+LaTeX Info: Redefining \labelcpageref on input line 2370.
+Package cleveref Info: `amsthm' support loaded on input line 3026.
 )
 (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/pgfplots\pgfplots.sty
 (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.rev
@@ -577,7 +604,7 @@ sty
 y
 (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
 -common.tex
-\pgfutil@everybye=\toks24
+\pgfutil@everybye=\toks30
 \pgfutil@tempdima=\dimen157
 \pgfutil@tempdimb=\dimen158
 
@@ -604,12 +631,12 @@ Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
 
 (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
 .code.tex
-\pgfkeys@pathtoks=\toks25
-\pgfkeys@temptoks=\toks26
+\pgfkeys@pathtoks=\toks31
+\pgfkeys@temptoks=\toks32
 
 (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
 filtered.code.tex
-\pgfkeys@tmptoks=\toks27
+\pgfkeys@tmptoks=\toks33
 ))
 \pgf@x=\dimen159
 \pgf@y=\dimen160
@@ -627,9 +654,9 @@ filtered.code.tex
 \c@pgf@countb=\count420
 \c@pgf@countc=\count421
 \c@pgf@countd=\count422
-\t@pgf@toka=\toks28
-\t@pgf@tokb=\toks29
-\t@pgf@tokc=\toks30
+\t@pgf@toka=\toks34
+\t@pgf@tokb=\toks35
+\t@pgf@tokc=\toks36
 \pgf@sys@id@count=\count423
 
 (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.c
@@ -691,9 +718,9 @@ r.code.tex
 \pgfmath@dimen=\dimen169
 \pgfmath@count=\count426
 \pgfmath@box=\box58
-\pgfmath@toks=\toks31
-\pgfmath@stack@operand=\toks32
-\pgfmath@stack@operation=\toks33
+\pgfmath@toks=\toks37
+\pgfmath@stack@operand=\toks38
+\pgfmath@stack@operation=\toks39
 )
 (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
 ions.code.tex
@@ -854,8 +881,8 @@ Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
 .tex)
 \pgffor@iter=\dimen196
 \pgffor@skip=\dimen197
-\pgffor@stack=\toks34
-\pgffor@toks=\toks35
+\pgffor@stack=\toks40
+\pgffor@toks=\toks41
 ))
 (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
 z\tikz.code.tex
@@ -901,9 +928,9 @@ File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 e.tex
 (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscore
 .code.tex
-\t@pgfplots@toka=\toks36
-\t@pgfplots@tokb=\toks37
-\t@pgfplots@tokc=\toks38
+\t@pgfplots@toka=\toks42
+\t@pgfplots@tokb=\toks43
+\t@pgfplots@tokc=\toks44
 \pgfplots@tmpa=\dimen263
 \c@pgfplots@coordindex=\count440
 \c@pgfplots@scanlineindex=\count441
@@ -931,7 +958,7 @@ e\pgfplotsmatrix.code.tex)
 (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/numtable\pgf
 plotstableshared.code.tex
 \c@pgfplotstable@counta=\count443
-\t@pgfplotstable@a=\toks39
+\t@pgfplotstable@a=\toks45
 )
 (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructur
 e\pgfplotsdeque.code.tex)
@@ -1025,8 +1052,8 @@ Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 
 (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
 (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
-\XKV@toks=\toks40
-\XKV@tempa@toks=\toks41
+\XKV@toks=\toks46
+\XKV@tempa@toks=\toks47
 )
 \XKV@depth=\count447
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
@@ -1102,11 +1129,11 @@ Package: filemod-expmin 2011/09/19 v1.2 Get and compare file modification times
 (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
 Package: titlesec 2021/07/05 v2.14 Sectioning titles
 \ttl@box=\box72
-\beforetitleunit=\skip78
-\aftertitleunit=\skip79
+\beforetitleunit=\skip81
+\aftertitleunit=\skip82
 \ttl@plus=\dimen291
 \ttl@minus=\dimen292
-\ttl@toksa=\toks42
+\ttl@toksa=\toks48
 \titlewidth=\dimen293
 \titlewidthlast=\dimen294
 \titlewidthfirst=\dimen295
@@ -1138,30 +1165,220 @@ Package caption Info: hyperref package is loaded.
 Package: subcaption 2022/01/07 v1.5 Sub-captions (AR)
 \c@subfigure=\count453
 \c@subtable=\count454
+) (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/mnsymbol\MnSymbol.sty
+Package: MnSymbol 2007/01/21 v1.4 support for the MnSymbol font
+
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 )
-\@quotelevel=\count455
-\@quotereset=\count456
-(ee507_hw01_aryan_ritwajeet_jha.aux)
+LaTeX Info: Redefining \dagger on input line 84.
+LaTeX Info: Redefining \ddagger on input line 84.
+LaTeX Info: Redefining \mathparagraph on input line 84.
+LaTeX Info: Redefining \mathsection on input line 84.
+LaTeX Info: Redefining \mathdollar on input line 84.
+LaTeX Info: Redefining \mathsterling on input line 84.
+LaTeX Info: Redefining \yen on input line 84.
+LaTeX Info: Redefining \circledR on input line 84.
+LaTeX Info: Redefining \circledS on input line 84.
+LaTeX Info: Redefining \Re on input line 84.
+LaTeX Info: Redefining \Im on input line 84.
+LaTeX Info: Redefining \dotplus on input line 84.
+LaTeX Info: Redefining \thicksim on input line 84.
+LaTeX Info: Redefining \thickapprox on input line 84.
+LaTeX Info: Redefining \veebar on input line 84.
+LaTeX Info: Redefining \barwedge on input line 84.
+LaTeX Info: Redefining \doublebarwedge on input line 84.
+LaTeX Info: Redefining \centerdot on input line 84.
+LaTeX Info: Redefining \divideontimes on input line 84.
+\symMnSyA=\mathgroup6
+\symMnSyB=\mathgroup7
+\symMnSyC=\mathgroup8
+\symMnSyD=\mathgroup9
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 119.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/MnSymbolE/m/n on input line 119.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/MnSymbolE/m/n on input line 119.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 120.
+LaTeX Font Info:    Encoding `OMS' has changed to `U' for symbol font
+(Font)              `symbols' in the math version `normal' on input line 120.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> U/MnSymbolF/m/n on input line 120.
+LaTeX Font Info:    Encoding `OMS' has changed to `U' for symbol font
+(Font)              `symbols' in the math version `bold' on input line 120.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> U/MnSymbolF/m/n on input line 120.
+LaTeX Font Info:    Overwriting symbol font `MnSyA' in version `bold'
+(Font)                  U/MnSymbolA/m/n --> U/MnSymbolA/b/n on input line 121.
+LaTeX Font Info:    Overwriting symbol font `MnSyB' in version `bold'
+(Font)                  U/MnSymbolB/m/n --> U/MnSymbolB/b/n on input line 122.
+LaTeX Font Info:    Overwriting symbol font `MnSyC' in version `bold'
+(Font)                  U/MnSymbolC/m/n --> U/MnSymbolC/b/n on input line 123.
+LaTeX Font Info:    Overwriting symbol font `MnSyD' in version `bold'
+(Font)                  U/MnSymbolD/m/n --> U/MnSymbolD/b/n on input line 124.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/MnSymbolE/m/n --> OMX/MnSymbolE/b/n on input line 1
+25.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  U/MnSymbolF/m/n --> U/MnSymbolF/b/n on input line 126.
+LaTeX Font Info:    Redeclaring math alphabet \mathcal on input line 241.
+LaTeX Font Info:    Overwriting math alphabet `\mathcal' in version `bold'
+(Font)                  OMS/MnSymbolS/m/n --> OMS/MnSymbolS/b/n on input line 2
+41.
+LaTeX Info: Redefining \longrightarrow on input line 548.
+LaTeX Info: Redefining \longleftarrow on input line 549.
+LaTeX Info: Redefining \longleftrightarrow on input line 550.
+LaTeX Info: Redefining \Longrightarrow on input line 551.
+LaTeX Info: Redefining \Longleftarrow on input line 552.
+LaTeX Info: Redefining \Longleftrightarrow on input line 553.
+LaTeX Info: Redefining \longmapsto on input line 554.
+LaTeX Info: Redefining \vdots on input line 868.
+LaTeX Font Info:    Redeclaring math symbol \braceld on input line 1721.
+LaTeX Font Info:    Redeclaring math symbol \bracelu on input line 1722.
+LaTeX Font Info:    Redeclaring math symbol \bracerd on input line 1723.
+LaTeX Font Info:    Redeclaring math symbol \braceru on input line 1724.
+LaTeX Info: Redefining \downbracefill on input line 1799.
+LaTeX Info: Redefining \upbracefill on input line 1800.
+LaTeX Info: Redefining \overbrace on input line 1819.
+LaTeX Info: Redefining \underbrace on input line 1820.
+LaTeX Info: Redefining \surd on input line 1843.
+LaTeX Font Info:    Redeclaring math accent \widehat on input line 1845.
+LaTeX Font Info:    Redeclaring math accent \widetilde on input line 1846.
+LaTeX Font Info:    Redeclaring math accent \vec on input line 1848.
+)
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/wasysym\wasysym.sty
+Package: wasysym 2020/01/19 v2.4 Wasy-2 symbol support package
+\symwasy=\mathgroup10
+LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
+(Font)                  U/wasy/m/n --> U/wasy/b/n on input line 93.
+LaTeX Font Info:    Redeclaring math symbol \invneg on input line 242.
+)
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/tikzsymbols\tikzsymbols
+.sty
+Package: tikzsymbols 2021/12/14 v4.12a Some symbols created using tikz and LaTe
+X3.
+ (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/tools\xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+aryarrows.code.tex
+File: pgflibraryarrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\arrowsize=\dimen305
+))
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarytrees.code.tex
+File: tikzlibrarytrees.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+\l__tikzsymbols_Moai_thickness_dim=\dimen306
+\l__tikzsymbols_Kochtopf_nr_arguments_int=\count455
+\l__tikzsymbols_Bratpfanne_nr_arguments_int=\count456
+\l__tikzsymbols_Schneebesen_nr_arguments_int=\count457
+\l__tikzsymbols_Sieb_nr_arguments_int=\count458
+\l__tikzsymbols_Purierstab_nr_arguments_int=\count459
+\l__tikzsymbols_Dreizack_nr_arguments_int=\count460
+\l__tikzsymbols_Backblech_nr_arguments_int=\count461
+\l__tikzsymbols_Ofen_nr_arguments_int=\count462
+\l__tikzsymbols_Pfanne_nr_arguments_int=\count463
+\l__tikzsymbols_Herd_nr_arguments_int=\count464
+\l__tikzsymbols_Saftpresse_nr_arguments_int=\count465
+\l__tikzsymbols_Schussel_nr_arguments_int=\count466
+\l__tikzsymbols_Schaler_nr_arguments_int=\count467
+\l__tikzsymbols_Reibe_nr_arguments_int=\count468
+\l__tikzsymbols_Flasche_nr_arguments_int=\count469
+\l__tikzsymbols_Nudelholz_nr_arguments_int=\count470
+\l__tikzsymbols_Knoblauchpresse_nr_arguments_int=\count471
+\l__tikzsymbols_Sadey_nr_arguments_int=\count472
+\l__tikzsymbols_dSadey_nr_arguments_int=\count473
+\l__tikzsymbols_Changey_nr_arguments_int=\count474
+\l__tikzsymbols_dChangey_nr_arguments_int=\count475
+\l__tikzsymbols_cChangey_nr_arguments_int=\count476
+\l__tikzsymbols_dcChangey_nr_arguments_int=\count477
+\l__tikzsymbols_Annoey_nr_arguments_int=\count478
+\l__tikzsymbols_dAnnoey_nr_arguments_int=\count479
+\l__tikzsymbols_Smiley_nr_arguments_int=\count480
+\l__tikzsymbols_dSmiley_nr_arguments_int=\count481
+\l__tikzsymbols_Laughey_nr_arguments_int=\count482
+\l__tikzsymbols_dLaughey_nr_arguments_int=\count483
+\l__tikzsymbols_Neutrey_nr_arguments_int=\count484
+\l__tikzsymbols_dNeutrey_nr_arguments_int=\count485
+\l__tikzsymbols_Winkey_nr_arguments_int=\count486
+\l__tikzsymbols_oldWinkey_nr_arguments_int=\count487
+\l__tikzsymbols_dWinkey_nr_arguments_int=\count488
+\l__tikzsymbols_olddWinkey_nr_arguments_int=\count489
+\l__tikzsymbols_Sey_nr_arguments_int=\count490
+\l__tikzsymbols_dSey_nr_arguments_int=\count491
+\l__tikzsymbols_Xey_nr_arguments_int=\count492
+\l__tikzsymbols_dXey_nr_arguments_int=\count493
+\l__tikzsymbols_Innocey_nr_arguments_int=\count494
+\l__tikzsymbols_wInnocey_nr_arguments_int=\count495
+\l__tikzsymbols_dInnocey_nr_arguments_int=\count496
+\l__tikzsymbols_Cooley_nr_arguments_int=\count497
+\l__tikzsymbols_dCooley_nr_arguments_int=\count498
+\l__tikzsymbols_Tongey_nr_arguments_int=\count499
+\l__tikzsymbols_dTongey_nr_arguments_int=\count500
+\l__tikzsymbols_Nursey_nr_arguments_int=\count501
+\l__tikzsymbols_dNursey_nr_arguments_int=\count502
+\l__tikzsymbols_Vomey_nr_arguments_int=\count503
+\l__tikzsymbols_dVomey_nr_arguments_int=\count504
+\l__tikzsymbols_Walley_nr_arguments_int=\count505
+\l__tikzsymbols_rWalley_nr_arguments_int=\count506
+\l__tikzsymbols_dWalley_nr_arguments_int=\count507
+\l__tikzsymbols_drWalley_nr_arguments_int=\count508
+\l__tikzsymbols_Cat_nr_arguments_int=\count509
+\l__tikzsymbols_SchrodingersCat_nr_arguments_int=\count510
+\l__tikzsymbols_Ninja_nr_arguments_int=\count511
+\l__tikzsymbols_dNinja_nr_arguments_int=\count512
+\l__tikzsymbols_Sleepey_nr_arguments_int=\count513
+\l__tikzsymbols_dSleepey_nr_arguments_int=\count514
+\l__tikzsymbols_Maskey_nr_arguments_int=\count515
+\l__tikzsymbols_NiceReapey_nr_arguments_int=\count516
+\l__tikzsymbols_Strichmaxerl_nr_arguments_int=\count517
+\l__tikzsymbols_Person_nr_arguments_int=\count518
+\l__tikzsymbols_Heart_nr_arguments_int=\count519
+\l__tikzsymbols_dHeart_nr_arguments_int=\count520
+\l__tikzsymbols_HeartBroken_nr_arguments_int=\count521
+\l__tikzsymbols_Candle_nr_arguments_int=\count522
+\l__tikzsymbols_Fire_nr_arguments_int=\count523
+\l__tikzsymbols_Coffeecup_nr_arguments_int=\count524
+\l__tikzsymbols_Chair_nr_arguments_int=\count525
+\l__tikzsymbols_Bed_nr_arguments_int=\count526
+\l__tikzsymbols_Tribar_nr_arguments_int=\count527
+\l__tikzsymbols_Moai_nr_arguments_int=\count528
+\l__tikzsymbols_Snowman_nr_arguments_int=\count529
+\l__tikzsymbols_BasicTree_nr_arguments_int=\count530
+\l__tikzsymbols_WorstTree_nr_arguments_int=\count531
+\l__tikzsymbols_Springtree_nr_arguments_int=\count532
+\l__tikzsymbols_Summertree_nr_arguments_int=\count533
+\l__tikzsymbols_Autumntree_nr_arguments_int=\count534
+\l__tikzsymbols_Wintertree_nr_arguments_int=\count535
+)
+\@quotelevel=\count536
+\@quotereset=\count537
+ (ee507_hw01_aryan_ritwajeet_jha.aux)
 \openout1 = `ee507_hw01_aryan_ritwajeet_jha.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
@@ -1177,23 +1394,23 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'ee507_hw01_aryan_ritwajeet_jha.bbl' found.
  (ee507_hw01_aryan_ritwajeet_jha.bbl)
-Package biblatex Info: Reference section=0 on input line 27.
-Package biblatex Info: Reference segment=0 on input line 27.
+Package biblatex Info: Reference section=0 on input line 31.
+Package biblatex Info: Reference segment=0 on input line 31.
 
 (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count457
-\scratchdimen=\dimen305
+\scratchcounter=\count538
+\scratchdimen=\dimen307
 \scratchbox=\box73
-\nofMPsegments=\count458
-\nofMParguments=\count459
-\everyMPshowfont=\toks43
-\MPscratchCnt=\count460
-\MPscratchDim=\dimen306
-\MPnumerator=\count461
-\makeMPintoPDFobject=\count462
-\everyMPtoPDFconversion=\toks44
+\nofMPsegments=\count539
+\nofMParguments=\count540
+\everyMPshowfont=\toks49
+\MPscratchCnt=\count541
+\MPscratchDim=\dimen308
+\MPnumerator=\count542
+\makeMPintoPDFobject=\count543
+\everyMPtoPDFconversion=\toks50
 )
 (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
 ase.sty
@@ -1205,7 +1422,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 27.
+Package hyperref Info: Link coloring OFF on input line 31.
  (ee507_hw01_aryan_ritwajeet_jha.out) (ee507_hw01_aryan_ritwajeet_jha.out)
 \@outlinefile=\write5
 \openout5 = `ee507_hw01_aryan_ritwajeet_jha.out'.
@@ -1215,20 +1432,26 @@ Package hyperref Info: Link coloring OFF on input line 27.
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into 
 your preamble.
- on input line 27.
+ on input line 31.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 29.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 33.
 
 (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 29.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 33.
 
 
 (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 33
+.
+
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/wasysym\uwasy.fd
+File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 )
 (ee507_hw01_aryan_ritwajeet_jha.toc)
 \tf@toc=\write6
@@ -1245,28 +1468,32 @@ Package hyperref Warning: The anchor of a bookmark and its parent's must not
 ) [2] (../sections/q02.tex) [3
 
 ] (../sections/q03.tex
+\g__tikzsymbols_savebox_F_0 g 0 G_10_Laughey_1.4_none_none_box=\box74
+\g__tikzsymbols_savebox_F_0 g 0 G_7_Laughey_1.4_none_none_box=\box75
+\g__tikzsymbols_savebox_F_0 g 0 G_5_Laughey_1.4_none_none_box=\box76
 
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 31.
+Underfull \hbox (badness 10000) in paragraph at lines 60--63
 
-
-Overfull \hbox (58.13216pt too wide) in paragraph at lines 35--41
-[] [] 
  []
 
-) [4
+[4
 
-] (../sections/q04.tex) [5
+]
+Overfull \hbox (22.45639pt too wide) detected at line 71
+[]
+ []
+
+) [5] (../sections/q04.tex) [6
 
 ] (../sections/q05.tex
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 4.
 
-) [6
+) [7
 
 ] (../sections/q06.tex (../figures/../figures/dartBoardPdf.pdf_tex
-<../figures/../figures//dartBoardPdf.pdf, id=113, page=1, 116.31918pt x 108.544
+<../figures/../figures//dartBoardPdf.pdf, id=155, page=1, 116.31918pt x 108.544
 95pt>
 File: ../figures/../figures//dartBoardPdf.pdf Graphic file (type pdf)
 <use ../figures/../figures//dartBoardPdf.pdf, page 1>
@@ -1274,42 +1501,56 @@ Package pdftex.def Info: ../figures/../figures//dartBoardPdf.pdf , page1 used o
 n input line 56.
 (pdftex.def)             Requested size: 116.31917pt x 108.54964pt.
 ))
-[7
+[8
 
- <../figures/../figures//dartBoardPdf.pdf>] (../sections/q07.tex) [8
+ <../figures/../figures//dartBoardPdf.pdf>] (../sections/q07.tex) [9
 
 ]
 (ee507_hw01_aryan_ritwajeet_jha.aux)
-Package rerunfilecheck Info: File `ee507_hw01_aryan_ritwajeet_jha.out' has not 
-changed.
-(rerunfilecheck)             Checksum: A8EC03AACAED5ED66A40F46C9DD063F2;1272.
+
+Package rerunfilecheck Warning: File `ee507_hw01_aryan_ritwajeet_jha.out' has c
+hanged.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `ee507_hw01_aryan_ritwajeet_jha.out'
+:
+(rerunfilecheck)             Before: 3159E08BE8FBB8D2DCD791A18CEE109A;1273
+(rerunfilecheck)             After:  068BE0091EBFCDC5249E71E9EF168170;1263.
 Package logreq Info: Writing requests to 'ee507_hw01_aryan_ritwajeet_jha.run.xm
 l'.
 \openout1 = `ee507_hw01_aryan_ritwajeet_jha.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 41477 strings out of 475389
- 948104 string characters out of 2777001
- 1829278 words of memory out of 3000000
- 62159 multiletter control sequences out of 15000+600000
- 477803 words of font info for 61 fonts, out of 8000000 for 9000
+ 46981 strings out of 475389
+ 1053563 string characters out of 2777001
+ 1940600 words of memory out of 3000000
+ 67578 multiletter control sequences out of 15000+600000
+ 488007 words of font info for 94 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,14n,117p,771b,848s stack positions out of 10000i,1000n,20000p,200000b,80000s
- <C:\Users\aryan\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
-1000.pk><C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
-ts/cm/cmbx10.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/publ
-ic/amsfonts/cm/cmbx12.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/public/amsfonts/cm/cmmi10.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTe
-X/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/aryan/AppData/Local/Progra
-ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/aryan/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/aryan/AppD
-ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/a
-ryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.p
-fb>
-Output written on ee507_hw01_aryan_ritwajeet_jha.pdf (8 pages, 126256 bytes).
+ 99i,14n,117p,771b,914s stack positions out of 10000i,1000n,20000p,200000b,80000s
+
+pdfTeX warning (dest): name{equation.0.5} has been referenced but does not exis
+t, replaced by a fixed one
+
+{C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/mnsymbol/MnSymbol
+A.enc}{C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/mnsymbol/Mn
+SymbolC.enc}{C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/mnsym
+bol/MnSymbolD.enc}{C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/enc/dvips
+/mnsymbol/MnSymbolE.enc}<C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/public/mnsymbol/MnSymbol10.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX
+/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/aryan/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/aryan/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/aryan/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/
+aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C
+:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr1
+7.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmti10.pfb>
+Output written on ee507_hw01_aryan_ritwajeet_jha.pdf (9 pages, 151857 bytes).
 PDF statistics:
- 191 PDF objects out of 1000 (max. 8388607)
- 33 named destinations out of 1000 (max. 500000)
+ 242 PDF objects out of 1000 (max. 8388607)
+ 45 named destinations out of 1000 (max. 500000)
  130 words of extra memory for PDF output out of 10000 (max. 10000000)
 

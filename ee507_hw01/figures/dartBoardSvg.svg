@@ -43,16 +43,20 @@
     <g
        id="g1674"
        transform="matrix(0.25059567,0,0,0.2506387,23.893124,160.12042)"
-       style="display:inline">
+       style="display:inline"
+       inkscape:label="final_figure">
       <rect
-         style="opacity:0.5;fill:#f2f2f2;stroke:#000000;stroke-width:0.216298;stroke-miterlimit:5.2"
+         style="display:inline;opacity:0.5;fill:#f2f2f2;stroke:#000000;stroke-width:0.216298;stroke-miterlimit:5.2"
          id="rect61"
          width="149.28223"
          height="151.65776"
          x="32.833694"
-         y="61.910057" />
+         y="61.910057"
+         inkscape:label="background_rect" />
       <g
-         id="g565">
+         id="g565"
+         style="display:inline"
+         inkscape:label="axes">
         <path
            style="opacity:0.5;fill:#f9f9f9;stroke:#000000;stroke-width:0.233892;stroke-miterlimit:5.2"
            d="M 107.42553,212.55319 V 61.468084"
@@ -63,7 +67,7 @@
            id="path494" />
       </g>
       <path
-         style="opacity:0.5;fill:#008000;stroke:#000000;stroke-width:0.233892;stroke-miterlimit:5.2"
+         style="display:inline;opacity:0.5;fill:#008000;stroke:#000000;stroke-width:0.233892;stroke-miterlimit:5.2"
          id="path569"
          sodipodi:type="arc"
          sodipodi:cx="106.62567"
@@ -74,7 +78,8 @@
          sodipodi:end="0.43267107"
          sodipodi:open="true"
          sodipodi:arc-type="arc"
-         d="M 164.00343,165.23515 A 64.181221,62.962593 0 0 1 78.326751,193.53498 64.181221,62.962593 0 0 1 48.795989,109.71371 64.181221,62.962593 0 0 1 134.00107,80.075287 64.181221,62.962593 0 0 1 164.89253,163.42323" />
+         d="M 164.00343,165.23515 A 64.181221,62.962593 0 0 1 78.326751,193.53498 64.181221,62.962593 0 0 1 48.795989,109.71371 64.181221,62.962593 0 0 1 134.00107,80.075287 64.181221,62.962593 0 0 1 164.89253,163.42323"
+         inkscape:label="dart_board" />
       <g
          id="g878"
          style="display:inline;fill:#000000"
@@ -126,20 +131,20 @@
         <text
            xml:space="preserve"
            style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4035px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:1;fill:#000000;stroke:#000000;stroke-width:0.233892;stroke-miterlimit:5.2"
-           x="154.44234"
-           y="89.234123"
+           x="153.13664"
+           y="87.4935"
            id="text650"
            inkscape:label="text650"><tspan
              sodipodi:role="line"
              id="tspan648"
              style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4035px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;stroke-width:0.233892"
-             x="154.44234"
-             y="89.234123">$0$</tspan></text>
+             x="153.13664"
+             y="87.4935">$0$</tspan></text>
         <text
            xml:space="preserve"
            style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4035px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:1;fill:#000000;stroke:#000000;stroke-width:0.233892;stroke-miterlimit:5.2"
-           x="36.059845"
-           y="88.363815"
+           x="48.681507"
+           y="90.104439"
            id="text1888"
            inkscape:label="text650"
            inkscape:transform-center-x="-24.867206"
@@ -147,13 +152,13 @@
              sodipodi:role="line"
              id="tspan1886"
              style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4035px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;stroke-width:0.233892"
-             x="36.059845"
-             y="88.363815">$0$</tspan></text>
+             x="48.681507"
+             y="90.104439">$0$</tspan></text>
         <text
            xml:space="preserve"
            style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4035px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:1;fill:#000000;stroke:#000000;stroke-width:0.233892;stroke-miterlimit:5.2"
-           x="36.059845"
-           y="206.29083"
+           x="48.246281"
+           y="194.54166"
            id="text1892"
            inkscape:label="text650"
            inkscape:transform-center-x="-24.867206"
@@ -161,13 +166,13 @@
              sodipodi:role="line"
              id="tspan1890"
              style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4035px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;stroke-width:0.233892"
-             x="36.059845"
-             y="206.29083">$0$</tspan></text>
+             x="48.246281"
+             y="194.54166">$0$</tspan></text>
         <text
            xml:space="preserve"
            style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4035px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:1;fill:#000000;stroke:#000000;stroke-width:0.233892;stroke-miterlimit:5.2"
-           x="152.70142"
-           y="207.5963"
+           x="153.57187"
+           y="200.63382"
            id="text1896"
            inkscape:label="text650"
            inkscape:transform-center-x="-24.867206"
@@ -175,8 +180,8 @@
              sodipodi:role="line"
              id="tspan1894"
              style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4035px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;stroke-width:0.233892"
-             x="152.70142"
-             y="207.5963">$0$</tspan></text>
+             x="153.57187"
+             y="200.63382">$0$</tspan></text>
       </g>
     </g>
   </g>

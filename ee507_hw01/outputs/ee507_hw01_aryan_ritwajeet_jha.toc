@@ -3,13 +3,13 @@
 \contentsline {section}{Problem 2}{3}{section*.1}%
 \contentsline {subsection}{Solution}{3}{Item.8}%
 \contentsline {section}{Problem 3}{4}{Item.8}%
-\contentsline {subsection}{Solution}{4}{section*.2}%
-\contentsline {section}{Problem 4}{5}{section*.2}%
-\contentsline {subsection}{Solution}{5}{Item.12}%
-\contentsline {section}{Problem 5}{6}{Item.12}%
-\contentsline {subsection}{Solution}{6}{section*.3}%
-\contentsline {section}{Problem 6}{7}{section*.3}%
-\contentsline {subsection}{Solution}{7}{Item.16}%
-\contentsline {section}{Problem 7}{8}{Item.16}%
-\contentsline {subsection}{Solution}{8}{Item.20}%
+\contentsline {subsection}{Solution}{4}{Item.12}%
+\contentsline {section}{Problem 4}{6}{Item.15}%
+\contentsline {subsection}{Solution}{6}{Item.19}%
+\contentsline {section}{Problem 5}{7}{Item.19}%
+\contentsline {subsection}{Solution}{7}{section*.2}%
+\contentsline {section}{Problem 6}{8}{section*.2}%
+\contentsline {subsection}{Solution}{8}{Item.23}%
+\contentsline {section}{Problem 7}{9}{Item.23}%
+\contentsline {subsection}{Solution}{9}{Item.27}%
 \contentsfinish 

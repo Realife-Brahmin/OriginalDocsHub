@@ -1,7 +1,7 @@
 \section{Problem 3}
 Consider any uncertain experiment, and let $A$, $B$, and $C$ be three events defined for the experiment. Please prove the following equalities or inequalities. In doing so, you may use the three axioms, any equalities/inequalities developed in class, standard set theory and algebra concepts, and earlier parts of the problem.
 
-\begin{itemize}
+\begin{enumerate}[a.]
 	\item
 	\!  %one-sixth of a quad's space, the Stack Exchange answer did this so I'm doing the same too.
 	$
@@ -26,17 +26,74 @@ Consider any uncertain experiment, and let $A$, $B$, and $C$ be three events def
 		\end{aligned}
 	$ \\[5pt]
 	Please also give an example showing that the bound can be achieved.
-\end{itemize}
+\end{enumerate}
 
 \subsection{Solution}
 
-\begin{itemize}
-	\item 
+\begin{enumerate}[a.]
+	\item To Prove: $P(A \bar{B}) = P(A) - P(AB)$
 		\!
-			\begin{tabular}{L L L L}
-				\text{To Prove: } & P(A \bar{B}) &= P(A) - P(AB) &  \\
-				\text{We know that } & P(A) &= P(A \bar{B}) + P(AB) & \text{(Law of Total Probability)} \\
-				\text{Rearranging equation:} & P(A\bar{B}) &= P(A) - P(AB) & \text{Hence Proved.}
-			\end{tabular}
-		\item Hello
-\end{itemize}
+		\begin{proof}
+			\begin{align}
+				& \text{From the Law of Total Probability, we know that } \nonumber\\ 
+				& \quad P(A) = P(A \bar{B}) + P(AB) \label{eq:totalProbLaw} \\
+				& \text{Rearranging \cref{eq:totalProbLaw}, we get:} \nonumber\\
+				& \quad P(A\bar{B}) = P(A) - P(AB) \\
+				& \text{ Hence Proved. \Laughey[1.4]} \nonumber
+			\end{align}
+		\end{proof}
+	\item To Prove: If $A$ is contained in $B$, then $P(A) \leq P(B)$
+		\!
+		\begin{proof}
+			\begin{align}
+				& \text{To Prove: } \text{if } A \subseteq B \text{,  then } P(A) \leq P(B) \nonumber \\
+				& \text{From the Law of Total Probability, we know that} \nonumber\\
+				& \quad P(B) = P(B\bar{A}) + P(BA) \label{eq:totalProbLawB}\\
+				& \quad A \subseteq B \implies A \cap B = A \implies P(BA) = P(A) \nonumber\\
+				& \quad \text{or,} \quad P(B) = P(B\bar{A}) + P(A) \nonumber\\
+				& \text{But, by Axiom $1$ of Probability} \nonumber\\
+				& \quad P(B\bar{A}) \geq 0 \nonumber\\
+				& \quad \implies P(A) \leq P(B) \nonumber \\
+				& \text{Hence Proved. \Laughey[1.4]} \nonumber			
+			\end{align}
+		\end{proof}
+		\item \text{To Prove: } $P(A+B) + P(\bar A) + P(\bar B) - P(\bar A + \bar B) = 1$\\
+		\!
+			\begin{proof}
+				\begin{align}
+					LHS &= \{P(A) + P(B) - P(AB)\} + P(\bar{A}) + P(\bar{B}) &&\text{(Expanding the $LHS$)} \nonumber\\
+					&- \{P(\bar{A}) + P(\bar{B}) - P(\bar{A}\bar{B})\}  \nonumber\\
+					&= P(A) + P(B) - P(AB) + P(\bar{A}\bar{B}) \nonumber\\
+					&= P(A) - P(AB) + P(\bar{A}\bar{B}) + P(B)&& \text{(Rearranging the equation)}\nonumber\\
+					&= P(A\bar{B}) + P(\bar{A}\bar{B}) + P(B) &&\text{(Using \cref{eq:totalProbLaw})} \nonumber\\
+					&= P(\bar{B}) + P(B) &&\text{(Using \cref{eq:totalProbLawB})} \nonumber\\
+					&= 1 &&\text{Hence Proved \Laughey[1.4]}\nonumber
+				\end{align}
+			\end{proof}	
+%			\text{Expanding the $LHS$:} \\
+%			\begin{align}
+%				&\quad LHS &= \{P(A) + P(B) - P(AB)\} + P(\bar{A}) + P(\bar{B}) \nonumber\\
+%				& &\quad - \{P(\bar{A}) + P(\bar{B}) - P(\bar{A}\bar{B})\} \nonumber\\
+%			\end{align}	
+%			\begin{align}
+%				&\quad LHS &= P(A) + P(B) - P(AB) + P(\bar{A}\bar{B}) \nonumber\\
+%			\end{align}	
+%	
+%			\text{Rearranging the equation, we get:}\\
+%			
+%			\begin{align}
+%				&\quad LHS &= P(A) - P(AB) + P(B) + P(\bar{A}\bar{B}) \nonumber\\
+%			\end{align}
+%				
+%			\text{Using \cref{eq:totalProbLaw}, we get:}\\
+%			
+%			\begin{align}
+%				&\quad LHS &= P(A\bar{B}) + P(B) + P(\bar{A}\bar{B}) \nonumber\\
+%			\end{align}
+%		
+%			\text{Rearranging the equation, we get:}\\
+%			\begin{align}
+%				LHS &= P(A\bar{B}) + P(\bar{A}\bar{B}) + P(B) 
+%			\end{align}
+			
+\end{enumerate}
