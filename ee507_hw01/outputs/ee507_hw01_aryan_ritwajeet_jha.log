@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.8)  9 SEP 2022 00:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.8)  9 SEP 2022 00:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1519,29 +1519,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 88--91
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 4.
 
-) [7
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 7
+.
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd
+File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 7.
+)
+[7
 
 ] (../sections/q06.tex (../figures/../figures/dartBoardPdf.pdf_tex
-<../figures/../figures//dartBoardPdf.pdf, id=163, page=1, 116.31918pt x 108.544
+<../figures/../figures//dartBoardPdf.pdf, id=169, page=1, 116.31918pt x 108.544
 95pt>
 File: ../figures/../figures//dartBoardPdf.pdf Graphic file (type pdf)
 <use ../figures/../figures//dartBoardPdf.pdf, page 1>
 Package pdftex.def Info: ../figures/../figures//dartBoardPdf.pdf , page1 used o
 n input line 56.
 (pdftex.def)             Requested size: 116.31917pt x 108.54964pt.
-)
-[8
+) [8
 
  <../figures/../figures//dartBoardPdf.pdf>]
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 3
-4.
-
-(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd
-File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 34.
-
 Overfull \hbox (19.88332pt too wide) in paragraph at lines 38--43
 \OML/cmm/m/it/10 P\OMX/MnSymbolE/m/n/10 à[] \U/MnSymbolD/m/n/10 A \OT1/cmr/m/n/
 10 3[] \U/MnSymbolD/m/n/10 @ \OT1/cmr/m/n/10 3[]\OMX/MnSymbolE/m/n/10 ç \U/MnSy
@@ -1574,26 +1572,27 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  99i,14n,117p,771b,914s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/mnsymbol/MnSymb
-olA.enc}{C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/mnsymbol/
-MnSymbolC.enc}{C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/mns
-ymbol/MnSymbolD.enc}{C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/enc/dvi
-ps/mnsymbol/MnSymbolE.enc}<C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/t
+olC.enc}{C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/mnsymbol/
+MnSymbolE.enc}{C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/mns
+ymbol/MnSymbolA.enc}{C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/enc/dvi
+ps/mnsymbol/MnSymbolD.enc}<C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/t
 ype1/public/mnsymbol/MnSymbol10.pfb><C:/Users/aryan/AppData/Local/Programs/MiKT
-eX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/aryan/AppData/Local/Prog
-rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/aryan/AppData/L
-ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/aryan/
-AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/User
-s/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-<C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
-r12.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
-ts/cm/cmr17.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/publi
-c/amsfonts/cm/cmr5.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/type
-1/public/amsfonts/cm/cmr7.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX/fon
-ts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/aryan/AppData/Local/Programs/M
-iKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on ee507_hw01_aryan_ritwajeet_jha.pdf (11 pages, 205754 bytes).
+eX/fonts/type1/public/mnsymbol/MnSymbol7.pfb><C:/Users/aryan/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/aryan/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/aryan/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Use
+rs/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb
+><C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
+mr10.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
+nts/cm/cmr12.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmr17.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/ty
+pe1/public/amsfonts/cm/cmr5.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/aryan/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/aryan/AppData/Local/P
+rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on ee507_hw01_aryan_ritwajeet_jha.pdf (11 pages, 225528 bytes).
 PDF statistics:
- 287 PDF objects out of 1000 (max. 8388607)
+ 295 PDF objects out of 1000 (max. 8388607)
  59 named destinations out of 1000 (max. 500000)
  130 words of extra memory for PDF output out of 10000 (max. 10000000)
 
