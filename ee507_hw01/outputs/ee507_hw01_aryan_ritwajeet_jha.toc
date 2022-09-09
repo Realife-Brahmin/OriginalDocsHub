@@ -6,10 +6,10 @@
 \contentsline {subsection}{Solution}{4}{Item.12}%
 \contentsline {section}{Problem 4}{6}{equation.0.8}%
 \contentsline {subsection}{Solution}{6}{Item.20}%
-\contentsline {section}{Problem 5}{7}{Item.20}%
-\contentsline {subsection}{Solution}{7}{section*.2}%
-\contentsline {section}{Problem 6}{8}{section*.2}%
-\contentsline {subsection}{Solution}{8}{Item.24}%
-\contentsline {section}{Problem 7}{10}{Item.28}%
-\contentsline {subsection}{Solution}{10}{Item.32}%
+\contentsline {section}{Problem 5}{8}{Item.24}%
+\contentsline {subsection}{Solution}{8}{section*.3}%
+\contentsline {section}{Problem 6}{9}{section*.3}%
+\contentsline {subsection}{Solution}{9}{Item.28}%
+\contentsline {section}{Problem 7}{11}{Item.32}%
+\contentsline {subsection}{Solution}{11}{Item.36}%
 \contentsfinish 
