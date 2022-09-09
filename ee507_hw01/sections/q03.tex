@@ -98,7 +98,52 @@ Consider any uncertain experiment, and let $A$, $B$, and $C$ be three events def
 			\bar{A}C &= \bar{A} \nonumber\\
 			\implies \bar{A} &\subseteq C \label{eq:tmp2}\\
 			\bar{B}\bar{C} &= 0 \nonumber\\
-			\implies \bar{B} \cap \bar{C} &= \phi \label{eq:tmp3} 
+			\implies \bar{B} \cap \bar{C} &= \phi \nonumber\\
+			\implies B \cup C &= 1 \label{eq:tmp3}
 		\end{align}
-		From \cref{eq:tmp1} and \cref{eq:tmp2}, we obtain the fact that $A = B$ and 	
+		
+		\cref{eq:tmp2} gives two cases: Either $A$ and $C$ are disjoint events which exhaustively represent the sample space (i.e. $A$ $\cup$ $C$ = $\phi$ and $A+C$ = $\Omega$) or $C$ encompasses the whole sample space and $A$ is merely a subset of it (i.e. $C$ = $\Omega$ and $A \subseteq C$).
+		
+		One of the solutions satisfying \cref{eq:tmp1}, \cref{eq:tmp2} and \cref{eq:tmp3} is $A = B$ and $A \cap C = \phi$. \cref{fig:shape1} represents this instance of the relationship between $A, B$ and $C$.
+		
+		Another solution satisfying \cref{eq:tmp1}, \cref{eq:tmp2} and \cref{eq:tmp3} is $A \subseteq B \subseteq C$, represented by \cref{fig:shape2}.
+		
+		\begin{figure}[h]
+			\centering
+			\import{../figures/}{shape1Pdf.pdf_tex}
+			\caption{Instance 1 which satisfies the equality criterion.}
+			\label{fig:shape1}
+		\end{figure}
+		
+		\begin{figure}[h]
+			\centering
+			\import{../figures/}{shape2Pdf.pdf_tex}
+			\caption{Instance 2 which satisfies the equality criterion.}
+			\label{fig:shape2}
+		\end{figure}
+	
+		Let\\[-20pt]
+		\begin{align}
+			AB + \bar{A}C + \bar{B}\bar{C} &= C + \bar{C}
+		\end{align}
+		Making comparisons, we get:
+		\begin{align}
+			\bar{A}C &= C \nonumber\\
+			\implies A &\subseteq \bar{C} \label{eq:tmp7}\\
+			\bar{B}\bar{C} &= \bar{C} \nonumber\\
+			\implies B &\subseteq C \label{eq:tmp8}\\
+			AB &= 0 \nonumber\\
+			\implies A \cap B &= \phi \label{eq:tmp9}
+		\end{align}
+		
+		A solution satisfying \cref{eq:tmp7}, \cref{eq:tmp8} and \cref{eq:tmp9} is $A \subseteq B \subseteq C$, represented by \cref{fig:shape3}.
+		
+		\begin{figure}[h]
+			\centering
+			\import{../figures/}{shape3Pdf.pdf_tex}
+			\caption{Instance 3 which satisfies the equality criterion.}
+			\label{fig:shape3}
+		\end{figure}
 \end{enumerate}
+
+\noindent\rule{\textwidth}{1pt}

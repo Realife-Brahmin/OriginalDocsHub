@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.8)  9 SEP 2022 07:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.8)  9 SEP 2022 08:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1381,8 +1381,16 @@ Package: euscript 2009/06/22 v3.00 Euler Script fonts
 LaTeX Font Info:    Overwriting math alphabet `\EuScript' in version `bold'
 (Font)                  U/eus/m/n --> U/eus/b/n on input line 33.
 )
-\@quotelevel=\count540
-\@quotereset=\count541
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count540
+\float@exts=\toks49
+\float@box=\box73
+\@float@everytoks=\toks50
+\@floatcapt=\box74
+)
+\@quotelevel=\count541
+\@quotereset=\count542
 
 (ee507_hw01_aryan_ritwajeet_jha.aux)
 \openout1 = `ee507_hw01_aryan_ritwajeet_jha.aux'.
@@ -1426,31 +1434,23 @@ Package biblatex Info: Reference segment=0 on input line 35.
 (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count542
+\scratchcounter=\count543
 \scratchdimen=\dimen320
-\scratchbox=\box73
-\nofMPsegments=\count543
-\nofMParguments=\count544
-\everyMPshowfont=\toks49
-\MPscratchCnt=\count545
+\scratchbox=\box75
+\nofMPsegments=\count544
+\nofMParguments=\count545
+\everyMPshowfont=\toks51
+\MPscratchCnt=\count546
 \MPscratchDim=\dimen321
-\MPnumerator=\count546
-\makeMPintoPDFobject=\count547
-\everyMPtoPDFconversion=\toks50
+\MPnumerator=\count547
+\makeMPintoPDFobject=\count548
+\everyMPtoPDFconversion=\toks52
 )
 (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
 ase.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-
-(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.sty
-Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
-)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 504.
 
 (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
 fg
@@ -1469,6 +1469,7 @@ your preamble.
  on input line 35.
 
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 37.
 
@@ -1524,13 +1525,13 @@ File: ../figures/../figures//signalMapPdf.pdf Graphic file (type pdf)
 Package pdftex.def Info: ../figures/../figures//signalMapPdf.pdf , page2 used o
 n input line 73.
 (pdftex.def)             Requested size: 318.5796pt x 448.03766pt.
-)) [2] [3 <../figures/../figures//signalMapPdf.pdf> <../figures/../figures//sig
-nalMapPdf.pdf
+) [2] [3 <../figures/../figures//signalMapPdf.pdf> <../figures/../figures//sign
+alMapPdf.pdf
 
 pdfTeX warning: pdflatex.exe (file ../figures/../figures//signalMapPdf.pdf): PD
 F inclusion: multiple pdfs with page group included in a single page
->] (../sections/q02.tex
-\c@axiom=\count548
+>]) (../sections/q02.tex
+\c@axiom=\count549
 
 Overfull \hbox (0.91269pt too wide) in paragraph at lines 38--39
 []\OT1/cmr/bx/n/10 Axiom 2. []\OT1/cmr/m/it/10 For the sam-ple space $\OT1/cmr/
@@ -1542,10 +1543,15 @@ OMX/MnSymbolE/m/n/10 ˆ\OT1/cmr/m/n/10
 
 [4
 
-]) [5] (../sections/q03.tex
-\g__tikzsymbols_savebox_F_0 g 0 G_10_Laughey_1.4_none_none_box=\box74
-\g__tikzsymbols_savebox_F_0 g 0 G_7_Laughey_1.4_none_none_box=\box75
-\g__tikzsymbols_savebox_F_0 g 0 G_5_Laughey_1.4_none_none_box=\box76
+])
+Underfull \hbox (badness 10000) in paragraph at lines 54--43
+
+ []
+
+[5] (../sections/q03.tex
+\g__tikzsymbols_savebox_F_0 g 0 G_10_Laughey_1.4_none_none_box=\box76
+\g__tikzsymbols_savebox_F_0 g 0 G_7_Laughey_1.4_none_none_box=\box77
+\g__tikzsymbols_savebox_F_0 g 0 G_5_Laughey_1.4_none_none_box=\box78
 
 Underfull \hbox (badness 10000) in paragraph at lines 60--63
 
@@ -1573,14 +1579,71 @@ Underfull \hbox (badness 10000) in paragraph at lines 88--91
 
  []
 
-) [7] (../sections/q04.tex
+[7] (../figures/../figures/shape1Pdf.pdf_tex
+<../figures/../figures//shape1Pdf.pdf, id=222, page=1, 141.51263pt x 104.60962p
+t>
+File: ../figures/../figures//shape1Pdf.pdf Graphic file (type pdf)
+<use ../figures/../figures//shape1Pdf.pdf, page 1>
+Package pdftex.def Info: ../figures/../figures//shape1Pdf.pdf , page1 used on i
+nput line 56.
+(pdftex.def)             Requested size: 141.51263pt x 104.61732pt.
+)
+(../figures/../figures/shape2Pdf.pdf_tex
+<../figures/../figures//shape2Pdf.pdf, id=223, page=1, 198.10217pt x 106.29507p
+t>
+File: ../figures/../figures//shape2Pdf.pdf Graphic file (type pdf)
+<use ../figures/../figures//shape2Pdf.pdf, page 1>
+Package pdftex.def Info: ../figures/../figures//shape2Pdf.pdf , page1 used on i
+nput line 56.
+(pdftex.def)             Requested size: 198.10216pt x 106.29803pt.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 125--126
+
+ []
+
+[8 <../figures/../figures//shape1Pdf.pdf> <../figures/../figures//shape2Pdf.pdf
+
+
+pdfTeX warning: pdflatex.exe (file ../figures/../figures//shape2Pdf.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+>] (../figures/../figures/shape3Pdf.pdf_tex
+<../figures/../figures//shape3Pdf.pdf, id=241, page=1, 141.51263pt x 104.60962p
+t>
+File: ../figures/../figures//shape3Pdf.pdf Graphic file (type pdf)
+<use ../figures/../figures//shape3Pdf.pdf, page 1>
+Package pdftex.def Info: ../figures/../figures//shape3Pdf.pdf , page1 used on i
+nput line 56.
+(pdftex.def)             Requested size: 141.51263pt x 104.61732pt.
+<../figures/../figures//shape3Pdf.pdf, id=242, page=2, 141.51263pt x 104.60962p
+t>
+File: ../figures/../figures//shape3Pdf.pdf Graphic file (type pdf)
+<use ../figures/../figures//shape3Pdf.pdf, page 2>
+Package pdftex.def Info: ../figures/../figures//shape3Pdf.pdf , page2 used on i
+nput line 59.
+(pdftex.def)             Requested size: 141.51263pt x 104.61732pt.
+))
+Underfull \hbox (badness 10000) in paragraph at lines 149--45
+
+ []
+
+[9 <../figures/../figures//shape3Pdf.pdf> <../figures/../figures//shape3Pdf.pdf
+
+
+pdfTeX warning: pdflatex.exe (file ../figures/../figures//shape3Pdf.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+>] (../sections/q04.tex
 Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
  []
 
-[8
+[10
 
-]) [9] (../sections/q05.tex
+])
+Underfull \hbox (badness 10000) in paragraph at lines 67--47
+
+ []
+
+[11] (../sections/q05.tex
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 4.
@@ -1593,17 +1656,21 @@ File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 7.
 )
-[10
+Underfull \hbox (badness 10000) in paragraph at lines 18--49
+
+ []
+
+[12
 
 ] (../sections/q06.tex (../figures/../figures/dartBoardPdf.pdf_tex
-<../figures/../figures//dartBoardPdf.pdf, id=242, page=1, 116.31918pt x 108.544
+<../figures/../figures//dartBoardPdf.pdf, id=277, page=1, 116.31918pt x 108.544
 95pt>
 File: ../figures/../figures//dartBoardPdf.pdf Graphic file (type pdf)
 <use ../figures/../figures//dartBoardPdf.pdf, page 1>
 Package pdftex.def Info: ../figures/../figures//dartBoardPdf.pdf , page1 used o
 n input line 56.
 (pdftex.def)             Requested size: 116.31917pt x 108.54964pt.
-) [11
+) [13
 
  <../figures/../figures//dartBoardPdf.pdf>]
 Overfull \hbox (19.88332pt too wide) in paragraph at lines 38--43
@@ -1613,27 +1680,37 @@ mbolD/m/n/10 ^^@ \OML/cmm/m/it/10 P\OMX/MnSymbolE/m/n/10 ˆ[] \U/MnSymbolD/m/n/1
 0 A
  []
 
-) [12] (../sections/q07.tex
+)
+Underfull \hbox (badness 10000) in paragraph at lines 45--51
+
+ []
+
+[14] (../sections/q07.tex
 Underfull \hbox (badness 10000) in paragraph at lines 19--20
 
  []
 
-[13
+[15
 
-]) [14] (ee507_hw01_aryan_ritwajeet_jha.aux)
+])
+Underfull \hbox (badness 10000) in paragraph at lines 51--53
+
+ []
+
+[16] (ee507_hw01_aryan_ritwajeet_jha.aux)
 Package rerunfilecheck Info: File `ee507_hw01_aryan_ritwajeet_jha.out' has not 
 changed.
-(rerunfilecheck)             Checksum: 5EEB31DD3786433A4347EE6CB0C8D133;1287.
+(rerunfilecheck)             Checksum: ED36952235AAD187A4768B23A2C40125;1295.
 Package logreq Info: Writing requests to 'ee507_hw01_aryan_ritwajeet_jha.run.xm
 l'.
 \openout1 = `ee507_hw01_aryan_ritwajeet_jha.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 47229 strings out of 475389
- 1058638 string characters out of 2777001
- 1947353 words of memory out of 3000000
- 67777 multiletter control sequences out of 15000+600000
+ 47314 strings out of 475389
+ 1060672 string characters out of 2777001
+ 1950194 words of memory out of 3000000
+ 67844 multiletter control sequences out of 15000+600000
  488342 words of font info for 95 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,14n,117p,771b,909s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -1657,9 +1734,9 @@ nts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/aryan/AppData/Local/Programs/Mi
 KTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/aryan/AppData/Local/Prog
 rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/aryan/AppData/L
 ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on ee507_hw01_aryan_ritwajeet_jha.pdf (14 pages, 263057 bytes).
+Output written on ee507_hw01_aryan_ritwajeet_jha.pdf (16 pages, 272698 bytes).
 PDF statistics:
- 378 PDF objects out of 1000 (max. 8388607)
- 76 named destinations out of 1000 (max. 500000)
- 140 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 415 PDF objects out of 1000 (max. 8388607)
+ 85 named destinations out of 1000 (max. 500000)
+ 160 words of extra memory for PDF output out of 10000 (max. 10000000)
 
