@@ -70,30 +70,35 @@ Consider any uncertain experiment, and let $A$, $B$, and $C$ be three events def
 					&= 1 &&\text{Hence Proved \Laughey[1.4]}\nonumber
 				\end{align}
 			\end{proof}	
-%			\text{Expanding the $LHS$:} \\
-%			\begin{align}
-%				&\quad LHS &= \{P(A) + P(B) - P(AB)\} + P(\bar{A}) + P(\bar{B}) \nonumber\\
-%				& &\quad - \{P(\bar{A}) + P(\bar{B}) - P(\bar{A}\bar{B})\} \nonumber\\
-%			\end{align}	
-%			\begin{align}
-%				&\quad LHS &= P(A) + P(B) - P(AB) + P(\bar{A}\bar{B}) \nonumber\\
-%			\end{align}	
-%	
-%			\text{Rearranging the equation, we get:}\\
-%			
-%			\begin{align}
-%				&\quad LHS &= P(A) - P(AB) + P(B) + P(\bar{A}\bar{B}) \nonumber\\
-%			\end{align}
-%				
-%			\text{Using \cref{eq:totalProbLaw}, we get:}\\
-%			
-%			\begin{align}
-%				&\quad LHS &= P(A\bar{B}) + P(B) + P(\bar{A}\bar{B}) \nonumber\\
-%			\end{align}
-%		
-%			\text{Rearranging the equation, we get:}\\
-%			\begin{align}
-%				LHS &= P(A\bar{B}) + P(\bar{A}\bar{B}) + P(B) 
-%			\end{align}
-			
+	\item To Prove: $P(AB) + P(\bar A C) + P(\bar B \bar C) \leq 1$ \\
+	Also give an example for the equality case.
+	\!
+		\begin{proof}
+			\begin{align}
+				AB \cap \bar{A}C \cap \bar{B}\bar{C} &= \phi && \text{(Pairwise Disjoint Sets)} \nonumber\\
+				\implies P(AB) + P(\bar{A}C) + P(\bar{B}\bar{C}) &= P( AB + \bar{A}C + \bar{B}\bar{C} ) && \text{(Axiom 3)} \nonumber\\
+				&\leq 1 && \text{(Axiom 1)} \nonumber\\
+				&{} && \text{Hence Proved \Laughey[1.4]} \nonumber				
+			\end{align}
+		\end{proof}
+	
+		For the special case of equality\\
+		\begin{align}
+			P(AB) + P(\bar{A}C) + P(\bar{B}\bar{C}) &= 1 \label{eq:specialCase}
+		\end{align}
+		We may equate the constituent events of \cref{eq:specialCase} to trivial identities in order to potentially reverse engineer the relationships between the three events $A$, $B$ and $C$:\\[5pt]
+		Let\\[-20pt]
+		\begin{align}
+			AB + \bar{A}C + \bar{B}\bar{C} &= A + \bar{A}
+		\end{align}
+		Making comparisons, we get:
+		\begin{align}
+			AB &= A \nonumber\\
+			\implies A &\subseteq B \label{eq:tmp1}\\
+			\bar{A}C &= \bar{A} \nonumber\\
+			\implies \bar{A} &\subseteq C \label{eq:tmp2}\\
+			\bar{B}\bar{C} &= 0 \nonumber\\
+			\implies \bar{B} \cap \bar{C} &= \phi \label{eq:tmp3} 
+		\end{align}
+		From \cref{eq:tmp1, eq:tmp2}, we obtain the fact that $A = B$ and 	
 \end{enumerate}

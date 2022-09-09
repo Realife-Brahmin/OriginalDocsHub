@@ -4,12 +4,12 @@
 \contentsline {subsection}{Solution}{3}{Item.8}%
 \contentsline {section}{Problem 3}{4}{Item.8}%
 \contentsline {subsection}{Solution}{4}{Item.12}%
-\contentsline {section}{Problem 4}{6}{Item.15}%
-\contentsline {subsection}{Solution}{6}{Item.19}%
-\contentsline {section}{Problem 5}{7}{Item.19}%
+\contentsline {section}{Problem 4}{6}{equation.0.8}%
+\contentsline {subsection}{Solution}{6}{Item.20}%
+\contentsline {section}{Problem 5}{7}{Item.20}%
 \contentsline {subsection}{Solution}{7}{section*.2}%
 \contentsline {section}{Problem 6}{8}{section*.2}%
-\contentsline {subsection}{Solution}{8}{Item.23}%
-\contentsline {section}{Problem 7}{9}{Item.23}%
-\contentsline {subsection}{Solution}{9}{Item.27}%
+\contentsline {subsection}{Solution}{8}{Item.24}%
+\contentsline {section}{Problem 7}{9}{Item.24}%
+\contentsline {subsection}{Solution}{9}{Item.28}%
 \contentsfinish 
