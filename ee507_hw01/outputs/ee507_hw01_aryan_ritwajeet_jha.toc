@@ -10,6 +10,6 @@
 \contentsline {subsection}{Solution}{7}{section*.2}%
 \contentsline {section}{Problem 6}{8}{section*.2}%
 \contentsline {subsection}{Solution}{8}{Item.24}%
-\contentsline {section}{Problem 7}{9}{Item.24}%
-\contentsline {subsection}{Solution}{9}{Item.28}%
+\contentsline {section}{Problem 7}{10}{Item.28}%
+\contentsline {subsection}{Solution}{10}{Item.32}%
 \contentsfinish 

@@ -19,3 +19,25 @@ Your favourite EE 507 instructor throws a dart at the board. He hits the board w
 \end{enumerate}
 
 \subsection{Solution}
+
+Let the experiment of the instructor throwing the dart on the board be called $E$.
+\begin{enumerate}[a.]
+	\item The outcomes can be listed as $\Omega = \set{A_0, A_2, A_4, A_6, A_8}$ where $A_i$ refers to scoring $i$ points with the dart. $A_0$ represents the dart missing the board and scoring zero points. \\
+	In total there are $5$ outcomes for this experiment.
+	\item An event is a subset of the power set of the set of outcomes ($\Omega$) of the experiment.\\
+	The power set of $\Omega$ is $\powerset$: 
+	\begin{align}
+		\powerset{} &= \{\set\phi, \set{A_0}, \set{ A_2}, \cdots  \set{A_8}, \nonumber\\
+		& \set{A_0, A_2}, \set{A_0, A_4} \cdots \set{A_8, A_6}, \nonumber \\ 
+		& \cdots \set{A_0, A_2, A_4, A_6, A_8}\} \nonumber 
+	\end{align}
+	Say, a subset $\set{A_0, A_4}$ of $\powerset$ represents the event \set{The dart misses the board OR The dart hits the board in the region with $4$ points}.\\
+	There are $2^5 = 32$ events for this experiment.
+	\item $P(\text{Score} > 3)$ = $P(\set{A_4, A_6, A_8})$.\\ Outcomes are always disjoint events, so we can use Axiom 3. \\
+	$P(\set{A_4, A_6, A_8})$ = $P(A_4) + P(A_6) + P(A_8)$ = $3*0.7/4 = 0.525$.
+	\item Repeated trials are independent trials. We can simply multiply the individual probabilities to obtain the final probability. \\
+	$P(\text{Score} > 3 \text{ on the first trial AND Score} < 3 \text{ on the second trials}) = P(\text{Score} > 3)*P(\text{Score} \leq 3) = 0.525(1-0.525) = 0.249375$\\[10pt]
+	$P(\text{Both Scores Different}) = 1 - P(\text{Both Scores Same}) \\
+	= 1 - P(\set{\set{A_0 A_0}, \set{A_2 A_2}, \set{A_4 A_4}, \set{A_6 A_6}, \set{A_8 A_8}}) \\
+	= 1 - [0.3^2 + 4*\{\frac{0.7}{4}\}^2] = 0.7875$
+\end{enumerate}
