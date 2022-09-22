@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.21)  21 SEP 2022 20:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.21)  21 SEP 2022 21:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1551,132 +1551,52 @@ ning) of event $\OML/cmm/m/it/10 A$ \T1/FiraSans-OsF/regular/n/10 (eq. ([]5[])
  []
 
 [3]) (../sections/q02.tex
-LaTeX Font Info:    Trying to load font information for TS1+FiraSans-OsF on inp
-ut line 20.
 
-(/home/aryan/.miktex/texmfs/install/tex/latex/fira/TS1FiraSans-OsF.fd
-File: TS1FiraSans-OsF.fd 2019/10/10 (autoinst) Font definitions for TS1/FiraSan
-s-OsF.
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 3.
+
 )
-LaTeX Font Info:    Font shape `TS1/FiraSans-OsF/m/n' in size <10> not availabl
-e
-(Font)              Font shape `TS1/FiraSans-OsF/regular/n' tried instead on in
-put line 20.
-LaTeX Font Info:    Font shape `TS1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 10.0pt on input line 20.
+Underfull \hbox (badness 10000) in paragraph at lines 5--47
 
-Overfull \hbox (23.16011pt too wide) in paragraph at lines 24--26
-\T1/FiraSans-OsF/regular/n/10 For an experiment, an event is uniquely defined v
-ia the set of permissible
- []
-
-
-Overfull \hbox (22.4632pt too wide) in paragraph at lines 28--30
-\T1/FiraSans-OsF/regular/n/10 when combined with other axioms, together can be 
-used as a standalone
- []
-
-\c@axiom=\count551
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' in size <10> not availabl
-e
-(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on in
-put line 33.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/it' will be
-(Font)              scaled to size 10.0pt on input line 33.
-
-Overfull \hbox (2.0996pt too wide) in paragraph at lines 38--39
-[]\T1/FiraSans-OsF/bold/n/10 Axiom 2. []\T1/FiraSans-OsF/regular/it/10 For the 
-sample space $\OT1/cmr/m/n/10 
-$ \T1/FiraSans-OsF/regular/it/10 of an experiment, the probability $\OML/cmm/m/
-it/10 P\OMX/MnSymbolE/m/n/10 à\OT1/cmr/m/n/10 
-\OMX/MnSymbolE/m/n/10 ç \U/MnSymbolD/m/n/10 ^^@
  []
 
 [4
 
-]
-Overfull \hbox (6.56023pt too wide) in paragraph at lines 48--49
-\T1/FiraSans-OsF/regular/n/10 with their classmates and the instructor. The tot
-al time the candidate
- []
+] (../sections/q03.tex
 
-
-Overfull \hbox (14.42896pt too wide) in paragraph at lines 50--51
-[]\T1/FiraSans-OsF/bold/n/10 Low Granularity\T1/FiraSans-OsF/regular/n/10 : The
- candidate comes from country XYZ, the candidate
- []
-
-
-Overfull \hbox (8.29723pt too wide) in paragraph at lines 50--51
-\T1/FiraSans-OsF/regular/n/10 topped their English exams in Class 5. The candid
-ate likes the number
- []
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 3.
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 54--47
+Underfull \hbox (badness 10000) in paragraph at lines 5--49
 
  []
 
-[5] (../sections/q03.tex
-Overfull \hbox (11.01006pt too wide) in paragraph at lines 2--3
-\T1/FiraSans-OsF/regular/n/10 defined for the experiment. Please prove the foll
-owing equalities or inequalities.
- []
+[5
 
+] (../sections/q04.tex
 
-Overfull \hbox (12.61958pt too wide) in paragraph at lines 2--3
-\T1/FiraSans-OsF/regular/n/10 In doing so, you may use the three axioms, any eq
-ualities/inequalities developed
- []
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 2.
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 33--49
+Underfull \hbox (badness 10000) in paragraph at lines 4--51
 
  []
 
 [6
 
-] (../sections/q04.tex
-Overfull \hbox (21.3959pt too wide) in paragraph at lines 7--9
-[]\T1/FiraSans-OsF/regular/n/10 For this part, assume that $\OML/cmm/m/it/10 P\
-OMX/MnSymbolE/m/n/10 àò\OML/cmm/m/it/10 A; B; \U/MnSymbolC/m/n/10 j\OMX/MnSymbo
-lE/m/n/10 ùç \U/MnSymbolD/m/n/10 ^^@ \OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cm
-r/m/n/10 8$\T1/FiraSans-OsF/regular/n/10 , $\OML/cmm/m/it/10 P\OMX/MnSymbolE/m/
-n/10 àò\OML/cmm/m/it/10 A; C\OMX/MnSymbolE/m/n/10 ùç \U/MnSymbolD/m/n/10 ^^@ \O
-T1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 4$ \T1/FiraSans-OsF/regular/n/
-10 and $\OML/cmm/m/it/10 P\OMX/MnSymbolE/m/n/10 àò\OML/cmm/m/it/10 A; \U/MnSymb
-olC/m/n/10 j\OMX/MnSymbolE/m/n/10 ùç \U/MnSymbolD/m/n/10 ^^@
- []
+] (../sections/q05.tex
 
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 2.
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--17
+)
+Underfull \hbox (badness 10000) in paragraph at lines 4--53
 
- []
-
-
-Overfull \hbox (0.7231pt too wide) in paragraph at lines 64--65
-\T1/FiraSans-OsF/regular/n/10 unhelpful in determining their individual values.
- Refer to the `Sufficient?'
  []
 
 [7
-
-])
-Underfull \hbox (badness 10000) in paragraph at lines 67--51
-
- []
-
-[8] (../sections/q05.tex
-
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 4.
-
-)
-Underfull \hbox (badness 10000) in paragraph at lines 18--53
-
- []
-
-[9
 
 ] (../sections/q06.tex
 
@@ -1688,56 +1608,49 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--55
 
  []
 
-[10
+[8
 
 ] (../sections/q07.tex
-Underfull \hbox (badness 10000) in paragraph at lines 19--20
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 2.
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 4--57
 
  []
 
-[11
+[9
 
-])
-Underfull \hbox (badness 10000) in paragraph at lines 51--57
-
- []
-
-[12] (ee507_hw02_aryan_ritwajeet_jha.aux)
+] (ee507_hw02_aryan_ritwajeet_jha.aux)
 Package rerunfilecheck Info: File `ee507_hw02_aryan_ritwajeet_jha.out' has not 
 changed.
-(rerunfilecheck)             Checksum: 6C60494456E5B4B57E2AF1D270B40151;1263.
+(rerunfilecheck)             Checksum: E310DE003FD97A8F3EF7C0480009A764;1293.
 Package logreq Info: Writing requests to 'ee507_hw02_aryan_ritwajeet_jha.run.xm
 l'.
 \openout1 = `ee507_hw02_aryan_ritwajeet_jha.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 47995 strings out of 477324
- 1069523 string characters out of 2828730
- 1944244 words of memory out of 3000000
- 68301 multiletter control sequences out of 15000+600000
- 633932 words of font info for 107 fonts, out of 8000000 for 9000
+ 47837 strings out of 477324
+ 1066226 string characters out of 2828730
+ 1934891 words of memory out of 3000000
+ 68185 multiletter control sequences out of 15000+600000
+ 618502 words of font info for 103 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
  99i,10n,117p,771b,848s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {/home/aryan/.miktex/texmfs/install/fonts/enc/dvips/mnsymbol/MnSymbolC.enc}{/
 home/aryan/.miktex/texmfs/install/fonts/enc/dvips/mnsymbol/MnSymbolE.enc}{/home
-/aryan/.miktex/texmfs/install/fonts/enc/dvips/mnsymbol/MnSymbolA.enc}{/home/ary
-an/.miktex/texmfs/install/fonts/enc/dvips/fira/fir_iln36p.enc}{/home/aryan/.mik
-tex/texmfs/install/fonts/enc/dvips/fira/fir_d67aat.enc}{/home/aryan/.miktex/tex
-mfs/install/fonts/enc/dvips/mnsymbol/MnSymbolD.enc}</home/aryan/.miktex/texmfs/
-install/fonts/type1/public/fira/FiraSans-Bold.pfb></home/aryan/.miktex/texmfs/i
-nstall/fonts/type1/public/fira/FiraSans-Italic.pfb></home/aryan/.miktex/texmfs/
-install/fonts/type1/public/fira/FiraSans-Regular.pfb></home/aryan/.miktex/texmf
-s/install/fonts/type1/public/mnsymbol/MnSymbol10.pfb></home/aryan/.miktex/texmf
-s/install/fonts/type1/public/mnsymbol/MnSymbol7.pfb></home/aryan/.miktex/texmfs
-/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/aryan/.miktex/texmfs/
-install/fonts/type1/public/amsfonts/cm/cmmi7.pfb></home/aryan/.miktex/texmfs/in
-stall/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/aryan/.miktex/texmfs/inst
-all/fonts/type1/public/amsfonts/cm/cmr5.pfb></home/aryan/.miktex/texmfs/install
-/fonts/type1/public/amsfonts/cm/cmr7.pfb>
-Output written on ee507_hw02_aryan_ritwajeet_jha.pdf (12 pages, 298008 bytes).
+/aryan/.miktex/texmfs/install/fonts/enc/dvips/mnsymbol/MnSymbolD.enc}{/home/ary
+an/.miktex/texmfs/install/fonts/enc/dvips/fira/fir_iln36p.enc}</home/aryan/.mik
+tex/texmfs/install/fonts/type1/public/fira/FiraSans-Bold.pfb></home/aryan/.mikt
+ex/texmfs/install/fonts/type1/public/fira/FiraSans-Regular.pfb></home/aryan/.mi
+ktex/texmfs/install/fonts/type1/public/mnsymbol/MnSymbol10.pfb></home/aryan/.mi
+ktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/aryan/.mik
+tex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+Output written on ee507_hw02_aryan_ritwajeet_jha.pdf (9 pages, 174993 bytes).
 PDF statistics:
- 270 PDF objects out of 1000 (max. 8388607)
- 61 named destinations out of 1000 (max. 500000)
+ 180 PDF objects out of 1000 (max. 8388607)
+ 27 named destinations out of 1000 (max. 500000)
  125 words of extra memory for PDF output out of 10000 (max. 10000000)
 
