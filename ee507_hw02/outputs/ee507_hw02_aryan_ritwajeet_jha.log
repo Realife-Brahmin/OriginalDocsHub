@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.21)  21 SEP 2022 21:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.21)  21 SEP 2022 21:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1551,12 +1551,22 @@ ning) of event $\OML/cmm/m/it/10 A$ \T1/FiraSans-OsF/regular/n/10 (eq. ([]5[])
  []
 
 [3]) (../sections/q02.tex
+Overfull \hbox (0.43646pt too wide) in paragraph at lines 5--6
+[]\T1/FiraSans-OsF/regular/n/10 If events $\OML/cmm/m/it/10 A$ \T1/FiraSans-OsF
+/regular/n/10 and $\OML/cmm/m/it/10 B$ \T1/FiraSans-OsF/regular/n/10 are indepe
+ndent, and events $\OML/cmm/m/it/10 A$ \T1/FiraSans-OsF/regular/n/10 and $\OML/
+cmm/m/it/10 C$ \T1/FiraSans-OsF/regular/n/10 are independent,
+ []
 
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 3.
 
+Overfull \hbox (19.38632pt too wide) in paragraph at lines 6--7
+[]\T1/FiraSans-OsF/regular/n/10 If two events are disjoint, are they always, so
+metimes, or never independent?
+ []
+
+\g__tikzsymbols_savebox_F_0 g 0 G_10_Laughey_1_none_none_box=\box76
 )
-Underfull \hbox (badness 10000) in paragraph at lines 5--47
+Underfull \hbox (badness 10000) in paragraph at lines 27--47
 
  []
 
@@ -1625,32 +1635,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--57
 ] (ee507_hw02_aryan_ritwajeet_jha.aux)
 Package rerunfilecheck Info: File `ee507_hw02_aryan_ritwajeet_jha.out' has not 
 changed.
-(rerunfilecheck)             Checksum: E310DE003FD97A8F3EF7C0480009A764;1293.
+(rerunfilecheck)             Checksum: 17D18E7E0D6AB0C453CEFAB4066DBB17;1293.
 Package logreq Info: Writing requests to 'ee507_hw02_aryan_ritwajeet_jha.run.xm
 l'.
 \openout1 = `ee507_hw02_aryan_ritwajeet_jha.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 47837 strings out of 477324
- 1066226 string characters out of 2828730
- 1934891 words of memory out of 3000000
- 68185 multiletter control sequences out of 15000+600000
+ 47887 strings out of 477324
+ 1067350 string characters out of 2828730
+ 1935086 words of memory out of 3000000
+ 68229 multiletter control sequences out of 15000+600000
  618502 words of font info for 103 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
  99i,10n,117p,771b,848s stack positions out of 10000i,1000n,20000p,200000b,80000s
-{/home/aryan/.miktex/texmfs/install/fonts/enc/dvips/mnsymbol/MnSymbolC.enc}{/
-home/aryan/.miktex/texmfs/install/fonts/enc/dvips/mnsymbol/MnSymbolE.enc}{/home
-/aryan/.miktex/texmfs/install/fonts/enc/dvips/mnsymbol/MnSymbolD.enc}{/home/ary
-an/.miktex/texmfs/install/fonts/enc/dvips/fira/fir_iln36p.enc}</home/aryan/.mik
-tex/texmfs/install/fonts/type1/public/fira/FiraSans-Bold.pfb></home/aryan/.mikt
-ex/texmfs/install/fonts/type1/public/fira/FiraSans-Regular.pfb></home/aryan/.mi
-ktex/texmfs/install/fonts/type1/public/mnsymbol/MnSymbol10.pfb></home/aryan/.mi
-ktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/aryan/.mik
-tex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on ee507_hw02_aryan_ritwajeet_jha.pdf (9 pages, 174993 bytes).
+{/home/aryan/.miktex/texmfs/install/fonts/enc/dvips/mnsymbol/MnSymbolA.enc}{/
+home/aryan/.miktex/texmfs/install/fonts/enc/dvips/mnsymbol/MnSymbolC.enc}{/home
+/aryan/.miktex/texmfs/install/fonts/enc/dvips/mnsymbol/MnSymbolE.enc}{/home/ary
+an/.miktex/texmfs/install/fonts/enc/dvips/mnsymbol/MnSymbolD.enc}{/home/aryan/.
+miktex/texmfs/install/fonts/enc/dvips/fira/fir_iln36p.enc}</home/aryan/.miktex/
+texmfs/install/fonts/type1/public/fira/FiraSans-Bold.pfb></home/aryan/.miktex/t
+exmfs/install/fonts/type1/public/fira/FiraSans-Regular.pfb></home/aryan/.miktex
+/texmfs/install/fonts/type1/public/mnsymbol/MnSymbol10.pfb></home/aryan/.miktex
+/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/aryan/.miktex/
+texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+Output written on ee507_hw02_aryan_ritwajeet_jha.pdf (9 pages, 181365 bytes).
 PDF statistics:
- 180 PDF objects out of 1000 (max. 8388607)
- 27 named destinations out of 1000 (max. 500000)
+ 192 PDF objects out of 1000 (max. 8388607)
+ 33 named destinations out of 1000 (max. 500000)
  125 words of extra memory for PDF output out of 10000 (max. 10000000)
 

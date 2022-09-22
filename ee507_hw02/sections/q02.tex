@@ -1,5 +1,27 @@
 \section{Problem 2}
 
-\subsection{Solution}
+\begin{enumerate}[a.]
+	\item If two events $A$ and $B$ are independent, is it necessarily true that $A$ and $\bar{B}$ are independent Please prove or give a counterexample.
+	\item If events $A$ and $B$ are independent, and events $A$ and $C$ are independent, is it always true that events $B$ and $C$ are independent? Please prove or give a counterexample.
+	\item If two events are disjoint, are they always, sometimes, or never independent? Please explain.
+\end{enumerate}
 
+\subsection{Solution}
+\begin{enumerate}[a.]
+	\item
+	\text{From Law of Total Probability, we know that:}
+	\begin{align}
+		\text{Given that, } P(AB) &= P(A)P(B) \label{eq:given1} \\
+		\text{To check if: } P(A\bar{B}) &= P(A)P(\bar{B}) \label{eq:toCheck1} \\
+		A &= AB + A\bar{B} \label{eq:LOTPAB}\\
+		\text{or, } P(A) &= P(AB) + P(A\bar{B}) \nonumber\\
+		\text{or, } P(A) &= P(A)P(B) + P(A\bar{B}) \nonumber\\
+		\text{or, } P(A) - P(A)P(B) &= P(A\bar{B}) \nonumber\\
+		\text{or, } P(A){1-P(B)} &= P(A\bar{B}) \nonumber\\
+		\text{or, } P(A)P(\bar{B}) &= P(A\bar{B}) \nonumber
+	\end{align}
+	\text{which is exactly what we set to prove i.e. \cref{eq:toCheck1}.} \\
+	\text{$\implies$ If $A$ and $B$ are independent, then so are $A$ and $\bar{B}$.}\\
+	Hence Proved.\Laughey
+\end{enumerate} 
 \noindent\rule{\textwidth}{1pt}
