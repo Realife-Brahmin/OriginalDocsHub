@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.21)  21 SEP 2022 21:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.21)  21 SEP 2022 21:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1565,8 +1565,21 @@ metimes, or never independent?
  []
 
 \g__tikzsymbols_savebox_F_0 g 0 G_10_Laughey_1_none_none_box=\box76
+
+Overfull \hbox (4.14351pt too wide) in paragraph at lines 29--30
+[]\T1/FiraSans-OsF/regular/n/10 Disregarding the trivial case when at least one
+ of the events is impossible,
+ []
+
+
+Overfull \hbox (6.68352pt too wide) in paragraph at lines 29--30
+\T1/FiraSans-OsF/regular/n/10 sense, as say, if events $\OML/cmm/m/it/10 A$ \T1
+/FiraSans-OsF/regular/n/10 and $\OML/cmm/m/it/10 B$ \T1/FiraSans-OsF/regular/n/
+10 with non-zero probabilities are completely
+ []
+
 )
-Underfull \hbox (badness 10000) in paragraph at lines 27--47
+Underfull \hbox (badness 10000) in paragraph at lines 31--47
 
  []
 
@@ -1635,16 +1648,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--57
 ] (ee507_hw02_aryan_ritwajeet_jha.aux)
 Package rerunfilecheck Info: File `ee507_hw02_aryan_ritwajeet_jha.out' has not 
 changed.
-(rerunfilecheck)             Checksum: 17D18E7E0D6AB0C453CEFAB4066DBB17;1293.
+(rerunfilecheck)             Checksum: 1FF992DCFC6AEFAADF616E17C5F89744;1283.
 Package logreq Info: Writing requests to 'ee507_hw02_aryan_ritwajeet_jha.run.xm
 l'.
 \openout1 = `ee507_hw02_aryan_ritwajeet_jha.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 47887 strings out of 477324
- 1067350 string characters out of 2828730
- 1935086 words of memory out of 3000000
+ 47889 strings out of 477324
+ 1067359 string characters out of 2828730
+ 1938086 words of memory out of 3000000
  68229 multiletter control sequences out of 15000+600000
  618502 words of font info for 103 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
@@ -1659,9 +1672,9 @@ exmfs/install/fonts/type1/public/fira/FiraSans-Regular.pfb></home/aryan/.miktex
 /texmfs/install/fonts/type1/public/mnsymbol/MnSymbol10.pfb></home/aryan/.miktex
 /texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/aryan/.miktex/
 texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on ee507_hw02_aryan_ritwajeet_jha.pdf (9 pages, 181365 bytes).
+Output written on ee507_hw02_aryan_ritwajeet_jha.pdf (9 pages, 182913 bytes).
 PDF statistics:
- 192 PDF objects out of 1000 (max. 8388607)
- 33 named destinations out of 1000 (max. 500000)
+ 194 PDF objects out of 1000 (max. 8388607)
+ 35 named destinations out of 1000 (max. 500000)
  125 words of extra memory for PDF output out of 10000 (max. 10000000)
 

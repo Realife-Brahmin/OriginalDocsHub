@@ -23,5 +23,9 @@
 	\text{which is exactly what we set to prove i.e. \cref{eq:toCheck1}.} \\
 	\text{$\implies$ If $A$ and $B$ are independent, then so are $A$ and $\bar{B}$.}\\
 	Hence Proved.\Laughey
+	
+	\item No. Assume the trivial cases $B = C$ or $B = \bar{C}$. Even when $P(A|B) = P(A)$ and $P(A|C) = P(C)$ as given, $P(B|C) = 1 \neq P(B)$ in the first case and $P(B|C) = 0 \neq P(B)$ in the second.
+	
+	\item Disregarding the trivial case when at least one of the events is impossible, two disjoint events can NEVER be independent. Conceptually this makes sense, as say, if events $A$ and $B$ with non-zero probabilities are completely disjoint, then we could say that $B \in \bar{A}$, thus $P(A|B) = 0 \neq P(A)$ and vice versa $P(B|A) = 0 \neq P(B)$, which basically violates the condition of independence.
 \end{enumerate} 
 \noindent\rule{\textwidth}{1pt}
