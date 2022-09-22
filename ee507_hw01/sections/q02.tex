@@ -1,0 +1,54 @@
+\section{Problem 2}
+\begin{enumerate}[a.]
+	\item Please define the following terms:
+	\begin{enumerate}[(i)]
+		\item Probability
+		\item Outcome
+		\item Event
+		\item Sample Space
+		\item Axiom
+	\end{enumerate}
+	\item Please describe, in words, the three axioms of probability.
+	\item  It's important in defining an experiment to have the correct level of granularity (detail). Please give an example in which the granularity is too low, and one in which the granularity is too high.
+\end{enumerate}
+
+\subsection{Solution}
+
+\begin{enumerate}[a.]
+	\item 
+		\begin{itemize}
+			\item \textbf{Outcome}\\
+			A possible result of an experiment. Only one outcome is reached at the end of an experiment, i.e. Outcomes are always disjoint and never overlap.
+			\item \textbf{Sample Space}\\
+			The set of all possible outcomes of an experiment is called the sample space.
+			\item \textbf{Event}\\
+			For an experiment, an event is uniquely defined via the set of permissible outcomes as part of itself. In set theory, an event $E$ is the subset of the power set $\powerset$ of the sample space $\Omega$ of an experiment.
+			\item \textbf{Probability}\\
+			The probability of an event is defined as the ratio of the odds of that event occurring to the odds of all possible events occurring at the end of an experiment.
+			\item \textbf{Axiom}\\
+			A basic rule which cannot be proven but only assumed. Axioms when combined with other axioms, together can be used as a standalone set of rules to prove all subsequent results forming the base of a mathematical area.	 
+		\end{itemize}
+	\item The three axioms of probability are:
+	\newtheorem{axiom}{Axiom}
+	\begin{axiom}
+		For an event A as part of an experiment, the probability $P(A) \geq 0$
+	\end{axiom}
+	Probability of an event can never be less than zero. At the least the event can be an impossible event, whose probability would then be zero.
+	\begin{axiom}
+		For the sample space $\Omega$ of an experiment, the probability $P(\Omega) = 1$.
+	\end{axiom}
+	The set of all possible outcomes of an experiment is called the sample space. Since the sample space encompasses every possibility of an experiment, the probability of getting an outcome which is part of the sample space is 1, i.e. it is a certain event.
+	\begin{axiom}
+		If events $A$ and $B$ are disjoint, i.e. $A \cap B = \phi$, then $P(A+B) = P(A) + P(B)$.
+	\end{axiom}
+	If two events do not have any overlapping outcomes, then they are mutually exclusive events and thus their union is simply the sum of their individual possible outcomes.
+	
+	\item Let's say the experiment is to determine whether a particular candidate is able to pass the course EE 507. Let's label this experiment E and its outcomes as `Pass' and `Fail'. We wish to determine $P(\text{`Pass'})$:
+		\begin{itemize}
+			\item \textbf{Too Granular}: All of the candidate's grades for the previous six years of their university education. The candidate's relationship with their classmates and the instructor. The total time the candidate allotted to study for their real-time exams, the number of pages the candidate practised before the examination day. The breakfast the candidate had on the examination day and the duration of sound sleep the night before.
+			\item \textbf{Good Granularity}: The candidate has taken a similar course in their previous degree and performed well. The candidate likes studying hard maths and spends a decent amount of their time in solving the given assignments.
+			\item \textbf{Low Granularity}: The candidate comes from country XYZ, the candidate topped their English exams in Class 5. The candidate likes the number $507$.
+		\end{itemize}
+\end{enumerate}
+
+\noindent\rule{\textwidth}{1pt}
