@@ -1,6 +1,5 @@
 \section{Problem 3}
 
-\subsection{Solution}
 A randomly selected student in an engineering class id diligent with probability $0.3$, and lazy with probability $0.7$. A diligent student completes all of her homework with probability $0.9$ and does not do so with probability $0.1$. Meanwhile, a lazy student completes all homework with probability $0.5$ and does not do so with probability $0.5$. A student who completes all homework receives an $A$ grade with probability $0.6$, and receives a $B$ grade with probability $0.4$ (irrespective of whether the student was diligent or lazy). A student who doesn't complete all homework receives an $A$ grade with probability $0.3$, a $B$ grade withe probability $0.4$ and an $F$ grade with probability $0.3$ (again, irrespective of whether the student was diligent or lazy).\\
 Please answer the following questions.\\
 
@@ -15,4 +14,25 @@ Please answer the following questions.\\
 \end{enumerate}
 
 \subsection{Solution}
+
+Experiment S: A student is randomly selected from an engineering class.
+
+\begin{align}
+	\text{Let, Event } D &= \set{\text{"Selected student is Diligent"}} \nonumber\\
+	\text{$\implies$ Event } \bar{D} &= \set{\text{"Selected student is Lazy"}} \nonumber\\
+	\text{Let, Event } H &= \set{\text{"Selected student did all of their homework"}} \nonumber\\
+	\text{$\implies$ Event } \bar{H} &= \set{\text{"Selected student did NOT do all of their homework"}} \nonumber\\
+	\text{Let, Event } A &= \set{\text{"Selected student receives an $A$ grade."}} \nonumber\\
+	\text{Let, Event } B &= \set{\text{"Selected student receives a $B$ grade."}} \nonumber\\
+		\text{Let, Event } F &= \set{\text{"Selected student receives an $F$ grade."}} \nonumber \Sadey
+\end{align}
+
+\begin{figure}[H]
+	\centering
+	\begin{adjustbox}{max width=\textwidth}
+		\import{../figures/}{decisionTree.pdf_tex}
+	\end{adjustbox}
+	\caption{Decision Tree representing the problem.}
+	\label{fig:decisionTree}
+\end{figure}
 \noindent\rule{\textwidth}{1pt}
