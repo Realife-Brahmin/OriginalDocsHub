@@ -44,10 +44,10 @@
   <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>ee507_hw01_aryan_ritwajeet_jha.bcf</file>
+      <file>ee507_hw02_aryan_ritwajeet_jha.bcf</file>
     </provides>
     <requires type="dynamic">
-      <file>ee507_hw01_aryan_ritwajeet_jha.bbl</file>
+      <file>ee507_hw02_aryan_ritwajeet_jha.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
@@ -65,19 +65,19 @@
     <generic>biber</generic>
     <cmdline>
       <binary>biber</binary>
-      <infile>ee507_hw01_aryan_ritwajeet_jha</infile>
+      <infile>ee507_hw02_aryan_ritwajeet_jha</infile>
     </cmdline>
     <input>
-      <file>ee507_hw01_aryan_ritwajeet_jha.bcf</file>
+      <file>ee507_hw02_aryan_ritwajeet_jha.bcf</file>
     </input>
     <output>
-      <file>ee507_hw01_aryan_ritwajeet_jha.bbl</file>
+      <file>ee507_hw02_aryan_ritwajeet_jha.bbl</file>
     </output>
     <provides type="dynamic">
-      <file>ee507_hw01_aryan_ritwajeet_jha.bbl</file>
+      <file>ee507_hw02_aryan_ritwajeet_jha.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>ee507_hw01_aryan_ritwajeet_jha.bcf</file>
+      <file>ee507_hw02_aryan_ritwajeet_jha.bcf</file>
     </requires>
     <requires type="editable">
       <file>../sections/references.bib</file>
