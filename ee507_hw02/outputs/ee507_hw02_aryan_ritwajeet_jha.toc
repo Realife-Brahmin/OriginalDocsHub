@@ -4,7 +4,7 @@
 \contentsline {subsection}{Solution}{4}{Item.9}%
 \contentsline {section}{Problem 3}{5}{Item.12}%
 \contentsline {subsection}{Solution}{5}{Item.19}%
-\contentsline {section}{Problem 4}{9}{equation.0.16}%
+\contentsline {section}{Problem 4}{9}{equation.0.21}%
 \contentsline {subsection}{Solution}{9}{section*.2}%
 \contentsline {section}{Problem 5}{10}{section*.2}%
 \contentsline {subsection}{Solution}{10}{section*.3}%

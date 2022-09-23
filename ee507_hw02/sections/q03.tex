@@ -1,6 +1,6 @@
 \section{Problem 3}
 
-A randomly selected student in an engineering class id diligent with probability $0.3$, and lazy with probability $0.7$. A diligent student completes all of her homework with probability $0.9$ and does not do so with probability $0.1$. Meanwhile, a lazy student completes all homework with probability $0.5$ and does not do so with probability $0.5$. A student who completes all homework receives an $A$ grade with probability $0.6$, and receives a $B$ grade with probability $0.4$ (irrespective of whether the student was diligent or lazy). A student who doesn't complete all homework receives an $A$ grade with probability $0.3$, a $B$ grade withe probability $0.4$ and an $F$ grade with probability $0.3$ (again, irrespective of whether the student was diligent or lazy).\\
+A randomly selected student in an engineering class id diligent with probability $0.3$, and lazy with probability $0.7$. A diligent student completes all of her homework with probability $0.9$ and does not do so with probability $0.1$. Meanwhile, a lazy student completes all homework with probability $0.5$ and does not do so with probability $0.5$. A student who completes all homework receives an $A$ grade with probability $0.6$, and receives a $B$ grade with probability $0.4$ (irrespective of whether the student was diligent or lazy). A student who doesn't complete all homework receives an $A$ grade with probability $0.3$, a $B$ grade with probability $0.4$ and an $F$ grade with probability $0.3$ (again, irrespective of whether the student was diligent or lazy).\\
 Please answer the following questions.\\
 
 \begin{enumerate}[a.]
@@ -42,14 +42,14 @@ For reference, \cref{fig:decisionTree} is a graph which displays all possible va
 \begin{enumerate}[a.]
 	\item
 		\begin{align}
-			\intertext{Using conditional probability theorem:}
+			\itt{Using conditional probability theorem:}
 			P(DHA) &= P(A|HD)P(H|D)P(D) \nonumber\\
 			\text{or, } P(DHA) &= (0.6)(0.9)(0.3) \nonumber\\
 			\text{or, } P(DHA) &= 0.162 \label{eq:P_DHA}
 		\end{align}
 	\item
 		\begin{align}
-			\intertext{Using Law of Total Probability:}
+			\itt{Using Law of Total Probability:}
 			P(H) &= P(H|D)P(D) \nonumber\\
 			\text{or, } P(H) &= P(H|D)P(D) + P(H|\bar{D})P(\bar{D}) \nonumber\\
 			\text{or, } P(H) &= (0.9)(0.3) + (0.5)(0.7) \nonumber\\
@@ -57,30 +57,52 @@ For reference, \cref{fig:decisionTree} is a graph which displays all possible va
 		\end{align}
 	\item
 		\begin{align}
-			\intertext{Using Law of Total Probability:}
+			\itt{Using Law of Total Probability:}
 			P(A) &= P(A|\bar{D}\bar{H})P(\bar{D}\bar{H}) + P(A|\bar{D}H)P(\bar{D}H) \nonumber\\
 			{} &\quad+ P(A|D\bar{H})P(D\bar{H}) + P(A|DH)P(DH) \nonumber\\
-			\intertext{Using  $P(DH) = P(H|D)P(D)$ and so on for other terms:}
+			\itt{Using  $P(DH) = P(H|D)P(D)$ and so on for other terms:}
 			\orr P(A) &= (0.3)(0.7)(0.5) + (0.6)(0.7)(0.5) \nonumber\\
 			{} &\quad+ (0.3)(0.3)(0.1) + (0.6)(0.3)(0.9) \nonumber\\
 			\orr P(A) &= 0.486 \label{eq:P_A}	
 		\end{align}
 	\item
 		\begin{align}
-			\intertext{Using Bayes' rule:}
+			\itt{Using Bayes' rule:}
 			P(\bar{D}|H) &= \frac{P(H|\bar{D})P(\bar{D})}{P(H)} \label{eq:tmp3d1}\\
-			\intertext{Using \cref{eq:P_H} in \cref{eq:tmp3d1}:}
+			\itt{Using \cref{eq:P_H} in \cref{eq:tmp3d1}:}
 			\orr P(\bar{D}|H) &= \frac{(0.5)(0.7)}{0.62} \nonumber\\
 			\orr P(\bar{D}|H) &\approx 0.5645 \label{eq:P_NOTDGivenH}
 		\end{align}
 	\item 
 		\begin{align}
-			\intertext{Using Bayes' rule:}
+			\itt{Using Bayes' rule:}
 			P(\bar{D}|A) &= \frac{P(A|\bar{D})P(\bar{D})}{P(A)} \label{eq:tmp3e1}\\
-			\intertext{Using Law of Total Probability to expand $P(A|\bar{D})$ :}
+			\itt{Using Law of Total Probability to expand $P(A|\bar{D})$ :}
 			\orr P(\bar{D}|A) &= \frac{\Big\{P(A|\bar{H}\bar{D})P(\bar{H}|\bar{D}) + P(A|\bar{D}H)P(H|\bar{D})\Big\}P(\bar{D})}{P(A)} \label{eq:tmp3e2}\\
-			\intertext{Using \cref{eq:P_A} in \cref{eq:tmp3e2}:}
-			\orr P(\bar{D}|A) &= \frac{\Biggl\{(0.3)(0.5) + (0.6)(0.5)\Biggr\}(0.7)}{0.486} \nonumber\\
+			\itt{Using \cref{eq:P_A} in \cref{eq:tmp3e2}:}
+			\orr P(\bar{D}|A) &= \frac{\Bigl\{(0.3)(0.5) + (0.6)(0.5)\Bigr\}(0.7)}{0.486} \nonumber\\
 			\orr P(\bar{D}|A) &\approx 0.6481 \label{eq:P_NOTDGivenA}
+		\end{align}
+	\item 
+		\begin{align}
+			\itt{Check if:}
+			 P(\{A+B\}|\bar{D}) &= P(\{A+B\})? \label{eq:toCheck3f}\\
+			\itt{Let event $\text{$Pass$} = \set{\text{"Student obtained $A$ or $B$ grade."}$}}
+			\itt{Or,} 
+			Pass &= A + B \label{eq:tmp3f1}\\
+			\itt{Starting from the LHS of \cref{eq:toCheck3f}, using \cref{eq:tmp3f1} and the Law of Total Probability:}
+			P(Pass|\bar{D}) &= P(Pass|\bar{D}\bar{H})P(\bar{H}|\bar{D}) + P(Pass|\bar{D}H)P(H|\bar{D}) \nonumber\\
+			\orr P(Pass|\bar{D}) &= (0.7)(0.5) + (1.0)(0.5) \nonumber\\
+			\orr P(Pass|\bar{D}) &= 0.85 \label{eq:P_PassGivenNOTD}
+			\itt{Now starting with the RHS of \cref{eq:toCheck3f} and using the Law of Total Probability:}
+			P(Pass) &= P(Pass|\bar{D})P(\bar{D}) + P(Pass|D)P(D) \nonumber\\
+			\orr P(Pass) &= P(Pass|\bar{D})P(\bar{D}) \nonumber\\
+			{} &\quad+ \Bigl\{P(Pass|D\bar{H})P(\bar{H}|D) \nonumber\\  
+			{} &\quad\quad+ P(Pass|DH)P(H|D)\Bigr\}P(D) \label{eq:tmp3f1}\\
+			\itt{Using \cref{eq:P_PassGivenNOTD} in \cref{eq:tmp3f1}:}
+			P(Pass) &= (0.85)(0.7) + \Bigl\{(0.7)(0.1) \nonumber\\
+			{} &\quad+ (1.0)(0.9)\Bigr\}(0.3) \nonumber\\
+			\orr P(Pass) &= 0.886 \label{eq:P_Pass}
+			\itt{Since $P(Pass|\bar{D})$ in \cref{eq:P_PassGivenNOTD} and $P(Pass)$ in \cref{eq:P_Pass} are not equal, therefore the events of a student passing and the student being lazy are NOT independent events. \Neutrey} \nonumber
 		\end{align}
 \end{enumerate}

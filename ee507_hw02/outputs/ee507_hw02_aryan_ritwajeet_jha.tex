@@ -20,8 +20,8 @@
 \usepackage[T1]{fontenc}
 \renewcommand*\oldstylenums[1]{{\firaoldstyle #1}}
 
-\newcommand{\orr}{\text{or, }}
-\renewcommand{\intertext}{\intertext{\quad }}
+\newcommand{\orr}{\text{or, }} %%For easy "or, " before every subsequent equation describing the manipulation of the LHS.
+\newcommand{\itt}[1]{\intertext{\quad#1}} %%For easy text statements between mathematical proofs and calculations between equations within the align environment without violating the alignment. 
 
 \usepackage{pgfplots}
 \usepackage[subpreambles=false]{standalone}

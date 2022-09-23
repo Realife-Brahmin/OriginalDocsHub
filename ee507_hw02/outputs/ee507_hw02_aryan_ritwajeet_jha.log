@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.21)  23 SEP 2022 08:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.21)  23 SEP 2022 10:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1391,7 +1391,14 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@quotelevel=\count541
 \@quotereset=\count542
 
-(ee507_hw02_aryan_ritwajeet_jha.aux)
+(ee507_hw02_aryan_ritwajeet_jha.aux
+
+LaTeX Warning: Label `eq:tmp3f1' multiply defined.
+
+
+LaTeX Warning: Label `eq:tmp3f1@cref' multiply defined.
+
+)
 \openout1 = `ee507_hw02_aryan_ritwajeet_jha.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
@@ -1414,8 +1421,7 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 42.
 LaTeX Font Info:    ... okay on input line 42.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
-
-(/home/aryan/.miktex/texmfs/install/tex/latex/biblatex/lbx/english.lbx
+ (/home/aryan/.miktex/texmfs/install/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2022/07/12 v3.18b biblatex localization (PK/MW)
 )
 Package biblatex Info: Input encoding 'utf8' detected.
@@ -1604,6 +1610,15 @@ raSans-OsF/regular/n/10 . Meanwhile,
  []
 
 
+Overfull \hbox (9.72519pt too wide) in paragraph at lines 3--5
+\T1/FiraSans-OsF/regular/n/10 grade with probability $\OT1/cmr/m/n/10 0\OML/cmm
+/m/it/10 :\OT1/cmr/m/n/10 4$ \T1/FiraSans-OsF/regular/n/10 and an $\OML/cmm/m/i
+t/10 F$ \T1/FiraSans-OsF/regular/n/10 grade with probability $\OT1/cmr/m/n/10 0
+\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 3$ \T1/FiraSans-OsF/regular/n/10 (again, irre
+spective
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 3--5
 
  []
@@ -1625,7 +1640,20 @@ File: ../figures/../figures//decisionTree.pdf Graphic file (type pdf)
 Package pdftex.def Info: ../figures/../figures//decisionTree.pdf , page1 used o
 n input line 56.
 (pdftex.def)             Requested size: 531.41481pt x 495.11868pt.
-) [6 <../figures/../figures//decisionTree.pdf>] [7]) [8] (../sections/q04.tex
+) [6 <../figures/../figures//decisionTree.pdf>] [7]
+Overfull \hbox (16.3367pt too wide) in paragraph at lines 107--107
+ \T1/FiraSans-OsF/regular/n/10 Now starting with the RHS of Eq. ([]17[]) and us
+ing the Law of Total Probability: 
+ []
+
+\g__tikzsymbols_savebox_F_0 g 0 G_10_Neutrey_1_none_box=\box78
+
+Overfull \hbox (16.3367pt too wide) in paragraph at lines 107--107
+ \T1/FiraSans-OsF/regular/n/10 Now starting with the RHS of Eq. ([]17[]) and us
+ing the Law of Total Probability: 
+ []
+
+) [8] (../sections/q04.tex
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 2.
@@ -1674,22 +1702,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--60
 [12
 
 ] (ee507_hw02_aryan_ritwajeet_jha.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `ee507_hw02_aryan_ritwajeet_jha.out' has not 
 changed.
-(rerunfilecheck)             Checksum: 0D9CCD1A05781C38620B58FC02AE7585;1286.
+(rerunfilecheck)             Checksum: 6BFE058A64F5F5E605A717D0279F4489;1286.
 Package logreq Info: Writing requests to 'ee507_hw02_aryan_ritwajeet_jha.run.xm
 l'.
 \openout1 = `ee507_hw02_aryan_ritwajeet_jha.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 47967 strings out of 477324
- 1068810 string characters out of 2828730
- 1945790 words of memory out of 3000000
- 68276 multiletter control sequences out of 15000+600000
+ 47983 strings out of 477324
+ 1069071 string characters out of 2828730
+ 1946115 words of memory out of 3000000
+ 68286 multiletter control sequences out of 15000+600000
  618502 words of font info for 103 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 99i,18n,117p,859b,848s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 99i,18n,117p,858b,848s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {/home/aryan/.miktex/texmfs/install/fonts/enc/dvips/mnsymbol/MnSymbolA.enc}{/
 home/aryan/.miktex/texmfs/install/fonts/enc/dvips/mnsymbol/MnSymbolC.enc}{/home
 /aryan/.miktex/texmfs/install/fonts/enc/dvips/mnsymbol/MnSymbolE.enc}{/home/ary
@@ -1700,9 +1731,9 @@ exmfs/install/fonts/type1/public/fira/FiraSans-Regular.pfb></home/aryan/.miktex
 /texmfs/install/fonts/type1/public/mnsymbol/MnSymbol10.pfb></home/aryan/.miktex
 /texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/aryan/.miktex/
 texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on ee507_hw02_aryan_ritwajeet_jha.pdf (12 pages, 198672 bytes).
+Output written on ee507_hw02_aryan_ritwajeet_jha.pdf (12 pages, 203225 bytes).
 PDF statistics:
- 244 PDF objects out of 1000 (max. 8388607)
- 58 named destinations out of 1000 (max. 500000)
+ 265 PDF objects out of 1000 (max. 8388607)
+ 64 named destinations out of 1000 (max. 500000)
  130 words of extra memory for PDF output out of 10000 (max. 10000000)
 
