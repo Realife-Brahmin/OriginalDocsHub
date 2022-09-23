@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.21)  23 SEP 2022 11:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.21)  23 SEP 2022 11:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1684,49 +1684,35 @@ Overfull \hbox (17.5367pt too wide) in paragraph at lines 122--122
 ing the Law of Total Probability: 
  []
 
-[8] [9]) [10] (../sections/q04.tex
-
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 2.
-
-)
-Underfull \hbox (badness 10000) in paragraph at lines 4--54
+[8] [9]) [10] (../sections/q04.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 10--54
 
  []
 
 [11
 
 ] (../sections/q05.tex
-
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 2.
+Overfull \hbox (10.08307pt too wide) in paragraph at lines 3--4
+[]\T1/FiraSans-OsF/regular/n/10 Please define a random variable, and explain wh
+y the concept is important. 
+ []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 4--56
+Underfull \hbox (badness 10000) in paragraph at lines 9--56
 
  []
 
 [12
 
-] (../sections/q06.tex
-
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 3.
-
-)
-Underfull \hbox (badness 10000) in paragraph at lines 5--58
+] (../sections/q06.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 13--58
 
  []
 
 [13
 
-] (../sections/q07.tex
-
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 2.
-
-)
-Underfull \hbox (badness 10000) in paragraph at lines 4--60
+] (../sections/q07.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 13--60
 
  []
 
@@ -1738,16 +1724,16 @@ LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `ee507_hw02_aryan_ritwajeet_jha.out' has not 
 changed.
-(rerunfilecheck)             Checksum: 7447C7CE474B9BCA07840DCD0773BE6F;1286.
+(rerunfilecheck)             Checksum: 1E84F8A7BEB15A6648C7415601829ECF;1256.
 Package logreq Info: Writing requests to 'ee507_hw02_aryan_ritwajeet_jha.run.xm
 l'.
 \openout1 = `ee507_hw02_aryan_ritwajeet_jha.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48004 strings out of 477324
- 1069395 string characters out of 2828730
- 1946391 words of memory out of 3000000
+ 48015 strings out of 477324
+ 1069448 string characters out of 2828730
+ 1946462 words of memory out of 3000000
  68297 multiletter control sequences out of 15000+600000
  618502 words of font info for 103 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
@@ -1765,9 +1751,9 @@ texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/aryan/.miktex/t
 exmfs/install/fonts/type1/public/amsfonts/cm/cmmi7.pfb></home/aryan/.miktex/tex
 mfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/aryan/.miktex/texmf
 s/install/fonts/type1/public/amsfonts/cm/cmr7.pfb>
-Output written on ee507_hw02_aryan_ritwajeet_jha.pdf (14 pages, 231399 bytes).
+Output written on ee507_hw02_aryan_ritwajeet_jha.pdf (14 pages, 237169 bytes).
 PDF statistics:
- 316 PDF objects out of 1000 (max. 8388607)
- 74 named destinations out of 1000 (max. 500000)
+ 329 PDF objects out of 1000 (max. 8388607)
+ 85 named destinations out of 1000 (max. 500000)
  130 words of extra memory for PDF output out of 10000 (max. 10000000)
 

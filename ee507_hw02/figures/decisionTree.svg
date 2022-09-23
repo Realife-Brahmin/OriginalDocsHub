@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="218.38409mm"
+   width="186.77095mm"
    height="174.00412mm"
-   viewBox="0 0 218.38409 174.00412"
+   viewBox="0 0 186.77095 174.00412"
    version="1.1"
    id="svg5"
    sodipodi:docname="decisionTree.svg"
@@ -23,14 +23,14 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="1.1783015"
-     inkscape:cx="534.66789"
-     inkscape:cy="375.54055"
-     inkscape:window-width="1115"
+     inkscape:zoom="0.58915077"
+     inkscape:cx="575.33515"
+     inkscape:cy="327.07174"
+     inkscape:window-width="1280"
      inkscape:window-height="661"
-     inkscape:window-x="71"
+     inkscape:window-x="0"
      inkscape:window-y="28"
-     inkscape:window-maximized="0"
+     inkscape:window-maximized="1"
      inkscape:current-layer="layer1"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -116,20 +116,6 @@
     </marker>
     <marker
        style="overflow:visible"
-       id="Arrow2Lend"
-       refX="0"
-       refY="0"
-       orient="auto"
-       inkscape:stockid="Arrow2Lend"
-       inkscape:isstock="true">
-      <path
-         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
-         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
-         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
-         id="path4010" />
-    </marker>
-    <marker
-       style="overflow:visible"
        id="Arrow2Mend"
        refX="0"
        refY="0"
@@ -158,20 +144,6 @@
     </marker>
     <marker
        style="overflow:visible"
-       id="Arrow2Lstart"
-       refX="0"
-       refY="0"
-       orient="auto"
-       inkscape:stockid="Arrow2Lstart"
-       inkscape:isstock="true">
-      <path
-         transform="matrix(1.1,0,0,1.1,1.1,0)"
-         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
-         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
-         id="path4007" />
-    </marker>
-    <marker
-       style="overflow:visible"
        id="marker10315"
        refX="0"
        refY="0"
@@ -186,20 +158,6 @@
     </marker>
     <marker
        style="overflow:visible"
-       id="marker10305"
-       refX="0"
-       refY="0"
-       orient="auto"
-       inkscape:stockid="Arrow1Mend"
-       inkscape:isstock="true">
-      <path
-         transform="matrix(-0.4,0,0,-0.4,-4,0)"
-         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
-         d="M 0,0 5,-5 -12.5,0 5,5 Z"
-         id="path10303" />
-    </marker>
-    <marker
-       style="overflow:visible"
        id="Arrow1Mend"
        refX="0"
        refY="0"
@@ -211,48 +169,6 @@
          style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
          d="M 0,0 5,-5 -12.5,0 5,5 Z"
          id="path3998" />
-    </marker>
-    <marker
-       style="overflow:visible"
-       id="Arrow1Sstart"
-       refX="0"
-       refY="0"
-       orient="auto"
-       inkscape:stockid="Arrow1Sstart"
-       inkscape:isstock="true">
-      <path
-         transform="matrix(0.2,0,0,0.2,1.2,0)"
-         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
-         d="M 0,0 5,-5 -12.5,0 5,5 Z"
-         id="path4001" />
-    </marker>
-    <marker
-       style="overflow:visible"
-       id="Arrow1Lend"
-       refX="0"
-       refY="0"
-       orient="auto"
-       inkscape:stockid="Arrow1Lend"
-       inkscape:isstock="true">
-      <path
-         transform="matrix(-0.8,0,0,-0.8,-10,0)"
-         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
-         d="M 0,0 5,-5 -12.5,0 5,5 Z"
-         id="path3992" />
-    </marker>
-    <marker
-       style="overflow:visible"
-       id="Arrow1Lstart"
-       refX="0"
-       refY="0"
-       orient="auto"
-       inkscape:stockid="Arrow1Lstart"
-       inkscape:isstock="true">
-      <path
-         transform="matrix(0.8,0,0,0.8,10,0)"
-         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
-         d="M 0,0 5,-5 -12.5,0 5,5 Z"
-         id="path3989" />
     </marker>
   </defs>
   <g
@@ -357,15 +273,15 @@
        inkscape:label="Prob-values">
       <text
          xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-         x="74.521378"
-         y="97.81601"
+         style="font-style:normal;font-weight:normal;font-size:5.29165px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.132291"
+         x="81.481392"
+         y="97.822105"
          id="text5182"><tspan
            sodipodi:role="line"
            id="tspan5180"
-           style="stroke-width:0.264583"
-           x="74.521378"
-           y="97.81601">Student is randomly selected</tspan></text>
+           style="stroke-width:0.132291"
+           x="81.481392"
+           y="97.822105">Student is randomly selected</tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
