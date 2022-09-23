@@ -39,7 +39,7 @@ For reference, \cref{fig:decisionTree} is a graph which displays all possible va
 \end{figure}
 \noindent\rule{\textwidth}{1pt}
 
-\begin{enumerate}[a.]
+\begin{enumerate}[3a.]
 	\item
 		\begin{align}
 			\itt{Using conditional probability theorem:}
@@ -104,5 +104,32 @@ For reference, \cref{fig:decisionTree} is a graph which displays all possible va
 			{} &\quad+ (1.0)(0.9)\Bigr\}(0.3) \nonumber\\
 			\orr P(Pass) &= 0.886 \label{eq:P_Pass}
 			\itt{Since $P(Pass|\bar{D})$ in \cref{eq:P_PassGivenNOTD} and $P(Pass)$ in \cref{eq:P_Pass} are not equal, therefore the events of a student passing and the student being lazy are NOT independent events. \Neutrey} \nonumber
+		\end{align}
+	\item 
+		\begin{align}
+			\itt{Check if:}
+			P(B|\bar{D}) &= P(B)? \label{eq:toCheck3g}\\
+			\itt{Or,} 
+			\itt{Starting from the LHS of \cref{eq:toCheck3g}, and using the Law of Total Probability:}
+			P(B|\bar{D}) &= P(B|\bar{D}\bar{H})P(\bar{H}|\bar{D}) + P(B|\bar{D}H)P(H|\bar{D}) \nonumber\\
+			\orr P(B|\bar{D}) &= (0.4)(0.5) + (0.4)(0.5) \nonumber\\
+			\orr P(B\bar{D}) &= 0.4 \label{eq:P_BGivenNOTD}
+			\itt{Now starting with the RHS of \cref{eq:toCheck3g} and using the Law of Total Probability:}
+			P(B) &= P(B|\bar{H})P(\bar{H}) + P(B|H)P(H) \nonumber\\ \label{eq:tmp3f1}\\
+			\orr P(B) &= (0.4)P(\bar{H}) + (0.4)P(H) \nonumber\\
+			\orr P(B) &= 0.4 \label{eq:P_B}\\
+			\itt{Since $P(B|\bar{D})$ in \cref{eq:P_BGivenNOTD} and $P(B)$ in \cref{eq:P_B} are equal, therefore the events of a student getting a $B$ grade and the student being lazy are independent events. \Smiley} \nonumber
+		\end{align}
+	\item
+		\begin{align}
+			\itt{Using Bayes' rule on $P(H|\{\bar{D}+A\})$:} 
+			P(H|\{\bar{D}+A\}) &= \frac{P(\{\bar{D}+A\}|H)P(H)}{P(\{\bar{D}+A\})} \nonumber\\
+			\orr P(H|\{\bar{D}+A\}) &= \frac{P(\{\bar{D}+DA\}|H)P(H)}{P(\{\bar{D}+DA\})} \nonumber\\
+			\itt{Using Axiom 1 of Probability:}
+			P(H|\{\bar{D}+A\}) &= \frac{\Bigl\{P(\bar{D}|H)+P(DA|H)\Bigr\}P(H)}{\{P(\bar{D})+P(DA)\}} \nonumber\\
+			\orr P(H|\{\bar{D}+A\}) &= \frac{\Bigl\{P(\bar{D}|H)+\frac{P(DAH)}{P(H)}\Bigr\}P(H)}{\{P(\bar{D})+ P(DAH) + P(DA\bar{H})\}} \nonumber\\
+			\orr P(H|\{\bar{D}+A\}) &= \frac{\Bigl\{P(\bar{D}|H)+\frac{P(DAH)}{P(H)}\Bigr\}P(H)}{\{P(\bar{D})+ P(DAH) + P(A|D\bar{H})P(\bar{H}|D)P(D)\}} \label{eq:tmp3h1}\\
+			\itt{Using \cref{eq:P_NOTDGivenH,eq:P_H,eq:P_H,eq:P_DHA} in \cref{eq:tmp3h1}:}								P(H|\{\bar{D}+A\}) &= \frac{\Bigl\{0.5645+\frac{0.162}{0.62}\Bigr\}(0.62)}{\{0.7+ 0.162 + (0.3)(0.1)(0.3)\}} \nonumber\\
+			\orr P(H|\{\bar{D}+A\}) &\approx 0.5878 \label{eq:P_HGivenNOTDORA}	
 		\end{align}
 \end{enumerate}
