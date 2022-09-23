@@ -27,12 +27,50 @@ Experiment S: A student is randomly selected from an engineering class.
 		\text{Let, Event } F &= \set{\text{"Selected student receives an $F$ grade."}} \nonumber \Sadey
 \end{align}
 
+For reference, \cref{fig:decisionTree} is a graph which displays all possible variations of a randomly chosen student (or in terms of probability theory all events with non-zero probabilities).
+
 \begin{figure}[H]
 	\centering
 	\begin{adjustbox}{max width=\textwidth}
 		\import{../figures/}{decisionTree.pdf_tex}
 	\end{adjustbox}
-	\caption{Decision Tree representing the problem.}
+	\caption{Decision Tree representing all possible types of students selected.}
 	\label{fig:decisionTree}
 \end{figure}
 \noindent\rule{\textwidth}{1pt}
+
+\begin{enumerate}[a.]
+	\item
+		\begin{align}
+			\intertext{\quad Using conditional probability theorem:}
+			P(DHA) &= P(A|HD)P(H|D)P(D) \nonumber\\
+			\text{or, } P(DHA) &= (0.6)(0.9)(0.3) \nonumber\\
+			\text{or, } P(DHA) &= 0.162 \label{eq:P_DHA}
+		\end{align}
+	\item
+		\begin{align}
+			\intertext{\quad Using Law of Total Probability:}
+			P(H) &= P(H|D)P(D) \nonumber\\
+			\text{or, } P(H) &= P(H|D)P(D) + P(H|\bar{D})P(\bar{D}) \nonumber\\
+			\text{or, } P(H) &= (0.9)(0.3) + (0.5)(0.7) \nonumber\\
+			\text{or, } P(H) &= 0.62 \label{eq:P_H}
+		\end{align}
+	\item
+		\begin{align}
+			\intertext{\quad Using Law of Total Probability:}
+			P(A) &= P(A|\bar{D}\bar{H})P(\bar{D}\bar{H}) + P(A|\bar{D}H)P(\bar{D}H) \nonumber\\
+			{} &\quad+ P(A|D\bar{H})P(D\bar{H}) + P(A|DH)P(DH) \nonumber\\
+			\intertext{\quad Using  $P(DH) = P(H|D)P(D)$ and so on for other terms:}
+			\orr P(A) &= (0.3)(0.7)(0.5) + (0.6)(0.7)(0.5) \nonumber\\
+			{} &\quad+ (0.3)(0.3)(0.1) + (0.6)(0.3)(0.9) \nonumber\\
+			\orr P(A) &= 0.486 \label{eq:P_A}	
+		\end{align}
+	\item
+		\begin{align}
+			\intertext{\quad Using Bayes' rule:}
+			P(\bar{D}|H) &= \frac{P(H|\bar{D})P(\bar{D})}{P(H)} \label{eq:tmp3d1}\\
+			\intertext{\quad Using \cref{eq:P_H} in \cref{eq:tmp3d1}:}
+			\orr P(\bar{D}|H) &= \frac{(0.5)(0.7)}{0.62} \nonumber\\
+			\orr P(\bar{D}|H) &\approx 0.5645 \label{eq:P_NOTD|H}
+		\end{align}
+\end{enumerate}
