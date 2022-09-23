@@ -42,14 +42,14 @@ For reference, \cref{fig:decisionTree} is a graph which displays all possible va
 \begin{enumerate}[a.]
 	\item
 		\begin{align}
-			\intertext{\quad Using conditional probability theorem:}
+			\intertext{Using conditional probability theorem:}
 			P(DHA) &= P(A|HD)P(H|D)P(D) \nonumber\\
 			\text{or, } P(DHA) &= (0.6)(0.9)(0.3) \nonumber\\
 			\text{or, } P(DHA) &= 0.162 \label{eq:P_DHA}
 		\end{align}
 	\item
 		\begin{align}
-			\intertext{\quad Using Law of Total Probability:}
+			\intertext{Using Law of Total Probability:}
 			P(H) &= P(H|D)P(D) \nonumber\\
 			\text{or, } P(H) &= P(H|D)P(D) + P(H|\bar{D})P(\bar{D}) \nonumber\\
 			\text{or, } P(H) &= (0.9)(0.3) + (0.5)(0.7) \nonumber\\
@@ -57,20 +57,30 @@ For reference, \cref{fig:decisionTree} is a graph which displays all possible va
 		\end{align}
 	\item
 		\begin{align}
-			\intertext{\quad Using Law of Total Probability:}
+			\intertext{Using Law of Total Probability:}
 			P(A) &= P(A|\bar{D}\bar{H})P(\bar{D}\bar{H}) + P(A|\bar{D}H)P(\bar{D}H) \nonumber\\
 			{} &\quad+ P(A|D\bar{H})P(D\bar{H}) + P(A|DH)P(DH) \nonumber\\
-			\intertext{\quad Using  $P(DH) = P(H|D)P(D)$ and so on for other terms:}
+			\intertext{Using  $P(DH) = P(H|D)P(D)$ and so on for other terms:}
 			\orr P(A) &= (0.3)(0.7)(0.5) + (0.6)(0.7)(0.5) \nonumber\\
 			{} &\quad+ (0.3)(0.3)(0.1) + (0.6)(0.3)(0.9) \nonumber\\
 			\orr P(A) &= 0.486 \label{eq:P_A}	
 		\end{align}
 	\item
 		\begin{align}
-			\intertext{\quad Using Bayes' rule:}
+			\intertext{Using Bayes' rule:}
 			P(\bar{D}|H) &= \frac{P(H|\bar{D})P(\bar{D})}{P(H)} \label{eq:tmp3d1}\\
-			\intertext{\quad Using \cref{eq:P_H} in \cref{eq:tmp3d1}:}
+			\intertext{Using \cref{eq:P_H} in \cref{eq:tmp3d1}:}
 			\orr P(\bar{D}|H) &= \frac{(0.5)(0.7)}{0.62} \nonumber\\
-			\orr P(\bar{D}|H) &\approx 0.5645 \label{eq:P_NOTD|H}
+			\orr P(\bar{D}|H) &\approx 0.5645 \label{eq:P_NOTDGivenH}
+		\end{align}
+	\item 
+		\begin{align}
+			\intertext{Using Bayes' rule:}
+			P(\bar{D}|A) &= \frac{P(A|\bar{D})P(\bar{D})}{P(A)} \label{eq:tmp3e1}\\
+			\intertext{Using Law of Total Probability to expand $P(A|\bar{D})$ :}
+			\orr P(\bar{D}|A) &= \frac{\Big\{P(A|\bar{H}\bar{D})P(\bar{H}|\bar{D}) + P(A|\bar{D}H)P(H|\bar{D})\Big\}P(\bar{D})}{P(A)} \label{eq:tmp3e2}\\
+			\intertext{Using \cref{eq:P_A} in \cref{eq:tmp3e2}:}
+			\orr P(\bar{D}|A) &= \frac{\Biggl\{(0.3)(0.5) + (0.6)(0.5)\Biggr\}(0.7)}{0.486} \nonumber\\
+			\orr P(\bar{D}|A) &\approx 0.6481 \label{eq:P_NOTDGivenA}
 		\end{align}
 \end{enumerate}

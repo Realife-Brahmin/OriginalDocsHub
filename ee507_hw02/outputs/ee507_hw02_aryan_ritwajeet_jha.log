@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.21)  23 SEP 2022 08:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.21)  23 SEP 2022 08:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1394,24 +1394,24 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 (ee507_hw02_aryan_ritwajeet_jha.aux)
 \openout1 = `ee507_hw02_aryan_ritwajeet_jha.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
@@ -1427,8 +1427,8 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'ee507_hw02_aryan_ritwajeet_jha.bbl' found.
 
 (ee507_hw02_aryan_ritwajeet_jha.bbl)
-Package biblatex Info: Reference section=0 on input line 41.
-Package biblatex Info: Reference segment=0 on input line 41.
+Package biblatex Info: Reference section=0 on input line 42.
+Package biblatex Info: Reference segment=0 on input line 42.
 
 (/home/aryan/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1451,7 +1451,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 (/home/aryan/.miktex/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 41.
+Package hyperref Info: Link coloring OFF on input line 42.
 
 (ee507_hw02_aryan_ritwajeet_jha.out) (ee507_hw02_aryan_ritwajeet_jha.out)
 \@outlinefile=\write5
@@ -1464,7 +1464,7 @@ Package hyperref Info: Link coloring OFF on input line 41.
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into 
 your preamble.
- on input line 41.
+ on input line 42.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
@@ -1472,27 +1472,27 @@ Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <17.28> not availa
 ble
 (Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on inp
-ut line 43.
+ut line 44.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 17.28pt on input line 43.
+(Font)              scaled to size 17.28pt on input line 44.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <12> not available
 
 (Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on inp
-ut line 43.
+ut line 44.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 12.0pt on input line 43.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 43.
+(Font)              scaled to size 12.0pt on input line 44.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 44.
 
 (/home/aryan/.miktex/texmfs/install/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 43.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 44.
 
 
 (/home/aryan/.miktex/texmfs/install/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+wasy on input line 43
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 44
 .
 
 (/home/aryan/.miktex/texmfs/install/tex/latex/wasysym/uwasy.fd
@@ -1501,15 +1501,15 @@ File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <14.4> not availab
 le
 (Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on inp
-ut line 43.
+ut line 44.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 14.4pt on input line 43.
+(Font)              scaled to size 14.4pt on input line 44.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/n' in size <14.4> not availab
 le
 (Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input 
-line 43.
+line 44.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/n' will be
-(Font)              scaled to size 14.4pt on input line 43.
+(Font)              scaled to size 14.4pt on input line 44.
 
 (ee507_hw02_aryan_ritwajeet_jha.toc
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/n' in size <10> not available
@@ -1583,7 +1583,7 @@ Overfull \hbox (6.68352pt too wide) in paragraph at lines 29--30
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 31--49
+Underfull \hbox (badness 10000) in paragraph at lines 31--50
 
  []
 
@@ -1625,17 +1625,17 @@ File: ../figures/../figures//decisionTree.pdf Graphic file (type pdf)
 Package pdftex.def Info: ../figures/../figures//decisionTree.pdf , page1 used o
 n input line 56.
 (pdftex.def)             Requested size: 531.41481pt x 495.11868pt.
-) [6 <../figures/../figures//decisionTree.pdf>]) [7] (../sections/q04.tex
+) [6 <../figures/../figures//decisionTree.pdf>] [7]) [8] (../sections/q04.tex
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 2.
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 4--53
+Underfull \hbox (badness 10000) in paragraph at lines 4--54
 
  []
 
-[8
+[9
 
 ] (../sections/q05.tex
 
@@ -1643,11 +1643,11 @@ Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 2.
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 4--55
+Underfull \hbox (badness 10000) in paragraph at lines 4--56
 
  []
 
-[9
+[10
 
 ] (../sections/q06.tex
 
@@ -1655,11 +1655,11 @@ Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 3.
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 5--57
+Underfull \hbox (badness 10000) in paragraph at lines 5--58
 
  []
 
-[10
+[11
 
 ] (../sections/q07.tex
 
@@ -1667,26 +1667,26 @@ Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 2.
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 4--59
+Underfull \hbox (badness 10000) in paragraph at lines 4--60
 
  []
 
-[11
+[12
 
 ] (ee507_hw02_aryan_ritwajeet_jha.aux)
 Package rerunfilecheck Info: File `ee507_hw02_aryan_ritwajeet_jha.out' has not 
 changed.
-(rerunfilecheck)             Checksum: 2569F909225FFFC4E85C6E5BD2B17D62;1286.
+(rerunfilecheck)             Checksum: 0D9CCD1A05781C38620B58FC02AE7585;1286.
 Package logreq Info: Writing requests to 'ee507_hw02_aryan_ritwajeet_jha.run.xm
 l'.
 \openout1 = `ee507_hw02_aryan_ritwajeet_jha.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 47956 strings out of 477324
- 1068656 string characters out of 2828730
- 1945585 words of memory out of 3000000
- 68270 multiletter control sequences out of 15000+600000
+ 47967 strings out of 477324
+ 1068810 string characters out of 2828730
+ 1945790 words of memory out of 3000000
+ 68276 multiletter control sequences out of 15000+600000
  618502 words of font info for 103 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
  99i,18n,117p,859b,848s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -1700,9 +1700,9 @@ exmfs/install/fonts/type1/public/fira/FiraSans-Regular.pfb></home/aryan/.miktex
 /texmfs/install/fonts/type1/public/mnsymbol/MnSymbol10.pfb></home/aryan/.miktex
 /texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/aryan/.miktex/
 texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on ee507_hw02_aryan_ritwajeet_jha.pdf (11 pages, 194899 bytes).
+Output written on ee507_hw02_aryan_ritwajeet_jha.pdf (12 pages, 198672 bytes).
 PDF statistics:
- 231 PDF objects out of 1000 (max. 8388607)
- 53 named destinations out of 1000 (max. 500000)
+ 244 PDF objects out of 1000 (max. 8388607)
+ 58 named destinations out of 1000 (max. 500000)
  130 words of extra memory for PDF output out of 10000 (max. 10000000)
 
