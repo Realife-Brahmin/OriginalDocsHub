@@ -5,6 +5,34 @@ An experiment has three outcomes $A, B,$ and $C$, which have probabilities $P(A)
 	\item What is the probability that the outcome $A$ occurs on $50$ trials, outcome $B$ occurs on $25$ trials, and outcome $C$ occurs on $25$ trials?
 	\item Given that the outcome $A$ occurred on exactly $60$ trials, what is the probability that $A$ occurred on the first trial? How about $B$?
 \end{enumerate}
-\subsection{Solution}
 
+\subsection{Solution}
+\begin{enumerate}[4a.]
+	\item It should be noted that outcomes are always independent events, therefore we can multiply the probabilities of individual outcomes in a repeated experiment.
+		\begin{align}
+			P(\#A = 50) &= \binom{100}{50}(0.5)^{50} \binom{50}{50}(1-0.5)^{50} \nonumber\\
+			\orr P(\#A = 50) &= \binom{100}{50}(0.5)^{100} \nonumber\\
+			\orr P(\#A = 50) &\approx 0.0796\nonumber
+		\end{align} 
+	\item 
+		\begin{align}
+			P(\#A = 50, \#B = 25, \#C = 25) &= \binom{100}{50}(0.5)^{50} \binom{50}{25}(0.3)^{25} \binom{25}{25}(0.2)^{25} \nonumber\\
+			\orr P(\#A = 50, \#B = 25, \#C = 25) &= \binom{100}{50}(0.5)^{50} \binom{50}{25}(0.3)^{25} (0.2)^{25} \nonumber\\
+			\orr P(\#A = 50, \#B = 25, \#C = 25) &\approx 0.00322 \nonumber
+		\end{align}
+	\item 
+		\begin{align}
+			P(\text{Trial} \#1 = A | \# A = 60) &= \frac{P(\text{Trial} \#1 = A, \# A = 60)}{P(\#A = 60)} \nonumber\\
+			\orr P(\text{Trial} \#1 = A | \# A = 60) &= \frac{\binom{1}{1}(0.5)^1 \binom{99}{59}(0.5)^{59} \binom{40}{40}(1-0.5)^{40}}{\binom{100}{60}(0.5)^{60} \binom{40}{40}(1-0.5)^{40}} \nonumber\\
+			\orr P(\text{Trial} \#1 = A | \# A = 60) &= \frac{\binom{99}{59}(0.5)^{100}}{\binom{100}{60}(0.5)^{100}} \nonumber\\
+			\orr P(\text{Trial} \#1 = A | \# A = 60) &= 0.6 \nonumber\\		
+			\itt{Doing the same for outcome $B$:}	
+			P(\text{Trial} \#1 = B | \# A = 60) &= \frac{P(\text{Trial} \#1 = B, \# A = 60)}{P(\#A = 60)} \nonumber\\
+			\orr P(\text{Trial} \#1 = B | \# A = 60) &= \frac{\binom{1}{1}(0.3)^1 \binom{99}{60}(0.5)^{60} \binom{39}{39}(1-0.5)^{39}}{\binom{100}{60}(0.5)^{60} \binom{40}{40}(1-0.5)^{40}} \nonumber\\
+			\orr P(\text{Trial} \#1 = B | \# A = 60) &= \frac{\binom{99}{60}(0.5)^{99}}{\binom{100}{60}(0.5)^{100}} \nonumber\\
+			\orr P(\text{Trial} \#1 = B | \# A = 60) &= \frac{(40)(0.3)}{(100)(0.5)} \nonumber\\
+			\orr P(\text{Trial} \#1 = B | \# A = 60) &= 0.24 \nonumber			
+			\itt{Conceptually, in a `universe' (a subset of all possible events constrained by one or more specified events happening) where $A$ is likely $60$ times out of $100$, it is logical for any specific trial to have the same constrained probability ($\frac{60}{100} = 0.6$ in this case). Similarly $B$ will have a probability $0.3 * \biggl\{1-\frac{60}{100}\biggr\} = 0.24$ and $C$ will have a probability of $0.2 * \biggl\{1-\frac{60}{100}\biggr\} = 0.16$} \nonumber  
+		\end{align}
+\end{enumerate}
 \noindent\rule{\textwidth}{1pt}

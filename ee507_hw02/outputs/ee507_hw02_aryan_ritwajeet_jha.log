@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.21)  23 SEP 2022 11:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.21)  23 SEP 2022 22:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1639,7 +1639,7 @@ tes all of their homework?
 [5
 
 ] (../figures/../figures/decisionTree.pdf_tex
-<../figures/../figures//decisionTree.pdf, id=143, page=1, 531.41481pt x 495.089
+<../figures/../figures//decisionTree.pdf, id=144, page=1, 531.41481pt x 495.089
 68pt>
 File: ../figures/../figures//decisionTree.pdf Graphic file (type pdf)
 <use ../figures/../figures//decisionTree.pdf, page 1>
@@ -1684,14 +1684,32 @@ Overfull \hbox (17.5367pt too wide) in paragraph at lines 122--122
 ing the Law of Total Probability: 
  []
 
-[8] [9]) [10] (../sections/q04.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 10--54
+[8] [9]) [10] (../sections/q04.tex
+Overfull \hbox (12.24608pt too wide) in paragraph at lines 11--12
+[]\T1/FiraSans-OsF/regular/n/10 It should be noted that outcomes are always ind
+ependent events, therefore
+ []
 
+
+Overfull \hbox (5.17598pt too wide) in paragraph at lines 36--36
+ \T1/FiraSans-OsF/regular/n/10 Conceptually, in a `universe' (a subset of all p
+ossible events constrained
+ []
+
+
+Overfull \hbox (5.17598pt too wide) in paragraph at lines 36--36
+ \T1/FiraSans-OsF/regular/n/10 Conceptually, in a `universe' (a subset of all p
+ossible events constrained
  []
 
 [11
 
-] (../sections/q05.tex
+])
+Underfull \hbox (badness 10000) in paragraph at lines 38--54
+
+ []
+
+[12] (../sections/q05.tex
 Overfull \hbox (10.08307pt too wide) in paragraph at lines 3--4
 []\T1/FiraSans-OsF/regular/n/10 Please define a random variable, and explain wh
 y the concept is important. 
@@ -1702,58 +1720,69 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--56
 
  []
 
-[12
+[13
 
 ] (../sections/q06.tex)
 Underfull \hbox (badness 10000) in paragraph at lines 13--58
 
  []
 
-[13
+[14
 
 ] (../sections/q07.tex)
 Underfull \hbox (badness 10000) in paragraph at lines 13--60
 
  []
 
-[14
+[15
 
 ] (ee507_hw02_aryan_ritwajeet_jha.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package rerunfilecheck Info: File `ee507_hw02_aryan_ritwajeet_jha.out' has not 
-changed.
-(rerunfilecheck)             Checksum: 1E84F8A7BEB15A6648C7415601829ECF;1256.
+
+Package rerunfilecheck Warning: File `ee507_hw02_aryan_ritwajeet_jha.out' has c
+hanged.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `ee507_hw02_aryan_ritwajeet_jha.out'
+:
+(rerunfilecheck)             Before: 46B012A193A0F1DCAC48D91F1769B5D6;1268
+(rerunfilecheck)             After:  74E003F55C282906E5ED0BE6B37948ED;1256.
 Package logreq Info: Writing requests to 'ee507_hw02_aryan_ritwajeet_jha.run.xm
 l'.
 \openout1 = `ee507_hw02_aryan_ritwajeet_jha.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48015 strings out of 477324
- 1069448 string characters out of 2828730
+ 48021 strings out of 477324
+ 1069504 string characters out of 2828730
  1946462 words of memory out of 3000000
- 68297 multiletter control sequences out of 15000+600000
+ 68298 multiletter control sequences out of 15000+600000
  618502 words of font info for 103 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
  99i,18n,117p,858b,848s stack positions out of 10000i,1000n,20000p,200000b,80000s
-{/home/aryan/.miktex/texmfs/install/fonts/enc/dvips/mnsymbol/MnSymbolE.enc}{/
-home/aryan/.miktex/texmfs/install/fonts/enc/dvips/mnsymbol/MnSymbolA.enc}{/home
-/aryan/.miktex/texmfs/install/fonts/enc/dvips/mnsymbol/MnSymbolC.enc}{/home/ary
-an/.miktex/texmfs/install/fonts/enc/dvips/mnsymbol/MnSymbolD.enc}{/home/aryan/.
-miktex/texmfs/install/fonts/enc/dvips/fira/fir_iln36p.enc}</home/aryan/.miktex/
-texmfs/install/fonts/type1/public/fira/FiraSans-Bold.pfb></home/aryan/.miktex/t
-exmfs/install/fonts/type1/public/fira/FiraSans-Regular.pfb></home/aryan/.miktex
-/texmfs/install/fonts/type1/public/mnsymbol/MnSymbol10.pfb></home/aryan/.miktex
-/texmfs/install/fonts/type1/public/mnsymbol/MnSymbol7.pfb></home/aryan/.miktex/
-texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/aryan/.miktex/t
-exmfs/install/fonts/type1/public/amsfonts/cm/cmmi7.pfb></home/aryan/.miktex/tex
-mfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/aryan/.miktex/texmf
-s/install/fonts/type1/public/amsfonts/cm/cmr7.pfb>
-Output written on ee507_hw02_aryan_ritwajeet_jha.pdf (14 pages, 237169 bytes).
+
+pdfTeX warning (dest): name{equation.0.28} has been referenced but does not exi
+st, replaced by a fixed one
+
+{/home/aryan/.miktex/texmfs/install/fonts/enc/dvips/mnsymbol/MnSymbolE.enc}{/ho
+me/aryan/.miktex/texmfs/install/fonts/enc/dvips/mnsymbol/MnSymbolA.enc}{/home/a
+ryan/.miktex/texmfs/install/fonts/enc/dvips/mnsymbol/MnSymbolC.enc}{/home/aryan
+/.miktex/texmfs/install/fonts/enc/dvips/mnsymbol/MnSymbolD.enc}{/home/aryan/.mi
+ktex/texmfs/install/fonts/enc/dvips/fira/fir_iln36p.enc}</home/aryan/.miktex/te
+xmfs/install/fonts/type1/public/fira/FiraSans-Bold.pfb></home/aryan/.miktex/tex
+mfs/install/fonts/type1/public/fira/FiraSans-Regular.pfb></home/aryan/.miktex/t
+exmfs/install/fonts/type1/public/mnsymbol/MnSymbol10.pfb></home/aryan/.miktex/t
+exmfs/install/fonts/type1/public/mnsymbol/MnSymbol7.pfb></home/aryan/.miktex/te
+xmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/aryan/.miktex/tex
+mfs/install/fonts/type1/public/amsfonts/cm/cmmi7.pfb></home/aryan/.miktex/texmf
+s/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/aryan/.miktex/texmfs/
+install/fonts/type1/public/amsfonts/cm/cmr7.pfb>
+Output written on ee507_hw02_aryan_ritwajeet_jha.pdf (15 pages, 242914 bytes).
 PDF statistics:
- 329 PDF objects out of 1000 (max. 8388607)
- 85 named destinations out of 1000 (max. 500000)
+ 337 PDF objects out of 1000 (max. 8388607)
+ 90 named destinations out of 1000 (max. 500000)
  130 words of extra memory for PDF output out of 10000 (max. 10000000)
 
