@@ -59,7 +59,7 @@
     \put(0,0){\includegraphics[width=\unitlength,page=2]{dartBoardRandomVariable.pdf}}%
     \put(0.36460638,0.3085686){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\fontsize{12pt}{1em}$cos(\theta) = |1-Q|$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{dartBoardRandomVariable.pdf}}%
-    \put(0.51327799,0.20416165){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\fontsize{12pt}{1em}$sin(\theta) = \sqrt{2Q-Q^2}$\end{tabular}}}}%
+    \put(0.5153315,0.19253605){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\fontsize{12pt}{1em}$sin(\theta) = \sqrt{2Q-Q^2}$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=4]{dartBoardRandomVariable.pdf}}%
     \put(0.49741267,0.44175644){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\fontsize{24pt}{1em}$O$\end{tabular}}}}%
     \put(0.16956756,0.1944518){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\fontsize{24pt}{1em}$\fontsize{24pt}{1em}Q_1$\end{tabular}}}}%
@@ -69,5 +69,6 @@
     \put(0.66180954,0.2366371){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\fontsize{24pt}{1em}$R$\end{tabular}}}}%
     \put(0.00274602,0.43894435){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\fontsize{24pt}{1em}$q=1$\end{tabular}}}}%
     \put(0.00262306,0.09253853){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\fontsize{24pt}{1em}$q=0$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{dartBoardRandomVariable.pdf}}%
   \end{picture}%
 \endgroup%
