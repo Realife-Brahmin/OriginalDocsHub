@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.21)  24 SEP 2022 14:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.21)  24 SEP 2022 15:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1769,59 +1769,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--81
 
 [13
 
-] (../sections/q06.tex (../figures/../figures/decisionTree.pdf_tex
-File: ../figures/../figures//decisionTree.pdf Graphic file (type pdf)
-<use ../figures/../figures//decisionTree.pdf, page 1>
-Package pdftex.def Info: ../figures/../figures//decisionTree.pdf , page1 used o
-n input line 56.
-(pdftex.def)             Requested size: 531.41481pt x 495.11868pt.
-) [14
-
-]
-pdfTeX warning (ext4): destination with the same identifier (name{equation.0.28
-}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.88 		\begin{equation}
-                       
-pdfTeX warning (ext4): destination with the same identifier (name{equation.0.28
-}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.88 		\begin{equation}
-                       
-pdfTeX warning (ext4): destination with the same identifier (name{equation.0.28
-}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.88 		\begin{equation}
-                       
-pdfTeX warning (ext4): destination with the same identifier (name{equation.0.28
-}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.88 		\begin{equation}
-                        (../figures/../figures/decisionTree.pdf_tex
-File: ../figures/../figures//decisionTree.pdf Graphic file (type pdf)
-<use ../figures/../figures//decisionTree.pdf, page 1>
-Package pdftex.def Info: ../figures/../figures//decisionTree.pdf , page1 used o
-n input line 56.
-(pdftex.def)             Requested size: 531.41481pt x 495.11868pt.
-) [15])
-Underfull \hbox (badness 10000) in paragraph at lines 111--83
-
- []
-
-[16] (../sections/q07.tex
-(../figures/../figures/dartBoardRandomVariable.pdf_tex
-<../figures/../figures//dartBoardRandomVariable.pdf, id=289, page=1, 609.24648p
-t x 554.15141pt>
-File: ../figures/../figures//dartBoardRandomVariable.pdf Graphic file (type pdf
-)
-<use ../figures/../figures//dartBoardRandomVariable.pdf, page 1>
-Package pdftex.def Info: ../figures/../figures//dartBoardRandomVariable.pdf , p
-age1 used on input line 56.
-(pdftex.def)             Requested size: 609.24646pt x 554.20078pt.
+] (../sections/q06.tex (../figures/../figures/cdf1.pdf_tex
+<../figures/../figures//cdf1.pdf, id=259, page=1, 411.211pt x 349.99138pt>
+File: ../figures/../figures//cdf1.pdf Graphic file (type pdf)
+<use ../figures/../figures//cdf1.pdf, page 1>
+Package pdftex.def Info: ../figures/../figures//cdf1.pdf , page1 used on input 
+line 56.
+(pdftex.def)             Requested size: 411.211pt x 350.00653pt.
 LaTeX Font Info:    Calculating math sizes for size <24> on input line 57.
 
 
@@ -1848,7 +1802,64 @@ LaTeX Font Warning: Font shape `U/wasy/m/n' in size <24> not available
 LaTeX Font Warning: Font shape `U/wasy/m/n' in size <16.79993> not available
 (Font)              size <17.28> substituted on input line 57.
 
-<../figures/../figures//dartBoardRandomVariable.pdf, id=290, page=2, 609.24648p
+) [14
+
+] [15 <../figures/../figures//cdf1.pdf>]
+pdfTeX warning (ext4): destination with the same identifier (name{equation.0.28
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.88 		\begin{equation}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.0.28
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.88 		\begin{equation}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.0.28
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.88 		\begin{equation}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.0.28
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.88 		\begin{equation}
+                        (../figures/../figures/cdf2.pdf_tex
+<../figures/../figures//cdf2.pdf, id=306, page=1, 411.211pt x 349.99138pt>
+File: ../figures/../figures//cdf2.pdf Graphic file (type pdf)
+<use ../figures/../figures//cdf2.pdf, page 1>
+Package pdftex.def Info: ../figures/../figures//cdf2.pdf , page1 used on input 
+line 56.
+(pdftex.def)             Requested size: 411.211pt x 350.00653pt.
+<../figures/../figures//cdf2.pdf, id=307, page=2, 411.211pt x 349.99138pt>
+File: ../figures/../figures//cdf2.pdf Graphic file (type pdf)
+<use ../figures/../figures//cdf2.pdf, page 2>
+Package pdftex.def Info: ../figures/../figures//cdf2.pdf , page2 used on input 
+line 66.
+(pdftex.def)             Requested size: 411.211pt x 350.00653pt.
+) [16])
+Underfull \hbox (badness 10000) in paragraph at lines 111--83
+
+ []
+
+[17 <../figures/../figures//cdf2.pdf> <../figures/../figures//cdf2.pdf
+
+pdfTeX warning: pdflatex (file ../figures/../figures//cdf2.pdf): PDF inclusion:
+ multiple pdfs with page group included in a single page
+>] (../sections/q07.tex (../figures/../figures/dartBoardRandomVariable.pdf_tex
+<../figures/../figures//dartBoardRandomVariable.pdf, id=339, page=1, 609.24648p
+t x 554.15141pt>
+File: ../figures/../figures//dartBoardRandomVariable.pdf Graphic file (type pdf
+)
+<use ../figures/../figures//dartBoardRandomVariable.pdf, page 1>
+Package pdftex.def Info: ../figures/../figures//dartBoardRandomVariable.pdf , p
+age1 used on input line 56.
+(pdftex.def)             Requested size: 609.24646pt x 554.20078pt.
+<../figures/../figures//dartBoardRandomVariable.pdf, id=340, page=2, 609.24648p
 t x 554.15141pt>
 File: ../figures/../figures//dartBoardRandomVariable.pdf Graphic file (type pdf
 )
@@ -1856,7 +1867,7 @@ File: ../figures/../figures//dartBoardRandomVariable.pdf Graphic file (type pdf
 Package pdftex.def Info: ../figures/../figures//dartBoardRandomVariable.pdf , p
 age2 used on input line 61.
 (pdftex.def)             Requested size: 609.24646pt x 554.20078pt.
-<../figures/../figures//dartBoardRandomVariable.pdf, id=291, page=3, 609.24648p
+<../figures/../figures//dartBoardRandomVariable.pdf, id=341, page=3, 609.24648p
 t x 554.15141pt>
 File: ../figures/../figures//dartBoardRandomVariable.pdf Graphic file (type pdf
 )
@@ -1864,7 +1875,7 @@ File: ../figures/../figures//dartBoardRandomVariable.pdf Graphic file (type pdf
 Package pdftex.def Info: ../figures/../figures//dartBoardRandomVariable.pdf , p
 age3 used on input line 63.
 (pdftex.def)             Requested size: 609.24646pt x 554.20078pt.
-<../figures/../figures//dartBoardRandomVariable.pdf, id=292, page=4, 609.24648p
+<../figures/../figures//dartBoardRandomVariable.pdf, id=342, page=4, 609.24648p
 t x 554.15141pt>
 File: ../figures/../figures//dartBoardRandomVariable.pdf Graphic file (type pdf
 )
@@ -1872,7 +1883,7 @@ File: ../figures/../figures//dartBoardRandomVariable.pdf Graphic file (type pdf
 Package pdftex.def Info: ../figures/../figures//dartBoardRandomVariable.pdf , p
 age4 used on input line 65.
 (pdftex.def)             Requested size: 609.24646pt x 554.20078pt.
-<../figures/../figures//dartBoardRandomVariable.pdf, id=293, page=5, 609.24648p
+<../figures/../figures//dartBoardRandomVariable.pdf, id=343, page=5, 609.24648p
 t x 554.15141pt>
 File: ../figures/../figures//dartBoardRandomVariable.pdf Graphic file (type pdf
 )
@@ -1880,7 +1891,7 @@ File: ../figures/../figures//dartBoardRandomVariable.pdf Graphic file (type pdf
 Package pdftex.def Info: ../figures/../figures//dartBoardRandomVariable.pdf , p
 age5 used on input line 74.
 (pdftex.def)             Requested size: 609.24646pt x 554.20078pt.
-) [17
+) [18
 
  <../figures/../figures//dartBoardRandomVariable.pdf> <../figures/../figures//d
 artBoardRandomVariable.pdf
@@ -1963,12 +1974,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{equation.0.28
 <to be read again> 
                    \relax 
 l.63 		\end{align}
-                   [18])
+                   [19])
 Underfull \hbox (badness 10000) in paragraph at lines 66--85
 
  []
 
-[19] (ee507_hw02_aryan_ritwajeet_jha.aux)
+[20] (ee507_hw02_aryan_ritwajeet_jha.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.88pt have occurred.
@@ -1985,16 +1996,16 @@ l'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48233 strings out of 477324
- 1075114 string characters out of 2828730
- 1954609 words of memory out of 3000000
- 68471 multiletter control sequences out of 15000+600000
+ 48259 strings out of 477324
+ 1075878 string characters out of 2828730
+ 1947609 words of memory out of 3000000
+ 68494 multiletter control sequences out of 15000+600000
  625451 words of font info for 127 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
  99i,18n,117p,935b,848s stack positions out of 10000i,1000n,20000p,200000b,80000s
-{/home/aryan/.miktex/texmfs/install/fonts/enc/dvips/mnsymbol/MnSymbolE.enc}{/
-home/aryan/.miktex/texmfs/install/fonts/enc/dvips/mnsymbol/MnSymbolD.enc}{/home
-/aryan/.miktex/texmfs/install/fonts/enc/dvips/mnsymbol/MnSymbolC.enc}{/home/ary
+{/home/aryan/.miktex/texmfs/install/fonts/enc/dvips/mnsymbol/MnSymbolD.enc}{/
+home/aryan/.miktex/texmfs/install/fonts/enc/dvips/mnsymbol/MnSymbolC.enc}{/home
+/aryan/.miktex/texmfs/install/fonts/enc/dvips/mnsymbol/MnSymbolE.enc}{/home/ary
 an/.miktex/texmfs/install/fonts/enc/dvips/fira/fir_d67aat.enc}{/home/aryan/.mik
 tex/texmfs/install/fonts/enc/dvips/mnsymbol/MnSymbolA.enc}{/home/aryan/.miktex/
 texmfs/install/fonts/enc/dvips/fira/fir_iln36p.enc}</home/aryan/.miktex/texmfs/
@@ -2012,9 +2023,9 @@ fonts/type1/public/amsfonts/cm/cmr17.pfb></home/aryan/.miktex/texmfs/install/fo
 nts/type1/public/amsfonts/cm/cmr5.pfb></home/aryan/.miktex/texmfs/install/fonts
 /type1/public/amsfonts/cm/cmr7.pfb></home/aryan/.miktex/texmfs/install/fonts/ty
 pe1/public/amsfonts/cm/cmr8.pfb>
-Output written on ee507_hw02_aryan_ritwajeet_jha.pdf (19 pages, 366262 bytes).
+Output written on ee507_hw02_aryan_ritwajeet_jha.pdf (20 pages, 377120 bytes).
 PDF statistics:
- 494 PDF objects out of 1000 (max. 8388607)
- 115 named destinations out of 1000 (max. 500000)
- 155 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 541 PDF objects out of 1000 (max. 8388607)
+ 116 named destinations out of 1000 (max. 500000)
+ 170 words of extra memory for PDF output out of 10000 (max. 10000000)
 
