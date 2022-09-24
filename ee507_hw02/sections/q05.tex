@@ -6,7 +6,7 @@
 
 \subsection{Solution}
 
-\noindent\rule{\textwidth}{1pt}
+
 \begin{enumerate}[5a.]
 	\item A Random Variable is an injective (one-one) mapping from the outcomes of an experiment to countable numbers. Random Variables are a good choice to classify outcomes due to the following reasons:
 		\begin{itemize}
@@ -17,3 +17,5 @@
 	\item CDF$_x(\alpha) = F_X(\alpha) = P(x \leq \alpha)$ for a random variable $X$ is a convenient way to represent the probability of the set of all outcomes which are below a certain threshold $\alpha$. This definition can then be extrapolated to query for random variables in a specific range, like $P_X(\alpha_1 < x < \alpha_2)$\\
 	Taking the same example as above of an experiment of sampling an adult human and measuring their height, it does not make sense to seek humans who have an exact height of, say $161.327cm$. Rather, the experimenter is usually interested in range queries, such as the probability that a randomly selected adult human has a height between $160cm$ and $165cm$, in which case the value can be conveniently calculated by computing the CDFs at the two heights and taking their difference. None the less, an exact pdf can always be computed by taking the derivative of the CDF wrt the random variable at the desired value.
 \end{enumerate}
+
+\noindent\rule{\textwidth}{1pt}

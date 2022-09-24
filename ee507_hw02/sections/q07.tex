@@ -1,5 +1,5 @@
 \section{Problem 7}
-You throw a dart at a circular dartboard with unit radious, and have an equal probability of hitting each point on the dartboard. Let $R$ be the distance of the dart from the centre of the dartboard. Please answer the following questions.
+You throw a dart at a circular dartboard with unit radius, and have an equal probability of hitting each point on the dartboard. Let $R$ be the distance of the dart from the centre of the dartboard. Please answer the following questions.
 
 \begin{enumerate}[7a.]
 	\item Please argue that $R$ is a random variable.
@@ -25,7 +25,9 @@ Refer to \cref{fig:dartBoardRandomVariable} for the calculations.
 	\item Given that $R$ is the distance from the centre of the dartboard it can be used to represent every possible experiment outcome with a number. In other words, $R$ is an injective (one-one) mapping from the set of all of outcomes to a set of numbers. Also $R$ as a random variable follows a set of trivial rules accounting for impossible events, via $P_R(r\rightarrow-\infty) = 0$ (a dart cannot be thrown at a location at a negative distance from the centre) and $P_R(r\rightarrow\infty) = 0$ (possibility of dart being thrown out of the dart board has been rules out as per the problem statement).
 	
 	\item CDF$_R(\alpha) = P_R(r<\alpha)$ is simply the area of the circle whose centre coincides with the dart board's centre and whose radius is R.\\[5pt]
-	$\text{CDF}_R(\alpha) = \threepartdef{0}{\alpha < 0}{\frac{\pi \alpha^2}{\pi 1^2} = \alpha^2}{\alpha \in [0,1)}{1}{\alpha \geq 1}$
+	\begin{equation}
+		\text{CDF}_R(\alpha) = \threepartdef{0}{\alpha < 0}{\frac{\pi \alpha^2}{\pi 1^2} = \alpha^2}{\alpha \in [0,1)}{1}{\alpha \geq 1} \nonumber
+	\end{equation}
 	
 	\item 
 		\begin{align}
@@ -35,7 +37,10 @@ Refer to \cref{fig:dartBoardRandomVariable} for the calculations.
 		\end{align}
 	
 	\item pdf is the derivative of CDF wrt the random variable.\\
-	$f_R(\alpha) = \frac{dF_R(\alpha)}{d\alpha} = \threepartdef{0}{\alpha < 0}{2\alpha}{\alpha \in [0,1)}{0}{\alpha \geq 1}$
+	\begin{equation}
+		f_R(\alpha) = \frac{dF_R(\alpha)}{d\alpha} = \threepartdef{0}{\alpha < 0}{2\alpha}{\alpha \in [0,1)}{0}{\alpha \geq 1} \nonumber
+	\end{equation}
+	
 	
 	\item Note: Refer to \cref{fig:dartBoardRandomVariable} for notation and labels.\\
 	The CDF $F_Q(q)$ of $Q$ would be the normalized area of the segment $Q_1Q_2$.
@@ -49,10 +54,10 @@ Refer to \cref{fig:dartBoardRandomVariable} for the calculations.
 			f_\Theta(\theta) &= \frac{dF_Q(\theta)}{d\theta} \nonumber\\
 			\orr f_\Theta(\theta) &= \frac{1-\cos(2\theta)}{\pi} = \frac{2\sin^2{\theta}}{\pi} \text{ for $\theta \in [0,\pi]$} \label{eq:ftheta}\\
 			\itt{It is easy to convert $\theta$ in \cref{eq:Ftheta,eq:ftheta} to $q$ using the equation $q = \arccos(\theta)$:}
-			\text{Thus, } F_Q(q) &= \frac{\arccos(1-q) - \sqrt{2q-q^2}(1-q)}{\pi} \text{ for $q \in [0,2]$} \label{eq:Fq}\\
-			{} &= 0 \text{ for $q < 0$} \nonumber\\
-			{} &= 1 \text{ for $q \geq 2$} \nonumber\\
-			\text{and, } f_Q(q) &= \frac{2(2q-q^2)}{\pi} \text{ for $q \in [0,2]$} \label{eq:fq}\\
+			\text{Thus, } F_Q(q) &= \frac{\arccos(1-q) - \sqrt{2q-q^2}(1-q)}{\pi} \text{ for $q \in [0,2)$} \label{eq:Fq}\\
+			{} &= 0 \text{\quad for $q < 0$} \nonumber\\
+			{} &= 1 \text{\quad for $q \geq 2$} \nonumber\\
+			\text{and, } f_Q(q) &= \frac{2(2q-q^2)}{\pi} \text{ for $q \in [0,2)$} \label{eq:fq}\\
 			{} &= 0 \text{ for $q < 0$} \nonumber\\
 			{} &= 0 \text{ for $q \geq 2$} \nonumber
 		\end{align}

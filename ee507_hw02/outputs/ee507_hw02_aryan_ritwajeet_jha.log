@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.21)  24 SEP 2022 12:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.21)  24 SEP 2022 14:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1407,24 +1407,24 @@ LaTeX Warning: Label `eq:tmp3f1@cref' multiply defined.
 )
 \openout1 = `ee507_hw02_aryan_ritwajeet_jha.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
  (/home/aryan/.miktex/texmfs/install/tex/latex/biblatex/lbx/english.lbx
@@ -1439,8 +1439,8 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'ee507_hw02_aryan_ritwajeet_jha.bbl' found.
 
 (ee507_hw02_aryan_ritwajeet_jha.bbl)
-Package biblatex Info: Reference section=0 on input line 54.
-Package biblatex Info: Reference segment=0 on input line 54.
+Package biblatex Info: Reference section=0 on input line 67.
+Package biblatex Info: Reference segment=0 on input line 67.
 
 (/home/aryan/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1463,7 +1463,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 (/home/aryan/.miktex/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 54.
+Package hyperref Info: Link coloring OFF on input line 67.
 
 (ee507_hw02_aryan_ritwajeet_jha.out) (ee507_hw02_aryan_ritwajeet_jha.out)
 \@outlinefile=\write5
@@ -1476,7 +1476,7 @@ Package hyperref Info: Link coloring OFF on input line 54.
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into 
 your preamble.
- on input line 54.
+ on input line 67.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
@@ -1484,27 +1484,27 @@ Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <17.28> not availa
 ble
 (Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on inp
-ut line 56.
+ut line 69.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 17.28pt on input line 56.
+(Font)              scaled to size 17.28pt on input line 69.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <12> not available
 
 (Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on inp
-ut line 56.
+ut line 69.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 12.0pt on input line 56.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 56.
+(Font)              scaled to size 12.0pt on input line 69.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 69.
 
 (/home/aryan/.miktex/texmfs/install/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 56.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 69.
 
 
 (/home/aryan/.miktex/texmfs/install/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+wasy on input line 56
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 69
 .
 
 (/home/aryan/.miktex/texmfs/install/tex/latex/wasysym/uwasy.fd
@@ -1513,15 +1513,15 @@ File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <14.4> not availab
 le
 (Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on inp
-ut line 56.
+ut line 69.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 14.4pt on input line 56.
+(Font)              scaled to size 14.4pt on input line 69.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/n' in size <14.4> not availab
 le
 (Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input 
-line 56.
+line 69.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/n' will be
-(Font)              scaled to size 14.4pt on input line 56.
+(Font)              scaled to size 14.4pt on input line 69.
 
 (ee507_hw02_aryan_ritwajeet_jha.toc
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/n' in size <10> not available
@@ -1595,7 +1595,7 @@ Overfull \hbox (6.68352pt too wide) in paragraph at lines 29--30
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 31--62
+Underfull \hbox (badness 10000) in paragraph at lines 31--75
 
  []
 
@@ -1639,7 +1639,7 @@ tes all of their homework?
 [5
 
 ] (../figures/../figures/decisionTree.pdf_tex
-<../figures/../figures//decisionTree.pdf, id=145, page=1, 531.41481pt x 495.089
+<../figures/../figures//decisionTree.pdf, id=146, page=1, 531.41481pt x 495.089
 68pt>
 File: ../figures/../figures//decisionTree.pdf Graphic file (type pdf)
 <use ../figures/../figures//decisionTree.pdf, page 1>
@@ -1647,44 +1647,49 @@ Package pdftex.def Info: ../figures/../figures//decisionTree.pdf , page1 used o
 n input line 56.
 (pdftex.def)             Requested size: 531.41481pt x 495.11868pt.
 ) [6 <../figures/../figures//decisionTree.pdf>] [7]
-Overfull \hbox (16.3367pt too wide) in paragraph at lines 107--107
+Overfull \hbox (16.3367pt too wide) in paragraph at lines 106--106
  \T1/FiraSans-OsF/regular/n/10 Now starting with the RHS of Eq. ([]17[]) and us
 ing the Law of Total Probability: 
  []
 
 \g__tikzsymbols_savebox_F_0 g 0 G_10_Neutrey_1_none_box=\box78
 
-Overfull \hbox (16.3367pt too wide) in paragraph at lines 107--107
+Overfull \hbox (16.3367pt too wide) in paragraph at lines 106--106
  \T1/FiraSans-OsF/regular/n/10 Now starting with the RHS of Eq. ([]17[]) and us
 ing the Law of Total Probability: 
  []
 
 
-Overfull \hbox (0.20631pt too wide) in paragraph at lines 122--122
+Overfull \hbox (0.20631pt too wide) in paragraph at lines 121--121
  \T1/FiraSans-OsF/regular/n/10 Starting from the LHS of Eq. ([]22[]), and using
  the Law of Total Probability: 
  []
 
 
-Overfull \hbox (17.5367pt too wide) in paragraph at lines 122--122
+Overfull \hbox (17.5367pt too wide) in paragraph at lines 121--121
  \T1/FiraSans-OsF/regular/n/10 Now starting with the RHS of Eq. ([]22[]) and us
 ing the Law of Total Probability: 
  []
 
 \g__tikzsymbols_savebox_F_0 g 0 G_10_Smiley_1_none_box=\box79
 
-Overfull \hbox (0.20631pt too wide) in paragraph at lines 122--122
+Overfull \hbox (0.20631pt too wide) in paragraph at lines 121--121
  \T1/FiraSans-OsF/regular/n/10 Starting from the LHS of Eq. ([]22[]), and using
  the Law of Total Probability: 
  []
 
 
-Overfull \hbox (17.5367pt too wide) in paragraph at lines 122--122
+Overfull \hbox (17.5367pt too wide) in paragraph at lines 121--121
  \T1/FiraSans-OsF/regular/n/10 Now starting with the RHS of Eq. ([]22[]) and us
 ing the Law of Total Probability: 
  []
 
-[8] [9]) [10] (../sections/q04.tex
+[8] [9])
+Underfull \hbox (badness 10000) in paragraph at lines 136--77
+
+ []
+
+[10] (../sections/q04.tex
 Overfull \hbox (12.24608pt too wide) in paragraph at lines 11--12
 []\T1/FiraSans-OsF/regular/n/10 It should be noted that outcomes are always ind
 ependent events, therefore
@@ -1705,7 +1710,7 @@ ossible events constrained
 [11
 
 ])
-Underfull \hbox (badness 10000) in paragraph at lines 38--66
+Underfull \hbox (badness 10000) in paragraph at lines 38--79
 
  []
 
@@ -1757,18 +1762,59 @@ Overfull \hbox (14.38072pt too wide) in paragraph at lines 17--19
  case the value can be conveniently calculated by computing
  []
 
-) [13
-
-] (../sections/q06.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 13--70
+)
+Underfull \hbox (badness 10000) in paragraph at lines 21--81
 
  []
 
-[14
+[13
 
-] (../sections/q07.tex
+] (../sections/q06.tex (../figures/../figures/decisionTree.pdf_tex
+File: ../figures/../figures//decisionTree.pdf Graphic file (type pdf)
+<use ../figures/../figures//decisionTree.pdf, page 1>
+Package pdftex.def Info: ../figures/../figures//decisionTree.pdf , page1 used o
+n input line 56.
+(pdftex.def)             Requested size: 531.41481pt x 495.11868pt.
+) [14
+
+]
+pdfTeX warning (ext4): destination with the same identifier (name{equation.0.28
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.88 		\begin{equation}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.0.28
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.88 		\begin{equation}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.0.28
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.88 		\begin{equation}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.0.28
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.88 		\begin{equation}
+                        (../figures/../figures/decisionTree.pdf_tex
+File: ../figures/../figures//decisionTree.pdf Graphic file (type pdf)
+<use ../figures/../figures//decisionTree.pdf, page 1>
+Package pdftex.def Info: ../figures/../figures//decisionTree.pdf , page1 used o
+n input line 56.
+(pdftex.def)             Requested size: 531.41481pt x 495.11868pt.
+) [15])
+Underfull \hbox (badness 10000) in paragraph at lines 111--83
+
+ []
+
+[16] (../sections/q07.tex
 (../figures/../figures/dartBoardRandomVariable.pdf_tex
-<../figures/../figures//dartBoardRandomVariable.pdf, id=266, page=1, 609.24648p
+<../figures/../figures//dartBoardRandomVariable.pdf, id=289, page=1, 609.24648p
 t x 554.15141pt>
 File: ../figures/../figures//dartBoardRandomVariable.pdf Graphic file (type pdf
 )
@@ -1802,7 +1848,7 @@ LaTeX Font Warning: Font shape `U/wasy/m/n' in size <24> not available
 LaTeX Font Warning: Font shape `U/wasy/m/n' in size <16.79993> not available
 (Font)              size <17.28> substituted on input line 57.
 
-<../figures/../figures//dartBoardRandomVariable.pdf, id=267, page=2, 609.24648p
+<../figures/../figures//dartBoardRandomVariable.pdf, id=290, page=2, 609.24648p
 t x 554.15141pt>
 File: ../figures/../figures//dartBoardRandomVariable.pdf Graphic file (type pdf
 )
@@ -1810,7 +1856,7 @@ File: ../figures/../figures//dartBoardRandomVariable.pdf Graphic file (type pdf
 Package pdftex.def Info: ../figures/../figures//dartBoardRandomVariable.pdf , p
 age2 used on input line 61.
 (pdftex.def)             Requested size: 609.24646pt x 554.20078pt.
-<../figures/../figures//dartBoardRandomVariable.pdf, id=268, page=3, 609.24648p
+<../figures/../figures//dartBoardRandomVariable.pdf, id=291, page=3, 609.24648p
 t x 554.15141pt>
 File: ../figures/../figures//dartBoardRandomVariable.pdf Graphic file (type pdf
 )
@@ -1818,7 +1864,7 @@ File: ../figures/../figures//dartBoardRandomVariable.pdf Graphic file (type pdf
 Package pdftex.def Info: ../figures/../figures//dartBoardRandomVariable.pdf , p
 age3 used on input line 63.
 (pdftex.def)             Requested size: 609.24646pt x 554.20078pt.
-<../figures/../figures//dartBoardRandomVariable.pdf, id=269, page=4, 609.24648p
+<../figures/../figures//dartBoardRandomVariable.pdf, id=292, page=4, 609.24648p
 t x 554.15141pt>
 File: ../figures/../figures//dartBoardRandomVariable.pdf Graphic file (type pdf
 )
@@ -1826,7 +1872,7 @@ File: ../figures/../figures//dartBoardRandomVariable.pdf Graphic file (type pdf
 Package pdftex.def Info: ../figures/../figures//dartBoardRandomVariable.pdf , p
 age4 used on input line 65.
 (pdftex.def)             Requested size: 609.24646pt x 554.20078pt.
-<../figures/../figures//dartBoardRandomVariable.pdf, id=270, page=5, 609.24648p
+<../figures/../figures//dartBoardRandomVariable.pdf, id=293, page=5, 609.24648p
 t x 554.15141pt>
 File: ../figures/../figures//dartBoardRandomVariable.pdf Graphic file (type pdf
 )
@@ -1834,7 +1880,7 @@ File: ../figures/../figures//dartBoardRandomVariable.pdf Graphic file (type pdf
 Package pdftex.def Info: ../figures/../figures//dartBoardRandomVariable.pdf , p
 age5 used on input line 74.
 (pdftex.def)             Requested size: 609.24646pt x 554.20078pt.
-) [15
+) [17
 
  <../figures/../figures//dartBoardRandomVariable.pdf> <../figures/../figures//d
 artBoardRandomVariable.pdf
@@ -1853,12 +1899,76 @@ df): PDF inclusion: multiple pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex (file ../figures/../figures//dartBoardRandomVariable.p
 df): PDF inclusion: multiple pdfs with page group included in a single page
->] [16])
-Underfull \hbox (badness 10000) in paragraph at lines 61--72
+>]
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
 
  []
 
-[17] (ee507_hw02_aryan_ritwajeet_jha.aux)
+
+pdfTeX warning (ext4): destination with the same identifier (name{equation.0.28
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.28 	\begin{equation}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.0.28
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.28 	\begin{equation}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.0.28
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.28 	\begin{equation}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.0.28
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.28 	\begin{equation}
+                      
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
+
+ []
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{equation.0.28
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.40 	\begin{equation}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.0.28
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.40 	\begin{equation}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.0.28
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.40 	\begin{equation}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.0.28
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.40 	\begin{equation}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.0.28
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.63 		\end{align}
+                   [18])
+Underfull \hbox (badness 10000) in paragraph at lines 66--85
+
+ []
+
+[19] (ee507_hw02_aryan_ritwajeet_jha.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.88pt have occurred.
@@ -1868,23 +1978,23 @@ LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `ee507_hw02_aryan_ritwajeet_jha.out' has not 
 changed.
-(rerunfilecheck)             Checksum: 8319835BB5E4F2CE2A56B9A0081659A2;1256.
+(rerunfilecheck)             Checksum: 7C2919AD90F42BF14DB22D1EBDD26BA9;1256.
 Package logreq Info: Writing requests to 'ee507_hw02_aryan_ritwajeet_jha.run.xm
 l'.
 \openout1 = `ee507_hw02_aryan_ritwajeet_jha.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48202 strings out of 477324
- 1074515 string characters out of 2828730
- 1946905 words of memory out of 3000000
- 68456 multiletter control sequences out of 15000+600000
+ 48233 strings out of 477324
+ 1075114 string characters out of 2828730
+ 1954609 words of memory out of 3000000
+ 68471 multiletter control sequences out of 15000+600000
  625451 words of font info for 127 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
  99i,18n,117p,935b,848s stack positions out of 10000i,1000n,20000p,200000b,80000s
-{/home/aryan/.miktex/texmfs/install/fonts/enc/dvips/mnsymbol/MnSymbolC.enc}{/
-home/aryan/.miktex/texmfs/install/fonts/enc/dvips/mnsymbol/MnSymbolE.enc}{/home
-/aryan/.miktex/texmfs/install/fonts/enc/dvips/mnsymbol/MnSymbolD.enc}{/home/ary
+{/home/aryan/.miktex/texmfs/install/fonts/enc/dvips/mnsymbol/MnSymbolE.enc}{/
+home/aryan/.miktex/texmfs/install/fonts/enc/dvips/mnsymbol/MnSymbolD.enc}{/home
+/aryan/.miktex/texmfs/install/fonts/enc/dvips/mnsymbol/MnSymbolC.enc}{/home/ary
 an/.miktex/texmfs/install/fonts/enc/dvips/fira/fir_d67aat.enc}{/home/aryan/.mik
 tex/texmfs/install/fonts/enc/dvips/mnsymbol/MnSymbolA.enc}{/home/aryan/.miktex/
 texmfs/install/fonts/enc/dvips/fira/fir_iln36p.enc}</home/aryan/.miktex/texmfs/
@@ -1895,17 +2005,16 @@ nstall/fonts/type1/public/fira/FiraSans-Regular.pfb></home/aryan/.miktex/texmfs
 /install/fonts/type1/public/mnsymbol/MnSymbol7.pfb></home/aryan/.miktex/texmfs/
 install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/aryan/.miktex/texmfs/i
 nstall/fonts/type1/public/amsfonts/cm/cmmi12.pfb></home/aryan/.miktex/texmfs/in
-stall/fonts/type1/public/amsfonts/cm/cmmi5.pfb></home/aryan/.miktex/texmfs/inst
-all/fonts/type1/public/amsfonts/cm/cmmi7.pfb></home/aryan/.miktex/texmfs/instal
-l/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/aryan/.miktex/texmfs/install/
-fonts/type1/public/amsfonts/cm/cmr12.pfb></home/aryan/.miktex/texmfs/install/fo
-nts/type1/public/amsfonts/cm/cmr17.pfb></home/aryan/.miktex/texmfs/install/font
-s/type1/public/amsfonts/cm/cmr5.pfb></home/aryan/.miktex/texmfs/install/fonts/t
-ype1/public/amsfonts/cm/cmr7.pfb></home/aryan/.miktex/texmfs/install/fonts/type
-1/public/amsfonts/cm/cmr8.pfb>
-Output written on ee507_hw02_aryan_ritwajeet_jha.pdf (17 pages, 353988 bytes).
+stall/fonts/type1/public/amsfonts/cm/cmmi7.pfb></home/aryan/.miktex/texmfs/inst
+all/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/aryan/.miktex/texmfs/instal
+l/fonts/type1/public/amsfonts/cm/cmr12.pfb></home/aryan/.miktex/texmfs/install/
+fonts/type1/public/amsfonts/cm/cmr17.pfb></home/aryan/.miktex/texmfs/install/fo
+nts/type1/public/amsfonts/cm/cmr5.pfb></home/aryan/.miktex/texmfs/install/fonts
+/type1/public/amsfonts/cm/cmr7.pfb></home/aryan/.miktex/texmfs/install/fonts/ty
+pe1/public/amsfonts/cm/cmr8.pfb>
+Output written on ee507_hw02_aryan_ritwajeet_jha.pdf (19 pages, 366262 bytes).
 PDF statistics:
- 474 PDF objects out of 1000 (max. 8388607)
- 103 named destinations out of 1000 (max. 500000)
+ 494 PDF objects out of 1000 (max. 8388607)
+ 115 named destinations out of 1000 (max. 500000)
  155 words of extra memory for PDF output out of 10000 (max. 10000000)
 
