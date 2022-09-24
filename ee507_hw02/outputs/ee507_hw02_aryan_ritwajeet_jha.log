@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.21)  24 SEP 2022 03:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.21)  24 SEP 2022 03:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1771,7 +1771,7 @@ File: ../figures/../figures//dartBoardRandomVariable.pdf Graphic file (type pdf
 )
 <use ../figures/../figures//dartBoardRandomVariable.pdf, page 2>
 Package pdftex.def Info: ../figures/../figures//dartBoardRandomVariable.pdf , p
-age2 used on input line 60.
+age2 used on input line 61.
 (pdftex.def)             Requested size: 609.24646pt x 554.20078pt.
 <../figures/../figures//dartBoardRandomVariable.pdf, id=265, page=3, 609.24648p
 t x 554.15141pt>
@@ -1779,7 +1779,7 @@ File: ../figures/../figures//dartBoardRandomVariable.pdf Graphic file (type pdf
 )
 <use ../figures/../figures//dartBoardRandomVariable.pdf, page 3>
 Package pdftex.def Info: ../figures/../figures//dartBoardRandomVariable.pdf , p
-age3 used on input line 62.
+age3 used on input line 63.
 (pdftex.def)             Requested size: 609.24646pt x 554.20078pt.
 <../figures/../figures//dartBoardRandomVariable.pdf, id=266, page=4, 609.24648p
 t x 554.15141pt>
@@ -1787,7 +1787,7 @@ File: ../figures/../figures//dartBoardRandomVariable.pdf Graphic file (type pdf
 )
 <use ../figures/../figures//dartBoardRandomVariable.pdf, page 4>
 Package pdftex.def Info: ../figures/../figures//dartBoardRandomVariable.pdf , p
-age4 used on input line 64.
+age4 used on input line 65.
 (pdftex.def)             Requested size: 609.24646pt x 554.20078pt.
 <../figures/../figures//dartBoardRandomVariable.pdf, id=267, page=5, 609.24648p
 t x 554.15141pt>
@@ -1795,7 +1795,7 @@ File: ../figures/../figures//dartBoardRandomVariable.pdf Graphic file (type pdf
 )
 <use ../figures/../figures//dartBoardRandomVariable.pdf, page 5>
 Package pdftex.def Info: ../figures/../figures//dartBoardRandomVariable.pdf , p
-age5 used on input line 73.
+age5 used on input line 74.
 (pdftex.def)             Requested size: 609.24646pt x 554.20078pt.
 ) [15
 
@@ -1865,7 +1865,7 @@ tall/fonts/type1/public/amsfonts/cm/cmr17.pfb></home/aryan/.miktex/texmfs/insta
 ll/fonts/type1/public/amsfonts/cm/cmr5.pfb></home/aryan/.miktex/texmfs/install/
 fonts/type1/public/amsfonts/cm/cmr7.pfb></home/aryan/.miktex/texmfs/install/fon
 ts/type1/public/amsfonts/cm/cmr8.pfb>
-Output written on ee507_hw02_aryan_ritwajeet_jha.pdf (17 pages, 348221 bytes).
+Output written on ee507_hw02_aryan_ritwajeet_jha.pdf (17 pages, 348404 bytes).
 PDF statistics:
  467 PDF objects out of 1000 (max. 8388607)
  101 named destinations out of 1000 (max. 500000)
