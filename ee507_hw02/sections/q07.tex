@@ -49,8 +49,12 @@ Refer to \cref{fig:dartBoardRandomVariable} for the calculations.
 			f_\Theta(\theta) &= \frac{dF_Q(\theta)}{d\theta} \nonumber\\
 			\orr f_\Theta(\theta) &= \frac{1-\cos(2\theta)}{\pi} = \frac{2\sin^2{\theta}}{\pi} \text{ for $\theta \in [0,\pi]$} \label{eq:ftheta}\\
 			\itt{It is easy to convert $\theta$ in \cref{eq:Ftheta,eq:ftheta} to $q$ using the equation $q = \arccos(\theta)$:}
-			\text{Thus, } F_Q(q) &= \frac{\arccos(1-Q) - \sqrt{2Q-Q^2}(1-Q)}{\pi} \label{eq:Fq}\\
-			\text{and, } f_Q(q) &= \frac{2(2q-q^2)}{\pi} \label{eq:fq}
+			\text{Thus, } F_Q(q) &= \frac{\arccos(1-q) - \sqrt{2q-q^2}(1-q)}{\pi} \text{ for $q \in [0,2]$} \label{eq:Fq}\\
+			{} &= 0 \text{ for $q < 0$} \nonumber\\
+			{} &= 1 \text{ for $q \geq 2$} \nonumber\\
+			\text{and, } f_Q(q) &= \frac{2(2q-q^2)}{\pi} \text{ for $q \in [0,2]$} \label{eq:fq}\\
+			{} &= 0 \text{ for $q < 0$} \nonumber\\
+			{} &= 0 \text{ for $q \geq 2$} \nonumber
 		\end{align}
 \end{enumerate}	
 
