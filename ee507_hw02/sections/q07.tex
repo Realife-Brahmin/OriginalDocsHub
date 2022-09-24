@@ -36,6 +36,22 @@ Refer to \cref{fig:dartBoardRandomVariable} for the calculations.
 	
 	\item pdf is the derivative of CDF wrt the random variable.\\
 	$f_R(\alpha) = \frac{dF_R(\alpha)}{d\alpha} = \threepartdef{0}{\alpha < 0}{2\alpha}{\alpha \in [0,1)}{0}{\alpha \geq 1}$
+	
+	\item Note: Refer to \cref{fig:dartBoardRandomVariable} for notation and labels.\\
+	The CDF $F_Q(q)$ of $Q$ would be the normalized area of the segment $Q_1Q_2$.
+		\begin{align}
+			\itt{Let $\theta$ be the angle between the two radius long arms extending from the centre $O$ of the dartboard to point $O'$ where the $q=0$ tangent touches the dartboard, and to the point $Q_2$, the point lying on the circle which has the same ordinate $Q$ as outcome (hit location) $R$ and lies on the same side as $R$. It is easier to compute the area of the segment $Q_1Q_2$ using random variable $\Theta$ and later converting it back to the request $Q$ random variable.}
+			F_\Theta(\theta) &= \frac{\text{Area}(\text{Segment } Q_1Q_2)}{\text{Area(\text{Circle} $Q_1OQ_2$)}} \nonumber\\
+			\orr F_\Theta(\theta) &= \frac{\text{Area}(\text{Sector } Q_1OQ_2) - \text{Area}(\Delta Q_1OQ_2)}{\text{Area(\text{Circle } $Q_1OQ_2$)}} \nonumber\\
+			\orr F_\Theta(\theta) &= \frac{\frac{2\theta}{2\pi}\pi1^2 - \cos(\theta)\sin(\theta)}{\pi1^2} \nonumber\\
+			\orr F_\Theta(\theta) &= \frac{\theta - 0.5\sin(2\theta)}{\pi} \text{ for $\theta \in [0, \pi]$.} \label{eq:Ftheta}\\
+			\itt{The pdf $f_Q(q)$ may be computed, by taking the derivative of $F_Q(q)$ wrt dummy variable $q$.} \nonumber
+			f_\Theta(\theta) &= \frac{dF_Q(\theta)}{d\theta} \nonumber\\
+			\orr f_\Theta(\theta) &= \frac{1-\cos(2\theta)}{\pi} = \frac{2\sin^2{\theta}}{\pi} \text{ for $\theta \in [0,\pi]$} \label{eq:ftheta}\\
+			\itt{It is easy to convert $\theta$ in \cref{eq:Ftheta,eq:ftheta} to $q$ using the equation $q = \arccos(\theta)$:}
+			\text{Thus, } F_Q(q) &= \frac{\arccos(1-Q) - \sqrt{2Q-Q^2}(1-Q)}{\pi} \label{eq:Fq}\\
+			\text{and, } f_Q(q) &= \frac{2(2q-q^2)}{\pi} \label{eq:fq}
+		\end{align}
 \end{enumerate}	
 
 \noindent\rule{\textwidth}{1pt}
