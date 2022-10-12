@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7.30) (preloaded format=pdflatex 2022.7.31)  7 SEP 2022 17:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.8)  4 OCT 2022 17:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **./thesis_ms_eld895_aryan_ritwajeet_jha.tex
 (thesis_ms_eld895_aryan_ritwajeet_jha.tex
 LaTeX2e <2022-06-01> patch level 5
-L3 programming layer <2022-07-15> (iitddiss.cls
+L3 programming layer <2022-08-30> (iitddiss.cls
 Document Class: iitddiss 2005/03/09 Class for IIT-Delhi Dissertations
 (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
@@ -99,7 +99,7 @@ Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@posthook=\toks19
 )
 (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
-Package: babel 2022/07/20 3.78 The Babel package
+Package: babel 2022/08/29 3.79 The Babel package
 \babel@savecnt=\count198
 \U@D=\dimen157
 \l@unhyphenated=\language79
@@ -136,11 +136,11 @@ Package: t1enc 1994/06/01 Standard LaTeX package
 (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3k
 eys2e.sty
 (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
-Package: expl3 2022-07-15 L3 programming layer (loader) 
+Package: expl3 2022-08-30 L3 programming layer (loader) 
 
 (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
-File: l3backend-pdftex.def 2022-07-01 L3 backend support: PDF output (pdfTeX)
+File: l3backend-pdftex.def 2022-08-30 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count266
 \l__pdf_internal_box=\box51
 ))
@@ -439,7 +439,7 @@ File: biblatex.cfg
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Document encoding is UTF8 ....
 Package biblatex Info: ... and expl3
-(biblatex)             2022-07-15 L3 programming layer (loader) 
+(biblatex)             2022-08-30 L3 programming layer (loader) 
 (biblatex)             is new enough (at least 2020/04/06),
 (biblatex)             setting 'casechanger=expl3'.
 
@@ -1821,7 +1821,7 @@ Overfull \hbox (6.39029pt too wide) in paragraph at lines 78--78
 
 [42] [43] (../chapters/Appendix.tex
 (../figures/../figures/bifurcationTranscriticalPdf.pdf_tex
-<../figures/../figures//bifurcationTranscriticalPdf.pdf, id=589, page=1, 219.50
+<../figures/../figures//bifurcationTranscriticalPdf.pdf, id=594, page=1, 219.50
 623pt x 190.54787pt>
 File: ../figures/../figures//bifurcationTranscriticalPdf.pdf Graphic file (type
  pdf)
@@ -1831,7 +1831,7 @@ Package pdftex.def Info: ../figures/../figures//bifurcationTranscriticalPdf.pdf
 (pdftex.def)             Requested size: 219.03033pt x 190.1374pt.
 )
 (../figures/../figures/bifurcationTranscriticalNegativePdf.pdf_tex
-<../figures/../figures//bifurcationTranscriticalNegativePdf.pdf, id=590, page=1
+<../figures/../figures//bifurcationTranscriticalNegativePdf.pdf, id=595, page=1
 , 219.50623pt x 190.54787pt>
 File: ../figures/../figures//bifurcationTranscriticalNegativePdf.pdf Graphic fi
 le (type pdf)
@@ -1850,17 +1850,17 @@ calNegativePdf.pdf): PDF inclusion: multiple pdfs with page group included in a
 >] (thesis_ms_eld895_aryan_ritwajeet_jha.aux)
 Package rerunfilecheck Info: File `thesis_ms_eld895_aryan_ritwajeet_jha.out' ha
 s not changed.
-(rerunfilecheck)             Checksum: 398165ABF2593B6ACAF7CF88732C196B;1362.
+(rerunfilecheck)             Checksum: 3E9C8D7C893E75488FBA5AABF6F5D03D;1494.
 Package logreq Info: Writing requests to 'thesis_ms_eld895_aryan_ritwajeet_jha.
 run.xml'.
 \openout1 = `thesis_ms_eld895_aryan_ritwajeet_jha.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 44254 strings out of 478337
- 1021824 string characters out of 2836666
- 1860475 words of memory out of 3000000
- 61750 multiletter control sequences out of 15000+600000
+ 44261 strings out of 475389
+ 1022046 string characters out of 2777001
+ 1904035 words of memory out of 3000000
+ 64701 multiletter control sequences out of 15000+600000
  484388 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,21n,103p,1566b,2279s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -1888,10 +1888,10 @@ ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/aryan/AppData/Local
 ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/ar
 yan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pf
 b>
-Output written on thesis_ms_eld895_aryan_ritwajeet_jha.pdf (46 pages, 3745367 b
+Output written on thesis_ms_eld895_aryan_ritwajeet_jha.pdf (46 pages, 3746985 b
 ytes).
 PDF statistics:
- 1155 PDF objects out of 1200 (max. 8388607)
- 158 named destinations out of 1000 (max. 500000)
+ 1160 PDF objects out of 1200 (max. 8388607)
+ 159 named destinations out of 1000 (max. 500000)
  270 words of extra memory for PDF output out of 10000 (max. 10000000)
 

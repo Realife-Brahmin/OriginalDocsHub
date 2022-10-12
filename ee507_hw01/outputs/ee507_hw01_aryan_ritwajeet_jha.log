@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.8)  9 SEP 2022 08:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.8)  13 SEP 2022 14:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1162,7 +1162,47 @@ Package: titlesec 2021/07/05 v2.14 Sectioning titles
 Package: titletoc 2021/07/05 v2.14 TOC entries
 \ttl@leftsep=\dimen309
 )
-(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/fira\FiraSans.sty
+Package: FiraSans 2019/10/10 (Bob Tennent and autoinst) Style file for Fira San
+s fonts.
+
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+)
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+)
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/fontaxes\fontaxes.sty
+Package: fontaxes 2020/07/21 v1.0e Font selection axes
+LaTeX Info: Redefining \upshape on input line 29.
+LaTeX Info: Redefining \itshape on input line 31.
+LaTeX Info: Redefining \slshape on input line 33.
+LaTeX Info: Redefining \swshape on input line 35.
+LaTeX Info: Redefining \scshape on input line 37.
+LaTeX Info: Redefining \sscshape on input line 39.
+LaTeX Info: Redefining \ulcshape on input line 41.
+LaTeX Info: Redefining \textsw on input line 47.
+LaTeX Info: Redefining \textssc on input line 48.
+LaTeX Info: Redefining \textulc on input line 49.
+)) (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+FiraSans-OsF on inpu
+t line 112.
+
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/fira\t1firasans-osf.fd
+File: T1FiraSans-OsF.fd 2019/10/10 (autoinst) Font definitions for T1/FiraSans-
+OsF.
+)
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <10> not available
+
+(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on inp
+ut line 112.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
+(Font)              scaled to size 10.0pt on input line 112.
+) (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2022/03/01 v3.6b Customizing captions (AR)
 
 (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
@@ -1187,10 +1227,6 @@ Package: subcaption 2022/01/07 v1.5 Sub-captions (AR)
 \c@subtable=\count458
 ) (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/mnsymbol\MnSymbol.sty
 Package: MnSymbol 2007/01/21 v1.4 support for the MnSymbol font
-
-(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
-Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
-)
 LaTeX Info: Redefining \dagger on input line 84.
 LaTeX Info: Redefining \ddagger on input line 84.
 LaTeX Info: Redefining \mathparagraph on input line 84.
@@ -1265,8 +1301,7 @@ LaTeX Info: Redefining \surd on input line 1843.
 LaTeX Font Info:    Redeclaring math accent \widehat on input line 1845.
 LaTeX Font Info:    Redeclaring math accent \widetilde on input line 1846.
 LaTeX Font Info:    Redeclaring math accent \vec on input line 1848.
-)
-(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/wasysym\wasysym.sty
+) (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/wasysym\wasysym.sty
 Package: wasysym 2020/01/19 v2.4 Wasy-2 symbol support package
 \symwasy=\mathgroup10
 LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
@@ -1395,24 +1430,24 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 (ee507_hw01_aryan_ritwajeet_jha.aux)
 \openout1 = `ee507_hw01_aryan_ritwajeet_jha.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
@@ -1428,8 +1463,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'ee507_hw01_aryan_ritwajeet_jha.bbl' found.
  (ee507_hw01_aryan_ritwajeet_jha.bbl)
-Package biblatex Info: Reference section=0 on input line 35.
-Package biblatex Info: Reference segment=0 on input line 35.
+Package biblatex Info: Reference section=0 on input line 39.
+Package biblatex Info: Reference segment=0 on input line 39.
 
 (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
@@ -1456,7 +1491,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 35.
+Package hyperref Info: Link coloring OFF on input line 39.
  (ee507_hw01_aryan_ritwajeet_jha.out) (ee507_hw01_aryan_ritwajeet_jha.out)
 \@outlinefile=\write5
 \openout5 = `ee507_hw01_aryan_ritwajeet_jha.out'.
@@ -1466,29 +1501,63 @@ Package hyperref Info: Link coloring OFF on input line 35.
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into 
 your preamble.
- on input line 35.
+ on input line 39.
 
+\c@mv@tabular=\count549
+\c@mv@boldtabular=\count550
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 37.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <17.28> not availa
+ble
+(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on inp
+ut line 41.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
+(Font)              scaled to size 17.28pt on input line 41.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <12> not available
+
+(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on inp
+ut line 41.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
+(Font)              scaled to size 12.0pt on input line 41.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 41.
 
 (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 37.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 41.
 
 
 (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+wasy on input line 37
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 41
 .
 
 (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/wasysym\uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 )
-(ee507_hw01_aryan_ritwajeet_jha.toc)
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <14.4> not availab
+le
+(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on inp
+ut line 41.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
+(Font)              scaled to size 14.4pt on input line 41.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/n' in size <14.4> not availab
+le
+(Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input 
+line 41.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/n' will be
+(Font)              scaled to size 14.4pt on input line 41.
+
+(ee507_hw01_aryan_ritwajeet_jha.toc
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/n' in size <10> not available
+
+(Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input 
+line 1.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/n' will be
+(Font)              scaled to size 10.0pt on input line 1.
+)
 \tf@toc=\write6
 \openout6 = `ee507_hw01_aryan_ritwajeet_jha.toc'.
 
@@ -1496,29 +1565,50 @@ File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 
 {C:/Users/aryan/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (../sections
 /q01.tex
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/n' in size <12> not available
+
+(Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input 
+line 5.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/n' will be
+(Font)              scaled to size 12.0pt on input line 5.
+
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 5.
 
+LaTeX Font Info:    Trying to load font information for TS1+FiraSans-OsF on inp
+ut line 23.
 
-Overfull \hbox (3.9165pt too wide) in paragraph at lines 19--29
- [][] 
- []
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/fira\ts1firasans-osf.fd
+File: TS1FiraSans-OsF.fd 2019/10/10 (autoinst) Font definitions for TS1/FiraSan
+s-OsF.
+)
+LaTeX Font Info:    Font shape `TS1/FiraSans-OsF/m/n' in size <10> not availabl
+e
+(Font)              Font shape `TS1/FiraSans-OsF/regular/n' tried instead on in
+put line 23.
+LaTeX Font Info:    Font shape `TS1/FiraSans-OsF/regular/n' will be
+(Font)              scaled to size 10.0pt on input line 23.
 
-
-Overfull \hbox (9.63875pt too wide) in paragraph at lines 35--45
+Overfull \hbox (5.1595pt too wide) in paragraph at lines 35--45
  [][] 
  []
 
 (../figures/../figures/signalMapPdf.pdf_tex
-<../figures/../figures//signalMapPdf.pdf, id=87, page=1, 318.57962pt x 448.0182
+<../figures/../figures//signalMapPdf.pdf, id=84, page=1, 318.57962pt x 448.0182
 5pt>
 File: ../figures/../figures//signalMapPdf.pdf Graphic file (type pdf)
 <use ../figures/../figures//signalMapPdf.pdf, page 1>
 Package pdftex.def Info: ../figures/../figures//signalMapPdf.pdf , page1 used o
 n input line 56.
 (pdftex.def)             Requested size: 318.5796pt x 448.03766pt.
-<../figures/../figures//signalMapPdf.pdf, id=88, page=2, 318.57962pt x 448.0182
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' in size <10> not availabl
+e
+(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on in
+put line 57.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/it' will be
+(Font)              scaled to size 10.0pt on input line 57.
+<../figures/../figures//signalMapPdf.pdf, id=85, page=2, 318.57962pt x 448.0182
 5pt>
 File: ../figures/../figures//signalMapPdf.pdf Graphic file (type pdf)
 <use ../figures/../figures//signalMapPdf.pdf, page 2>
@@ -1531,20 +1621,31 @@ alMapPdf.pdf
 pdfTeX warning: pdflatex.exe (file ../figures/../figures//signalMapPdf.pdf): PD
 F inclusion: multiple pdfs with page group included in a single page
 >]) (../sections/q02.tex
-\c@axiom=\count549
+\c@axiom=\count551
 
-Overfull \hbox (0.91269pt too wide) in paragraph at lines 38--39
-[]\OT1/cmr/bx/n/10 Axiom 2. []\OT1/cmr/m/it/10 For the sam-ple space $\OT1/cmr/
-m/n/10 
-$ \OT1/cmr/m/it/10 of an ex-per-i-ment, the prob-a-bil-ity $\OML/cmm/m/it/10 P\
-OMX/MnSymbolE/m/n/10 à\OT1/cmr/m/n/10 
+Overfull \hbox (2.0996pt too wide) in paragraph at lines 38--39
+[]\T1/FiraSans-OsF/bold/n/10 Axiom 2. []\T1/FiraSans-OsF/regular/it/10 For the 
+sam-ple space $\OT1/cmr/m/n/10 
+$ \T1/FiraSans-OsF/regular/it/10 of an ex-per-i-ment, the prob-a-bil-ity $\OML/
+cmm/m/it/10 P\OMX/MnSymbolE/m/n/10 à\OT1/cmr/m/n/10 
 \OMX/MnSymbolE/m/n/10 ç \U/MnSymbolD/m/n/10 ^^@
  []
 
 [4
 
-])
-Underfull \hbox (badness 10000) in paragraph at lines 54--43
+]
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <7> not available
+(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on inp
+ut line 46.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
+(Font)              scaled to size 7.0pt on input line 46.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <5> not available
+(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on inp
+ut line 46.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
+(Font)              scaled to size 5.0pt on input line 46.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 54--47
 
  []
 
@@ -1560,12 +1661,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 60--63
 [6
 
 ]
-Overfull \hbox (22.45639pt too wide) detected at line 71
+Overfull \hbox (24.56482pt too wide) detected at line 71
 []
  []
 
 
-Overfull \hbox (29.25334pt too wide) detected at line 82
+Overfull \hbox (29.07304pt too wide) detected at line 82
 []
  []
 
@@ -1580,7 +1681,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 88--91
  []
 
 [7] (../figures/../figures/shape1Pdf.pdf_tex
-<../figures/../figures//shape1Pdf.pdf, id=222, page=1, 141.51263pt x 104.60962p
+<../figures/../figures//shape1Pdf.pdf, id=217, page=1, 141.51263pt x 104.60962p
 t>
 File: ../figures/../figures//shape1Pdf.pdf Graphic file (type pdf)
 <use ../figures/../figures//shape1Pdf.pdf, page 1>
@@ -1589,7 +1690,7 @@ nput line 56.
 (pdftex.def)             Requested size: 141.51263pt x 104.61732pt.
 )
 (../figures/../figures/shape2Pdf.pdf_tex
-<../figures/../figures//shape2Pdf.pdf, id=223, page=1, 198.10217pt x 106.29507p
+<../figures/../figures//shape2Pdf.pdf, id=218, page=1, 198.10217pt x 106.29507p
 t>
 File: ../figures/../figures//shape2Pdf.pdf Graphic file (type pdf)
 <use ../figures/../figures//shape2Pdf.pdf, page 1>
@@ -1607,14 +1708,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 125--126
 pdfTeX warning: pdflatex.exe (file ../figures/../figures//shape2Pdf.pdf): PDF i
 nclusion: multiple pdfs with page group included in a single page
 >] (../figures/../figures/shape3Pdf.pdf_tex
-<../figures/../figures//shape3Pdf.pdf, id=241, page=1, 141.51263pt x 104.60962p
+<../figures/../figures//shape3Pdf.pdf, id=235, page=1, 141.51263pt x 104.60962p
 t>
 File: ../figures/../figures//shape3Pdf.pdf Graphic file (type pdf)
 <use ../figures/../figures//shape3Pdf.pdf, page 1>
 Package pdftex.def Info: ../figures/../figures//shape3Pdf.pdf , page1 used on i
 nput line 56.
 (pdftex.def)             Requested size: 141.51263pt x 104.61732pt.
-<../figures/../figures//shape3Pdf.pdf, id=242, page=2, 141.51263pt x 104.60962p
+<../figures/../figures//shape3Pdf.pdf, id=236, page=2, 141.51263pt x 104.60962p
 t>
 File: ../figures/../figures//shape3Pdf.pdf Graphic file (type pdf)
 <use ../figures/../figures//shape3Pdf.pdf, page 2>
@@ -1622,7 +1723,7 @@ Package pdftex.def Info: ../figures/../figures//shape3Pdf.pdf , page2 used on i
 nput line 59.
 (pdftex.def)             Requested size: 141.51263pt x 104.61732pt.
 ))
-Underfull \hbox (badness 10000) in paragraph at lines 149--45
+Underfull \hbox (badness 10000) in paragraph at lines 149--49
 
  []
 
@@ -1632,6 +1733,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 149--45
 pdfTeX warning: pdflatex.exe (file ../figures/../figures//shape3Pdf.pdf): PDF i
 nclusion: multiple pdfs with page group included in a single page
 >] (../sections/q04.tex
+Overfull \hbox (21.3959pt too wide) in paragraph at lines 7--9
+[]\T1/FiraSans-OsF/regular/n/10 For this part, as-sume that $\OML/cmm/m/it/10 P
+\OMX/MnSymbolE/m/n/10 àò\OML/cmm/m/it/10 A; B; \U/MnSymbolC/m/n/10 j\OMX/MnSymb
+olE/m/n/10 ùç \U/MnSymbolD/m/n/10 ^^@ \OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/c
+mr/m/n/10 8$\T1/FiraSans-OsF/regular/n/10 , $\OML/cmm/m/it/10 P\OMX/MnSymbolE/m
+/n/10 àò\OML/cmm/m/it/10 A; C\OMX/MnSymbolE/m/n/10 ùç \U/MnSymbolD/m/n/10 ^^@ \
+OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 4$ \T1/FiraSans-OsF/regular/n
+/10 and $\OML/cmm/m/it/10 P\OMX/MnSymbolE/m/n/10 àò\OML/cmm/m/it/10 A; \U/MnSym
+bolC/m/n/10 j\OMX/MnSymbolE/m/n/10 ùç \U/MnSymbolD/m/n/10 ^^@
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
  []
@@ -1639,7 +1752,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--17
 [10
 
 ])
-Underfull \hbox (badness 10000) in paragraph at lines 67--47
+Underfull \hbox (badness 10000) in paragraph at lines 67--51
 
  []
 
@@ -1648,22 +1761,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 67--47
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 4.
 
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 7
-.
-(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd
-File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 7.
-)
-Underfull \hbox (badness 10000) in paragraph at lines 18--49
+Underfull \hbox (badness 10000) in paragraph at lines 18--53
 
  []
 
 [12
 
 ] (../sections/q06.tex (../figures/../figures/dartBoardPdf.pdf_tex
-<../figures/../figures//dartBoardPdf.pdf, id=277, page=1, 116.31918pt x 108.544
+<../figures/../figures//dartBoardPdf.pdf, id=274, page=1, 116.31918pt x 108.544
 95pt>
 File: ../figures/../figures//dartBoardPdf.pdf Graphic file (type pdf)
 <use ../figures/../figures//dartBoardPdf.pdf, page 1>
@@ -1673,7 +1779,7 @@ n input line 56.
 ) [13
 
  <../figures/../figures//dartBoardPdf.pdf>]
-Overfull \hbox (19.88332pt too wide) in paragraph at lines 38--43
+Overfull \hbox (23.01135pt too wide) in paragraph at lines 38--43
 \OML/cmm/m/it/10 P\OMX/MnSymbolE/m/n/10 à[] \U/MnSymbolD/m/n/10 A \OT1/cmr/m/n/
 10 3[] \U/MnSymbolD/m/n/10 @ \OT1/cmr/m/n/10 3[]\OMX/MnSymbolE/m/n/10 ç \U/MnSy
 mbolD/m/n/10 ^^@ \OML/cmm/m/it/10 P\OMX/MnSymbolE/m/n/10 à[] \U/MnSymbolD/m/n/1
@@ -1681,7 +1787,7 @@ mbolD/m/n/10 ^^@ \OML/cmm/m/it/10 P\OMX/MnSymbolE/m/n/10 à[] \U/MnSymbolD/m/n/1
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 45--51
+Underfull \hbox (badness 10000) in paragraph at lines 45--55
 
  []
 
@@ -1693,7 +1799,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--20
 [15
 
 ])
-Underfull \hbox (badness 10000) in paragraph at lines 51--53
+Underfull \hbox (badness 10000) in paragraph at lines 51--57
 
  []
 
@@ -1707,36 +1813,34 @@ l'.
 
  ) 
 Here is how much of TeX's memory you used:
- 47314 strings out of 475389
- 1060672 string characters out of 2777001
- 1950194 words of memory out of 3000000
- 67844 multiletter control sequences out of 15000+600000
- 488342 words of font info for 95 fonts, out of 8000000 for 9000
+ 48166 strings out of 475389
+ 1080300 string characters out of 2777001
+ 1951058 words of memory out of 3000000
+ 68671 multiletter control sequences out of 15000+600000
+ 633932 words of font info for 107 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,14n,117p,771b,909s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/mnsymbol/MnSymb
 olC.enc}{C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/mnsymbol/
 MnSymbolE.enc}{C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/mns
 ymbol/MnSymbolA.enc}{C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/enc/dvi
-ps/mnsymbol/MnSymbolD.enc} <C:\Users\aryan\AppData\Local\MiKTeX\fonts/pk/ljfour
-/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/aryan/AppData/Local/Programs/MiKTeX/f
-onts/type1/public/mnsymbol/MnSymbol10.pfb><C:/Users/aryan/AppData/Local/Program
-s/MiKTeX/fonts/type1/public/mnsymbol/MnSymbol7.pfb><C:/Users/aryan/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/aryan/App
-Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/
-aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
-C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmm
-i7.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
-s/cm/cmr10.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public
-/amsfonts/cm/cmr12.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/type
-1/public/amsfonts/cm/cmr17.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX/fo
-nts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/aryan/AppData/Local/Programs/Mi
-KTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/aryan/AppData/Local/Prog
-rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/aryan/AppData/L
-ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on ee507_hw01_aryan_ritwajeet_jha.pdf (16 pages, 272698 bytes).
+ps/mnsymbol/MnSymbolD.enc}{C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/e
+nc/dvips/fira/fir_iln36p.enc}{C:/Users/aryan/AppData/Local/Programs/MiKTeX/font
+s/enc/dvips/fira/fir_d67aat.enc}<C:/Users/aryan/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/fira/FiraSans-Bold.pfb><C:/Users/aryan/AppData/Local/Programs
+/MiKTeX/fonts/type1/public/fira/FiraSans-Italic.pfb><C:/Users/aryan/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/fira/FiraSans-Regular.pfb><C:/Users/aryan
+/AppData/Local/Programs/MiKTeX/fonts/type1/public/mnsymbol/MnSymbol10.pfb><C:/U
+sers/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/mnsymbol/MnSymbol7.
+pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
+m/cmmi10.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmmi7.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/
+public/amsfonts/cm/cmr10.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX/font
+s/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/aryan/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/amsfonts/cm/cmr7.pfb>
+Output written on ee507_hw01_aryan_ritwajeet_jha.pdf (16 pages, 332800 bytes).
 PDF statistics:
- 415 PDF objects out of 1000 (max. 8388607)
+ 399 PDF objects out of 1000 (max. 8388607)
  85 named destinations out of 1000 (max. 500000)
  160 words of extra memory for PDF output out of 10000 (max. 10000000)
 

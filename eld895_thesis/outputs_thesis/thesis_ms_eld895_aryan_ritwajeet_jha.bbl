@@ -1109,6 +1109,35 @@
       \verb https://doi.org/10.1371/journal.pone.0062033
       \endverb
     \endentry
+    \entry{brownianMotion}{article}{}
+      \name{author}{1}{}{%
+        {{hash=322e8c6a9d425c50238d14a6d29d6d46}{%
+           family={Genthon},
+           familyi={G\bibinitperiod},
+           given={Arthur},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{322e8c6a9d425c50238d14a6d29d6d46}
+      \strng{fullhash}{322e8c6a9d425c50238d14a6d29d6d46}
+      \strng{bibnamehash}{322e8c6a9d425c50238d14a6d29d6d46}
+      \strng{authorbibnamehash}{322e8c6a9d425c50238d14a6d29d6d46}
+      \strng{authornamehash}{322e8c6a9d425c50238d14a6d29d6d46}
+      \strng{authorfullhash}{322e8c6a9d425c50238d14a6d29d6d46}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv}
+      \field{month}{6}
+      \field{title}{{The concept of velocity in the history of Brownian motion -- From physics to mathematics and back}}
+      \field{year}{2020}
+      \verb{doi}
+      \verb 10.1140/epjh/e2020-10009-8
+      \endverb
+      \verb{eprint}
+      \verb 2006.05399
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
