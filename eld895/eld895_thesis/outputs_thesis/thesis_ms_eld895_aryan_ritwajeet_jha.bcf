@@ -2411,6 +2411,7 @@
     <bcf:citekey order="36" intorder="1">schefferEarlyWarningSignalsForCriticalTransitions</bcf:citekey>
     <bcf:citekey order="37" intorder="1">csdNotDetectedByAutocorrAndVariance01</bcf:citekey>
     <bcf:citekey order="38" intorder="1">brownianMotion</bcf:citekey>
+    <bcf:citekey order="39" intorder="1">zeroCorrelationImpliesIndependenceForGaussianDistribution</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.1 (MiKTeX 22.8.28) (format=lualatex 2022.11.23)  4 DEC 2022 20:45
+This is LuaHBTeX, Version 1.15.1 (MiKTeX 22.8.28) (format=lualatex 2022.11.23)  4 DEC 2022 21:50
  restricted system commands enabled.
 **thesis_ms_eld895_aryan_ritwajeet_jha.tex
 (./thesis_ms_eld895_aryan_ritwajeet_jha.tex
@@ -1355,6 +1355,19 @@ Package: titletoc 2021/07/05 v2.14 TOC entries
 Package: subcaption 2022/01/07 v1.5 Sub-captions (AR)
 \c@subfigure=\count457
 \c@subtable=\count458
+) (C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/cleveref/cleveref.sty
+Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
+Package cleveref Info: `hyperref' support loaded on input line 2370.
+LaTeX Info: Redefining \cref on input line 2370.
+LaTeX Info: Redefining \Cref on input line 2370.
+LaTeX Info: Redefining \crefrange on input line 2370.
+LaTeX Info: Redefining \Crefrange on input line 2370.
+LaTeX Info: Redefining \cpageref on input line 2370.
+LaTeX Info: Redefining \Cpageref on input line 2370.
+LaTeX Info: Redefining \cpagerefrange on input line 2370.
+LaTeX Info: Redefining \Cpagerefrange on input line 2370.
+LaTeX Info: Redefining \labelcref on input line 2370.
+LaTeX Info: Redefining \labelcpageref on input line 2370.
 )
 
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
@@ -1498,25 +1511,23 @@ Package luatex.def Info: iitd_logo.png  used on input line 56.
 {C:/Users/aryan/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}<./iitd_logo.pn
 g
 warning  (pngwrite): large interlaced bitmap might cause out of memory
->] (./thesis_ms_eld895_aryan_ritwajeet_jha.toc
-LaTeX Font Info:    Trying to load font information for U+msa on input line 11.
-
-
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 11.
-
-
-(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
+>] (./thesis_ms_eld895_aryan_ritwajeet_jha.toc)
 \tf@toc=\write6
 
 \openout6 = thesis_ms_eld895_aryan_ritwajeet_jha.toc
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.'
 [0] (../chapters/Introduction.tex [1]) [2] (../chapters/LiteratureReview.tex
+LaTeX Font Info:    Trying to load font information for U+msa on input line 8.
+
+(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 8.
+
+(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
 [3
 
 ]) [4] (../chapters/Theory.tex
@@ -1529,7 +1540,7 @@ File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 
 ]
 [6] (../figures/../figures/bifurcationPitchforkPdf.pdf_tex
-<../figures/../figures//bifurcationPitchforkPdf.pdf, id=187, page=1, 219.03035p
+<../figures/../figures//bifurcationPitchforkPdf.pdf, id=186, page=1, 219.03035p
 t x 189.78543pt>
 File: ../figures/../figures//bifurcationPitchforkPdf.pdf Graphic file (type pdf
 )
@@ -1539,7 +1550,7 @@ age1 used on input line 56.
 (luatex.def)             Requested size: 219.03033pt x 189.79654pt.
 )
 (../figures/../figures/bifurcationPitchforkNegativePdf.pdf_tex
-<../figures/../figures//bifurcationPitchforkNegativePdf.pdf, id=188, page=1, 21
+<../figures/../figures//bifurcationPitchforkNegativePdf.pdf, id=187, page=1, 21
 9.03035pt x 189.78543pt>
 File: ../figures/../figures//bifurcationPitchforkNegativePdf.pdf Graphic file (
 type pdf)
@@ -1556,7 +1567,7 @@ Overfull \hbox (45.27739pt too wide) in paragraph at lines 5--90
  []
 
 )
-<../figures/pdf/pdf_frequency_continental_europe_2019.png, id=305, 1927.2pt x 9
+<../figures/pdf/pdf_frequency_continental_europe_2019.png, id=304, 1927.2pt x 9
 78.65625pt>
 File: ../figures/pdf/pdf_frequency_continental_europe_2019.png Graphic file (ty
 pe png)
@@ -1572,7 +1583,7 @@ Overfull \hbox (14.37715pt too wide) in paragraph at lines 25--26
 [13
 
 ]
-<../figures/pdf/pdf_frequency_tokyo_2020_01.png, id=322, 1927.2pt x 978.65625pt
+<../figures/pdf/pdf_frequency_tokyo_2020_01.png, id=321, 1927.2pt x 978.65625pt
 >
 File: ../figures/pdf/pdf_frequency_tokyo_2020_01.png Graphic file (type png)
 <use ../figures/pdf/pdf_frequency_tokyo_2020_01.png>
@@ -1584,7 +1595,7 @@ Overfull \hbox (14.37715pt too wide) in paragraph at lines 33--34
  [][] 
  []
 
-<../figures/pdf/pdf_frequency_nordic_2019.png, id=323, 1927.2pt x 978.65625pt>
+<../figures/pdf/pdf_frequency_nordic_2019.png, id=322, 1927.2pt x 978.65625pt>
 File: ../figures/pdf/pdf_frequency_nordic_2019.png Graphic file (type png)
 <use ../figures/pdf/pdf_frequency_nordic_2019.png>
 Package luatex.def Info: ../figures/pdf/pdf_frequency_nordic_2019.png  used on 
@@ -1595,7 +1606,7 @@ Overfull \hbox (14.37715pt too wide) in paragraph at lines 39--40
  [][] 
  []
 
-<../figures/pdf/pdf_frequency_rte_2019_09.png, id=324, 1927.2pt x 978.65625pt>
+<../figures/pdf/pdf_frequency_rte_2019_09.png, id=323, 1927.2pt x 978.65625pt>
 File: ../figures/pdf/pdf_frequency_rte_2019_09.png Graphic file (type png)
 <use ../figures/pdf/pdf_frequency_rte_2019_09.png>
 Package luatex.def Info: ../figures/pdf/pdf_frequency_rte_2019_09.png  used on 
@@ -1606,7 +1617,7 @@ Overfull \hbox (14.37715pt too wide) in paragraph at lines 49--50
  [][] 
  []
 
-<../figures/pdf/pdf_frequency_uk_2020_04.png, id=325, 1927.2pt x 978.65625pt>
+<../figures/pdf/pdf_frequency_uk_2020_04.png, id=324, 1927.2pt x 978.65625pt>
 File: ../figures/pdf/pdf_frequency_uk_2020_04.png Graphic file (type png)
 <use ../figures/pdf/pdf_frequency_uk_2020_04.png>
 Package luatex.def Info: ../figures/pdf/pdf_frequency_uk_2020_04.png  used on i
@@ -1617,7 +1628,7 @@ Overfull \hbox (14.37715pt too wide) in paragraph at lines 55--56
  [][] 
  []
 
-<../figures/pdf/pdf_frequency_rte_2021_01_blackout.png, id=326, 1927.2pt x 978.
+<../figures/pdf/pdf_frequency_rte_2021_01_blackout.png, id=325, 1927.2pt x 978.
 65625pt>
 File: ../figures/pdf/pdf_frequency_rte_2021_01_blackout.png Graphic file (type 
 png)
@@ -1630,7 +1641,7 @@ Overfull \hbox (14.37715pt too wide) in paragraph at lines 66--67
  [][] 
  []
 
-<../figures/pdf/pdf_frequency_uk_2019_08_blackout.png, id=327, 1927.2pt x 978.6
+<../figures/pdf/pdf_frequency_uk_2019_08_blackout.png, id=326, 1927.2pt x 978.6
 5625pt>
 File: ../figures/pdf/pdf_frequency_uk_2019_08_blackout.png Graphic file (type p
 ng)
@@ -1643,7 +1654,7 @@ Overfull \hbox (14.37715pt too wide) in paragraph at lines 72--73
  [][] 
  []
 
-<../figures/pdf/pdf_frequency_spain_mallorca_2019_05_f1.png, id=328, 1927.2pt x
+<../figures/pdf/pdf_frequency_spain_mallorca_2019_05_f1.png, id=327, 1927.2pt x
  978.65625pt>
 File: ../figures/pdf/pdf_frequency_spain_mallorca_2019_05_f1.png Graphic file (
 type png)
@@ -1669,7 +1680,7 @@ Overfull \vbox (32.66995pt too high) has occurred while \output is active []
 _nordic_2019.png>] [17<../figures/pdf/pdf_frequency_rte_2019_09.png><../figures/
 pdf/pdf_frequency_uk_2020_04.png>] [18<../figures/pdf/pdf_frequency_rte_2021_01_
 blackout.png><../figures/pdf/pdf_frequency_uk_2019_08_blackout.png>]
-<../figures/autocorr/fautocorrs_nordic_201801_to_201912.png, id=367, 1927.2pt x
+<../figures/autocorr/fautocorrs_nordic_201801_to_201912.png, id=366, 1927.2pt x
  978.65625pt>
 File: ../figures/autocorr/fautocorrs_nordic_201801_to_201912.png Graphic file (
 type png)
@@ -1682,7 +1693,7 @@ Overfull \hbox (14.37715pt too wide) in paragraph at lines 113--114
 [][] 
  []
 
-<../figures/autocorr/fautocorrs_rte_201901_to_201912_202101.png, id=368, 1927.2
+<../figures/autocorr/fautocorrs_rte_201901_to_201912_202101.png, id=367, 1927.2
 pt x 978.65625pt>
 File: ../figures/autocorr/fautocorrs_rte_201901_to_201912_202101.png Graphic fi
 le (type png)
@@ -1695,7 +1706,7 @@ Overfull \hbox (14.37715pt too wide) in paragraph at lines 119--120
 [][] 
  []
 
-<../figures/autocorr/fautocorrs_uk_201901_to_202103_2.png, id=369, 1927.2pt x 9
+<../figures/autocorr/fautocorrs_uk_201901_to_202103_2.png, id=368, 1927.2pt x 9
 78.65625pt>
 File: ../figures/autocorr/fautocorrs_uk_201901_to_202103_2.png Graphic file (ty
 pe png)
@@ -1708,7 +1719,7 @@ Overfull \hbox (14.37715pt too wide) in paragraph at lines 124--125
 [][] 
  []
 
-<../figures/autocorr/fautocorrs_tokyo_202001_to_202012.png, id=370, 1927.2pt x 
+<../figures/autocorr/fautocorrs_tokyo_202001_to_202012.png, id=369, 1927.2pt x 
 978.65625pt>
 File: ../figures/autocorr/fautocorrs_tokyo_202001_to_202012.png Graphic file (t
 ype png)
@@ -1721,7 +1732,7 @@ Overfull \hbox (14.37715pt too wide) in paragraph at lines 129--130
 [][] 
  []
 
-<../figures/autocorr/fautocorrs_nrldc_201904_to_202004.png, id=371, 1927.2pt x 
+<../figures/autocorr/fautocorrs_nrldc_201904_to_202004.png, id=370, 1927.2pt x 
 978.65625pt>
 File: ../figures/autocorr/fautocorrs_nrldc_201904_to_202004.png Graphic file (t
 ype png)
@@ -1739,49 +1750,49 @@ Overfull \hbox (14.37715pt too wide) in paragraph at lines 136--137
 LaTeX Warning: Text page 20 contains only floats.
 
 [20<../figures/autocorr/fautocorrs_nordic_201801_to_201912.png>]
-<../figures/pdf/nrldc/pdf_frequency_nrldc_01.png, id=385, 1927.2pt x 978.65625p
+<../figures/pdf/nrldc/pdf_frequency_nrldc_01.png, id=384, 1927.2pt x 978.65625p
 t>
 File: ../figures/pdf/nrldc/pdf_frequency_nrldc_01.png Graphic file (type png)
 <use ../figures/pdf/nrldc/pdf_frequency_nrldc_01.png>
 Package luatex.def Info: ../figures/pdf/nrldc/pdf_frequency_nrldc_01.png  used 
 on input line 142.
 (luatex.def)             Requested size: 210.33832pt x 106.80133pt.
-<../figures/pdf/nrldc/pdf_frequency_nrldc_02.png, id=386, 1927.2pt x 978.65625p
+<../figures/pdf/nrldc/pdf_frequency_nrldc_02.png, id=385, 1927.2pt x 978.65625p
 t>
 File: ../figures/pdf/nrldc/pdf_frequency_nrldc_02.png Graphic file (type png)
 <use ../figures/pdf/nrldc/pdf_frequency_nrldc_02.png>
 Package luatex.def Info: ../figures/pdf/nrldc/pdf_frequency_nrldc_02.png  used 
 on input line 143.
 (luatex.def)             Requested size: 210.33832pt x 106.80133pt.
-<../figures/pdf/nrldc/pdf_frequency_nrldc_03.png, id=387, 1927.2pt x 978.65625p
+<../figures/pdf/nrldc/pdf_frequency_nrldc_03.png, id=386, 1927.2pt x 978.65625p
 t>
 File: ../figures/pdf/nrldc/pdf_frequency_nrldc_03.png Graphic file (type png)
 <use ../figures/pdf/nrldc/pdf_frequency_nrldc_03.png>
 Package luatex.def Info: ../figures/pdf/nrldc/pdf_frequency_nrldc_03.png  used 
 on input line 147.
 (luatex.def)             Requested size: 210.33832pt x 106.80133pt.
-<../figures/pdf/nrldc/pdf_frequency_nrldc_04.png, id=388, 1927.2pt x 978.65625p
+<../figures/pdf/nrldc/pdf_frequency_nrldc_04.png, id=387, 1927.2pt x 978.65625p
 t>
 File: ../figures/pdf/nrldc/pdf_frequency_nrldc_04.png Graphic file (type png)
 <use ../figures/pdf/nrldc/pdf_frequency_nrldc_04.png>
 Package luatex.def Info: ../figures/pdf/nrldc/pdf_frequency_nrldc_04.png  used 
 on input line 148.
 (luatex.def)             Requested size: 210.33832pt x 106.80133pt.
-<../figures/pdf/nrldc/pdf_frequency_nrldc_05.png, id=389, 1927.2pt x 978.65625p
+<../figures/pdf/nrldc/pdf_frequency_nrldc_05.png, id=388, 1927.2pt x 978.65625p
 t>
 File: ../figures/pdf/nrldc/pdf_frequency_nrldc_05.png Graphic file (type png)
 <use ../figures/pdf/nrldc/pdf_frequency_nrldc_05.png>
 Package luatex.def Info: ../figures/pdf/nrldc/pdf_frequency_nrldc_05.png  used 
 on input line 152.
 (luatex.def)             Requested size: 210.33832pt x 106.80133pt.
-<../figures/pdf/nrldc/pdf_frequency_nrldc_06.png, id=390, 1927.2pt x 978.65625p
+<../figures/pdf/nrldc/pdf_frequency_nrldc_06.png, id=389, 1927.2pt x 978.65625p
 t>
 File: ../figures/pdf/nrldc/pdf_frequency_nrldc_06.png Graphic file (type png)
 <use ../figures/pdf/nrldc/pdf_frequency_nrldc_06.png>
 Package luatex.def Info: ../figures/pdf/nrldc/pdf_frequency_nrldc_06.png  used 
 on input line 153.
 (luatex.def)             Requested size: 210.33832pt x 106.80133pt.
-<../figures/pdf/pdf_frequency_us_wi_2019_05.png, id=391, 1927.2pt x 978.65625pt
+<../figures/pdf/pdf_frequency_us_wi_2019_05.png, id=390, 1927.2pt x 978.65625pt
 >
 File: ../figures/pdf/pdf_frequency_us_wi_2019_05.png Graphic file (type png)
 <use ../figures/pdf/pdf_frequency_us_wi_2019_05.png>
@@ -1793,7 +1804,7 @@ Overfull \hbox (14.37715pt too wide) in paragraph at lines 164--165
  [][] 
  []
 
-<../figures/pdf/pdf_frequency_us_tx_2019_05.png, id=392, 1927.2pt x 978.65625pt
+<../figures/pdf/pdf_frequency_us_tx_2019_05.png, id=391, 1927.2pt x 978.65625pt
 >
 File: ../figures/pdf/pdf_frequency_us_tx_2019_05.png Graphic file (type png)
 <use ../figures/pdf/pdf_frequency_us_tx_2019_05.png>
@@ -1816,7 +1827,7 @@ f_frequency_nrldc_05.png><../figures/pdf/nrldc/pdf_frequency_nrldc_06.png>] [25
 _tx_2019_05.png>] (../chapters/OnlineAnalysis.tex [26
 
 ]
-<../figures/analysis_matlab/ploads_run02.png, id=430, 1927.2pt x 978.65625pt>
+<../figures/analysis_matlab/ploads_run02.png, id=429, 1927.2pt x 978.65625pt>
 File: ../figures/analysis_matlab/ploads_run02.png Graphic file (type png)
 <use ../figures/analysis_matlab/ploads_run02.png>
 Package luatex.def Info: ../figures/analysis_matlab/ploads_run02.png  used on i
@@ -1827,7 +1838,7 @@ Overfull \hbox (14.37715pt too wide) in paragraph at lines 28--29
  [][] 
  []
 
-<../figures/analysis_matlab/pgens_run02.png, id=431, 1927.2pt x 978.65625pt>
+<../figures/analysis_matlab/pgens_run02.png, id=430, 1927.2pt x 978.65625pt>
 File: ../figures/analysis_matlab/pgens_run02.png Graphic file (type png)
 <use ../figures/analysis_matlab/pgens_run02.png>
 Package luatex.def Info: ../figures/analysis_matlab/pgens_run02.png  used on in
@@ -1838,7 +1849,7 @@ Overfull \hbox (14.37715pt too wide) in paragraph at lines 34--35
  [][] 
  []
 
-<../figures/analysis_matlab/frequencies_run02.png, id=432, 1927.2pt x 978.65625
+<../figures/analysis_matlab/frequencies_run02.png, id=431, 1927.2pt x 978.65625
 pt>
 File: ../figures/analysis_matlab/frequencies_run02.png Graphic file (type png)
 <use ../figures/analysis_matlab/frequencies_run02.png>
@@ -1850,7 +1861,7 @@ Overfull \hbox (14.37715pt too wide) in paragraph at lines 46--47
  [][] 
  []
 
-<../figures/analysis_matlab/voltages_run02.png, id=433, 1927.2pt x 978.65625pt>
+<../figures/analysis_matlab/voltages_run02.png, id=432, 1927.2pt x 978.65625pt>
 
 File: ../figures/analysis_matlab/voltages_run02.png Graphic file (type png)
 <use ../figures/analysis_matlab/voltages_run02.png>
@@ -1862,7 +1873,7 @@ Overfull \hbox (14.37715pt too wide) in paragraph at lines 52--53
  [][] 
  []
 
-<../figures/analysis_matlab/currents_run02.png, id=434, 1927.2pt x 978.65625pt>
+<../figures/analysis_matlab/currents_run02.png, id=433, 1927.2pt x 978.65625pt>
 
 File: ../figures/analysis_matlab/currents_run02.png Graphic file (type png)
 <use ../figures/analysis_matlab/currents_run02.png>
@@ -1874,7 +1885,7 @@ Overfull \hbox (14.37715pt too wide) in paragraph at lines 62--63
  [][] 
  []
 
-<../figures/analysis_matlab/mvas_run02.png, id=435, 1927.2pt x 978.65625pt>
+<../figures/analysis_matlab/mvas_run02.png, id=434, 1927.2pt x 978.65625pt>
 File: ../figures/analysis_matlab/mvas_run02.png Graphic file (type png)
 <use ../figures/analysis_matlab/mvas_run02.png>
 Package luatex.def Info: ../figures/analysis_matlab/mvas_run02.png  used on inp
@@ -1891,7 +1902,7 @@ res/analysis_matlab/voltages_run02.png>] [30<../figures/analysis_matlab/currents
 _run02.png><../figures/analysis_matlab/mvas_run02.png>] [31
 
 ]
-<../figures/analysis_matlab/voltsDetrended_run02.png, id=479, 1927.2pt x 978.65
+<../figures/analysis_matlab/voltsDetrended_run02.png, id=478, 1927.2pt x 978.65
 625pt>
 File: ../figures/analysis_matlab/voltsDetrended_run02.png Graphic file (type pn
 g)
@@ -1904,7 +1915,7 @@ Overfull \hbox (14.37715pt too wide) in paragraph at lines 119--120
  [][] 
  []
 
-<../figures/analysis_matlab/ar1_run02.png, id=480, 1927.2pt x 978.65625pt>
+<../figures/analysis_matlab/ar1_run02.png, id=479, 1927.2pt x 978.65625pt>
 File: ../figures/analysis_matlab/ar1_run02.png Graphic file (type png)
 <use ../figures/analysis_matlab/ar1_run02.png>
 Package luatex.def Info: ../figures/analysis_matlab/ar1_run02.png  used on inpu
@@ -1915,7 +1926,7 @@ Overfull \hbox (14.37715pt too wide) in paragraph at lines 127--128
  [][] 
  []
 
-<../figures/analysis_matlab/var_run02.png, id=481, 1927.2pt x 978.65625pt>
+<../figures/analysis_matlab/var_run02.png, id=480, 1927.2pt x 978.65625pt>
 File: ../figures/analysis_matlab/var_run02.png Graphic file (type png)
 <use ../figures/analysis_matlab/var_run02.png>
 Package luatex.def Info: ../figures/analysis_matlab/var_run02.png  used on inpu
@@ -1926,7 +1937,7 @@ Overfull \hbox (14.37715pt too wide) in paragraph at lines 133--134
  [][] 
  []
 
-<../figures/analysis_matlab/mktcc_ar1_run02.png, id=482, 1927.2pt x 978.65625pt
+<../figures/analysis_matlab/mktcc_ar1_run02.png, id=481, 1927.2pt x 978.65625pt
 >
 File: ../figures/analysis_matlab/mktcc_ar1_run02.png Graphic file (type png)
 <use ../figures/analysis_matlab/mktcc_ar1_run02.png>
@@ -1938,7 +1949,7 @@ Overfull \hbox (14.37715pt too wide) in paragraph at lines 144--145
  [][] 
  []
 
-<../figures/analysis_matlab/mktcc_var_run02.png, id=483, 1927.2pt x 978.65625pt
+<../figures/analysis_matlab/mktcc_var_run02.png, id=482, 1927.2pt x 978.65625pt
 >
 File: ../figures/analysis_matlab/mktcc_var_run02.png Graphic file (type png)
 <use ../figures/analysis_matlab/mktcc_var_run02.png>
@@ -1978,7 +1989,7 @@ Missing character: There is no – (U+2013) in font ec-lmr12!
 
 ] (../chapters/appendix/moreExamplesForCSD.tex
 (../figures/../figures/bifurcationTranscriticalPdf.pdf_tex
-<../figures/../figures//bifurcationTranscriticalPdf.pdf, id=623, page=1, 219.50
+<../figures/../figures//bifurcationTranscriticalPdf.pdf, id=625, page=1, 219.50
 623pt x 190.54787pt>
 File: ../figures/../figures//bifurcationTranscriticalPdf.pdf Graphic file (type
  pdf)
@@ -1988,7 +1999,7 @@ Package luatex.def Info: ../figures/../figures//bifurcationTranscriticalPdf.pdf
 (luatex.def)             Requested size: 219.03033pt x 190.1374pt.
 )
 (../figures/../figures/bifurcationTranscriticalNegativePdf.pdf_tex
-<../figures/../figures//bifurcationTranscriticalNegativePdf.pdf, id=624, page=1
+<../figures/../figures//bifurcationTranscriticalNegativePdf.pdf, id=626, page=1
 , 219.50623pt x 190.54787pt>
 File: ../figures/../figures//bifurcationTranscriticalNegativePdf.pdf Graphic fi
 le (type pdf)
@@ -2001,24 +2012,16 @@ ePdf.pdf , page1 used on input line 56.
 <../figures/../figures//bifurcationTranscriticalPdf.pdf><../figures/../figures//
 bifurcationTranscriticalNegativePdf.pdf>]
 (../chapters/appendix/examplesComparingKTCCWithOtherCCs.tex
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\rho' on input line 1.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1.
+Overfull \hbox (7.22365pt too wide) in paragraph at lines 13--76
+ [][] 
+ []
 
 )) [46
 
-] (./thesis_ms_eld895_aryan_ritwajeet_jha.aux)
+] [47] (./thesis_ms_eld895_aryan_ritwajeet_jha.aux)
 Package rerunfilecheck Info: File `thesis_ms_eld895_aryan_ritwajeet_jha.out' ha
 s not changed.
-(rerunfilecheck)             Checksum: 9D506AF236D84D4203BA33A6AFE96ED7;2011.
+(rerunfilecheck)             Checksum: 76BB09DE5B14D404CD82124EDC8A7AEB;1789.
 Package logreq Info: Writing requests to 'thesis_ms_eld895_aryan_ritwajeet_jha.
 run.xml'.
 
@@ -2026,16 +2029,16 @@ run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 46384 strings out of 477356
+ 48044 strings out of 477356
  125123,1977958 words of node,token memory allocated
  1300 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 211 attribute, 67 glue_spe
 c, 107 attribute_list, 2 write, 21 pdf_action nodes
-   avail lists: 1:2,2:7196,3:2263,4:92,5:474,6:43,7:9465,8:142,9:1309,10:29,11:5
+   avail lists: 1:2,2:7200,3:2264,4:92,5:474,6:42,7:9465,8:142,9:1309,10:29,11:5
 95
- 65317 multiletter control sequences out of 65536+600000
- 64 fonts using 4009295 bytes
- 99i,21n,98p,1542b,2335s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 66963 multiletter control sequences out of 65536+600000
+ 52 fonts using 3264927 bytes
+ 99i,26n,98p,1563b,2335s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/U
 sers/aryan/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Users
 /aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><
@@ -2057,10 +2060,10 @@ an/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/aryan
 /AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/aryan/
 AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb><C:/Users/aryan/A
 ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on thesis_ms_eld895_aryan_ritwajeet_jha.pdf (48 pages, 3774627 by
+Output written on thesis_ms_eld895_aryan_ritwajeet_jha.pdf (49 pages, 3778399 by
 tes).
 
-PDF statistics: 738 PDF objects out of 1000 (max. 8388607)
- 162 named destinations out of 1000 (max. 131072)
+PDF statistics: 748 PDF objects out of 1000 (max. 8388607)
+ 165 named destinations out of 1000 (max. 131072)
  96 words of extra memory for PDF output out of 10000 (max. 100000000)
 

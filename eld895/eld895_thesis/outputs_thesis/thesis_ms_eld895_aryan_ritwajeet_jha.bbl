@@ -1138,6 +1138,21 @@
       \verb 2006.05399
       \endverb
     \endentry
+    \entry{zeroCorrelationImpliesIndependenceForGaussianDistribution}{misc}{}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labeltitlesource}{title}
+      \field{month}{12}
+      \field{note}{[Online; accessed 4. Dec. 2022]}
+      \field{title}{{Lectures on Statistics}}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://faculty.math.illinois.edu/~r-ash/Stat.html
+      \endverb
+      \verb{url}
+      \verb https://faculty.math.illinois.edu/~r-ash/Stat.html
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

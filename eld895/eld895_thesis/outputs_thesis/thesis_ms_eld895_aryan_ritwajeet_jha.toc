@@ -8,5 +8,5 @@
 \contentsline {section}{\numberline {7}Future Work}{39}{section.7}%
 \contentsline {section}{\numberline {A}Brownian Motion and the Ornstein-Uhlenbeck Process}{44}{appendix.A}%
 \contentsline {section}{\numberline {B}More Examples for Critical Bifurcation}{45}{appendix.B}%
-\contentsline {section}{\numberline {C}Examples comparing Kendall's $\rho $ Correlation Coefficient with other correlation coefficients}{46}{appendix.C}%
+\contentsline {section}{\numberline {C}A Comparison of select Correlation Coefficients}{46}{appendix.C}%
 \contentsfinish 
