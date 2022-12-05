@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.1 (MiKTeX 22.8.28) (format=lualatex 2022.11.23)  4 DEC 2022 20:43
+This is LuaHBTeX, Version 1.15.1 (MiKTeX 22.8.28) (format=lualatex 2022.11.23)  4 DEC 2022 20:45
  restricted system commands enabled.
 **thesis_ms_eld895_aryan_ritwajeet_jha.tex
 (./thesis_ms_eld895_aryan_ritwajeet_jha.tex
@@ -1973,10 +1973,10 @@ Overfull \hbox (0.31636pt too wide) in paragraph at lines 78--78
 [42
 Missing character: There is no – (U+2013) in font ec-lmr12!
 Missing character: There is no – (U+2013) in font ec-lmr12!
-] [43] (../chapters/Appendix.tex (../appendix/brownianMotionAndOUP.tex)
-[44
+] [43] (../chapters/Appendix.tex (../chapters/appendix/brownianMotionAndOUP.tex
+) [44
 
-] (../appendix/moreExamplesForCSD.tex
+] (../chapters/appendix/moreExamplesForCSD.tex
 (../figures/../figures/bifurcationTranscriticalPdf.pdf_tex
 <../figures/../figures//bifurcationTranscriticalPdf.pdf, id=623, page=1, 219.50
 623pt x 190.54787pt>
@@ -2000,7 +2000,7 @@ ePdf.pdf , page1 used on input line 56.
 
 <../figures/../figures//bifurcationTranscriticalPdf.pdf><../figures/../figures//
 bifurcationTranscriticalNegativePdf.pdf>]
-(../appendix/examplesComparingKTCCWithOtherCCs.tex
+(../chapters/appendix/examplesComparingKTCCWithOtherCCs.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 1.
