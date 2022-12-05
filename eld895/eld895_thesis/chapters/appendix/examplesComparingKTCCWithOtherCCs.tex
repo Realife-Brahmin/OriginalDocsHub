@@ -10,9 +10,17 @@ Pearson's Correlation Coefficient, often denoted using the parameter $\rho$, is 
 	\centering
 	\caption{Interpretation of different values of the Pearson's $\rho$ Correlation Coefficient.}
 	\label{tab:pearsonCorrCoeff01}
+	
 	\begin{tabular}{ccc}
 		\toprule
-		Pearson Corr Coeff $\rho$ & Interpretation & Examples \\
+		\begin{tabular}{l}
+			Pearson's Correlation\\
+			Coefficient $\rho$
+		\end{tabular} & Interpretation & \begin{tabular}{l}
+			Examples of two variables \\
+			specific to Power Systems \\
+			following the relationship
+		\end{tabular}\\ 
 		\midrule
 		$\rho \in (0, 1]$ & 
 		\begin{tabular}{l}
@@ -61,17 +69,45 @@ Pearson's Correlation Coefficient, often denoted using the parameter $\rho$, is 
 		 		\begin{tabular}{c}
 		 			vs
 		 		\end{tabular}\\
-		 		Wattage of end-user electronics.
+		 		Wattage of end-user electronics
 		 	\end{tabular}\\
 		 	\midrule
 		 	\begin{tabular}{l}
-		 		\\
+		 		Nominal Frequency \\
 		 		\begin{tabular}{c}
 		 			vs
 		 		\end{tabular}\\
-		 		Line Losses
+		 		Setting of a Distance Relay
 		 	\end{tabular}
 		 \end{tabular}\\
+	 \midrule
+	 $\rho \in (-1, 0)$ & 
+	 \begin{tabular}{l}
+	 	A negative value of \\
+	 	the correlation coefficient\\
+	 	implies that the\\
+	 	variables change in\\
+	 	opposite `directions'.
+	 \end{tabular} & 
+	 \begin{tabular}{l}
+	 	\begin{tabular}{l}
+	 		Maximum Loadability of a Line\\
+	 		\begin{tabular}{c}
+	 			vs
+	 		\end{tabular}\\
+	 		Line Reactance
+	 	\end{tabular}\\
+	 	\midrule
+	 	\begin{tabular}{l}
+	 		Bus Voltage\\
+	 		\begin{tabular}{c}
+	 			vs
+	 		\end{tabular}\\
+ 			Line current flowing \\
+ 			into that Bus
+	 	\end{tabular}
+	 \end{tabular}\\
+ 	\bottomrule
 	\end{tabular}
 \end{table}
 \subsection*{Spearman's Ranked Correlation Coefficient}

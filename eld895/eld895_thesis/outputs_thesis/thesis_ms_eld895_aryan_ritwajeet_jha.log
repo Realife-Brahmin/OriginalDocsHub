@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.1 (MiKTeX 22.8.28) (format=lualatex 2022.11.23)  4 DEC 2022 21:50
+This is LuaHBTeX, Version 1.15.1 (MiKTeX 22.8.28) (format=lualatex 2022.11.23)  5 DEC 2022 04:01
  restricted system commands enabled.
 **thesis_ms_eld895_aryan_ritwajeet_jha.tex
 (./thesis_ms_eld895_aryan_ritwajeet_jha.tex
@@ -2012,7 +2012,7 @@ ePdf.pdf , page1 used on input line 56.
 <../figures/../figures//bifurcationTranscriticalPdf.pdf><../figures/../figures//
 bifurcationTranscriticalNegativePdf.pdf>]
 (../chapters/appendix/examplesComparingKTCCWithOtherCCs.tex
-Overfull \hbox (7.22365pt too wide) in paragraph at lines 13--76
+Overfull \hbox (20.27837pt too wide) in paragraph at lines 14--112
  [][] 
  []
 
@@ -2060,10 +2060,10 @@ an/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/aryan
 /AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/aryan/
 AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb><C:/Users/aryan/A
 ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on thesis_ms_eld895_aryan_ritwajeet_jha.pdf (49 pages, 3778399 by
+Output written on thesis_ms_eld895_aryan_ritwajeet_jha.pdf (49 pages, 3778971 by
 tes).
 
-PDF statistics: 748 PDF objects out of 1000 (max. 8388607)
+PDF statistics: 749 PDF objects out of 1000 (max. 8388607)
  165 named destinations out of 1000 (max. 131072)
  96 words of extra memory for PDF output out of 10000 (max. 100000000)
 
