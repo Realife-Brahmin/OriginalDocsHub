@@ -1,8 +1,8 @@
-\section{A Comparison of select Correlation Coefficients}
+\section{A Comparison of Select Correlation Coefficients}
 
 \subsection*{Pearson's Correlation Coefficient}
 
-Pearson's Correlation Coefficient, often denoted using the parameter $\rho$, is one of the go-to methods for computing the degree of correspondence between two datasets or time-series, etc. The value of $\rho$ varies between positive and negative unity, i.e. $-1 \leq \rho \leq +1$, where the more the value is skewed towards either extreme end, the more correlated the two datasets or time-series are. The sign determines if the correlation is positive or negative. A value of $\rho$ closer to $0$ implies little to no correlation between the two variables.
+Pearson's Correlation Coefficient \cite{pearsonCorrCoeff}, often denoted using the parameter $\rho$, is one of the go-to methods for computing the degree of correspondence between two datasets or time-series, etc. The value of $\rho$ varies between positive and negative unity, i.e. $-1 \leq \rho \leq +1$, where the more the value is skewed towards either extreme end, the more correlated the two datasets or time-series are. The sign determines if the correlation is positive or negative. A value of $\rho$ closer to $0$ implies little to no correlation between the two variables. The statistic, like most other correlation coefficients, is often employed to test for hypothesis testing for any significant relationship between two dataset variables.
 
 \Cref{tab:pearsonCorrCoeff01} gives a quick overview of this correlation coefficient.
 
@@ -81,7 +81,7 @@ Pearson's Correlation Coefficient, often denoted using the parameter $\rho$, is 
 		 	\end{tabular}
 		 \end{tabular}\\
 	 \midrule
-	 $\rho \in (-1, 0)$ & 
+	 $\rho \in [-1, 0)$ & 
 	 \begin{tabular}{l}
 	 	A negative value of \\
 	 	the correlation coefficient\\
@@ -91,11 +91,11 @@ Pearson's Correlation Coefficient, often denoted using the parameter $\rho$, is 
 	 \end{tabular} & 
 	 \begin{tabular}{l}
 	 	\begin{tabular}{l}
-	 		Maximum Loadability of a Line\\
+	 		Critical Clearing angle for a fault\\
 	 		\begin{tabular}{c}
 	 			vs
 	 		\end{tabular}\\
-	 		Line Reactance
+	 		Maximum Loadability of a Line
 	 	\end{tabular}\\
 	 	\midrule
 	 	\begin{tabular}{l}
@@ -110,6 +110,16 @@ Pearson's Correlation Coefficient, often denoted using the parameter $\rho$, is 
  	\bottomrule
 	\end{tabular}
 \end{table}
+
+\begin{figure}[!ht]
+	\centering
+	\scalebox{0.5}{\import{../figures/}{pearsonCC01.pdf_tex}}
+	\quad
+	\scalebox{0.5}{\import{../figures/}{pearsonCC01.pdf_tex}}
+	\caption{Pearson's Correlation Coefficient for different plots of two variables}
+	\label{fig:pearsonCC}
+\end{figure}
+
 \subsection*{Spearman's Ranked Correlation Coefficient}
 
 \subsection*{Kendall's Correlation Coefficient}

@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.1 (MiKTeX 22.8.28) (format=lualatex 2022.11.23)  5 DEC 2022 04:01
+This is LuaHBTeX, Version 1.15.1 (MiKTeX 22.8.28) (format=lualatex 2022.11.23)  5 DEC 2022 15:44
  restricted system commands enabled.
 **thesis_ms_eld895_aryan_ritwajeet_jha.tex
 (./thesis_ms_eld895_aryan_ritwajeet_jha.tex
@@ -1989,7 +1989,7 @@ Missing character: There is no – (U+2013) in font ec-lmr12!
 
 ] (../chapters/appendix/moreExamplesForCSD.tex
 (../figures/../figures/bifurcationTranscriticalPdf.pdf_tex
-<../figures/../figures//bifurcationTranscriticalPdf.pdf, id=625, page=1, 219.50
+<../figures/../figures//bifurcationTranscriticalPdf.pdf, id=628, page=1, 219.50
 623pt x 190.54787pt>
 File: ../figures/../figures//bifurcationTranscriticalPdf.pdf Graphic file (type
  pdf)
@@ -1999,7 +1999,7 @@ Package luatex.def Info: ../figures/../figures//bifurcationTranscriticalPdf.pdf
 (luatex.def)             Requested size: 219.03033pt x 190.1374pt.
 )
 (../figures/../figures/bifurcationTranscriticalNegativePdf.pdf_tex
-<../figures/../figures//bifurcationTranscriticalNegativePdf.pdf, id=626, page=1
+<../figures/../figures//bifurcationTranscriticalNegativePdf.pdf, id=629, page=1
 , 219.50623pt x 190.54787pt>
 File: ../figures/../figures//bifurcationTranscriticalNegativePdf.pdf Graphic fi
 le (type pdf)
@@ -2012,16 +2012,45 @@ ePdf.pdf , page1 used on input line 56.
 <../figures/../figures//bifurcationTranscriticalPdf.pdf><../figures/../figures//
 bifurcationTranscriticalNegativePdf.pdf>]
 (../chapters/appendix/examplesComparingKTCCWithOtherCCs.tex
-Overfull \hbox (20.27837pt too wide) in paragraph at lines 14--112
+Overfull \hbox (28.44421pt too wide) in paragraph at lines 14--112
  [][] 
  []
 
-)) [46
+(../figures/../figures/pearsonCC01.pdf_tex
+<../figures/../figures//pearsonCC01.pdf, id=674, page=1, 485.66528pt x 403.9186
+7pt>
+File: ../figures/../figures//pearsonCC01.pdf Graphic file (type pdf)
+<use ../figures/../figures//pearsonCC01.pdf, page 1>
+Package luatex.def Info: ../figures/../figures//pearsonCC01.pdf , page1 used on
+ input line 56.
+(luatex.def)             Requested size: 485.66528pt x 403.92381pt.
+<../figures/../figures//pearsonCC01.pdf, id=675, page=2, 485.66528pt x 403.9186
+7pt>
+File: ../figures/../figures//pearsonCC01.pdf Graphic file (type pdf)
+<use ../figures/../figures//pearsonCC01.pdf, page 2>
+Package luatex.def Info: ../figures/../figures//pearsonCC01.pdf , page2 used on
+ input line 61.
+(luatex.def)             Requested size: 485.66528pt x 403.92381pt.
+)
+(../figures/../figures/pearsonCC01.pdf_tex
+File: ../figures/../figures//pearsonCC01.pdf Graphic file (type pdf)
+<use ../figures/../figures//pearsonCC01.pdf, page 1>
+Package luatex.def Info: ../figures/../figures//pearsonCC01.pdf , page1 used on
+ input line 56.
+(luatex.def)             Requested size: 485.66528pt x 403.92381pt.
+File: ../figures/../figures//pearsonCC01.pdf Graphic file (type pdf)
+<use ../figures/../figures//pearsonCC01.pdf, page 2>
+Package luatex.def Info: ../figures/../figures//pearsonCC01.pdf , page2 used on
+ input line 61.
+(luatex.def)             Requested size: 485.66528pt x 403.92381pt.
+))) [46
 
-] [47] (./thesis_ms_eld895_aryan_ritwajeet_jha.aux)
+] [47] [48<../figures/../figures//pearsonCC01.pdf><../figures/../figures//pearso
+nCC01.pdf>]
+(./thesis_ms_eld895_aryan_ritwajeet_jha.aux)
 Package rerunfilecheck Info: File `thesis_ms_eld895_aryan_ritwajeet_jha.out' ha
 s not changed.
-(rerunfilecheck)             Checksum: 76BB09DE5B14D404CD82124EDC8A7AEB;1789.
+(rerunfilecheck)             Checksum: D64F3D837670AA6027DC86BDC64F2933;1789.
 Package logreq Info: Writing requests to 'thesis_ms_eld895_aryan_ritwajeet_jha.
 run.xml'.
 
@@ -2029,15 +2058,15 @@ run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 48044 strings out of 477356
+ 48132 strings out of 477356
  125123,1977958 words of node,token memory allocated
- 1300 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 211 attribute, 67 glue_spe
-c, 107 attribute_list, 2 write, 21 pdf_action nodes
-   avail lists: 1:2,2:7200,3:2264,4:92,5:474,6:42,7:9465,8:142,9:1309,10:29,11:5
+ 1312 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 213 attribute, 67 glue_spe
+c, 108 attribute_list, 2 write, 22 pdf_action nodes
+   avail lists: 1:2,2:7198,3:2264,4:92,5:475,6:41,7:9465,8:142,9:1309,10:29,11:5
 95
- 66963 multiletter control sequences out of 65536+600000
- 52 fonts using 3264927 bytes
+ 67000 multiletter control sequences out of 65536+600000
+ 71 fonts using 4464159 bytes
  99i,26n,98p,1563b,2335s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/U
 sers/aryan/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Users
@@ -2049,21 +2078,23 @@ amsfonts/cm/cmmi6.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/
 public/amsfonts/cm/cmmi8.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts
 /type1/public/amsfonts/cm/cmr10.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTe
 X/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/aryan/AppData/Local/Program
-s/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/aryan/AppData/Local/P
-rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/aryan/AppData/L
-ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/aryan/A
-ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/
-aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/a
-ryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/a
-ryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/ary
-an/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/aryan
-/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/aryan/
-AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb><C:/Users/aryan/A
-ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on thesis_ms_eld895_aryan_ritwajeet_jha.pdf (49 pages, 3778971 by
+s/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/aryan/AppData/Local/
+Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/aryan/AppData/
+Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/aryan/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/
+aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:
+/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/
+Users/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/
+Users/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Us
+ers/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/User
+s/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users
+/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb><C:/Users/
+aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.p
+fb>
+Output written on thesis_ms_eld895_aryan_ritwajeet_jha.pdf (50 pages, 3792711 by
 tes).
 
-PDF statistics: 749 PDF objects out of 1000 (max. 8388607)
- 165 named destinations out of 1000 (max. 131072)
+PDF statistics: 764 PDF objects out of 1000 (max. 8388607)
+ 168 named destinations out of 1000 (max. 131072)
  96 words of extra memory for PDF output out of 10000 (max. 100000000)
 

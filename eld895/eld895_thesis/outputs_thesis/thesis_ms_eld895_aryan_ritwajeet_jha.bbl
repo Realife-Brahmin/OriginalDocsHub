@@ -1138,9 +1138,38 @@
       \verb 2006.05399
       \endverb
     \endentry
-    \entry{zeroCorrelationImpliesIndependenceForGaussianDistribution}{misc}{}
+    \entry{pearsonCorrCoeff}{article}{}
+      \name{author}{1}{}{%
+        {{hash=10d280e447337cab390f277fff07c7c9}{%
+           family={Turney},
+           familyi={T\bibinitperiod},
+           given={Shaun},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{10d280e447337cab390f277fff07c7c9}
+      \strng{fullhash}{10d280e447337cab390f277fff07c7c9}
+      \strng{bibnamehash}{10d280e447337cab390f277fff07c7c9}
+      \strng{authorbibnamehash}{10d280e447337cab390f277fff07c7c9}
+      \strng{authornamehash}{10d280e447337cab390f277fff07c7c9}
+      \strng{authorfullhash}{10d280e447337cab390f277fff07c7c9}
       \field{sortinit}{3}
       \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scribbr}
+      \field{month}{9}
+      \field{title}{{Pearson Correlation Coefficient (r) {$\vert$} Guide {\&} Examples}}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.scribbr.com/statistics/pearson-correlation-coefficient
+      \endverb
+      \verb{url}
+      \verb https://www.scribbr.com/statistics/pearson-correlation-coefficient
+      \endverb
+    \endentry
+    \entry{zeroCorrelationImpliesIndependenceForGaussianDistribution}{misc}{}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labeltitlesource}{title}
       \field{month}{12}
       \field{note}{[Online; accessed 4. Dec. 2022]}
