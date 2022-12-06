@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.1 (MiKTeX 22.8.28) (format=lualatex 2022.11.23)  5 DEC 2022 21:11
+This is LuaHBTeX, Version 1.15.1 (MiKTeX 22.8.28) (format=lualatex 2022.11.23)  5 DEC 2022 21:19
  restricted system commands enabled.
 **thesis_ms_eld895_aryan_ritwajeet_jha.tex
 (./thesis_ms_eld895_aryan_ritwajeet_jha.tex
@@ -2079,14 +2079,23 @@ File: ../figures/../figures//pearsonCC04.pdf Graphic file (type pdf)
 Package luatex.def Info: ../figures/../figures//pearsonCC04.pdf , page2 used on
  input line 61.
 (luatex.def)             Requested size: 548.68938pt x 403.91766pt.
+)
+(../figures/../figures/pearsonCC05.pdf_tex
+<../figures/../figures//pearsonCC05.pdf, id=682, page=1, 446.68251pt x 403.9186
+7pt>
+File: ../figures/../figures//pearsonCC05.pdf Graphic file (type pdf)
+<use ../figures/../figures//pearsonCC05.pdf, page 1>
+Package luatex.def Info: ../figures/../figures//pearsonCC05.pdf , page1 used on
+ input line 56.
+(luatex.def)             Requested size: 446.6825pt x 403.93614pt.
 ))) [46
 
 ] [47] [48<../figures/../figures//pearsonCC01.pdf><../figures/../figures//pearso
 nCC01.pdf><../figures/../figures//pearsonCC02.pdf><../figures/../figures//pearso
 nCC02.pdf><../figures/../figures//pearsonCC03.pdf><../figures/../figures//pearso
 nCC03.pdf><../figures/../figures//pearsonCC04.pdf><../figures/../figures//pearso
-nCC04.pdf>]
-(./thesis_ms_eld895_aryan_ritwajeet_jha.aux)
+nCC04.pdf><../figures/../figures//pearsonCC05.pdf>] (./thesis_ms_eld895_aryan_r
+itwajeet_jha.aux)
 Package rerunfilecheck Info: File `thesis_ms_eld895_aryan_ritwajeet_jha.out' ha
 s not changed.
 (rerunfilecheck)             Checksum: D64F3D837670AA6027DC86BDC64F2933;1789.
@@ -2097,14 +2106,14 @@ run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 48219 strings out of 477356
+ 48247 strings out of 477356
  125123,1977958 words of node,token memory allocated
  1312 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 213 attribute, 67 glue_spe
 c, 108 attribute_list, 2 write, 22 pdf_action nodes
-   avail lists: 1:2,2:7198,3:2264,4:96,5:475,6:41,7:9465,8:142,9:1309,10:29,11:5
-95
- 67039 multiletter control sequences out of 65536+600000
+   avail lists: 1:2,2:7198,3:2264,4:116,5:475,6:42,7:9465,8:142,9:1309,10:29,11:
+595
+ 67049 multiletter control sequences out of 65536+600000
  71 fonts using 4464159 bytes
  99i,26n,98p,1563b,2335s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/U
@@ -2130,10 +2139,10 @@ s/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users
 /aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb><C:/Users/
 aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.p
 fb>
-Output written on thesis_ms_eld895_aryan_ritwajeet_jha.pdf (50 pages, 3802312 by
+Output written on thesis_ms_eld895_aryan_ritwajeet_jha.pdf (50 pages, 3804802 by
 tes).
 
-PDF statistics: 770 PDF objects out of 1000 (max. 8388607)
+PDF statistics: 771 PDF objects out of 1000 (max. 8388607)
  168 named destinations out of 1000 (max. 131072)
  96 words of extra memory for PDF output out of 10000 (max. 100000000)
 
