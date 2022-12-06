@@ -1,6 +1,6 @@
 %% Creator: Inkscape 1.2 (dc2aedaf03, 2022-05-15), www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
-%% Accompanies image file 'pearsonCC01.pdf' (pdf, eps, ps)
+%% Accompanies image file 'pearsonCC03.pdf' (pdf, eps, ps)
 %%
 %% To include the image in your LaTeX document, write
 %%   \input{<filename>.pdf_tex}
@@ -38,7 +38,7 @@
   \newcommand*\fsize{\dimexpr\f@size pt\relax}%
   \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{562.92006993bp}%
+    \setlength{\unitlength}{536.62345013bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,14 +50,14 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.71611847)%
+  \begin{picture}(1,0.749892)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
-    \put(0,0){\includegraphics[width=\unitlength,page=1]{pearsonCC01.pdf}}%
-    \put(0.64980599,0.05684495){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{\huge{$x$}}\end{tabular}}}}%
-    \put(0.04446654,0.55993666){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{\huge{$y$}}\end{tabular}}}}%
-    \put(0.28069599,0.67090089){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{\huge{$0 \leq \rho \leq 0.5$}}\end{tabular}}}}%
-    \put(0.33390732,0.54854277){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{\huge{Best fit line}}\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=2]{pearsonCC01.pdf}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{pearsonCC03.pdf}}%
+    \put(0.681649,0.05963058){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{\huge{$x$}}\end{tabular}}}}%
+    \put(0.04664557,0.58737572){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{\huge{$y$}}\end{tabular}}}}%
+    \put(0.22678249,0.69467396){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{\huge{$-0.5 \leq \rho \leq 0$}}\end{tabular}}}}%
+    \put(0.35027007,0.57542348){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{\huge{Best fit line}}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{pearsonCC03.pdf}}%
   \end{picture}%
 \endgroup%
