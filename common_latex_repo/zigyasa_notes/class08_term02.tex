@@ -1,21 +1,38 @@
 \documentclass{article}
 \usepackage{amsmath,amssymb, amsthm}
 \begin{document}
-	\begin{align}
-		\intertext{Distance between Solwezi and Lusaka:}
-		distance &= 1500km \\
-		\intertext{Given, the relation between miles and kilometer is:}
-		mile &= 1.61km \\
-		distance\_in\_miles &= distance/miles
-		%LHS &= (2x+5y)^2 - (2x-5y)^2 \\
-		%\text{or, } LHS &= \{(2x+5y) + (2x-5y)\}\{(2x+5y) - (2x-5y)\} \\
-		%\text{or, } LHS &= \{(4x)\}\{(10y)\}\\
-		%\text{or, } LHS &= 20xy
-		\intertext{Compound amount earned by $A$ after $t=2$ years is equal to the Compound amount earned by $B$ after $t=3$ years.}
-		x\left(1+\frac{4}{100}\right)^2 &= (81600-x)\left(1 + \frac{4}{100}\right)^3 \nonumber\\
-		\text{or, } x &= (81600 - x)(1.04) \nonumber\\
-		\text{or, } x(1+1.04) &= 81600(1.04) \nonumber\\
-		\text{or, } x &= \frac{81600*1.04}{2.04} \nonumber\\
-		\text{or, } x &= 41600 \nonumber		
-	\end{align}
+%	\begin{align}
+%		\intertext{Distance between Solwezi and Lusaka:}
+%		distance &= 1500km \\
+%		\intertext{Given, the relation between miles and kilometer is:}
+%		mile &= 1.61km \\
+%		distance\_in\_miles &= distance/miles
+%		%LHS &= (2x+5y)^2 - (2x-5y)^2 \\
+%		%\text{or, } LHS &= \{(2x+5y) + (2x-5y)\}\{(2x+5y) - (2x-5y)\} \\
+%		%\text{or, } LHS &= \{(4x)\}\{(10y)\}\\
+%		%\text{or, } LHS &= 20xy
+%		\intertext{Compound amount earned by $A$ after $t=2$ years is equal to the Compound amount earned by $B$ after $t=3$ years.}
+%		x\left(1+\frac{4}{100}\right)^2 &= (81600-x)\left(1 + \frac{4}{100}\right)^3 \nonumber\\
+%		\text{or, } x &= (81600 - x)(1.04) \nonumber\\
+%		\text{or, } x(1+1.04) &= 81600(1.04) \nonumber\\
+%		\text{or, } x &= \frac{81600*1.04}{2.04} \nonumber\\
+%		\text{or, } x &= 41600 \nonumber		
+%	\end{align}
+
+\section{Question 01}
+Prove that if $a, b \text{ and } c$ form a Pythagorean triplet i.e. $a^2 + b^2 = c^2$, then $ka, kb \text{ and } kc$ also form a Pythagorean triplet where $k$ is a real positive constant.
+
+\begin{align}
+	\intertext{Given, } a^2+ b^2 = c^2 \label{eq:given01}\\
+	\intertext{To prove that:}
+	(ka)^2 + (kb)^2 = (kc)^2 \label{eq:tpt01}
+	\intertext{Starting with the LHS of \ref{eq:tpt01}:}
+	LHS = (ka)^2 + (kb)^2 \nonumber\\
+	\text{or, } LHS = k^2 a^2 + k^2 b^2 \nonumber\\
+	\text{or, } LHS = k^2(a^2 + b^2) \nonumber\\
+	\intertext{But from \ref{eq:given01}, we know that} a^2 + b^2 = c^2 \nonumber\\
+	\text{which makes } LHS = k^2c^2 \nonumber
+	\intertext{which is what we set out to prove.}
+	\intertext{Therefore if $a, b, \text{ and } c$ form a Pythagorean triplet then so do $ka, kb \text{ and } kc$. Hence Proved.}  	
+\end{align}
 \end{document}
