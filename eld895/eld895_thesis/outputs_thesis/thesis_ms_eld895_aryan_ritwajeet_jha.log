@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.1 (MiKTeX 22.8.28) (format=lualatex 2022.11.23)  9 DEC 2022 21:40
+This is LuaHBTeX, Version 1.15.1 (MiKTeX 22.8.28) (format=lualatex 2022.11.23)  28 DEC 2022 13:24
  restricted system commands enabled.
 **thesis_ms_eld895_aryan_ritwajeet_jha.tex
 (./thesis_ms_eld895_aryan_ritwajeet_jha.tex
@@ -1378,32 +1378,32 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (./thesis_ms_eld895_aryan_ritwajeet_jha.aux)
 \openout1 = thesis_ms_eld895_aryan_ritwajeet_jha.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 53.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 54.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 5
-3.
+4.
 
 (C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
@@ -1485,9 +1485,9 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'thesis_ms_eld895_aryan_ritwajeet_jha.bbl' foun
 d.
  (./thesis_ms_eld895_aryan_ritwajeet_jha.bbl)
-Package biblatex Info: Reference section=0 on input line 53.
-Package biblatex Info: Reference segment=0 on input line 53.
-Package hyperref Info: Link coloring OFF on input line 53.
+Package biblatex Info: Reference section=0 on input line 54.
+Package biblatex Info: Reference segment=0 on input line 54.
+Package hyperref Info: Link coloring OFF on input line 54.
 
 (./thesis_ms_eld895_aryan_ritwajeet_jha.out)
 (./thesis_ms_eld895_aryan_ritwajeet_jha.out)
@@ -1499,12 +1499,12 @@ Package hyperref Info: Link coloring OFF on input line 53.
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into 
 your preamble.
- on input line 53.
+ on input line 54.
 
 <iitd_logo.png, id=46, 2007.5pt x 2007.5pt>
 File: iitd_logo.png Graphic file (type png)
 <use iitd_logo.png>
-Package luatex.def Info: iitd_logo.png  used on input line 56.
+Package luatex.def Info: iitd_logo.png  used on input line 57.
 (luatex.def)             Requested size: 108.37581pt x 108.37581pt.
 [0
 
@@ -1976,7 +1976,7 @@ ktcc_var_run02.png>]) [36
 ] [40
 
 ] [41]
-Overfull \hbox (0.31636pt too wide) in paragraph at lines 78--78
+Overfull \hbox (0.31636pt too wide) in paragraph at lines 79--79
 \T1/lmr/m/n/12 fast–slow sys-tems and stochas-tic dy-nam-ics''. In: \T1/lmr/m
 /it/12 Phys-ica D \T1/lmr/m/n/12 240.12 (June 2011), pp. 1020
  []
@@ -2139,7 +2139,7 @@ s/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users
 /aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb><C:/Users/
 aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.p
 fb>
-Output written on thesis_ms_eld895_aryan_ritwajeet_jha.pdf (50 pages, 3804802 by
+Output written on thesis_ms_eld895_aryan_ritwajeet_jha.pdf (50 pages, 3804806 by
 tes).
 
 PDF statistics: 771 PDF objects out of 1000 (max. 8388607)
