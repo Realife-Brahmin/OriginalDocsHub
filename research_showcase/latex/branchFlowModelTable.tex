@@ -92,6 +92,21 @@
 
 
 	\section{Radial Distribution Load Flow Using Conic Programming}
+	
+	All equations are for power flow from bus $i$ to $k$:
+	
+	\begin{align}
+		P_{ik} &= G_{ik}|V_i|^2 - G_{ik}|V_i||V_k|cos(\theta_{ik}) + B_{ik}|V_i||V_k|sin(\theta_{ik}) \\
+		Q_{ik} &= B_{ik}|V_i|^2 - B_{ik}|V_i||V_k|cos(\theta_{ik}) - G_{ik}|V_i||V_k|sin(\theta_{ik}) \\[10pt]
+		u_i &= \frac{|V_i|^2}{\sqrt{2}} \nonumber\\[10pt]
+		R_{ik} &= |V_i||V_k|cos(\theta_{ik}) \nonumber\\
+		I_{ik} &= |V_i||V_k|sin(\theta_{ik}) \nonumber\\[10pt]
+		P_{ik} &= \sqrt{2}G_{ik}u_i - G_{ik}R_{ik} + B_{ik}I_{ik} \\
+		Q_{ik} &= \sqrt{2}B_{ik}u_i - B_{ik}R_{ik} + G_{ik}I_{ik} \\
+		R_{ik}^2 + I_{ik}^2 &= 2u_iu_k
+	\end{align} 
+
+	Ignore Table below for now.
 	\begin{table}[!ht]
 		\centering
 		\hspace*{-2cm}
@@ -99,7 +114,7 @@
 			\toprule
 			Equation \# & Equation & Unknowns & Knowns & No. of Equations \\
 			\midrule
-			13 & $p_j = \Sigma P_{jk} + \Sigma (P_{ij} - r_{ij}l_{ij}) + g_jv_j$ & \begin{tabular}{c}
+			6 & $p_{Li} = \Sigma G_{jk} + \Sigma (P_{ij} - r_{ij}l_{ij}) + g_jv_j$ & \begin{tabular}{c}
 				$1 \times p_0$ \\
 				$m \times P_{ij}$ \\
 				$m \times l_{ij}$ \\
@@ -112,7 +127,7 @@
 				$1 \times v_0$
 			\end{tabular} & $(n+1)$ \\
 			\midrule
-			14 & $q_j = \Sigma Q_{jk} + \Sigma (Q_{ij} - x_{ij}l_{ij}) + b_jv_j$ & \begin{tabular}{c}
+			7 & $q_j = \Sigma Q_{jk} + \Sigma (Q_{ij} - x_{ij}l_{ij}) + b_jv_j$ & \begin{tabular}{c}
 				$1 \times q_0$ \\
 				$m \times Q_{ij}$ \\
 				$m \times l_{ij}$ \\
@@ -125,7 +140,7 @@
 				$1 \times v_0$
 			\end{tabular} & $(n+1)$ \\
 			\midrule
-			15 & $v_j = v_{i} +  (r_{ij}^2 + x_{ij}^2)l_{ij} - 2(r_{ij}P_{ij} + x_{ij}Q_{ij})$ & \begin{tabular}{c}
+			5 & $v_j = v_{i} +  (r_{ij}^2 + x_{ij}^2)l_{ij} - 2(r_{ij}P_{ij} + x_{ij}Q_{ij})$ & \begin{tabular}{c}
 				$m \times P_{ij}$ \\
 				$m \times Q_{ij}$ \\
 				$m \times l_{ij}$ \\
@@ -137,17 +152,7 @@
 				$1 \times v_0$
 			\end{tabular} & $m$ \\
 			\midrule
-			16 & $l_{ij} = \frac{P_{ij}^2 + Q_{ij}^2}{v_j}$ & \begin{tabular}{c}
-				$m \times P_{ij}$ \\
-				$m \times Q_{ij}$ \\
-				$m \times l_{ij}$ \\
-				$n \times v_j$
-			\end{tabular} & 
-			\begin{tabular}{c}
-				$1 \times v_0$
-			\end{tabular} & $m$ \\
-			\midrule
-			13 to 16 & {} & \begin{tabular}{c}
+			5 to 7 & {} & \begin{tabular}{c}
 				$1 \times p_0$ \\
 				$1 \times q_0$ \\
 				$m \times P_{ij}$ \\
