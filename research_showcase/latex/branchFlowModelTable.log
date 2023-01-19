@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.1 (MiKTeX 22.8.28) (format=lualatex 2022.11.23)  17 JAN 2023 11:12
+This is LuaHBTeX, Version 1.15.1 (MiKTeX 22.8.28) (format=lualatex 2022.11.23)  18 JAN 2023 16:14
  restricted system commands enabled.
 **branchFlowModelTable.tex
 (./branchFlowModelTable.tex
@@ -272,8 +272,13 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 13.
 (C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (140.68057pt too wide) in paragraph at lines 16--69
- [][] 
+Overfull \hbox (95.0512pt too wide) in paragraph at lines 18--91
+ []|  [] 
+ []
+
+
+Overfull \hbox (95.0512pt too wide) in paragraph at lines 97--170
+ []|  [] 
  []
 
 [1
@@ -282,15 +287,15 @@ Overfull \hbox (140.68057pt too wide) in paragraph at lines 16--69
 (./branchFlowModelTable.aux))
 
 Here is how much of LuaTeX's memory you used:
- 3069 strings out of 477356
+ 3071 strings out of 477356
  100000,460012 words of node,token memory allocated
- 483 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 7 attribute, 51 glue_spec,
+ 488 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 7 attribute, 52 glue_spec,
  7 attribute_list, 1 write nodes
-   avail lists: 2:518,3:51,4:7,5:100,6:7,7:1779,8:34,9:458,10:6,11:24
- 24092 multiletter control sequences out of 65536+600000
- 54 fonts using 3204447 bytes
- 55i,16n,59p,210b,282s stack positions out of 10000i,1000n,20000p,200000b,80000s
+   avail lists: 2:1323,3:67,4:7,5:186,6:12,7:4178,8:34,9:930,10:6,11:53
+ 24094 multiletter control sequences out of 65536+600000
+ 56 fonts using 3369871 bytes
+ 55i,16n,59p,210b,290s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}<C:/U
 sers/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.p
 fb><C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
@@ -300,12 +305,13 @@ c/amsfonts/cm/cmr10.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/type
 1/public/amsfonts/cm/cmr5.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX/font
 s/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTe
 X/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/aryan/AppData/Local/Progra
-ms/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/aryan/AppData/Local/Programs
-/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/aryan/AppData/Local/Programs/M
-iKTeX/fonts/type1/public/lm/lmr17.pfb>
-Output written on branchFlowModelTable.pdf (2 pages, 138642 bytes).
+ms/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/aryan/AppData/Local/Program
+s/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/aryan/AppData/Local/Programs/
+MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/aryan/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/lm/lmr17.pfb>
+Output written on branchFlowModelTable.pdf (2 pages, 168477 bytes).
 
-PDF statistics: 50 PDF objects out of 1000 (max. 8388607)
+PDF statistics: 54 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 
