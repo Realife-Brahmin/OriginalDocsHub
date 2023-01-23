@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.1 (MiKTeX 22.8.28) (format=lualatex 2022.11.23)  23 JAN 2023 00:45
+This is LuaHBTeX, Version 1.15.1 (MiKTeX 22.8.28) (format=lualatex 2022.11.23)  23 JAN 2023 09:24
  restricted system commands enabled.
 **branchFlowModelTable.tex
 (./branchFlowModelTable.tex
@@ -272,45 +272,70 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 13.
 (C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (95.0512pt too wide) in paragraph at lines 18--91
- []|  [] 
- []
+(./branchFlowModelTable.toc)
+\tf@toc=\write3
 
-[1
+\openout3 = branchFlowModelTable.toc
+ [1
 
 {C:/Users/aryan/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-Overfull \hbox (74.46428pt too wide) in paragraph at lines 112--172
+Overfull \hbox (95.0512pt too wide) in paragraph at lines 22--95
  []|  [] 
  []
 
-[2] (./branchFlowModelTable.aux))
+[2
+
+]
+Overfull \hbox (74.46428pt too wide) in paragraph at lines 115--175
+ []|  [] 
+ []
+
+
+Overfull \hbox (10.35585pt too wide) detected at line 187
+[]
+ []
+
+[3
+
+] [4]
+Underfull \hbox (badness 10000) in paragraph at lines 191--192
+
+ []
+
+[5
+
+] (./branchFlowModelTable.aux))
 
 Here is how much of LuaTeX's memory you used:
- 3071 strings out of 477356
+ 3088 strings out of 477356
  100000,460012 words of node,token memory allocated
  497 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 7 attribute, 52 glue_spec,
  7 attribute_list, 1 write nodes
-   avail lists: 2:805,3:62,4:7,5:374,6:13,7:3306,8:45,9:936,10:6,11:50
- 24094 multiletter control sequences out of 65536+600000
- 56 fonts using 3369871 bytes
- 55i,16n,59p,210b,290s stack positions out of 10000i,1000n,20000p,200000b,80000s
+   avail lists: 2:1048,3:63,4:7,5:427,6:16,7:3561,8:45,9:1124,10:6,11:60
+ 24102 multiletter control sequences out of 65536+600000
+ 60 fonts using 3700591 bytes
+ 55i,16n,59p,210b,298s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}<C:/U
 sers/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.p
 fb><C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmmi5.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
-nts/cm/cmmi7.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/publi
-c/amsfonts/cm/cmr10.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/type
-1/public/amsfonts/cm/cmr5.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX/font
-s/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTe
-X/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/aryan/AppData/Local/Progra
-ms/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/aryan/AppData/Local/Program
-s/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/aryan/AppData/Local/Programs/
-MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/aryan/AppData/Local/Programs/Mi
-KTeX/fonts/type1/public/lm/lmr17.pfb>
-Output written on branchFlowModelTable.pdf (2 pages, 176818 bytes).
+cmmi12.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
+onts/cm/cmmi5.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmmi7.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmmi8.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/aryan/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/aryan/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/aryan/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/aryan/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/arya
+n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/aryan
+/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/aryan/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/aryan/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/aryan/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb>
+Output written on branchFlowModelTable.pdf (5 pages, 234721 bytes).
 
-PDF statistics: 54 PDF objects out of 1000 (max. 8388607)
+PDF statistics: 79 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 
