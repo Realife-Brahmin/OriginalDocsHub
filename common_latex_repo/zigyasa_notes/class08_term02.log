@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.1 (MiKTeX 22.8.28) (format=lualatex 2022.11.23)  22 DEC 2022 10:41
+This is LuaHBTeX, Version 1.15.1 (MiKTeX 22.8.28) (format=lualatex 2022.11.23)  5 FEB 2023 20:09
  restricted system commands enabled.
 **class08_term02.tex
 (./class08_term02.tex
@@ -155,6 +155,10 @@ Package: amsthm 2020/05/29 v2.20.6
 \thm@headsep=\skip54
 \dth@everypar=\toks26
 )
+(C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/cleveref/cleveref.sty
+Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
+Package cleveref Info: `amsthm' support loaded on input line 3026.
+)
 (C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-lua
 tex.def
 File: l3backend-luatex.def 2022-08-30 L3 backend support: PDF output (LuaTeX)
@@ -163,64 +167,71 @@ File: l3backend-luatex.def 2022-08-30 L3 backend support: PDF output (LuaTeX)
 ) (./class08_term02.aux)
 \openout1 = class08_term02.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 3.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 3
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 8
 .
 
 (C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 23.
-
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 9.
 
 (C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 23.
-
+LaTeX Font Info:    Trying to load font information for U+msb on input line 9.
 
 (C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 [1
 
-{C:/Users/aryan/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+{C:/Users/aryan/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2]
 (./class08_term02.aux))
 
 Here is how much of LuaTeX's memory you used:
- 1871 strings out of 477356
- 100000,383344 words of node,token memory allocated
- 497 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 7 attribute, 52 glue_spec,
- 7 attribute_list, 1 write nodes
-   avail lists: 2:271,3:80,4:2,5:144,6:18,7:1366,8:16,9:364,10:1,11:12
- 22994 multiletter control sequences out of 65536+600000
- 37 fonts using 2366671 bytes
- 54i,10n,59p,278b,150s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 3574 strings out of 477356
+ 100000,460012 words of node,token memory allocated
+ 550 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 19 attribute, 53 glue_spec
+, 19 attribute_list, 1 write nodes
+   avail lists: 2:611,3:88,4:9,5:250,6:18,7:3315,8:30,9:866,10:7,11:140
+ 24686 multiletter control sequences out of 65536+600000
+ 58 fonts using 3878287 bytes
+ 54i,12n,59p,550b,213s stack positions out of 10000i,1000n,20000p,200000b,80000s
 <//?/c:/users/aryan/appdata/local/programs/miktex/fonts/opentype/public/lm/lmrom
-an10-regular.otf><//?/c:/users/aryan/appdata/local/programs/miktex/fonts/opentyp
-e/public/lm/lmroman12-bold.otf><C:/Users/aryan/AppData/Local/Programs/MiKTeX/fon
-ts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/aryan/AppData/Local/Programs/Mi
-KTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/aryan/AppData/Local/Prog
-rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb>
-Output written on class08_term02.pdf (1 page, 35961 bytes).
+an7-regular.otf><//?/c:/users/aryan/appdata/local/programs/miktex/fonts/opentype
+/public/lm/lmroman10-italic.otf><//?/c:/users/aryan/appdata/local/programs/mikte
+x/fonts/opentype/public/lm/lmroman10-regular.otf><//?/c:/users/aryan/appdata/loc
+al/programs/miktex/fonts/opentype/public/lm/lmroman12-bold.otf><//?/c:/users/ary
+an/appdata/local/programs/miktex/fonts/opentype/public/lm/lmroman12-regular.otf>
+<//?/c:/users/aryan/appdata/local/programs/miktex/fonts/opentype/public/lm/lmrom
+an17-regular.otf><C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmex10.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmmi10.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/aryan/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/aryan/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/aryan/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/aryan/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on class08_term02.pdf (2 pages, 93127 bytes).
 
-PDF statistics: 32 PDF objects out of 1000 (max. 8388607)
+PDF statistics: 79 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 
