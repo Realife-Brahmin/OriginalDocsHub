@@ -8,8 +8,8 @@
 \contentsline {subsection}{Solution}{11}{Item.30}%
 \contentsline {section}{Problem 5}{13}{Item.33}%
 \contentsline {subsection}{Solution}{13}{Item.35}%
-\contentsline {section}{Problem 6}{14}{Item.37}%
-\contentsline {subsection}{Solution}{14}{Item.42}%
-\contentsline {section}{Problem 7}{18}{Item.47}%
-\contentsline {subsection}{Solution}{18}{Item.52}%
+\contentsline {section}{Problem 6}{15}{Item.37}%
+\contentsline {subsection}{Solution}{15}{Item.42}%
+\contentsline {section}{Problem 7}{19}{Item.47}%
+\contentsline {subsection}{Solution}{19}{Item.52}%
 \contentsfinish 
