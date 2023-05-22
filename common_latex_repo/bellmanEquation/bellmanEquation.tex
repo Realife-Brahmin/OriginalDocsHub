@@ -1,22 +1,33 @@
 \documentclass[]{article}
 
-\usepackage{amsmath}
+\usepackage{amsmath, amssymb}
+
+\newcommand{\expect}[1]{\mathbb{E}\left[#1\right]}
+
 %opening
-\title{}
-\author{}
+\title{Random Equations}
+\author{Aryan Ritwajeet Jha}
+\date{}
 
 \begin{document}
 
 \maketitle
 
-\begin{abstract}
-
-\end{abstract}
-
-\section{}
-
+\section*{hehe}
 
 \begin{align}
-	J^{*}(X(t)) = \min_{u(t)} \biggl\{{ J^{*}(X(t+1)) + g(X(t), X(t+1)) - U_0}\biggr\}
+	J^{*}(X(t)) &= \min_{u(t)} \biggl\{{ J^{*}(X(t+1)) + g(X(t), X(t+1)) - U_0}\biggr\} \nonumber
 \end{align}
+
+Discrete-time system:
+\begin{align}
+	x_{k+1} &= f(x_k, u_k, w_k)&     &\text{where}\ k = 0, 1, \ldots, N-1 \nonumber 
+\end{align}
+
+Cost function that is additive over time:
+\begin{align}
+	J_N &= \expect{ g_N(x_N) + \sum_{k=0}^{N-1}g_k(x_k, u_k, w_k) } \nonumber
+%\expect{X} &= \text{Expected value of } X
+\end{align}
+
 \end{document}
