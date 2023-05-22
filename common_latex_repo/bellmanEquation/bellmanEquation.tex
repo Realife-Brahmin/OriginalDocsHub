@@ -1,7 +1,7 @@
 \documentclass[]{article}
 
 \usepackage{amsmath, amssymb}
-
+\usepackage{tikz}
 \newcommand{\expect}[1]{\mathbb{E}\left[#1\right]}
 
 %opening
@@ -15,19 +15,25 @@
 
 \section*{hehe}
 
-\begin{align}
-	J^{*}(X(t)) &= \min_{u(t)} \biggl\{{ J^{*}(X(t+1)) + g(X(t), X(t+1)) - U_0}\biggr\} \nonumber
-\end{align}
-
-Discrete-time system:
-\begin{align}
-	x_{k+1} &= f(x_k, u_k, w_k)&     &\text{where}\ k = 0, 1, \ldots, N-1 \nonumber 
-\end{align}
-
-Cost function that is additive over time:
-\begin{align}
-	J_N &= \expect{ g_N(x_N) + \sum_{k=0}^{N-1}g_k(x_k, u_k, w_k) } \nonumber
-%\expect{X} &= \text{Expected value of } X
-\end{align}
+	\begin{align}
+		J^{*}(X(t)) &= \min_{u(t)} \biggl\{{ J^{*}(X(t+1)) + g(X(t), X(t+1)) - U_0}\biggr\} \nonumber
+	\end{align}
+	
+	Discrete-time system:
+	\begin{align}
+		x_{k+1} &= f(x_k, u_k, w_k)&     &\text{where}\ k = 0, 1, \ldots, N-1 \nonumber 
+	\end{align}
+	
+	Cost function that is additive over time:
+	\begin{align}
+		J_N &= \expect{ g_N(x_N) + \sum_{k=0}^{N-1}g_k(x_k, u_k, w_k) } \nonumber
+	\end{align}
+	
+	Cost of a Policy $\pi = \{\mu_0, \mu_1, \ldots, \mu_{N-1}\}$ starting at initial state $x_0$:
+	\begin{align}
+		J_\pi(x_0) &= \expect{g_N(x_N) + \sum_{k=0}^{N-1} g_k(x_k, \mu_k(u_k), w_k)} \nonumber
+		\intertext{Optimal Cost Function:}
+		J^{*}(x_0) &= \min_{\pi} J_{\pi}(x_0) \nonumber
+	\end{align}
 
 \end{document}
