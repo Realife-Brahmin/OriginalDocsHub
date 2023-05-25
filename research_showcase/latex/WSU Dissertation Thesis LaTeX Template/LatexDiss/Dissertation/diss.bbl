@@ -1,0 +1,203 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{altschul1997gapped}{article}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=b927ed90e6cf748b2b81e18cb1886f8c}{%
+           family={Altschul},
+           familyi={A\bibinitperiod},
+           given={Stephen\bibnamedelima F},
+           giveni={S\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0e0962fdd0e428a50074d996ebd497a0}{%
+           family={Madden},
+           familyi={M\bibinitperiod},
+           given={Thomas\bibnamedelima L},
+           giveni={T\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7bc2b2aac9d2b739e535b53bf42f2146}{%
+           family={Schäffer},
+           familyi={S\bibinitperiod},
+           given={Alejandro\bibnamedelima A},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=99fc7dd33515e730a60c6fcc2c58c9ec}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Jinghui},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fcdb4c7704baa79893b29d652aecc77f}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Zheng},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c13772644daf4bc5872dadebc400007c}{%
+           family={Miller},
+           familyi={M\bibinitperiod},
+           given={Webb},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cbc45a55c63335eebae2bcd2c7739c80}{%
+           family={Lipman},
+           familyi={L\bibinitperiod},
+           given={David\bibnamedelima J},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford Univ Press}%
+      }
+      \strng{namehash}{4f6e93d6b6fee4c1634d7edf3febba12}
+      \strng{fullhash}{26b11a6230fc3873acbf694ee67c99da}
+      \strng{bibnamehash}{4f6e93d6b6fee4c1634d7edf3febba12}
+      \strng{authorbibnamehash}{4f6e93d6b6fee4c1634d7edf3febba12}
+      \strng{authornamehash}{4f6e93d6b6fee4c1634d7edf3febba12}
+      \strng{authorfullhash}{26b11a6230fc3873acbf694ee67c99da}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nucleic acids research}
+      \field{number}{17}
+      \field{title}{Gapped BLAST and PSI-BLAST: a new generation of protein database search programs}
+      \field{volume}{25}
+      \field{year}{1997}
+      \field{pages}{3389\bibrangedash 3402}
+      \range{pages}{14}
+    \endentry
+    \entry{baker2007novel}{article}{}
+      \name{author}{9}{}{%
+        {{un=0,uniquepart=base,hash=3d84792f39e712eae0a841e3afe3ab61}{%
+           family={Baker},
+           familyi={B\bibinitperiod},
+           given={Stephen},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=be38f9d37ca459ceaacb00c90d5bbbca}{%
+           family={Hardy},
+           familyi={H\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=eade9be3840e689dc269640989f4bdbb}{%
+           family={Sanderson},
+           familyi={S\bibinitperiod},
+           given={Kenneth\bibnamedelima E},
+           giveni={K\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0f1ebafab1f3d5e54ad21f167ff60e15}{%
+           family={Quail},
+           familyi={Q\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b86f356f7ddc370ff6b4b0a1c1e59d8c}{%
+           family={Goodhead},
+           familyi={G\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=463230c06d749ab511b789e446f0bf32}{%
+           family={Kingsley},
+           familyi={K\bibinitperiod},
+           given={Robert\bibnamedelima A},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=727786bb8744946bd546c53cab15ad58}{%
+           family={Parkhill},
+           familyi={P\bibinitperiod},
+           given={Julian},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=95579342ab6f9f6ed780068ddb94265d}{%
+           family={Stocker},
+           familyi={S\bibinitperiod},
+           given={Bruce},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=49973df7f05708630b7bc98d4ef3d42d}{%
+           family={Dougan},
+           familyi={D\bibinitperiod},
+           given={Gordon},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Public Library of Science}%
+      }
+      \strng{namehash}{d99d819988c69c242dde4d7580283186}
+      \strng{fullhash}{ced86f57a1245991a302b3748cd6a0f2}
+      \strng{bibnamehash}{d99d819988c69c242dde4d7580283186}
+      \strng{authorbibnamehash}{d99d819988c69c242dde4d7580283186}
+      \strng{authornamehash}{d99d819988c69c242dde4d7580283186}
+      \strng{authorfullhash}{ced86f57a1245991a302b3748cd6a0f2}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{PLoS Pathog}
+      \field{number}{5}
+      \field{title}{A novel linear plasmid mediates flagellar variation in Salmonella Typhi}
+      \field{volume}{3}
+      \field{year}{2007}
+      \field{pages}{e59}
+      \range{pages}{-1}
+    \endentry
+    \entry{wetterstrand2016}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0cb0db3809c7c3bdfe939fdec59641ed}{%
+           family={Wetterstrand},
+           familyi={W\bibinitperiod},
+           given={K\bibnamedelima A},
+           giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0cb0db3809c7c3bdfe939fdec59641ed}
+      \strng{fullhash}{0cb0db3809c7c3bdfe939fdec59641ed}
+      \strng{bibnamehash}{0cb0db3809c7c3bdfe939fdec59641ed}
+      \strng{authorbibnamehash}{0cb0db3809c7c3bdfe939fdec59641ed}
+      \strng{authornamehash}{0cb0db3809c7c3bdfe939fdec59641ed}
+      \strng{authorfullhash}{0cb0db3809c7c3bdfe939fdec59641ed}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{DNA Sequencing Costs: Data from the \uppercase{NHGRI} Genome Sequencing Program (\uppercase{GSP})}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb www.genome.gov/sequencingcosts
+      \endverb
+      \verb{url}
+      \verb www.genome.gov/sequencingcosts
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
