@@ -297,7 +297,7 @@
 \makeatother
 
 \psccfooter{%
-        \parbox{\textwidth}{\hrulefill \\ \small{22nd Power Systems Computation Conference} \hfill \begin{minipage}{0.2\textwidth}\centering \vspace*{4pt} \includegraphics[scale=0.06]{PSCC_logo.png}\\\small{PSCC 2024} \end{minipage} \hfill \small{Porto, Portugal --- June 27 -- July 1, 2024}}%
+        \parbox{\textwidth}{\hrulefill \\ \small{22nd Power Systems Computation Conference} \hfill \begin{minipage}{0.2\textwidth}\centering \vspace*{4pt} \includegraphics[scale=0.06]{PSCC_logo.png}\\\small{PSCC 2024} \end{minipage} \hfill \small{Centrale Supelec, Paris, France --- June 27 -- July 1, 2024}}%
 }
 
 \begin{document}
@@ -308,8 +308,8 @@
 % not capitalized unless they are the first or last word of the title.
 % Linebreaks \\ can be used within to get better formatting as desired.
 % Do not put math or special symbols in the title.
-\title{Template for the Preparation of Abstracts and Full Papers to be Submitted to the\\2024 Power Systems Computation Conference}
-
+\title{PowerGrad.jl - A Julia Package for Teaching Graduate-level Power System Courses in Universities}
+%Other package-names 
 
 
 %% To specify the authors when (number of affiliations <= 2)
@@ -355,7 +355,9 @@ City, Country\\
 % As a general rule, do not put math, special symbols or citations
 % in the abstract
 \begin{abstract}
-The Latex template and basic guidelines for the preparation of a technical paper for the PSCC 2024 conference are presented. The abstract is limited to 150 words and cannot contain equations, figures, tables, or references. It should concisely state what was done, how it was done, principal results, and their significance.
+Power Systems as a field of study is gaining momentum by the hour as countries, governments and companies are realizing the inevitability of an irreversible energy transition. For most people interesting in entering this field as a career, a structured and systematic knowledge transfer for developing the skills required to function as a power system engineer begins at the Graduate-School level, where they are exposed to some of the key sub-fields of Power Systems, such as Power System Analysis, Power System Dynamics, etc. Since Power Systems is an applied field of study, future engineers are expected to develop a variety of skills, including these three: mathematical modelling of physical systems, using mathematical algorithms for computation of desired system variables, and good programming practices for implementing the desired algorithms. Often, among power engineers, while the first two skills are almost ubiquitously found, being able to write programs, in a manner which allows for efficient collaboration, competitive solution time, easy-to-implement modifications based on the every-changing systems, and scalability of algorithms is often seen to be only prioritized by a limited set of engineers, often working on propriety software, making transfer of those skills difficult to the average power system engineer.
+
+ Universities, through their graduate level power programs, often employ proprietary software for teaching students power systems, for developing their programming skills, which can cause an unhealthy as well as unnecessary dependency of future power engineers on these proprietary softwares. Additionally, often, in evaluation of the written programs, scalability, ease of modification, and interpretability is ignored, depriving future power engineers of the level of sophistication an intuition required to deal with real and complex issues in power systems in an efficient manner. To address this gap, we propose a package, PowerGrad.jl, an open-source package written entirely in the Julia programming language for implementation of some of the most commonly taught sub-fields in graduate course of Power Systems, including Power Flow, Sparse Techniques in Power Flow, Continuation Power Flow, State Estimation, Optimal Power Flow, Small-Signal Stability Analysis and Transient Analysis. While excellent packages for Power Systems in Julia, such as PowerSystems.jl and PowerSimulationsDynamics.jl already exist in Julia, our package has been developed for the purpose of training power graduate students in developing a good understanding of the algorithms used to enable the required analyses, as well as writing robust, sophisticated and scalable programs employing best practices for code readability and making way for collaboration opportunities. We achieve this by making available excellent visualization for key inputs, outputs, as well as intermediate variables going into the respective analyses, a comprehensive documentation for using respective modules, and highly versatile functions, which can work well both with a beginner power system learner, as well as an experienced engineer looking to make design changes in the used algorithms and systems.
 \end{abstract}
 
 \begin{IEEEkeywords}

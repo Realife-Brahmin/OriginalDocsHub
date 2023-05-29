@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.25)  28 MAY 2023 19:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.25)  28 MAY 2023 20:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./pscc2024_template.tex
-(pscc2024_template.tex
+**./pscc2024_template_abstract.tex
+(pscc2024_template_abstract.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-05-15> (IEEEtran4PSCC.cls
 Document Class: IEEEtran4PSCC 2014/02/28 by PSCC, mostly based on IEEEtran late
@@ -207,8 +207,8 @@ tex.def
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count278
 \l__pdf_internal_box=\box55
-) (pscc2024_template.aux)
-\openout1 = `pscc2024_template.aux'.
+) (pscc2024_template_abstract.aux)
+\openout1 = `pscc2024_template_abstract.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 303.
 LaTeX Font Info:    ... okay on input line 303.
@@ -294,6 +294,9 @@ File: omsptm.fd
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 353.
 
+Underfull \vbox (badness 1097) has occurred while \output is active []
+
+
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -308,36 +311,35 @@ Before submitting the final camera ready copy, remember to:
 <PSCC_logo.png, id=1, 416.55624pt x 415.5525pt>
 File: PSCC_logo.png Graphic file (type png)
 <use PSCC_logo.png>
-Package pdftex.def Info: PSCC_logo.png  used on input line 589.
+Package pdftex.def Info: PSCC_logo.png  used on input line 591.
 (pdftex.def)             Requested size: 24.9923pt x 24.93207pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 589.
+(Font)              <9> on input line 591.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 589.
+(Font)              <6> on input line 591.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 589.
+(Font)              <5> on input line 591.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 589.
+(Font)              <7> on input line 591.
 [1{C:/Users/aryan/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/ar
 yan/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
 
 
-
- <./PSCC_logo.png>] (pscc2024_template.aux) ) 
+ <./PSCC_logo.png>] (pscc2024_template_abstract.aux) ) 
 Here is how much of TeX's memory you used:
- 3471 strings out of 476411
- 62094 string characters out of 5789134
- 1856845 words of memory out of 5000000
- 23804 multiletter control sequences out of 15000+600000
+ 3467 strings out of 476411
+ 62163 string characters out of 5789134
+ 1864845 words of memory out of 5000000
+ 23800 multiletter control sequences out of 15000+600000
  541695 words of font info for 84 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 62i,13n,67p,696b,370s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/aryan/AppData/Local/Prog
-rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/aryan/AppData/L
-ocal/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/aryan/AppData/L
-ocal/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/aryan/AppData/
-Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
-Output written on pscc2024_template.pdf (1 page, 55273 bytes).
+ 62i,13n,67p,1922b,370s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/aryan/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/aryan/
+AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/aryan/
+AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/aryan
+/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
+Output written on pscc2024_template_abstract.pdf (1 page, 59190 bytes).
 PDF statistics:
  30 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
