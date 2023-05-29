@@ -13,7 +13,7 @@
 \contentsline {subsection}{\numberline {2.1.1}Subsection title - more links examples}{12}{subsection.2.1.1}%
 \contentsline {chapter}{\numberline {3}FIGURES AND TABLES}{13}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Examples of a figure}{13}{section.3.1}%
-\contentsline {part}{REFERENCES}{15}{chapter*.9}%
  \vspace {.5em} \noindent \textbf {APPENDIX}\par 
-\contentsline {chapter}{\numberline {A}Example of a table}{17}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Branch Flow Model: Relaxations and Convexification}{18}{appendix.B}%
+\contentsline {chapter}{\numberline {A}Example of a table}{16}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Branch Flow Model: Relaxations and Convexification}{17}{appendix.B}%
+\contentsline {part}{REFERENCES}{15}{figure.caption.8}%

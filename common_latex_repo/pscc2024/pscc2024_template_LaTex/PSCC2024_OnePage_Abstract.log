@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.25)  28 MAY 2023 20:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.25)  29 MAY 2023 14:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./pscc2024_template_abstract.tex
-(pscc2024_template_abstract.tex
+**./PSCC2024_OnePage_Abstract.tex
+(PSCC2024_OnePage_Abstract.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-05-15> (IEEEtran4PSCC.cls
 Document Class: IEEEtran4PSCC 2014/02/28 by PSCC, mostly based on IEEEtran late
@@ -18,10 +18,11 @@ x package (V1.8a) by Michael Shell
 \@IEEEtrantmpcountC=\count187
 \@IEEEtrantmptoksA=\toks16
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 4
-56.
+57.
 (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
+** ATTENTION: Single column mode is not typically used with IEEE publications.
 -- Using 8.5in x 11in (letter) paper.
 -- Using PDF output.
 \@IEEEnormalsizeunitybaselineskip=\dimen143
@@ -30,54 +31,54 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 \CLASSINFOnormalsizeunitybaselineskip=\dimen145
 \IEEEnormaljot=\dimen146
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1037.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1038.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1037.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1038.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1037.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1038.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1037.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1038.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1037.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1038.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1037.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1038.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1037.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1038.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1037.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1038.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1037.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1038.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1037.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1038.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1037.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1038.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <11> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1037.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1038.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1037.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1038.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1037.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1038.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1037.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1038.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <17> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1037.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1038.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1037.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1038.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <20> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1037.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1038.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1037.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1038.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1037.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1038.
 
 \IEEEquantizedlength=\dimen147
 \IEEEquantizedlengthdiff=\dimen148
@@ -207,23 +208,23 @@ tex.def
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count278
 \l__pdf_internal_box=\box55
-) (pscc2024_template_abstract.aux)
-\openout1 = `pscc2024_template_abstract.aux'.
+) (PSCC2024_OnePage_Abstract.aux)
+\openout1 = `PSCC2024_OnePage_Abstract.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 303.
-LaTeX Font Info:    ... okay on input line 303.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 303.
-LaTeX Font Info:    ... okay on input line 303.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 303.
-LaTeX Font Info:    ... okay on input line 303.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 303.
-LaTeX Font Info:    ... okay on input line 303.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 303.
-LaTeX Font Info:    ... okay on input line 303.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 303.
-LaTeX Font Info:    ... okay on input line 303.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 303.
-LaTeX Font Info:    ... okay on input line 303.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 307.
+LaTeX Font Info:    ... okay on input line 307.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 307.
+LaTeX Font Info:    ... okay on input line 307.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 307.
+LaTeX Font Info:    ... okay on input line 307.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 307.
+LaTeX Font Info:    ... okay on input line 307.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 307.
+LaTeX Font Info:    ... okay on input line 307.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 307.
+LaTeX Font Info:    ... okay on input line 307.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 307.
+LaTeX Font Info:    ... okay on input line 307.
 
 -- Lines per column: 56 (exact).
 
@@ -287,16 +288,18 @@ fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 3
-53.
+57.
  (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 353.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 357.
 
-Underfull \vbox (badness 1097) has occurred while \output is active []
+Overfull \hbox (1.99783pt too wide) in paragraph at lines 357--357
+ [] 
+ []
 
-
+(PSCC2024_OnePage_Abstract.bbl)
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -311,37 +314,40 @@ Before submitting the final camera ready copy, remember to:
 <PSCC_logo.png, id=1, 416.55624pt x 415.5525pt>
 File: PSCC_logo.png Graphic file (type png)
 <use PSCC_logo.png>
-Package pdftex.def Info: PSCC_logo.png  used on input line 591.
+Package pdftex.def Info: PSCC_logo.png  used on input line 603.
 (pdftex.def)             Requested size: 24.9923pt x 24.93207pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 591.
+(Font)              <9> on input line 603.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 591.
+(Font)              <6> on input line 603.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 591.
+(Font)              <5> on input line 603.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 591.
+(Font)              <7> on input line 603.
 [1{C:/Users/aryan/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/ar
-yan/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
-
-
- <./PSCC_logo.png>] (pscc2024_template_abstract.aux) ) 
+yan/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <./PSCC_logo.png
+>]
+File: PSCC_logo.png Graphic file (type png)
+<use PSCC_logo.png>
+Package pdftex.def Info: PSCC_logo.png  used on input line 603.
+(pdftex.def)             Requested size: 24.9923pt x 24.93207pt.
+ [2] (PSCC2024_OnePage_Abstract.aux) ) 
 Here is how much of TeX's memory you used:
- 3467 strings out of 476411
- 62163 string characters out of 5789134
- 1864845 words of memory out of 5000000
- 23800 multiletter control sequences out of 15000+600000
- 541695 words of font info for 84 fonts, out of 8000000 for 9000
+ 3489 strings out of 476411
+ 62712 string characters out of 5789134
+ 1865845 words of memory out of 5000000
+ 23817 multiletter control sequences out of 15000+600000
+ 543459 words of font info for 86 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 62i,13n,67p,1892b,370s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/aryan/AppData/L
-ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/aryan/
-AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/aryan/
-AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/aryan
-/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
-Output written on pscc2024_template_abstract.pdf (1 page, 59735 bytes).
+ 62i,13n,67p,1563b,368s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/aryan/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/aryan/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/aryan/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/aryan/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on PSCC2024_OnePage_Abstract.pdf (2 pages, 62557 bytes).
 PDF statistics:
- 30 PDF objects out of 1000 (max. 8388607)
+ 33 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

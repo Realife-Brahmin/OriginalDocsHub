@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.25)  25 MAY 2023 08:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.25)  29 MAY 2023 14:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -863,7 +863,20 @@ Chapter 1.
 
 
 
-] [2] [3] [4] [5] [6] [7] [8] [9]
+] [2]
+
+LaTeX Warning: Citation 'altschul1997gapped' on page 3 undefined on input line 
+6.
+
+[3] [4]
+
+LaTeX Warning: Citation 'altschul1997gapped' on page 5 undefined on input line 
+9.
+
+
+LaTeX Warning: Citation 'baker2007novel' on page 5 undefined on input line 9.
+
+[5] [6] [7] [8] [9]
 Chapter 2.
 [10
 
@@ -872,34 +885,37 @@ Chapter 2.
 
  (chapters/chapter2/ch2.tex
 Chapter 3.
-<costperMb2015_4.jpg, id=216, 722.7pt x 542.025pt>
+<costperMb2015_4.jpg, id=210, 722.7pt x 542.025pt>
 File: costperMb2015_4.jpg Graphic file (type jpg)
 <use costperMb2015_4.jpg>
 Package pdftex.def Info: costperMb2015_4.jpg  used on input line 7.
 (pdftex.def)             Requested size: 361.3491pt x 271.01183pt.
+
+LaTeX Warning: Citation 'wetterstrand2016' on page 13 undefined on input line 9
+.
+
+
+LaTeX Warning: Citation 'wetterstrand2016' on page 13 undefined on input line 9
+.
+
 [13
 
 
 
 
  <./costperMb2015_4.jpg>]) [14]
-Overfull \hbox (1.41092pt too wide) in paragraph at lines 64--64
-[][]\T1/cmr/m/n/12 Baker, Stephen et al. (2007). ``A novel lin-ear plas-mid me-
-di-ates flag-el-lar vari-a-tion in Salmonella
- []
 
-[15
+LaTeX Warning: Empty bibliography on input line 64.
 
-
-
-]
 \openout2 = `chapters/appendix/app.aux'.
 
- (chapters/appendix/app.tex [16
+(chapters/appendix/app.tex [15
+
+
 
 ]
 Appendix A.
-[17
+[16
 
 
 ]
@@ -912,45 +928,51 @@ Overfull \hbox (60.73299pt too wide) in paragraph at lines 6--23
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [18
+) [17
 
-] [19] (diss.aux (chapters/chapter1/ch1.aux) (chapters/chapter2/ch2.aux)
+] [18] (diss.aux (chapters/chapter1/ch1.aux) (chapters/chapter2/ch2.aux)
 (chapters/appendix/app.aux))
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `diss.out' has not changed.
-(rerunfilecheck)             Checksum: 0C189C0967E2CE9AC9B6A8132CD14AD7;3662.
+(rerunfilecheck)             Checksum: B27BFAB4D8AD10B012DC47E51B5A33E3;3686.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                diss
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'diss.run.xml'.
 \openout1 = `diss.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 20321 strings out of 476411
- 370434 string characters out of 5789134
+ 20266 strings out of 476411
+ 369192 string characters out of 5789134
  1867845 words of memory out of 5000000
- 40331 multiletter control sequences out of 15000+600000
- 525476 words of font info for 60 fonts, out of 8000000 for 9000
+ 40283 multiletter control sequences out of 15000+600000
+ 524117 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 90i,16n,91p,679b,1882s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,16n,91p,679b,1544s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\aryan\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm
 1095.pk> <C:\Users\aryan\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
-0\eccc1200.pk> <C:\Users\aryan\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
-/dpi600\ecti1200.pk> <C:\Users\aryan\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
-pen/ec/dpi600\ecbx1440.pk> <C:\Users\aryan\AppData\Local\MiKTeX\fonts/pk/ljfour
-/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\aryan\AppData\Local\MiKTeX\fonts/pk/
-ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\aryan\AppData\Local\MiKTeX\fon
-ts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\aryan\AppData\Local\MiKT
-eX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\aryan\AppData\Loca
-l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk><C:/Users/aryan/AppData
-/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/arya
-n/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Us
-ers/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pf
-b><C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmr10.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
-onts/cm/cmr6.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/publ
-ic/amsfonts/cm/cmr8.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/typ
-e1/public/amsfonts/cm/cmsy10.pfb>
-Output written on diss.pdf (29 pages, 1460952 bytes).
+0\ecbx1440.pk> <C:\Users\aryan\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
+/dpi600\ecbx1728.pk> <C:\Users\aryan\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
+pen/ec/dpi600\ecbx2488.pk> <C:\Users\aryan\AppData\Local\MiKTeX\fonts/pk/ljfour
+/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\aryan\AppData\Local\MiKTeX\fonts/pk/
+ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\aryan\AppData\Local\MiKTeX\fon
+ts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk><C:/Users/aryan/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/aryan/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/aryan/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/
+aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C
+:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6
+.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmr8.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
+sfonts/cm/cmsy10.pfb>
+Output written on diss.pdf (28 pages, 1444665 bytes).
 PDF statistics:
- 604 PDF objects out of 1000 (max. 8388607)
- 59 named destinations out of 1000 (max. 500000)
+ 545 PDF objects out of 1000 (max. 8388607)
+ 54 named destinations out of 1000 (max. 500000)
  182 words of extra memory for PDF output out of 10000 (max. 10000000)
 
