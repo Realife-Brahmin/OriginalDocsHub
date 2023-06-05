@@ -1,9 +1,0 @@
-[0] Config.pm:306> INFO - This is Biber 2.18
-[0] Config.pm:309> INFO - Logfile is 'ee507_hw01_aryan_ritwajeet_jha.blg'
-[196] biber-MSWIN64:340> INFO - === 
-[266] Biber.pm:418> INFO - Reading 'ee507_hw01_aryan_ritwajeet_jha.bcf'
-[387] Biber.pm:978> INFO - Found 0 citekeys in bib section 0
-[404] bbl.pm:654> INFO - Writing 'ee507_hw01_aryan_ritwajeet_jha.bbl' with encoding 'UTF-8'
-[404] bbl.pm:757> INFO - Output to ee507_hw01_aryan_ritwajeet_jha.bbl
-[404] Biber.pm:130> WARN - The file 'ee507_hw01_aryan_ritwajeet_jha.bcf' does not contain any citations!
-[404] Biber.pm:132> INFO - WARNINGS: 1
