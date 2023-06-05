@@ -1,0 +1,85 @@
+\documentclass{article}
+\title{EE 507 Random Processes \\Homework 02}
+\author{Aryan Ritwajeet Jha}
+\date{23 September 2022}
+
+\usepackage[backend=biber, style=numeric-comp, sorting=none]{biblatex}
+\addbibresource{../sections/references.bib}
+
+\usepackage{graphicx, import}
+\usepackage{hyperref} % hyperlinks for references.
+\usepackage{amsmath,amssymb, amsthm}
+\usepackage{array}   % for \newcolumntype macro
+\newcolumntype{L}{>{$}l<{$}} % math-mode version of "l" column type in tabular environment
+\usepackage{lipsum}
+\usepackage[shortlabels]{enumitem} %for easy labelling of enumerate items as a), b), etc.
+\usepackage{booktabs} %for toprule, bottomrule in tables
+\usepackage[capitalize]{cleveref} %will it refer as cleverly as they say?
+
+\usepackage[sfdefault]{FiraSans} %% option 'sfdefault' activates Fira Sans as the default text font
+\usepackage[T1]{fontenc}
+\renewcommand*\oldstylenums[1]{{\firaoldstyle #1}}
+
+\newcommand{\orr}{\text{or, }} %%For easy "or, " before every subsequent equation describing the manipulation of the LHS.
+\newcommand{\itt}[1]{\intertext{\quad#1}} %%For easy text statements between mathematical proofs and calculations between equations within the align environment without violating the alignment. 
+
+\usepackage{pgfplots}
+\usepackage[subpreambles=false]{standalone}
+\usepackage{import}
+\usepackage{adjustbox}
+\usepackage{titlesec}
+\usepackage{titletoc}
+
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{MnSymbol,wasysym} %for smiley emojis
+\usepackage{tikzsymbols} %also for smiley emojis
+
+\usepackage[mathscr]{euscript} %powerset symbol
+\usepackage{float} %for H option in floats
+\newcommand\set[1]{\{#1\}} %for easy defining of sets without having to use \{\} every time.
+
+\newcommand{\threepartdef}[6]
+{
+	\centering
+	\left\{
+	\begin{array}{ll}
+		#1 & \mbox{if } #2 \\
+		#3 & \mbox{if } #4 \\
+		#5 & \mbox{if } #6 \\
+	\end{array}
+	\right.
+}
+
+\newcommand{\fourpartdef}[8]
+{
+	\centering
+	\left\{
+	\begin{array}{ll}
+		#1 & \mbox{if } #2 \\
+		#3 & \mbox{if } #4 \\[5pt]
+		#5 & \mbox{if } #6 \\[5pt]
+		#7 & \mbox{if } #8 \\
+	\end{array}
+	\right.
+}
+
+\begin{document}
+	\maketitle
+	\tableofcontents
+	\newpage
+	\setcounter{secnumdepth}{0} % sections are level 1
+	\input{../sections/q01}
+	\clearpage
+	\input{../sections/q02}
+	\clearpage
+	\input{../sections/q03}
+	\clearpage
+	\input{../sections/q04}
+	\clearpage	
+	\input{../sections/q05}
+	\clearpage
+	\input{../sections/q06}
+	\clearpage
+	\input{../sections/q07}
+\end{document}

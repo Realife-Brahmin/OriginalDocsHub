@@ -1,0 +1,134 @@
+\section[Theory]{Theory}
+\label{sec:lasso_theory}
+
+	\begin{frame}[fragile]{State Space Representation}
+		Express Power System Dynamics in State Space:
+	
+		\begin{align}
+			\dimensions{\dot{\textbf{x}}(t)}{n}{1} &= 
+			\dimensions{\textbf{A}}{n}{n} \dimensions{\textbf{x}(t)}{n}{1}
+			+ \dimensions{\textbf{B}}{n}{m} \dimensions{\textbf{u}(t)}{m}{1} \nonumber\\
+			\dimensions{\textbf{y}(t)}{p}{1} &= 
+			\dimensions{\textbf{C}}{p}{n} \dimensions{\textbf{x}(t)}{n}{1}\\  
+			& \forall t\geq0 \nonumber
+		\end{align}
+		
+		\begin{align*}
+			& \underset{\scriptscriptstyle n\times 1}{\textbf{x}(t)} : \text{internal state variables + controller variables vector}                                                                      \\
+			& \underset{\scriptscriptstyle m\times 1}{\textbf{u}(t)} : \text{forced oscillation vector}
+		\end{align*}
+	\end{frame}
+	
+	\begin{frame}[fragile]{Forced Oscillation Vector}
+		Express Forced Oscillations based on locations of origin and signal composition:
+		\begin{alignat}{2}
+			\dimensions{\textbf{u}(t)}{m}{1} 
+			&= 
+			\dimensions{
+				\begin{bmatrix}
+					u_1(t) \\
+					u_2(t) \\
+					\vdots \\
+					u_m(t)
+				\end{bmatrix}}
+			{m}{1} 
+			& &=
+			\dimensions{
+				\begin{bmatrix}
+					\sum_{l=1}^{M_1} a_{1,l} \sin(\omega_{2,l}t + \phi_{1,l}) \\
+					\sum_{l=1}^{M_2} a_{2,l} \sin(\omega_{2,l}t + \phi_{2,l}) \\
+					\vdots \\
+					\sum_{l=1}^{M_m} a_{m,l} \sin(\omega_{m,l}t + \phi_{m,l})
+				\end{bmatrix}}
+			{m}{1}		
+		\end{alignat}
+		
+		\begin{align*}
+			& a_{r,l} \geq0 \\
+			& \omega_{r,l} = 2\pi f \geq 0 \\
+			& (r,l) \text{ refer to the } l^{th} \text{ sinusoid at the }  r^{th} \text{ location}
+		\end{align*}
+	
+	\end{frame}
+
+	\begin{frame}[fragile]{Sparsity Assumption}
+		Let $\boldsymbol{a_r}(t)$ be the vector representation of the sinusoids at the $r^{th}$ location.
+		
+		\begin{alignat}{2}
+			\dimensions{\boldsymbol{a_r}(t)}{1}{M_r} &=
+			\dimensions{
+				\begin{bmatrix}
+					a_{r,1} \sin(\omega_{r,1}t + \phi_{r,1}) & \ldots & a_{r,M_r} \sin(\omega_{r,M_r}t + \phi_{r,M_r})
+				\end{bmatrix}
+			}
+			{1}{M_r} \nonumber
+		\end{alignat}
+	
+		\textit{Assumption 1:}
+		Both $\boldsymbol{u}(t)$ and $\boldsymbol{a_r}(t)$ are sparse vectors. That implies most locations are FO free and for the locations that do have FO, the number of distinct sinusoidal components of the local FO is small.
+	
+		\begin{alignat}{2}
+			||\boldsymbol{u}(t)||_0 &<< m \nonumber \\
+			||\boldsymbol{a_r}(t)||_0 &<< M_r \nonumber
+		\end{alignat}
+	\end{frame}
+
+	\begin{frame}[fragile]{Discrete State Space Representation}
+		Most PMUs sample at $30 Hz$ or $60 Hz$. So the sampling time period is $T = 1/30 s$ or $1/60 s$.
+		
+		Let $\dimensions{\boldsymbol{A_d}}{n}{n} = \exp{(\boldsymbol{A}T)}$ and $\dimensions{\boldsymbol{B_d}}{n}{m} = \{ \int_{0}^{T} \exp{(\boldsymbol{A}(T-s))}ds \} \boldsymbol{B}$.
+		
+		Let $k = 0, 1, \ldots$ and define $\textbf{x}[k]  \triangleq \textbf{x}(kT)$, $\textbf{u}[k] \triangleq \textbf{u}(kT)$ and $\textbf{y}[k] \triangleq \textbf{y}(kT)$. Suppose that $\textbf{u}(t)$ is piece-wise constant during $kT \leq t \leq (k+1)T$. \\
+		Then
+		\begin{alignat}{2}
+			\dimensions{\boldsymbol{x}[k+1]}{n}{1} &=
+			\dimensions{\boldsymbol{A_d}}{n}{n} \dimensions{\boldsymbol{x}[k]}{n}{1} + \dimensions{\boldsymbol{B_d}}{n}{m} \dimensions{\boldsymbol{u}[k]}{m}{1} \nonumber \\
+			\dimensions{\boldsymbol{y}[k]}{p}{1} &= \dimensions{\boldsymbol{C}}{p}{n} \dimensions{\boldsymbol{x}[k]}{n}{1}
+		\end{alignat}
+		
+		We assume $\textbf{x}[0] = 0$ as our focus is only on inputs triggered by FOs.
+	\end{frame}
+
+	\begin{frame}[fragile]{Transfer Function from Discrete State Space Representation}
+		
+		Let $\dimensions{\boldsymbol{H_z}}{p}{m} = \dimensions{\boldsymbol{C}}{p}{n} \dimensions{[z\boldsymbol{I-A_d}]}{n}{n}^{-1} \dimensions{\boldsymbol{B_d}}{n}{m}$.
+		
+		From standard Linear System Analysis, we may conclude that $\dimensions{Y[z]}{p}{1} = \dimensions{H[z]}{p}{m} \dimensions{U[z]}{m}{1}$ \\
+		where $Y[z]$, $U[z]$ are the Z-Transforms of $y[n]$ and $u[n]$. \\
+		Replacing $z$ with $\exp{(j\Omega)}$, where $\Omega \in (0,2\pi)$, we get the DTFT representation for the system: 
+		\begin{alignat}{2}
+			\dimensions{\boldsymbol{Y}[\Omega]}{p}{1} &=
+			\dimensions{\boldsymbol{H}[\Omega]}{p}{m} \dimensions{\boldsymbol{U}[\Omega]}{m}{1}
+		\end{alignat}		
+	\end{frame}
+
+	\begin{frame}[fragile]{Transfer Function of Forced Oscillation Vector}
+		Applying DTFT on $\boldsymbol{u}(t)$ to get $\boldsymbol{U}[\Omega]$:
+		\begin{alignat}{2}
+			\dimensions{\textbf{U}(\Omega)}{m}{1} 
+			&= 
+%			\dimensions{
+%				\begin{bmatrix}
+%					U_1(\Omega) \\
+%					U_2(\Omega) \\
+%					\vdots \\
+%					U_m(\Omega)
+%			\end{bmatrix}}
+%			{m}{1} 
+%			& &=
+			j\pi
+			\dimensions{
+				\begin{bmatrix}
+					\sum_{l=1}^{M_1} a_{1,l} \{\exp{(-j\phi_{1,l})}\delta{(\Omega + \omega_{1,l})} - \exp{(j\phi_{1,l})}\delta{(\Omega - \omega_{1,l})} \} \\
+					\sum_{l=1}^{M_2} a_{2,l} \{\exp{(-j\phi_{2,l})}\delta{(\Omega + \omega_{2,l})} - \exp{(j\phi_{2,l})}\delta{(\Omega - \omega_{2,l})} \} \\
+					\vdots \\
+					\sum_{l=1}^{M_m} a_{m,l} \{\exp{(-j\phi_{m,l})}\delta{(\Omega + \omega_{m,l})} - \exp{(j\phi_{m,l})}\delta{(\Omega - \omega_{m,l})} \}
+			\end{bmatrix}}
+			{m}{1}		
+		\end{alignat}		
+	
+		\begin{align*}
+			& \omega_{r,l} \text{ can be substituted by } \frac{1}{T}\tilde{\omega}_{r,l}
+		\end{align*}
+	
+	\end{frame}

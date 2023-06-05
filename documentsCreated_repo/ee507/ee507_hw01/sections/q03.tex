@@ -1,0 +1,149 @@
+\section{Problem 3}
+Consider any uncertain experiment, and let $A$, $B$, and $C$ be three events defined for the experiment. Please prove the following equalities or inequalities. In doing so, you may use the three axioms, any equalities/inequalities developed in class, standard set theory and algebra concepts, and earlier parts of the problem.
+
+\begin{enumerate}[a.]
+	\item
+	\!  %one-sixth of a quad's space, the Stack Exchange answer did this so I'm doing the same too.
+	$
+	\begin{aligned}
+		P(A\bar B) = P(A) -  P(AB) \nonumber
+	\end{aligned}
+	$
+	\item 
+	\! If $A$ is contained in $B$, then $P(A) \leq P(B)$.
+	\item  
+	\! 
+	$
+		\begin{aligned}
+			P(A+B) + P(\bar A) + P(\bar B) - P(\bar A + \bar B) = 1 \nonumber
+		\end{aligned}
+	$ 
+	\item
+	\!  
+	$
+		\begin{aligned}
+			P(AB) + P(\bar A C) + P(\bar B \bar C) \leq 1 \nonumber
+		\end{aligned}
+	$ \\[5pt]
+	Please also give an example showing that the bound can be achieved.
+\end{enumerate}
+
+\subsection{Solution}
+
+\begin{enumerate}[a.]
+	\item To Prove: $P(A \bar{B}) = P(A) - P(AB)$
+		\!
+		\begin{proof}
+			\begin{align}
+				& \text{From the Law of Total Probability, we know that } \nonumber\\ 
+				& \quad P(A) = P(A \bar{B}) + P(AB) \label{eq:totalProbLaw} \\
+				& \text{Rearranging \cref{eq:totalProbLaw}, we get:} \nonumber\\
+				& \quad P(A\bar{B}) = P(A) - P(AB) \\
+				& \text{ Hence Proved. \Laughey[1.4]} \nonumber
+			\end{align}
+		\end{proof}
+	\item To Prove: If $A$ is contained in $B$, then $P(A) \leq P(B)$
+		\!
+		\begin{proof}
+			\begin{align}
+				& \text{To Prove: } \text{if } A \subseteq B \text{,  then } P(A) \leq P(B) \nonumber \\
+				& \text{From the Law of Total Probability, we know that} \nonumber\\
+				& \quad P(B) = P(B\bar{A}) + P(BA) \label{eq:totalProbLawB}\\
+				& \quad A \subseteq B \implies A \cap B = A \implies P(BA) = P(A) \nonumber\\
+				& \quad \text{or,} \quad P(B) = P(B\bar{A}) + P(A) \nonumber\\
+				& \text{But, by Axiom $1$ of Probability} \nonumber\\
+				& \quad P(B\bar{A}) \geq 0 \nonumber\\
+				& \quad \implies P(A) \leq P(B) \nonumber \\
+				& \text{Hence Proved. \Laughey[1.4]} \nonumber			
+			\end{align}
+		\end{proof}
+		\item \text{To Prove: } $P(A+B) + P(\bar A) + P(\bar B) - P(\bar A + \bar B) = 1$\\
+		\!
+			\begin{proof}
+				\begin{align}
+					LHS &= \{P(A) + P(B) - P(AB)\} + P(\bar{A}) + P(\bar{B}) &&\text{(Expanding the $LHS$)} \nonumber\\
+					&- \{P(\bar{A}) + P(\bar{B}) - P(\bar{A}\bar{B})\}  \nonumber\\
+					&= P(A) + P(B) - P(AB) + P(\bar{A}\bar{B}) \nonumber\\
+					&= P(A) - P(AB) + P(\bar{A}\bar{B}) + P(B)&& \text{(Rearranging the equation)}\nonumber\\
+					&= P(A\bar{B}) + P(\bar{A}\bar{B}) + P(B) &&\text{(Using \cref{eq:totalProbLaw})} \nonumber\\
+					&= P(\bar{B}) + P(B) &&\text{(Using \cref{eq:totalProbLawB})} \nonumber\\
+					&= 1 &&\text{Hence Proved \Laughey[1.4]}\nonumber
+				\end{align}
+			\end{proof}	
+	\item To Prove: $P(AB) + P(\bar A C) + P(\bar B \bar C) \leq 1$ \\
+	Also give an example for the equality case.
+	\!
+		\begin{proof}
+			\begin{align}
+				AB \cap \bar{A}C \cap \bar{B}\bar{C} &= \phi && \text{(Pairwise Disjoint Sets)} \nonumber\\
+				\implies P(AB) + P(\bar{A}C) + P(\bar{B}\bar{C}) &= P( AB + \bar{A}C + \bar{B}\bar{C} ) && \text{(Axiom 3)} \nonumber\\
+				&\leq 1 && \text{(Axiom 1)} \nonumber\\
+				&{} && \text{Hence Proved \Laughey[1.4]} \nonumber				
+			\end{align}
+		\end{proof}
+	
+		For the special case of equality\\
+		\begin{align}
+			P(AB) + P(\bar{A}C) + P(\bar{B}\bar{C}) &= 1 \label{eq:specialCase}
+		\end{align}
+		We may equate the constituent events of \cref{eq:specialCase} to trivial identities in order to potentially reverse engineer the relationships between the three events $A$, $B$ and $C$:\\[5pt]
+		Let\\[-20pt]
+		\begin{align}
+			AB + \bar{A}C + \bar{B}\bar{C} &= A + \bar{A}
+		\end{align}
+		Making comparisons, we get:
+		\begin{align}
+			AB &= A \nonumber\\
+			\implies A &\subseteq B \label{eq:tmp1}\\
+			\bar{A}C &= \bar{A} \nonumber\\
+			\implies \bar{A} &\subseteq C \label{eq:tmp2}\\
+			\bar{B}\bar{C} &= 0 \nonumber\\
+			\implies \bar{B} \cap \bar{C} &= \phi \nonumber\\
+			\implies B \cup C &= 1 \label{eq:tmp3}
+		\end{align}
+		
+		\cref{eq:tmp2} gives two cases: Either $A$ and $C$ are disjoint events which exhaustively represent the sample space (i.e. $A$ $\cup$ $C$ = $\phi$ and $A+C$ = $\Omega$) or $C$ encompasses the whole sample space and $A$ is merely a subset of it (i.e. $C$ = $\Omega$ and $A \subseteq C$).
+		
+		One of the solutions satisfying \cref{eq:tmp1}, \cref{eq:tmp2} and \cref{eq:tmp3} is $A = B$ and $A \cap C = \phi$. \cref{fig:shape1} represents this instance of the relationship between $A, B$ and $C$.
+		
+		Another solution satisfying \cref{eq:tmp1}, \cref{eq:tmp2} and \cref{eq:tmp3} is $A \subseteq B \subseteq C$, represented by \cref{fig:shape2}.
+		
+		\begin{figure}[h]
+			\centering
+			\import{../figures/}{shape1Pdf.pdf_tex}
+			\caption{Instance 1 which satisfies the equality criterion.}
+			\label{fig:shape1}
+		\end{figure}
+		
+		\begin{figure}[h]
+			\centering
+			\import{../figures/}{shape2Pdf.pdf_tex}
+			\caption{Instance 2 which satisfies the equality criterion.}
+			\label{fig:shape2}
+		\end{figure}
+	
+		Let\\[-20pt]
+		\begin{align}
+			AB + \bar{A}C + \bar{B}\bar{C} &= C + \bar{C}
+		\end{align}
+		Making comparisons, we get:
+		\begin{align}
+			\bar{A}C &= C \nonumber\\
+			\implies A &\subseteq \bar{C} \label{eq:tmp7}\\
+			\bar{B}\bar{C} &= \bar{C} \nonumber\\
+			\implies B &\subseteq C \label{eq:tmp8}\\
+			AB &= 0 \nonumber\\
+			\implies A \cap B &= \phi \label{eq:tmp9}
+		\end{align}
+		
+		A solution satisfying \cref{eq:tmp7}, \cref{eq:tmp8} and \cref{eq:tmp9} is $A \subseteq B \subseteq C$, represented by \cref{fig:shape3}.
+		
+		\begin{figure}[h]
+			\centering
+			\import{../figures/}{shape3Pdf.pdf_tex}
+			\caption{Instance 3 which satisfies the equality criterion.}
+			\label{fig:shape3}
+		\end{figure}
+\end{enumerate}
+
+\noindent\rule{\textwidth}{1pt}

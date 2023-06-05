@@ -1,0 +1,176 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.2.20)  22 MAY 2021 21:57
+entering extended mode
+**./inverseAutocorrelationValues.tex
+(inverseAutocorrelationValues.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-01-09> xparse <2020-03-03>
+("C:\Users\ARYAN RITWAJEET JHA\AppData\Local\Programs\MiKTeX\tex/latex/standalo
+ne\standalone.cls"
+Document Class: standalone 2018/03/26 v1.3a Class to compile TeX sub-files stan
+dalone
+
+("C:\Users\ARYAN RITWAJEET JHA\AppData\Local\Programs\MiKTeX\tex/latex/latex-to
+ols\shellesc.sty"
+Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
+Package shellesc Info: Restricted shell escape enabled on input line 77.
+)
+("C:\Users\ARYAN RITWAJEET JHA\AppData\Local\Programs\MiKTeX\tex/generic/iftex\
+ifluatex.sty"
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+
+("C:\Users\ARYAN RITWAJEET JHA\AppData\Local\Programs\MiKTeX\tex/generic/iftex\
+iftex.sty"
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+("C:\Users\ARYAN RITWAJEET JHA\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\
+xkeyval.sty"
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+
+("C:\Users\ARYAN RITWAJEET JHA\AppData\Local\Programs\MiKTeX\tex/generic/xkeyva
+l\xkeyval.tex"
+("C:\Users\ARYAN RITWAJEET JHA\AppData\Local\Programs\MiKTeX\tex/generic/xkeyva
+l\xkvutils.tex"
+\XKV@toks=\toks15
+\XKV@tempa@toks=\toks16
+
+("C:\Users\ARYAN RITWAJEET JHA\AppData\Local\Programs\MiKTeX\tex/generic/xkeyva
+l\keyval.tex"))
+\XKV@depth=\count177
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+\sa@internal=\count178
+\c@sapage=\count179
+
+("C:\Users\ARYAN RITWAJEET JHA\AppData\Local\Programs\MiKTeX\tex/latex/standalo
+ne\standalone.cfg"
+File: standalone.cfg 2018/03/26 v1.3a Default configuration file for 'standalon
+e' class
+)
+("C:\Users\ARYAN RITWAJEET JHA\AppData\Local\Programs\MiKTeX\tex/latex/base\art
+icle.cls"
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
+
+("C:\Users\ARYAN RITWAJEET JHA\AppData\Local\Programs\MiKTeX\tex/latex/base\siz
+e10.clo"
+File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+)
+\c@part=\count180
+\c@section=\count181
+\c@subsection=\count182
+\c@subsubsection=\count183
+\c@paragraph=\count184
+\c@subparagraph=\count185
+\c@figure=\count186
+\c@table=\count187
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+("C:\Users\ARYAN RITWAJEET JHA\AppData\Local\Programs\MiKTeX\tex/latex/varwidth
+\varwidth.sty"
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box47
+\sift@deathcycles=\count188
+\@vwid@loff=\dimen139
+\@vwid@roff=\dimen140
+)
+\sa@box=\box48
+)
+("C:\Users\ARYAN RITWAJEET JHA\AppData\Local\Programs\MiKTeX\tex/latex/latex-to
+ols\tabularx.sty"
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+
+("C:\Users\ARYAN RITWAJEET JHA\AppData\Local\Programs\MiKTeX\tex/latex/latex-to
+ols\array.sty"
+Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
+\col@sep=\dimen141
+\ar@mcellbox=\box49
+\extrarowheight=\dimen142
+\NC@list=\toks17
+\extratabsurround=\skip49
+\backup@length=\skip50
+\ar@cellbox=\box50
+)
+\TX@col@width=\dimen143
+\TX@old@table=\dimen144
+\TX@old@col=\dimen145
+\TX@target=\dimen146
+\TX@delta=\dimen147
+\TX@cols=\count189
+\TX@ftn=\toks18
+)
+("C:\Users\ARYAN RITWAJEET JHA\AppData\Local\Programs\MiKTeX\tex/latex/base\tex
+tcomp.sty"
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)
+("C:\Users\ARYAN RITWAJEET JHA\AppData\Local\Programs\MiKTeX\tex/latex/booktabs
+\booktabs.sty"
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen148
+\lightrulewidth=\dimen149
+\cmidrulewidth=\dimen150
+\belowrulesep=\dimen151
+\belowbottomsep=\dimen152
+\aboverulesep=\dimen153
+\abovetopsep=\dimen154
+\cmidrulesep=\dimen155
+\cmidrulekern=\dimen156
+\defaultaddspace=\dimen157
+\@cmidla=\count190
+\@cmidlb=\count191
+\@aboverulesep=\dimen158
+\@belowrulesep=\dimen159
+\@thisruleclass=\count192
+\@lastruleclass=\count193
+\@thisrulewidth=\dimen160
+)
+("C:\Users\ARYAN RITWAJEET JHA\AppData\Local\Programs\MiKTeX\tex/latex/l3backen
+d\l3backend-pdftex.def"
+File: l3backend-pdftex.def 2020-01-29 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count194
+\l__pdf_internal_box=\box51
+) (inverseAutocorrelationValues.aux)
+\openout1 = `inverseAutocorrelationValues.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 11.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 11.
+ [1
+
+{C:/Users/ARYAN RITWAJEET JHA/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
+(inverseAutocorrelationValues.aux) ) 
+Here is how much of TeX's memory you used:
+ 1190 strings out of 479618
+ 22041 string characters out of 2858338
+ 292855 words of memory out of 3000000
+ 18399 multiletter control sequences out of 15000+200000
+ 403430 words of font info for 27 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 68i,11n,74p,231b,221s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/ARYAN RITWAJEET JHA/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/ARYAN RITW
+AJEET JHA/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pf
+b><C:/Users/ARYAN RITWAJEET JHA/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmr7.pfb><C:/Users/ARYAN RITWAJEET JHA/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on inverseAutocorrelationValues.pdf (1 page, 43476 bytes).
+PDF statistics:
+ 22 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

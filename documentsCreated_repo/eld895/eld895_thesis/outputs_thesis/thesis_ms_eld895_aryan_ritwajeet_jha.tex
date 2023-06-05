@@ -1,0 +1,84 @@
+\documentclass[MS]{iitddiss}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+
+\usepackage{t1enc}
+\usepackage{lipsum}
+\usepackage{booktabs} %for toprule bottomrule in tables
+\usepackage[backend=biber, style=numeric-comp, sorting=none]{biblatex}
+\addbibresource{../chapters/references.bib}
+
+
+\usepackage{graphicx, import}
+\usepackage{hyperref} % hyperlinks for references.
+\usepackage{amsmath,amssymb}
+\usepackage{xparse}
+
+\DeclareRobustCommand{\bbone}{\text{\usefont{U}{bbold}{m}{n}1}}
+
+\DeclareMathOperator{\EX}{\mathbb{E}}% expected value
+\usepackage{graphicx}
+\usepackage{pgfplots}
+\usepackage[subpreambles=false]{standalone}
+\usepackage{import}
+\usepackage{adjustbox}
+\usepackage{titlesec}
+\usepackage{titletoc}
+
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{cleveref}
+\titleformat{\section}[display]%
+{\null\vskip1em\Large\bfseries\filcenter}{Chapter \thesection}{0em}{}[]
+\titleformat{name = \section, numberless}[block]%
+{\null\vskip1em\bfseries\filcenter}{}{0em}{}
+\titlespacing*{\section}{0em}{1em}{1em}
+
+
+\titlecontents{section}
+[7em] % ie, width of contentslabel + 0.5em
+{\medskip}
+{\contentslabel[\chaptername~\thecontentslabel]{6.5em}}%\thecontentslabel
+{\hspace*{-6.5em}}
+{\titlerule*[0.5pc]{.}\contentspage}
+
+\title{Data Analysis for Predicting Instabilities in Power Systems}
+
+\author{Aryan Ritwajeet Jha}
+\entrynumber{2020EEY7525}
+\advisor{Prof. Nilanjan Senroy}
+%\date{August 2022}
+\date{December 2022}
+\department{Electrical Engineering}
+
+\begin{document}
+
+\maketitle
+\newpage
+\renewcommand{\contentsname}{Chapters for the Thesis}
+\setcounter{page}{0}
+\tableofcontents
+\newpage
+\pagenumbering{arabic}
+
+\input{../chapters/Introduction}
+\clearpage
+\input{../chapters/LiteratureReview}
+\clearpage
+\input{../chapters/Theory}
+\clearpage
+\input{../chapters/OfflineAnalysis}
+\clearpage
+\input{../chapters/OnlineAnalysis}
+\clearpage
+\input{../chapters/Conclusions}
+\clearpage
+\input{../chapters/FutureWork}
+\clearpage
+\printbibliography
+\clearpage
+%\appendix
+\input{../chapters/Appendix}
+
+\end{document}
+

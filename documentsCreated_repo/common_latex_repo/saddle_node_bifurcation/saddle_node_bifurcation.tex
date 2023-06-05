@@ -1,0 +1,61 @@
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+	\title{Saddle-node Bifurcation: Checking the Stability of Equilibrium Points}
+	\author{Aryan Ritwajeet Jha}
+	\maketitle
+	
+	Below is the equation for the Saddle-node Bifurcation: 
+	\begin{equation}
+		\label{eq:saddleNode}
+		\frac{dx}{dt} = \mu - x^2
+	\end{equation}
+	
+	which has equilibrium points at	
+	\begin{align*}
+		x_0 &= +\sqrt\mu \\
+		x_0 &= -\sqrt\mu
+	\end{align*} 
+
+	such that:
+	
+	\begin{equation}
+		\label{eq:saddleNodeEqui}
+		\frac{dx_0}{dt} = \mu - x_0^2 = 0 
+	\end{equation}
+	
+	
+	Perturbing $x$ around an equilibrium point $x_0$ by a small value $\tilde x$, i.e. using $x = x_0 + \tilde x$, we can rewrite equation (\ref{eq:saddleNode}) as:
+	
+	\begin{alignat}{1}
+		\label{eq:saddleNodePerturbed}
+		\frac{dx}{dt} &= \frac{d(x_0 + \tilde x)}{dt} \nonumber \\
+		\frac{dx}{dt} &= \frac{dx_0}{dt} + \frac{d \tilde x}{dt} \\
+		\frac{dx}{dt} &= \frac{d \tilde x}{dt} \nonumber
+	\end{alignat}
+
+	and putting $x = x_0 + \tilde x$ in the RHS of equation (\ref{eq:saddleNode}), we get:
+	
+	\begin{alignat}{1}
+		\label{eq:saddleNodePerturbed2}
+		\frac{d\tilde x}{dt} &= \mu - (x_0+\tilde x)^2 \nonumber \\
+		\frac{d\tilde x}{dt} &= \mu - x_0^2 -2x_0\tilde x - \tilde x^2
+	\end{alignat}
+	
+	Using equation (\ref{eq:saddleNode}) and equation (\ref{eq:saddleNodeEqui}) in equation (\ref{eq:saddleNodePerturbed2}) and neglecting the small last term, we get:
+	
+	\begin{equation}
+		\frac{d\tilde x}{dt} = -2x_0\tilde x
+	\end{equation}
+
+	which is a first order differential equation with constant coefficients whose solution can be expressed as:
+
+	\begin{equation}
+		\label{eq:solution}
+		\tilde{x}(t) = x(0)\exp{(-2x_0t)} 
+	\end{equation}
+
+	Thus the solution expressed in equation (\ref{eq:solution}) is an exponentially decaying stable one if $x_0$ is positive (in this case $x_0 = +\sqrt{\mu}$) but an exponentially increasing unstable one if $x_0$ is negative (in this case $x_0 = -\sqrt{\mu}$).
+\end{document}
+

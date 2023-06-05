@@ -1,0 +1,12 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
+\contentsline {section}{\numberline {2}Literature Review and Objectives}{3}{section.2}%
+\contentsline {section}{\numberline {3}Theory}{5}{section.3}%
+\contentsline {section}{\numberline {4}Offline/Postmortem Analysis}{13}{section.4}%
+\contentsline {section}{\numberline {5}Online/Real-time Analysis}{26}{section.5}%
+\contentsline {section}{\numberline {6}Conclusions}{37}{section.6}%
+\contentsline {section}{\numberline {7}Future Work}{39}{section.7}%
+\contentsline {section}{\numberline {A}Brownian Motion and the Ornstein-Uhlenbeck Process}{44}{appendix.A}%
+\contentsline {section}{\numberline {B}More Examples for Critical Bifurcation}{45}{appendix.B}%
+\contentsline {section}{\numberline {C}A Comparison of Select Correlation Coefficients}{46}{appendix.C}%
+\contentsfinish 

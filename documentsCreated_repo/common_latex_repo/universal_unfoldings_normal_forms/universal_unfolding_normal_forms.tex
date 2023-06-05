@@ -1,0 +1,80 @@
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+	\title{Normal Forms and Imperfections}
+	\author{Aryan Ritwajeet Jha}
+	\maketitle
+	
+	\section*{Example 1}
+	Let's begin with this equation: 
+	\begin{equation}
+		\label{eq:startingEquation}
+		\frac{dx}{dt} = -x(x^2-2x-\mu)
+	%	x^\prime = y
+	\end{equation}
+	
+	which has equilibrium points at	
+	\begin{align*}
+		x_0 &= 0 \\
+		x_0 &= 1 +\sqrt{1+\mu} \\
+		x_0 &= 1 -\sqrt{1+\mu}
+	\end{align*} 
+	
+	such that:
+	
+	\begin{equation}
+		\label{eq:startingEquationEqui}
+		\frac{dx_0}{dt} = -x_0(x_0^2-2x_0-\mu) = 0 
+	\end{equation}
+	
+	
+	Perturbing $x$ around an equilibrium point $x_0$ by a small value $\tilde x$, i.e. using $x = x_0 + \tilde x$, we can rewrite equation (\ref{eq:startingEquation}) as:
+	
+	\begin{alignat}{1}
+		\label{eq:startingEquationPerturbed}
+		\frac{dx}{dt} &= \frac{d(x_0 + \tilde x)}{dt} \nonumber \\		
+		\frac{dx}{dt} &= \frac{dx_0}{dt} + \frac{d \tilde x}{dt} \\		
+		\frac{dx}{dt} &= \frac{d \tilde x}{dt} \nonumber
+	\end{alignat}
+	
+	and putting $x = x_0 + \tilde x$ and $\mu = \mu_0 + \tilde{\mu}$ in the RHS of equation (\ref{eq:startingEquation}), we get:
+	
+	\begin{alignat}{1}
+		\label{eq:startingEquationPerturbed2}
+		\frac{d\tilde x}{dt} &= -(x_0+\tilde{x})\{(x_0+\tilde{x})^2-2(x_0+\tilde{x})-(\mu_0+\tilde{\mu})\} \nonumber \\		
+		\frac{d\tilde x}{dt} &= -(x_0+\tilde{x})\{x_0^2 + 2x_0\tilde{x} +\tilde{x}^2 -2x_0 -2\tilde{x}-\mu_0 -\tilde{\mu}\}		
+	\end{alignat}
+
+Re-arranging equation (\ref{eq:startingEquationPerturbed2}) as a polynomial in $\tilde{x}$, we get:
+
+	\begin{alignat}{1}
+		\label{eq:startingEquationPerturbed3}
+		\frac{d\tilde{x}}{dt} &= -(\tilde{x}+x_0)\{\tilde{x}^2 + (2x_0-2)\tilde{x} + (x_0^2-2x_0-\mu_0-\tilde{\mu})\} \nonumber \\		
+		\frac{d\tilde{x}}{dt} &= -\{\tilde{x}^3 + (3x_0-2)\tilde{x}^2 + (3x_0^2-4x_0-\mu_0-\tilde{\mu})\tilde{x} \\&{}  +(x_0^3 -2x_0^2 -x_0\mu_0 -x_0\tilde{\mu})\} \nonumber
+	\end{alignat}	
+	
+	We now check for the stability of equation (\ref{eq:startingEquation}) around the point $(0,0)$. We do this by making $x = 0 + \tilde{x}$ and $\mu = 0 + \tilde{\mu}$, which is equivalent to making $x_0 = 0$ and $\mu_0 = 0$ in equation (\ref{eq:startingEquationPerturbed3}). Thus, the equation with the substitutions becomes:
+	
+	\begin{alignat}{1}
+		\label{eq:firstSubstitution}
+		\frac{d\tilde x}{dt} &= -\{\tilde{x}^3 + (-2)\tilde{x}^2 + (-\tilde{\mu})\tilde{x} +(0)\} \nonumber \\
+		 \frac{d\tilde x}{dt} &= -\tilde{x}^3 + 2\tilde{x}^2 + \tilde{\mu}\tilde{x}
+	\end{alignat}
+	
+	We can neglect the first cubic term in equation (\ref{eq:firstSubstitution}) and arrive at the equation of a transcritical bifurcation:
+	
+	\begin{alignat}{1}
+		\frac{d\tilde{x}}{dt} &= \tilde{\mu}\tilde{x} + 2\tilde{x}^2
+	\end{alignat}
+	
+	We can similarly check for the stability of the dynamical system around the point $(1,-1)$, by putting $x_0 = 1$ and $\mu_0 = -1$ in equation (\ref{eq:startingEquationPerturbed3}):
+	
+	\begin{alignat}{1}
+		\frac{d\tilde{x}}{dt} &= -\{\tilde{x}^3 + (1)\tilde{x}^2 + (-\tilde{\mu})\tilde{x} + (-\tilde{\mu})\} \nonumber \\
+		\frac{d\tilde{x}}{dt} &=  -\tilde{x}^3 - \tilde{x}^2 + \tilde{\mu}\tilde{x} + \tilde{\mu}
+	\end{alignat}
+
+	and this is where my confusion begins. The biggest term here is $\tilde{\mu}$, and does not match with what the lecture says.
+\end{document}
+

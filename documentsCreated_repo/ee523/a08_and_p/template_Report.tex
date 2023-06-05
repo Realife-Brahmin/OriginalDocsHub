@@ -1,0 +1,101 @@
+\documentclass[]{report}
+
+
+% Title Page
+\title{Project Report cum Assignment Submission for EE 523: Power System Stability and Control}
+\author{Aryan Ritwajeet Jha}
+
+\date{05 May 2023 | Spring 2023}
+
+\begin{document}
+\maketitle
+
+$\left(\begin{array}{c}
+	0=376.9911\,\omega_2 -376.9911\\
+	0=376.9911\,\omega_3 -376.9911\\
+	0=376.9911\,\omega_4 -376.9911\\
+	0=0.0085\,P_{\textrm{m2}} -0.0171\,\omega_2 -0.0427\\
+	0=0.0090\,P_{\textrm{m3}} -0.0180\,\omega_3 -0.0467\\
+	0=0.0090\,P_{\textrm{m4}} -0.0180\,\omega_4 -0.0450\\
+	0=0.1250\,V_{\textrm{R2}} -0.0208\,I_{\textrm{d2}} -0.1250\,{E^{\prime } }_{\textrm{q2}} \\
+	0=0.1250\,V_{\textrm{R3}} -0.0208\,I_{\textrm{d3}} -0.1250\,{E^{\prime } }_{\textrm{q3}} \\
+	0=0.1250\,V_{\textrm{R4}} -0.0208\,I_{\textrm{d4}} -0.1250\,{E^{\prime } }_{\textrm{q4}} \\
+	0=0.3194\,I_{\textrm{q2}} -2.5000\,{E^{\prime } }_{\textrm{d2}} \\
+	0=0.3194\,I_{\textrm{q3}} -2.5000\,{E^{\prime } }_{\textrm{d3}} \\
+	0=0.3194\,I_{\textrm{q4}} -2.5000\,{E^{\prime } }_{\textrm{d4}} \\
+	0=5000\,V_{\textrm{ref2}} -100\,V_{\textrm{R2}} -5050\\
+	0=5000\,V_{\textrm{ref3}} -100\,V_{\textrm{R3}} -5150\\
+	0=5000\,V_{\textrm{ref4}} -100\,V_{\textrm{R4}} -5050\\
+	0=0.0100\,P_{\textrm{C2}} -0.0100\,P_{\textrm{m2}} -0.2000\,\omega_2 +0.2000\\
+	0=0.0100\,P_{\textrm{C3}} -0.0100\,P_{\textrm{m3}} -0.2000\,\omega_3 +0.2000\\
+	0=0.0100\,P_{\textrm{C4}} -0.0100\,P_{\textrm{m4}} -0.2000\,\omega_4 +0.2000\\
+	0=I_{\textrm{d2}} -6.9364\,\sin \left(\theta_2 +0.1631\right)\\
+	0=I_{\textrm{d3}} -7.0970\,\sin \left(\theta_3 +0.3319\right)\\
+	0=I_{\textrm{d4}} -6.9954\,\sin \left(\theta_4 +0.5076\right)\\
+	0=I_{\textrm{q2}} -6.9364\,\cos \left(\theta_2 +0.1631\right)\\
+	0=I_{\textrm{q3}} -7.0970\,\cos \left(\theta_3 +0.3319\right)\\
+	0=I_{\textrm{q4}} -6.9954\,\cos \left(\theta_4 +0.5076\right)\\
+	0=V_{\textrm{q2}} -1.0100\,\cos \left(\theta_2 +0.1631\right)\\
+	0=V_{\textrm{q3}} -1.0300\,\cos \left(\theta_3 +0.3319\right)\\
+	0=V_{\textrm{q4}} -1.0100\,\cos \left(\theta_4 +0.5076\right)\\
+	0=V_{\textrm{d2}} -1.0100\,\sin \left(\theta_2 +0.1631\right)\\
+	0=V_{\textrm{d3}} -1.0300\,\sin \left(\theta_3 +0.3319\right)\\
+	0=V_{\textrm{d4}} -1.0100\,\sin \left(\theta_4 +0.5076\right)\\
+	0=I_{\textrm{d2}} -30\,{E^{\prime } }_{\textrm{q2}} +30\,V_{\textrm{q2}} \\
+	0=I_{\textrm{d3}} -30\,{E^{\prime } }_{\textrm{q3}} +30\,V_{\textrm{q3}} \\
+	0=I_{\textrm{d4}} -30\,{E^{\prime } }_{\textrm{q4}} +30\,V_{\textrm{q4}} \\
+	0=16.3636\,{E^{\prime } }_{\textrm{d2}} +I_{\textrm{q2}} -16.3636\,V_{\textrm{d2}} \\
+	0=16.3636\,{E^{\prime } }_{\textrm{d3}} +I_{\textrm{q3}} -16.3636\,V_{\textrm{d3}} \\
+	0=16.3636\,{E^{\prime } }_{\textrm{d4}} +I_{\textrm{q4}} -16.3636\,V_{\textrm{d4}} 
+\end{array}\right)$
+
+$\begin{array}{l}
+	\left(\begin{array}{c}
+		0=376.9911\,\omega_2 -376.9911\\
+		0=0.0085\,P_{\textrm{m2}} -0.0171\,\omega_2 -0.0118\,{{E^{\prime } }_{\textrm{d2}} }^2 -0.0118\,{{E^{\prime } }_{\textrm{q2}} }^2 -0.0716\,\cos \left(\theta_2 +\mathrm{atan}\left(\frac{{E^{\prime } }_{\textrm{q2}} }{{E^{\prime } }_{\textrm{d2}} }\right)-2.9380\right)\,\sigma_3 -0.0107\,\cos \left(\theta_4 -\theta_2 -\mathrm{atan}\left(\frac{{E^{\prime } }_{\textrm{q2}} }{{E^{\prime } }_{\textrm{d2}} }\right)+\mathrm{atan}\left(\frac{{E^{\prime } }_{\textrm{q4}} }{{E^{\prime } }_{\textrm{d4}} }\right)+0.7246\right)\,\sigma_3 \,\sigma_1 -0.0077\,\cos \left(\theta_3 -\theta_2 -\mathrm{atan}\left(\frac{{E^{\prime } }_{\textrm{q2}} }{{E^{\prime } }_{\textrm{d2}} }\right)+\mathrm{atan}\left(\frac{{E^{\prime } }_{\textrm{q3}} }{{E^{\prime } }_{\textrm{d3}} }\right)+0.7527\right)\,\sigma_3 \,\sigma_2 +0.0171\\
+		0=0.1250\,V_{\textrm{R2}} -0.1250\,{E^{\prime } }_{\textrm{q2}} -0.1745\,\cos \left(2.9380-\theta_2 \right)-0.2211\,\cos \left(\sigma_{10} \right)\,\sigma_3 -0.0261\,\cos \left(\sigma_6 \right)\,\sigma_1 -0.0188\,\cos \left(\sigma_4 \right)\,\sigma_2 \\
+		0=2.6749\,\sin \left(2.9380-\theta_2 \right)-2.5000\,{E^{\prime } }_{\textrm{d2}} +3.3908\,\sin \left(\sigma_{10} \right)\,\sigma_3 +0.4008\,\sin \left(\sigma_6 \right)\,\sigma_1 +0.2880\,\sin \left(\sigma_4 \right)\,\sigma_2 \\
+		0=\frac{5000\,{\left(0.2791\,\cos \left(2.9380-\theta_2 \right)-{E^{\prime } }_{\textrm{q2}} +0.3538\,\cos \left(\sigma_{10} \right)\,\sigma_3 +0.0418\,\cos \left(\sigma_6 \right)\,\sigma_1 +0.0301\,\cos \left(\sigma_4 \right)\,\sigma_2 \right)}}{\cos \left(\theta_2 +0.1631\right)}-100\,V_{\textrm{R2}} +\text{5.2215e+03}\\
+		0=0.2700-0.2000\,\omega_2 -0.0100\,P_{\textrm{m2}} \\
+		0=376.9911\,\omega_3 -376.9911\\
+		0=0.0090\,P_{\textrm{m3}} -0.0180\,\omega_3 -0.0128\,\cos \left(\theta_3 +\mathrm{atan}\left(\frac{{E^{\prime } }_{\textrm{q3}} }{{E^{\prime } }_{\textrm{d3}} }\right)-2.3834\right)\,\sigma_2 -0.0148\,{{E^{\prime } }_{\textrm{d3}} }^2 -0.0148\,{{E^{\prime } }_{\textrm{q3}} }^2 -0.0418\,\cos \left(\theta_4 -\theta_3 -\mathrm{atan}\left(\frac{{E^{\prime } }_{\textrm{q3}} }{{E^{\prime } }_{\textrm{d3}} }\right)+\mathrm{atan}\left(\frac{{E^{\prime } }_{\textrm{q4}} }{{E^{\prime } }_{\textrm{d4}} }\right)+1.1326\right)\,\sigma_2 \,\sigma_1 -0.0081\,\cos \left(\theta_2 -\theta_3 +\mathrm{atan}\left(\frac{{E^{\prime } }_{\textrm{q2}} }{{E^{\prime } }_{\textrm{d2}} }\right)-\mathrm{atan}\left(\frac{{E^{\prime } }_{\textrm{q3}} }{{E^{\prime } }_{\textrm{d3}} }\right)+0.7527\right)\,\sigma_3 \,\sigma_2 +0.0180\\
+		0=0.1250\,V_{\textrm{R3}} -0.1250\,{E^{\prime } }_{\textrm{q3}} -0.0296\,\cos \left(2.3834-\theta_3 \right)-0.1738\,\cos \left(\sigma_{11} \right)\,\sigma_2 -0.0968\,\cos \left(\sigma_8 \right)\,\sigma_1 -0.0188\,\cos \left(\sigma_5 \right)\,\sigma_3 \\
+		0=0.4542\,\sin \left(2.3834-\theta_3 \right)-2.5000\,{E^{\prime } }_{\textrm{d3}} +2.6648\,\sin \left(\sigma_{11} \right)\,\sigma_2 +1.4835\,\sin \left(\sigma_8 \right)\,\sigma_1 +0.2880\,\sin \left(\sigma_5 \right)\,\sigma_3 \\
+		0=\frac{5000\,{\left(0.0474\,\cos \left(2.3834-\theta_3 \right)-{E^{\prime } }_{\textrm{q3}} +0.2781\,\cos \left(\sigma_{11} \right)\,\sigma_2 +0.1548\,\cos \left(\sigma_8 \right)\,\sigma_1 +0.0301\,\cos \left(\sigma_5 \right)\,\sigma_3 \right)}}{\cos \left(\theta_3 +0.3319\right)}-100\,V_{\textrm{R3}} +\text{5.3255e+03}\\
+		0=0.2719-0.2000\,\omega_3 -0.0100\,P_{\textrm{m3}} \\
+		0=376.9911\,\omega_4 -376.9911\\
+		0=0.0090\,P_{\textrm{m4}} -0.0180\,\omega_4 -0.0178\,\cos \left(\theta_4 +\mathrm{atan}\left(\frac{{E^{\prime } }_{\textrm{q4}} }{{E^{\prime } }_{\textrm{d4}} }\right)-2.3553\right)\,\sigma_1 -0.0261\,{{E^{\prime } }_{\textrm{d4}} }^2 -0.0261\,{{E^{\prime } }_{\textrm{q4}} }^2 -0.0418\,\cos \left(\theta_3 -\theta_4 +\mathrm{atan}\left(\frac{{E^{\prime } }_{\textrm{q3}} }{{E^{\prime } }_{\textrm{d3}} }\right)-\mathrm{atan}\left(\frac{{E^{\prime } }_{\textrm{q4}} }{{E^{\prime } }_{\textrm{d4}} }\right)+1.1326\right)\,\sigma_2 \,\sigma_1 -0.0113\,\cos \left(\theta_2 -\theta_4 +\mathrm{atan}\left(\frac{{E^{\prime } }_{\textrm{q2}} }{{E^{\prime } }_{\textrm{d2}} }\right)-\mathrm{atan}\left(\frac{{E^{\prime } }_{\textrm{q4}} }{{E^{\prime } }_{\textrm{d4}} }\right)+0.7246\right)\,\sigma_3 \,\sigma_1 +0.0180\\
+		0=0.1250\,V_{\textrm{R4}} -0.1250\,{E^{\prime } }_{\textrm{q4}} -0.0412\,\cos \left(2.3553-\theta_4 \right)-0.2145\,\cos \left(\sigma_{12} \right)\,\sigma_1 -0.0968\,\cos \left(\sigma_9 \right)\,\sigma_2 -0.0261\,\cos \left(\sigma_7 \right)\,\sigma_3 \\
+		0=0.6319\,\sin \left(2.3553-\theta_4 \right)-2.5000\,{E^{\prime } }_{\textrm{d4}} +3.2897\,\sin \left(\sigma_{12} \right)\,\sigma_1 +1.4835\,\sin \left(\sigma_9 \right)\,\sigma_2 +0.4008\,\sin \left(\sigma_7 \right)\,\sigma_3 \\
+		0=\frac{5000\,{\left(0.0659\,\cos \left(2.3553-\theta_4 \right)-{E^{\prime } }_{\textrm{q4}} +0.3433\,\cos \left(\sigma_{12} \right)\,\sigma_1 +0.1548\,\cos \left(\sigma_9 \right)\,\sigma_2 +0.0418\,\cos \left(\sigma_7 \right)\,\sigma_3 \right)}}{\cos \left(\theta_4 +0.5076\right)}-100\,V_{\textrm{R4}} +\text{5.2225e+03}\\
+		0=0.2700-0.2000\,\omega_4 -0.0100\,P_{\textrm{m4}} 
+	\end{array}\right)\\
+	\mathrm{}\\
+	\textrm{where}\\
+	\mathrm{}\\
+	\;\;\sigma_1 =\sqrt{{{E^{\prime } }_{\textrm{d4}} }^2 +{{E^{\prime } }_{\textrm{q4}} }^2 }\\
+	\mathrm{}\\
+	\;\;\sigma_2 =\sqrt{{{E^{\prime } }_{\textrm{d3}} }^2 +{{E^{\prime } }_{\textrm{q3}} }^2 }\\
+	\mathrm{}\\
+	\;\;\sigma_3 =\sqrt{{{E^{\prime } }_{\textrm{d2}} }^2 +{{E^{\prime } }_{\textrm{q2}} }^2 }\\
+	\mathrm{}\\
+	\;\;\sigma_4 =\theta_3 -\theta_2 +\mathrm{atan}\left(\frac{{E^{\prime } }_{\textrm{q3}} }{{E^{\prime } }_{\textrm{d3}} }\right)+0.7527\\
+	\mathrm{}\\
+	\;\;\sigma_5 =\theta_2 -\theta_3 +\mathrm{atan}\left(\frac{{E^{\prime } }_{\textrm{q2}} }{{E^{\prime } }_{\textrm{d2}} }\right)+0.7527\\
+	\mathrm{}\\
+	\;\;\sigma_6 =\theta_4 -\theta_2 +\mathrm{atan}\left(\frac{{E^{\prime } }_{\textrm{q4}} }{{E^{\prime } }_{\textrm{d4}} }\right)+0.7246\\
+	\mathrm{}\\
+	\;\;\sigma_7 =\theta_2 -\theta_4 +\mathrm{atan}\left(\frac{{E^{\prime } }_{\textrm{q2}} }{{E^{\prime } }_{\textrm{d2}} }\right)+0.7246\\
+	\mathrm{}\\
+	\;\;\sigma_8 =\theta_4 -\theta_3 +\mathrm{atan}\left(\frac{{E^{\prime } }_{\textrm{q4}} }{{E^{\prime } }_{\textrm{d4}} }\right)+1.1326\\
+	\mathrm{}\\
+	\;\;\sigma_9 =\theta_3 -\theta_4 +\mathrm{atan}\left(\frac{{E^{\prime } }_{\textrm{q3}} }{{E^{\prime } }_{\textrm{d3}} }\right)+1.1326\\
+	\mathrm{}\\
+	\;\;\sigma_{10} =\mathrm{atan}\left(\frac{{E^{\prime } }_{\textrm{q2}} }{{E^{\prime } }_{\textrm{d2}} }\right)-1.4401\\
+	\mathrm{}\\
+	\;\;\sigma_{11} =\mathrm{atan}\left(\frac{{E^{\prime } }_{\textrm{q3}} }{{E^{\prime } }_{\textrm{d3}} }\right)-1.3720\\
+	\mathrm{}\\
+	\;\;\sigma_{12} =\mathrm{atan}\left(\frac{{E^{\prime } }_{\textrm{q4}} }{{E^{\prime } }_{\textrm{d4}} }\right)-1.2848
+\end{array}$
+
+\end{document}          

@@ -1,0 +1,35 @@
+\section[Introduction]{Introduction}
+\label{sec:introduction}
+
+
+\begin{frame}[fragile]{Introduction}
+	\begin{tabularx}{\textwidth}{
+			@{\hspace{1.5em}}% Space for left bullet
+			>{\leavevmode\raggedright}% Left bullet + formatting of column
+			X% Left column specification
+			@{\quad\hspace{1.5em}}% Space between columns + right bullet space
+			>{\leavevmode\raggedright\arraybackslash}% Right bullet + formatting of column
+			X% Right column specification
+			@{}% No column space on right
+		}
+		\textbf{Transient Stability} & \textbf{Steady State Stability}\\
+		\toprule
+		A sudden, out-of-trend, high magnitude change in a state variable(s) causes blackouts. & 
+		Accumulation of several seemingly minor trends in state variables over time, ultimately leading to a \textcolor{red}{critical point} where a small change could cause blackouts.\\
+		Causes are generally tangible, including sudden failure of generator or transformer or transmission line or due to corrective protection mechanisms. &
+		Causes may not be tangible. Some documented causes include: accumulation of renewable generation `noise', measurement noise, difference in supply demand of powers in a grid after the latest power dispatch.\\
+		\bottomrule
+	\end{tabularx}
+\end{frame}
+
+\begin{frame}{Introduction}
+	While modeling every significant possible source of stochastic disturbance can be difficult or perhaps even outright impossible, at least their detection can be made through model free data-driven statistical analysis, enabling early detection of grid stability problems for a timely course-corrective action \cite{schafer01, sanchez01, ghanvati01}.
+\end{frame}
+
+\begin{frame}{Introduction}
+	Bifurcation Theory \cite{nathanKutzNotesOnBifurcationTheoryAndNormalForms, rosehartBifurcationAnalysisOfVariousPowerSystemModels, chenBifurcationsAndChaosInEngineering, mohlerDyanmicsAndControlPartOne} helps explain the erratic functioning of stressed dynamical systems such as the power grid, and the theory of Critical Slowing Down \cite{schefferEarlyWarningSignalsForCriticalTransitions} lists tangible quantitative analysis tools which can help us detect an impending `bifurcation' (blackout) in the power grid.
+\end{frame}
+
+\begin{frame}{Introduction}
+		In this thesis, we first investigate various real-world grid frequency time series archives on their robustness against minor disturbances and any kind of long-standing stability problems in them, through the use of bulk distribution probability density functions and autocorrelation decay plots. We refer to this analysis as Offline/Postmortem analysis as the input data used is sampled for a long period (several months or years). Next, we investigate the effectiveness of two statistical parameters computed in real-time listed out as per the theory of Critical Slowing Down, namely Autocorrelation and Variance as Early Warning Sign Indicators of an approaching bifurcation in a power grid. We label this analysis as the Online/Real-time analysis as the input data here is only in instantaneously available from a stream of PMU data.
+\end{frame}	

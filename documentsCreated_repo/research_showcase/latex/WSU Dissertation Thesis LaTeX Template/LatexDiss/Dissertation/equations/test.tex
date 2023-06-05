@@ -1,0 +1,38 @@
+\documentclass{article}
+
+% this is the separate file for the sake of this example
+% created with {filecontents}:
+\usepackage{filecontents}
+\begin{filecontents}{equations/equations.tex}
+	\makeatletter
+	% \saveequation{<ID>}{<equation>}
+	\newcommand\saveequation[2]{%
+		\@namedef{equation@#1}{#2}%
+	}
+	
+	% \useequation{<ID>}
+	\newcommand\useequation[1]{%
+		\@nameuse{equation@#1}%
+	}
+	\makeatother
+	\RequirePackage{amsmath,bm}
+	\saveequation{massenergy}{E = mc^{2}}
+	\saveequation{curlE}{\nabla \times \bm{E} = 0}
+\end{filecontents}
+
+% input the file:    
+\input{equations/equations.tex}
+
+\begin{document}
+	% usage:
+	This is Einstein's relation: $\useequation{massenergy}$.
+	This is the curl of electric field:
+	\begin{equation}
+		\useequation{curlE}\label{eq:curlE}
+	\end{equation}
+	and without number:
+	\[
+	\useequation{curlE}
+	\]
+	
+\end{document}

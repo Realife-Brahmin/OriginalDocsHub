@@ -1,0 +1,363 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{none/global//global/global}
+  \entry{ghanvati01}{article}{}
+    \name{author}{3}{}{%
+      {{hash=GG}{%
+         family={Ghanavati},
+         familyi={G\bibinitperiod},
+         given={Goodarz},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=HPDH}{%
+         family={Hines},
+         familyi={H\bibinitperiod},
+         given={Paul D.\bibnamedelima H.},
+         giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim
+  H\bibinitperiod},
+      }}%
+      {{hash=LTI}{%
+         family={Lakoba},
+         familyi={L\bibinitperiod},
+         given={Taras\bibnamedelima I.},
+         giveni={T\bibinitperiod\bibinitdelim I\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GGHPDHLTI1}
+    \strng{fullhash}{GGHPDHLTI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1109/TPWRS.2015.2412115
+    \endverb
+    \field{number}{2}
+    \field{pages}{1360\bibrangedash 1368}
+    \field{title}{Identifying Useful Statistical Indicators of Proximity to
+  Instability in Stochastic Power Systems}
+    \field{volume}{31}
+    \field{journaltitle}{IEEE Transactions on Power Systems}
+    \field{year}{2016}
+  \endentry
+
+  \entry{sanchez01}{article}{}
+    \name{author}{3}{}{%
+      {{hash=CSE}{%
+         family={Cotilla-Sanchez},
+         familyi={C\bibinithyphendelim S\bibinitperiod},
+         given={Eduardo},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=HPDH}{%
+         family={Hines},
+         familyi={H\bibinitperiod},
+         given={Paul D.\bibnamedelima H.},
+         giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim
+  H\bibinitperiod},
+      }}%
+      {{hash=DCM}{%
+         family={Danforth},
+         familyi={D\bibinitperiod},
+         given={Christopher\bibnamedelima M.},
+         giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CSEHPDHDCM1}
+    \strng{fullhash}{CSEHPDHDCM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1109/TSG.2012.2213848
+    \endverb
+    \field{number}{4}
+    \field{pages}{1832\bibrangedash 1840}
+    \field{title}{Predicting Critical Transitions From Time Series
+  Synchrophasor Data}
+    \field{volume}{3}
+    \field{journaltitle}{IEEE Transactions on Smart Grid}
+    \field{year}{2012}
+  \endentry
+
+  \entry{schafer01}{article}{}
+    \name{author}{5}{}{%
+      {{hash=SB}{%
+         family={Schäfer},
+         familyi={S\bibinitperiod},
+         given={Benjamin},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=BC}{%
+         family={Beck},
+         familyi={B\bibinitperiod},
+         given={Christian},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=AK}{%
+         family={Aihara},
+         familyi={A\bibinitperiod},
+         given={Kazuyuki},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=WD}{%
+         family={Witthaut},
+         familyi={W\bibinitperiod},
+         given={Dirk},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=TM}{%
+         family={Timme},
+         familyi={T\bibinitperiod},
+         given={Marc},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{2}{%
+      {Springer Science}%
+      {Business Media LLC}%
+    }
+    \strng{namehash}{SB+1}
+    \strng{fullhash}{SBBCAKWDTM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1038/s41560-017-0058-z
+    \endverb
+    \field{issn}{2058-7546}
+    \field{number}{2}
+    \field{pages}{119–126}
+    \field{title}{Non-Gaussian power grid frequency fluctuations characterized
+  by Lévy-stable laws and superstatistics}
+    \verb{url}
+    \verb http://dx.doi.org/10.1038/s41560-017-0058-z
+    \endverb
+    \field{volume}{3}
+    \field{journaltitle}{Nature Energy}
+    \field{year}{2018}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{vorobev01}{article}{}
+    \name{author}{6}{}{%
+      {{hash=VP}{%
+         family={Vorobev},
+         familyi={V\bibinitperiod},
+         given={Petr},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=GDM}{%
+         family={Greenwood},
+         familyi={G\bibinitperiod},
+         given={David\bibnamedelima M.},
+         giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=BJH}{%
+         family={Bell},
+         familyi={B\bibinitperiod},
+         given={John\bibnamedelima H.},
+         giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=BJW}{%
+         family={Bialek},
+         familyi={B\bibinitperiod},
+         given={Janusz\bibnamedelima W.},
+         giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=TPC}{%
+         family={Taylor},
+         familyi={T\bibinitperiod},
+         given={Philip\bibnamedelima C.},
+         giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=TK}{%
+         family={Turitsyn},
+         familyi={T\bibinitperiod},
+         given={Konstantin},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{VP+1}
+    \strng{fullhash}{VPGDMBJHBJWTPCTK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1109/TPWRS.2019.2895547
+    \endverb
+    \field{number}{4}
+    \field{pages}{3098\bibrangedash 3108}
+    \field{title}{Deadbands, Droop, and Inertia Impact on Power System
+  Frequency Distribution}
+    \field{volume}{34}
+    \field{journaltitle}{IEEE Transactions on Power Systems}
+    \field{year}{2019}
+  \endentry
+
+  \entry{francesca01}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=MFM}{%
+         family={Mele},
+         familyi={M\bibinitperiod},
+         given={Francesca\bibnamedelima Madia},
+         giveni={F\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=Ol}{%
+         family={Ortega},
+         familyi={O\bibinitperiod},
+         given={Álvaro},
+         giveni={l\bibinitperiod},
+      }}%
+      {{hash=ZMR}{%
+         family={Zárate-Miñano},
+         familyi={Z\bibinithyphendelim M\bibinitperiod},
+         given={Rafael},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=MF}{%
+         family={Milano},
+         familyi={M\bibinitperiod},
+         given={Federico},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MFM+1}
+    \strng{fullhash}{MFMOlZMRMF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{2016 Power Systems Computation Conference (PSCC)}
+    \verb{doi}
+    \verb 10.1109/PSCC.2016.7540970
+    \endverb
+    \field{pages}{1\bibrangedash 8}
+    \field{title}{Impact of variability, uncertainty and frequency regulation
+  on power system frequency distribution}
+    \field{year}{2016}
+  \endentry
+
+  \entry{adeen01}{article}{}
+    \name{author}{2}{}{%
+      {{hash=AM}{%
+         family={Adeen},
+         familyi={A\bibinitperiod},
+         given={Muhammad},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=MF}{%
+         family={Milano},
+         familyi={M\bibinitperiod},
+         given={Federico},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AMMF1}
+    \strng{fullhash}{AMMF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1109/TPWRS.2021.3068038
+    \endverb
+    \field{pages}{1\bibrangedash 1}
+    \field{title}{On the Impact of Auto-Correlation of Stochastic Processes on
+  the Transient Behavior of Power Systems}
+    \field{journaltitle}{IEEE Transactions on Power Systems}
+    \field{year}{2021}
+  \endentry
+
+  \entry{lrydin01}{article}{}
+    \name{author}{10}{}{%
+      {{hash=RGL}{%
+         family={Rydin\bibnamedelima Gorj{\~a}o},
+         familyi={R\bibinitperiod\bibinitdelim G\bibinitperiod},
+         given={Leonardo},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=JR}{%
+         family={Jumar},
+         familyi={J\bibinitperiod},
+         given={Richard},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=MH}{%
+         family={Maass},
+         familyi={M\bibinitperiod},
+         given={Heiko},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=HV}{%
+         family={Hagenmeyer},
+         familyi={H\bibinitperiod},
+         given={Veit},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=YGC}{%
+         family={Yalcin},
+         familyi={Y\bibinitperiod},
+         given={G.\bibnamedelima Cigdem},
+         giveni={G\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=KJ}{%
+         family={Kruse},
+         familyi={K\bibinitperiod},
+         given={Johannes},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=TM}{%
+         family={Timme},
+         familyi={T\bibinitperiod},
+         given={Marc},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BC}{%
+         family={Beck},
+         familyi={B\bibinitperiod},
+         given={Christian},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=WD}{%
+         family={Witthaut},
+         familyi={W\bibinitperiod},
+         given={Dirk},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=SB}{%
+         family={Sch{\"a}fer},
+         familyi={S\bibinitperiod},
+         given={Benjamin},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RGL+1}
+    \strng{fullhash}{RGLJRMHHVYGCKJTMBCWDSB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1038/s41467-020-19732-7
+    \endverb
+    \field{issn}{2041-1723}
+    \field{number}{1}
+    \field{pages}{6362}
+    \field{title}{Open database analysis of scaling and spatio-temporal
+  properties of power grid frequencies}
+    \verb{url}
+    \verb https://doi.org/10.1038/s41467-020-19732-7
+    \endverb
+    \field{volume}{11}
+    \field{journaltitle}{Nature Communications}
+    \field{year}{2020}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+\enddatalist
+\endinput
