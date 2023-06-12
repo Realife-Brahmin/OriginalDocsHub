@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.11)  11 JUN 2023 17:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.11)  11 JUN 2023 17:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -102,11 +102,7 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@lastruleclass=\count199
 \@thisrulewidth=\dimen153
 ) (metadata.sty
-
-LaTeX Warning: You have requested package `metadata',
-               but the package provides `preamble'.
-
-Package: preamble 
+Package: metadata 
 
 (C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\a
 msmath.sty
@@ -772,24 +768,24 @@ Package: fcnumparser 2017/06/15
  (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
 
 (C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/context/base/mk
 ii\supp-pdf.mkii
@@ -832,7 +828,7 @@ Package color Info: Driver file: pdftex.def on input line 149.
 
 (C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/graphics\
 mathcolor.ltx))
-Package hyperref Info: Link coloring ON on input line 25.
+Package hyperref Info: Link coloring ON on input line 28.
  (main.out) (main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
@@ -852,14 +848,14 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (main.bbl)
-Package biblatex Info: Reference section=0 on input line 25.
-Package biblatex Info: Reference segment=0 on input line 25.
+Package biblatex Info: Reference section=0 on input line 28.
+Package biblatex Info: Reference segment=0 on input line 28.
 
 (C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/fmtcount\
 fc-english.def
 File: fc-english.def 2016/01/12
 )
-Package hyperref Info: Option `breaklinks' set `true' on input line 27.
+Package hyperref Info: Option `breaklinks' set `true' on input line 30.
  [1
 
 
@@ -874,31 +870,31 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.34  \makepreliminarypages
+l.37  \makepreliminarypages
                             [1
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
 
  []
 
@@ -966,13 +962,13 @@ LaTeX Warning: Citation 'wetterstrand2016' on page 3 undefined on input line 9.
 LaTeX Warning: Citation 'wetterstrand2016' on page 3 undefined on input line 9.
 
 
-[3
+)
 
- <../images/costperMb2015_4.jpg>])
+LaTeX Warning: Empty bibliography on input line 69.
 
-LaTeX Warning: Empty bibliography on input line 66.
+(../chapters/appendix/app.tex [3
 
-(../chapters/appendix/app.tex [4] [5]
+ <../images/costperMb2015_4.jpg>] [4] [5]
 Appendix A.
 (../tables/bfmTable.tex)
 Overfull \hbox (60.73299pt too wide) in paragraph at lines 6--18
@@ -1010,12 +1006,12 @@ Package logreq Info: Writing requests to 'main.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  20184 strings out of 476411
- 367698 string characters out of 5782490
+ 367733 string characters out of 5782490
  1867845 words of memory out of 5000000
  40221 multiletter control sequences out of 15000+600000
  524117 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 90i,16n,91p,679b,1544s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,16n,91p,679b,1090s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Aryan Ritwajeet Jha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/
 ec/dpi600\ecrm1095.pk> <C:\Users\Aryan Ritwajeet Jha\AppData\Local\MiKTeX\fonts
 /pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\Aryan Ritwajeet Jha\AppDat
@@ -1034,7 +1030,7 @@ ers/Aryan Ritwajeet Jha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmr6.pfb><C:/Users/Aryan Ritwajeet Jha/AppData/Local/Programs/MiKTeX/font
 s/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Aryan Ritwajeet Jha/AppData/Local
 /Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on main.pdf (18 pages, 1420358 bytes).
+Output written on main.pdf (18 pages, 1419712 bytes).
 PDF statistics:
  511 PDF objects out of 1000 (max. 8388607)
  45 named destinations out of 1000 (max. 500000)
