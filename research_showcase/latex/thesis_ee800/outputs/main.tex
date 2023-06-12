@@ -3,8 +3,8 @@
 
 \usepackage{import}
 \usepackage{booktabs} %for table divider lines
-% preamble contains title page, signature page, acknowledgment and abstract texts
-\usepackage{preamble}
+% metadata contains title page, signature page, acknowledgment and abstract texts
+\usepackage{metadata}
 
 % Pacakges used
 \usepackage[utf8]{inputenc} % Remove warning on ascii conversion
@@ -54,8 +54,9 @@
  \mainmatter
 
 % OK. Everything is set up. Type your thesis here.
-\include{chapters/chapter1/ch1.tex}
-\include{chapters/chapter2/ch2.tex}
+%include does NOT work for relative paths going UP the directory, so am using input.
+\input{../chapters/chapter1/ch1.tex}
+\input{../chapters/chapter2/ch2.tex}
 
 % Bibliography
 \begingroup
@@ -66,6 +67,6 @@
 \addcontentsline{toc}{part}{REFERENCES}
 
 % Appendices
-\include{chapters/appendix/app.tex}
+\input{../chapters/appendix/app.tex}
 
 \end{document}
