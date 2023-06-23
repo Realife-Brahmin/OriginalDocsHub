@@ -1,9 +1,35 @@
 \chapter{Branch Flow Model: Relaxations and Convexification}
 
-\begin{table}[!h]
+In \cite{bfm01} the authors came up the Relaxed Branch Flow Model, and showed that in the case of Tree/Radial networks, the Relaxed Model can solve for the unique optimal solution, including the bus angles, and in the case of weakly meshed networks, there is a mechanism for extracting the bus angles from the relaxed solution, to find out its unique solution, if it exists.
+%\newcommand{\fromto}[2]{$#1 \rightarrow #2$}
+
+\newcommand{\fromto}[1]{%
+	\StrBefore{#1}{,}[\from]%
+	\StrBehind{#1}{,}[\to]%
+	\from \rightarrow \to%
+}
+
+Legend for \cref{tab:bfm1}:
+\begin{table}[h]
+%	\caption{Notations}
+	\caption{Table describing the variables involved in the Branch Flow Model equations.}
+	\label{leg:bfm1}
+	\begin{tabular}{cc}
+		\toprule
+		Symbol & Meaning \\
+		\midrule
+		$p_j, q_j$ & Real, Reactive Power flowing from bus $j$ into the network. \\
+		$P_{ij}, Q_{ij}$ & Real, Reactive Power flowing in branch $\fromto{i, j}$ (sending-end). \\
+		$I_{ij}, l_{ij}$ & Complex Current flowing in branch \\
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+\begin{table}[h]
 	\caption{Table describing the Branch Flow Model equations.}
 	\label{tab:bfm1}
 	\centering
 	\hspace*{-2cm}
 	\input{../tables/bfmTable.tex}
 \end{table}
+

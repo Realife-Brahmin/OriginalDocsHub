@@ -6,15 +6,10 @@
  \vspace {.5em} \noindent \textbf {CHAPTER}\par 
 \contentsline {chapter}{\numberline {1}SOME FORMATTING EXAMPLES}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Chapter one tittle section}{1}{section.1.1}%
-\contentsline {subsection}{\numberline {1.1.1}Another subsection of section - citations}{1}{subsection.1.1.1}%
-\contentsline {subsubsection}{Subsubsection of section - italic text}{1}{section*.7}%
-\contentsline {chapter}{\numberline {2}LINKS}{2}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Chapter one tittle section - links examples}{2}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Subsection title - more links examples}{2}{subsection.2.1.1}%
-\contentsline {chapter}{\numberline {3}FIGURES AND TABLES}{3}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Examples of a figure}{3}{section.3.1}%
-\contentsline {part}{REFERENCES}{4}{figure.caption.8}%
+\contentsline {chapter}{\numberline {2}FIGURES AND TABLES}{2}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Examples of a figure}{2}{section.2.1}%
+\contentsline {part}{REFERENCES}{3}{chapter*.7}%
  \vspace {.5em} \noindent \textbf {APPENDIX}\par 
-\contentsline {chapter}{\numberline {A}Branch Flow Model: Relaxations and Convexification}{6}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Abstracts: Optimization-based Methods for solving MP-OPF}{8}{appendix.B}%
-\contentsline {chapter}{\numberline {C}Abstracts: Dynamic Programming Methods for solving MP-OPF}{9}{appendix.C}%
+\contentsline {chapter}{\numberline {A}Branch Flow Model: Relaxations and Convexification}{5}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Abstracts: Optimization-based Methods for solving MP-OPF}{7}{appendix.B}%
+\contentsline {chapter}{\numberline {C}Abstracts: Dynamic Programming Methods for solving MP-OPF}{8}{appendix.C}%

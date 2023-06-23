@@ -7,14 +7,18 @@
 \usepackage{booktabs} %for table divider lines
 % metadata contains title page, signature page, acknowledgment and abstract texts
 \usepackage{metadata}
+\usepackage{caption}
+\captionsetup[table]{labelfont={sc},singlelinecheck=false,skip=25pt,belowskip=8pt}
+
+\usepackage{xstring}
 
 % Pacakges used
 \usepackage[utf8]{inputenc} % Remove warning on ascii conversion
 \usepackage[T1]{fontenc} % Remove warning on ascii conversion
-\usepackage[refsection=part,citestyle=apa,style=authoryear,natbib=true,backend=biber]{biblatex}
+\usepackage[citestyle=IEEE,natbib=true,backend=biber,style=numeric-comp]{biblatex}
 
 \usepackage{hyperref}
-
+\usepackage{cleveref}
 % Make chapter numbers into string words 1 -> ONE
 \usepackage{fmtcount}
 \makeatletter
@@ -26,7 +30,8 @@
 \addbibresource{references.bib}
 
 \begin{document}
-
+\let\oldcref\cref
+\renewcommand{\cref}[1]{\Cref*{#1}}
 \hypersetup{breaklinks=true}
 
  % Start page counting in roman numerals

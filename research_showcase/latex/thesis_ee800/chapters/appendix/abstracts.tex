@@ -1,5 +1,8 @@
 \chapter{Abstracts: Optimization-based Methods for solving MP-OPF}
-TBA
+In \cite{Nazir2019Jun}, the authors use a two-step paradigm for solving the MP-OPF problem, by first solving for a more relaxed SOCP problem for the all of the time-steps in a horizon, and using the SOC values from its solution, solve for the NLP OPF problem for every time-step in parallel.
+
+In \cite{Nazir2018Jun}, they prove that for 'realistic' systems, appending an additional `complementarity' cost function to the original objective function, Simultaneous Charging and Discharging (SCD) in the optimal solution is avoided, and that the Mixed-Integer SOCP problem of AC-OPF with energy storage can be relaxed into a regular SOCP problem without violating the battery physics in the optimal solution.
 
 \chapter{Abstracts: Dynamic Programming Methods for solving MP-OPF}
-TBA.
+
+In \cite{ddp01}, the authors use a Differential Dynamic Programming approach, which involved usage of Forward and Backward passes made over a sequence of time-steps, doing a back-and-forth between computation for one time-step, say $t$, by making some assumptions on any variables required from the next time-step $t+1$, and then updating the assumed values at $t$, once new values for the $t+1$ time-step have been made.
