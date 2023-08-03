@@ -1,11 +1,33 @@
 \chapter{Models: Battery Model for Mutli-Period OPF}
 
+% define T, G, B, \Delta t etc.
+
+\begin{table}[htbp]
+	\label{tab:grid_Nazir2018Jun}
+	\centering
+	\caption{Description of Grid Parameters}
+	\begin{tabular}{>{\raggedright\arraybackslash $}p{2.5cm}<{$} 
+		>{\raggedright\arraybackslash}p{5cm}}
+		\toprule
+		\text{Variable} & \text{Description}\\
+		\midrule
+		\mathcal{G} & Set of all nodes \\
+		\mathcal{L} & {} \\
+		\mathcal{T} & {} \\
+		\mathcal{\Delta t} & {} \\
+		\bottomrule
+	\end{tabular}%
+\end{table}%
+
 In \cite{Nazir2018Jun, Nazir2019Jun}, the batteries are modelled using four state/control variables, which are:
 \begin{table}[htbp]
-	\label{tab:Nazir2018Jun}
+	\label{tab:batt_Nazir2018Jun}
 	\centering
 	\caption{Description of Battery Variables}
-	\begin{tabular}{>{\raggedright\arraybackslash $}p{3.5cm}<{$} >{\raggedright\arraybackslash}p{5cm} >{\centering\arraybackslash $}p{3.5cm}<{$} >{\centering\arraybackslash\arraybackslash $}p{3.5cm}<{$}}
+	\begin{tabular}{>{\raggedright\arraybackslash $}p{2.5cm}<{$} 
+		>{\raggedright\arraybackslash}p{5cm} 
+		>{\centering\arraybackslash $}p{2.5cm}<{$} 
+		>{\centering\arraybackslash\arraybackslash $}p{2.5cm}<{$}}
 		\toprule
 		\text{Variable} & \text{Description} & \text{Dimension} & \text{Dimension $pu$} \\
 		\midrule
@@ -15,7 +37,17 @@ In \cite{Nazir2018Jun, Nazir2019Jun}, the batteries are modelled using four stat
 		q_{B_{n, k}} & Average Reactive Power Output from the Battery Inverter during the $k$-th time interval. & [kVAr] & [pu] \\
 		\bottomrule
 	\end{tabular}%
-	\label{tab:my_table}%
 \end{table}%
+
+\clearpage
+
+\begin{description}
+	\item[$k \in \{0, 1, 2, \ldots, T/\Delta t\}$] The index of the discretized time intervals, where $k$ represents
+	the $k$-th time interval of duration $\Delta t$ within the continuous time range
+	$[0, T]$. The corresponding continuous time interval is $[(k-1)\Delta t, k\Delta t]$.
+	\item[$n \in \mathcal{G}$] The node $n$ is an element of the set of all nodes
+	in the power grid $\mathcal{G}$.
+	% Add more items as needed
+\end{description}
 
 
