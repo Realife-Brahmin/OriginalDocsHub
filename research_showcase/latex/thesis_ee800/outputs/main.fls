@@ -289,9 +289,8 @@ INPUT ..\chapters\appendix\models.tex
 INPUT ..\chapters\appendix\models.tex
 INPUT ..\chapters\appendix\models.tex
 INPUT C:\Users\aryan\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm0800.tfm
-INPUT C:\Users\aryan\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx0800.tfm
 INPUT C:\Users\aryan\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm0600.tfm
-INPUT C:\Users\aryan\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx0600.tfm
+INPUT C:\Users\aryan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 INPUT main.aux
 INPUT .\main.out
 INPUT .\main.out
