@@ -1,0 +1,21 @@
+\chapter{Models: Battery Model for Mutli-Period OPF}
+
+In \cite{Nazir2018Jun, Nazir2019Jun}, the batteries are modelled using four state/control variables, which are:
+\begin{table}[htbp]
+	\label{tab:Nazir2018Jun}
+	\centering
+	\caption{Description of Battery Variables}
+	\begin{tabular}{>{\raggedright\arraybackslash $}p{3.5cm}<{$} >{\raggedright\arraybackslash}p{5cm} >{\centering\arraybackslash $}p{3.5cm}<{$} >{\centering\arraybackslash\arraybackslash $}p{3.5cm}<{$}}
+		\toprule
+		\textbf{Variable} & \textbf{Description} & \textbf{Variable Dimension} & \textbf{Dimension for Optimization} \\
+		\midrule
+		B_{n, k} & State of Charge (SOC) of Battery& [kWh] & [pu\,h] \\
+		P^c_{n, k} & Average Charging Power of the Battery during the $k$-th time interval. & [kW] & [pu] \\
+		P^d_{n, k} & Average Discharging Power of the Battery during the $k$-th time interval. & [kW] & [pu] \\
+		q_{B_{n, k}} & Average Reactive Power Output from the Battery Inverter during the $k$-th time interval. & [kVAr] & [pu] \\
+		\bottomrule
+	\end{tabular}%
+	\label{tab:my_table}%
+\end{table}%
+
+

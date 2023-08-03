@@ -1,21 +1,18 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=latex 2023.6.22)  22 JUN 2023 19:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.8.3)  3 AUG 2023 04:45
 entering extended mode
  restricted \write18 enabled.
- Source specials enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
-**./main.tex
-(main.tex
-LaTeX2e <2022-11-01> patch level 1
-L3 programming layer <2023-05-15> (WSUclass.cls
+**c:/Users/aryan/Documents/documents_general/documentsCreated/documentsCreated_repo/research_showcase/latex/thesis_ee800/outputs/main.tex
+(c:/Users/aryan/Documents/documents_general/documentsCreated/documentsCreated_repo/research_showcase/latex/thesis_ee800/outputs/main.tex
+LaTeX2e <2023-06-01> patch level 1
+L3 programming layer <2023-06-30>
+(WSUclass.cls
 Document Class: WSUclass 
-
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/base\book
-.cls
-Document Class: book 2022/07/02 v1.4n Standard LaTeX document class
-
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/base\bk12
-.clo
-File: bk12.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/base\book.cls
+Document Class: book 2023/05/17 v1.4n Standard LaTeX document class
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/base\bk12.clo
+File: bk12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count185
 \c@chapter=\count186
@@ -29,16 +26,12 @@ File: bk12.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip48
 \belowcaptionskip=\skip49
 \bibindent=\dimen140
-)
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/tools\aft
-erpage.sty
+) (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/tools\afterpage.sty
 Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
-\AP@output=\toks16
+\AP@output=\toks17
 \AP@partial=\box51
 \AP@footins=\box52
-)
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/tocloft\t
-ocloft.sty
+) (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/tocloft\tocloft.sty
 Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
 Package tocloft Info: The document has chapter divisions on input line 51.
 \cftparskip=\skip50
@@ -77,22 +70,16 @@ Package tocloft Info: The document has chapter divisions on input line 51.
 \cftbeforetabskip=\skip81
 \cfttabindent=\skip82
 \cfttabnumwidth=\skip83
-))
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/import\im
-port.sty
+)) (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/import\import.sty
 Package: import 2020/04/01  v 6.2
-)
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/tools\tab
-ularx.sty
+) (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
-
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/tools\arr
-ay.sty
+ (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
 Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
 \col@sep=\dimen141
 \ar@mcellbox=\box53
 \extrarowheight=\dimen142
-\NC@list=\toks17
+\NC@list=\toks18
 \extratabsurround=\skip84
 \backup@length=\skip85
 \ar@cellbox=\box54
@@ -103,10 +90,8 @@ Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
 \TX@target=\dimen146
 \TX@delta=\dimen147
 \TX@cols=\count196
-\TX@ftn=\toks18
-)
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\
-booktabs.sty
+\TX@ftn=\toks19
+) (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \heavyrulewidth=\dimen148
 \lightrulewidth=\dimen149
@@ -127,31 +112,21 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@thisrulewidth=\dimen160
 ) (metadata.sty
 Package: metadata 
-
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\a
-msmath.sty
-Package: amsmath 2022/04/08 v2.17n AMS math features
+ (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2023/05/13 v2.17o AMS math features
 \@mathmargin=\skip86
 
 For additional information on amsmath, use the `?' option.
-
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\a
-mstext.sty
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
-
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\a
-msgen.sty
+ (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks19
+\@emptytoks=\toks20
 \ex@=\dimen161
-))
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\a
-msbsy.sty
+)) (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen162
-)
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\a
-msopn.sty
+) (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count267
@@ -184,108 +159,70 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \dotsspace@=\muskip16
 \c@parentequation=\count274
 \dspbrk@lvl=\count275
-\tag@help=\toks20
+\tag@help=\toks21
 \row@=\count276
 \column@=\count277
 \maxfields@=\count278
-\andhelp@=\toks21
+\andhelp@=\toks22
 \eqnshift@=\dimen164
 \alignsep@=\dimen165
 \tagshift@=\dimen166
 \tagwidth@=\dimen167
 \totwidth@=\dimen168
 \lineht@=\dimen169
-\@envbody=\toks22
+\@envbody=\toks23
 \multlinegap=\skip87
 \multlinetaggap=\skip88
-\mathdisplay@stack=\toks23
+\mathdisplay@stack=\toks24
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
-)
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/generic/iftex\i
-fpdf.sty
+) (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifpdf.sty
 Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
-
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/generic/iftex\i
-ftex.sty
+ (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
-))
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/graphics\
-graphicx.sty
+)) (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
-
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/graphics\
-keyval.sty
+ (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks24
-)
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/graphics\
-graphics.sty
+\KV@toks@=\toks25
+) (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
-
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/graphics\
-trig.sty
+ (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
-)
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/graphics-
-cfg\graphics.cfg
+) (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: dvips.def on input line 107.
-
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/graphics-
-def\dvips.def
-File: dvips.def 2022/09/22 v3.1e Graphics/color driver for dvips
+Package graphics Info: Driver file: pdftex.def on input line 107.
+ (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen170
 \Gin@req@width=\dimen171
-)
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/graphics\
-rotating.sty
+) (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/graphics\rotating.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
-
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/base\ifth
-en.sty
+ (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 )
 \c@r@tfl@t=\count279
 \rotFPtop=\skip89
 \rotFPbot=\skip90
 \rot@float@box=\box57
-\rot@mess@toks=\toks25
-)
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\li
-psum.sty
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/l3package
-s/l3keys2e\l3keys2e.sty
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\
-expl3.sty
-Package: expl3 2023-05-15 L3 programming layer (loader) 
-
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/l3backend
-\l3backend-dvips.def
-File: l3backend-dvips.def 2023-04-19 L3 backend support: dvips
+\rot@mess@toks=\toks26
+) (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.sty (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2023-06-30 L3 programming layer (loader) 
+ (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count280
 \l__pdf_internal_box=\box58
-\g__pdf_backend_object_int=\count280
-\l__pdf_backend_content_box=\box59
-\l__pdf_backend_model_box=\box60
-\g__pdf_backend_annotation_int=\count281
-\g__pdf_backend_link_int=\count282
-\g__pdf_backend_link_sf_int=\count283
 ))
 Package: l3keys2e 2023-02-02 LaTeX2e option processing using LaTeX3 keys
 )
 Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
-\g__lipsum_par_int=\count284
-\l__lipsum_a_int=\count285
-\l__lipsum_b_int=\count286
-
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\li
-psum.ltd.tex))
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\
-fancyhdr.sty
+\g__lipsum_par_int=\count281
+\l__lipsum_a_int=\count282
+\l__lipsum_b_int=\count283
+ (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex)) (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
 Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
-
 \f@nch@headwidth=\skip91
 \f@nch@O@elh=\skip92
 \f@nch@O@erh=\skip93
@@ -295,13 +232,9 @@ Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 \f@nch@O@erf=\skip97
 \f@nch@O@olf=\skip98
 \f@nch@O@orf=\skip99
-)
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/caption\c
-aption.sty
+) (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2023/03/12 v3.6j Customizing captions (AR)
-
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/caption\c
-aption3.sty
+ (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
 Package: caption3 2023/03/12 v2.4 caption3 kernel (AR)
 \caption@tempdima=\dimen172
 \captionmargin=\dimen173
@@ -313,12 +246,10 @@ Package: caption3 2023/03/12 v2.4 caption3 kernel (AR)
 \caption@hangindent=\dimen179
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count287
-\c@continuedfloat=\count288
+\c@caption@flags=\count284
+\c@continuedfloat=\count285
 Package caption Info: rotating package is loaded.
-)
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/base\make
-idx.sty
+) (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/base\makeidx.sty
 Package: makeidx 2021/10/04 v1.0m Standard LaTeX package
 )
 \@indexfile=\write3
@@ -326,258 +257,179 @@ Package: makeidx 2021/10/04 v1.0m Standard LaTeX package
 
 
 Writing index file main.idx
-
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/url\url.s
-ty
+(C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-)
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\
-hyperref.sty
-Package: hyperref 2023-04-22 v7.00x Hypertext links for LaTeX
-
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds
-\ltxcmds.sty
+) (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2023-07-08 v7.01b Hypertext links for LaTeX
+ (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
-)
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/generic/pdftexc
-mds\pdftexcmds.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
-)
-
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/generic/infware
-rr\infwarerr.sty
+) (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode is ignored in DVI mode.
-)
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys
-\kvsetkeys.sty
+Package pdftexcmds Info: \pdfdraftmode found.
+) (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-)
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/generic/kvdefin
-ekeys\kvdefinekeys.sty
+) (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-)
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/generic/pdfesca
-pe\pdfescape.sty
+) (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-)
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\h
-ycolor.sty
+) (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-)
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/letltxmac
-ro\letltxmacro.sty
+) (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacro.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
-)
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\a
-uxhook.sty
+) (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
-)
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\
-nameref.sty
-Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
-
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/refcount\
-refcount.sty
+) (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2023-08-07 v2.53 Cross-referencing by name of section
+ (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-)
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/generic/gettitl
-estring\gettitlestring.sty
+) (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
-
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions
-\kvoptions.sty
+ (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count289
-)
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\
-etoolbox.sty
+\c@section@level=\count286
+) (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count290
+\etb@tempcnta=\count287
 )
 \@linkdim=\dimen180
-\Hy@linkcounter=\count291
-\Hy@pagecounter=\count292
-
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\
-pd1enc.def
-File: pd1enc.def 2023-04-22 v7.00x Hyperref: PDFDocEncoding definition (HO)
+\Hy@linkcounter=\count288
+\Hy@pagecounter=\count289
+ (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2023-07-08 v7.01b Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
-)
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/generic/intcalc
-\intcalc.sty
+) (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count293
-
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\
-puenc.def
-File: puenc.def 2023-04-22 v7.00x Hyperref: PDF Unicode definition (HO)
+\Hy@SavedSpaceFactor=\count290
+ (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2023-07-08 v7.01b Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 4065
-.
-Package hyperref Info: Option `pdfpagelabels' set `true' on input line 4065.
-Package hyperref Info: Option `plainpages' set `false' on input line 4065.
-Package hyperref Info: Option `colorlinks' set `true' on input line 4065.
-Package hyperref Info: Hyper figures OFF on input line 4182.
-Package hyperref Info: Link nesting OFF on input line 4187.
-Package hyperref Info: Hyper index ON on input line 4190.
-Package hyperref Info: Plain pages OFF on input line 4197.
-Package hyperref Info: Backreferencing OFF on input line 4202.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 4050.
+Package hyperref Info: Option `pdfpagelabels' set `true' on input line 4050.
+Package hyperref Info: Option `plainpages' set `false' on input line 4050.
+Package hyperref Info: Option `colorlinks' set `true' on input line 4050.
+Package hyperref Info: Hyper figures OFF on input line 4167.
+Package hyperref Info: Link nesting OFF on input line 4172.
+Package hyperref Info: Hyper index ON on input line 4175.
+Package hyperref Info: Plain pages OFF on input line 4182.
+Package hyperref Info: Backreferencing OFF on input line 4187.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4449.
-\c@Hy@tempcnt=\count294
-LaTeX Info: Redefining \url on input line 4787.
+Package hyperref Info: Bookmarks ON on input line 4434.
+\c@Hy@tempcnt=\count291
+LaTeX Info: Redefining \url on input line 4772.
 \XeTeXLinkMargin=\dimen181
-
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/generic/bitset\
-bitset.sty
+ (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
-
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/generic/bigintc
-alc\bigintcalc.sty
-Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
-)
+ (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count295
+\Fld@menulength=\count292
 \Field@Width=\dimen182
 \Fld@charsize=\dimen183
-Package hyperref Info: Hyper figures OFF on input line 6066.
-Package hyperref Info: Link nesting OFF on input line 6071.
-Package hyperref Info: Hyper index ON on input line 6074.
-Package hyperref Info: backreferencing OFF on input line 6081.
-Package hyperref Info: Link coloring ON on input line 6084.
-Package hyperref Info: Link coloring with OCG OFF on input line 6091.
-Package hyperref Info: PDF/A mode OFF on input line 6096.
-
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/base\atbe
-gshi-ltx.sty
+Package hyperref Info: Hyper figures OFF on input line 6051.
+Package hyperref Info: Link nesting OFF on input line 6056.
+Package hyperref Info: Hyper index ON on input line 6059.
+Package hyperref Info: backreferencing OFF on input line 6066.
+Package hyperref Info: Link coloring ON on input line 6069.
+Package hyperref Info: Link coloring with OCG OFF on input line 6076.
+Package hyperref Info: PDF/A mode OFF on input line 6081.
+ (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count296
-\c@Item=\count297
-\c@Hfootnote=\count298
+\Hy@abspage=\count293
+\c@Item=\count294
+\c@Hfootnote=\count295
 )
-Package hyperref Info: Driver (default): hdvips.
-
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\
-hdvips.def
-File: hdvips.def 2023-04-22 v7.00x Hyperref driver for dvips
-
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\
-pdfmark.def
-File: pdfmark.def 2023-04-22 v7.00x Hyperref definitions for pdfmark specials
-\pdf@docset=\toks26
-\pdf@box=\box61
-\pdf@toks=\toks27
-\pdf@defaulttoks=\toks28
-\HyField@AnnotCount=\count299
-\Fld@listcount=\count300
-\c@bookmark@seq@number=\count301
-
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/rerunfile
-check\rerunfilecheck.sty
-Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
-
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/base\atve
-ryend-ltx.sty
-Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
-kage
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2023-07-08 v7.01b Hyperref driver for pdfTeX
+ (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
 with kernel methods
 )
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/generic/uniquec
-ounter\uniquecounter.sty
+\Fld@listcount=\count296
+\c@bookmark@seq@number=\count297
+ (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+ (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-85.
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
 )
 \Hy@SectionHShift=\skip100
-)))
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/xstring\x
-string.sty
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/generic/xstring
-\xstring.tex
-\integerpart=\count302
-\decimalpart=\count303
+)) (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/xstring\xstring.sty (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/generic/xstring\xstring.tex
+\integerpart=\count298
+\decimalpart=\count299
 )
 Package: xstring 2023/01/14 v1.85 String manipulations (CT)
-)
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/base\inpu
-tenc.sty
+) (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
-\inpenc@prehook=\toks29
-\inpenc@posthook=\toks30
-)
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/base\font
-enc.sty
+\inpenc@prehook=\toks27
+\inpenc@posthook=\toks28
+) (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-)
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\
-biblatex.sty
+) (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
 Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
-
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/logreq\lo
-greq.sty
+ (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count304
-
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/logreq\lo
-greq.def
+\lrq@indent=\count300
+ (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-\c@tabx@nest=\count305
-\c@listtotal=\count306
-\c@listcount=\count307
-\c@liststart=\count308
-\c@liststop=\count309
-\c@citecount=\count310
-\c@citetotal=\count311
-\c@multicitecount=\count312
-\c@multicitetotal=\count313
-\c@instcount=\count314
-\c@maxnames=\count315
-\c@minnames=\count316
-\c@maxitems=\count317
-\c@minitems=\count318
-\c@citecounter=\count319
-\c@maxcitecounter=\count320
-\c@savedcitecounter=\count321
-\c@uniquelist=\count322
-\c@uniquename=\count323
-\c@refsection=\count324
-\c@refsegment=\count325
-\c@maxextratitle=\count326
-\c@maxextratitleyear=\count327
-\c@maxextraname=\count328
-\c@maxextradate=\count329
-\c@maxextraalpha=\count330
-\c@abbrvpenalty=\count331
-\c@highnamepenalty=\count332
-\c@lownamepenalty=\count333
-\c@maxparens=\count334
-\c@parenlevel=\count335
-\blx@tempcnta=\count336
-\blx@tempcntb=\count337
-\blx@tempcntc=\count338
-\c@blx@maxsection=\count339
-\blx@maxsegment@0=\count340
-\blx@notetype=\count341
-\blx@parenlevel@text=\count342
-\blx@parenlevel@foot=\count343
-\blx@sectionciteorder@0=\count344
-\blx@sectionciteorderinternal@0=\count345
-\blx@entrysetcounter=\count346
-\blx@biblioinstance=\count347
+\c@tabx@nest=\count301
+\c@listtotal=\count302
+\c@listcount=\count303
+\c@liststart=\count304
+\c@liststop=\count305
+\c@citecount=\count306
+\c@citetotal=\count307
+\c@multicitecount=\count308
+\c@multicitetotal=\count309
+\c@instcount=\count310
+\c@maxnames=\count311
+\c@minnames=\count312
+\c@maxitems=\count313
+\c@minitems=\count314
+\c@citecounter=\count315
+\c@maxcitecounter=\count316
+\c@savedcitecounter=\count317
+\c@uniquelist=\count318
+\c@uniquename=\count319
+\c@refsection=\count320
+\c@refsegment=\count321
+\c@maxextratitle=\count322
+\c@maxextratitleyear=\count323
+\c@maxextraname=\count324
+\c@maxextradate=\count325
+\c@maxextraalpha=\count326
+\c@abbrvpenalty=\count327
+\c@highnamepenalty=\count328
+\c@lownamepenalty=\count329
+\c@maxparens=\count330
+\c@parenlevel=\count331
+\blx@tempcnta=\count332
+\blx@tempcntb=\count333
+\blx@tempcntc=\count334
+\c@blx@maxsection=\count335
+\blx@maxsegment@0=\count336
+\blx@notetype=\count337
+\blx@parenlevel@text=\count338
+\blx@parenlevel@foot=\count339
+\blx@sectionciteorder@0=\count340
+\blx@sectionciteorderinternal@0=\count341
+\blx@entrysetcounter=\count342
+\blx@biblioinstance=\count343
 \labelnumberwidth=\skip101
 \labelalphawidth=\skip102
 \biblabelsep=\skip103
@@ -589,88 +441,86 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 \blx@bcfin=\read2
 \blx@bcfout=\write4
 \blx@langwohyphens=\language79
-\c@mincomprange=\count348
-\c@maxcomprange=\count349
-\c@mincompwidth=\count350
+\c@mincomprange=\count344
+\c@maxcomprange=\count345
+\c@mincompwidth=\count346
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
-
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\
-blx-dm.def
+ (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
 File: blx-dm.def 2023/03/05 v3.19 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'numeric-comp.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count351
-\c@savedafterword=\count352
-\c@annotator=\count353
-\c@savedannotator=\count354
-\c@author=\count355
-\c@savedauthor=\count356
-\c@bookauthor=\count357
-\c@savedbookauthor=\count358
-\c@commentator=\count359
-\c@savedcommentator=\count360
-\c@editor=\count361
-\c@savededitor=\count362
-\c@editora=\count363
-\c@savededitora=\count364
-\c@editorb=\count365
-\c@savededitorb=\count366
-\c@editorc=\count367
-\c@savededitorc=\count368
-\c@foreword=\count369
-\c@savedforeword=\count370
-\c@holder=\count371
-\c@savedholder=\count372
-\c@introduction=\count373
-\c@savedintroduction=\count374
-\c@namea=\count375
-\c@savednamea=\count376
-\c@nameb=\count377
-\c@savednameb=\count378
-\c@namec=\count379
-\c@savednamec=\count380
-\c@translator=\count381
-\c@savedtranslator=\count382
-\c@shortauthor=\count383
-\c@savedshortauthor=\count384
-\c@shorteditor=\count385
-\c@savedshorteditor=\count386
-\c@labelname=\count387
-\c@savedlabelname=\count388
-\c@institution=\count389
-\c@savedinstitution=\count390
-\c@lista=\count391
-\c@savedlista=\count392
-\c@listb=\count393
-\c@savedlistb=\count394
-\c@listc=\count395
-\c@savedlistc=\count396
-\c@listd=\count397
-\c@savedlistd=\count398
-\c@liste=\count399
-\c@savedliste=\count400
-\c@listf=\count401
-\c@savedlistf=\count402
-\c@location=\count403
-\c@savedlocation=\count404
-\c@organization=\count405
-\c@savedorganization=\count406
-\c@origlocation=\count407
-\c@savedoriglocation=\count408
-\c@origpublisher=\count409
-\c@savedorigpublisher=\count410
-\c@publisher=\count411
-\c@savedpublisher=\count412
-\c@language=\count413
-\c@savedlanguage=\count414
-\c@origlanguage=\count415
-\c@savedoriglanguage=\count416
-\c@pageref=\count417
-\c@savedpageref=\count418
+\c@afterword=\count347
+\c@savedafterword=\count348
+\c@annotator=\count349
+\c@savedannotator=\count350
+\c@author=\count351
+\c@savedauthor=\count352
+\c@bookauthor=\count353
+\c@savedbookauthor=\count354
+\c@commentator=\count355
+\c@savedcommentator=\count356
+\c@editor=\count357
+\c@savededitor=\count358
+\c@editora=\count359
+\c@savededitora=\count360
+\c@editorb=\count361
+\c@savededitorb=\count362
+\c@editorc=\count363
+\c@savededitorc=\count364
+\c@foreword=\count365
+\c@savedforeword=\count366
+\c@holder=\count367
+\c@savedholder=\count368
+\c@introduction=\count369
+\c@savedintroduction=\count370
+\c@namea=\count371
+\c@savednamea=\count372
+\c@nameb=\count373
+\c@savednameb=\count374
+\c@namec=\count375
+\c@savednamec=\count376
+\c@translator=\count377
+\c@savedtranslator=\count378
+\c@shortauthor=\count379
+\c@savedshortauthor=\count380
+\c@shorteditor=\count381
+\c@savedshorteditor=\count382
+\c@labelname=\count383
+\c@savedlabelname=\count384
+\c@institution=\count385
+\c@savedinstitution=\count386
+\c@lista=\count387
+\c@savedlista=\count388
+\c@listb=\count389
+\c@savedlistb=\count390
+\c@listc=\count391
+\c@savedlistc=\count392
+\c@listd=\count393
+\c@savedlistd=\count394
+\c@liste=\count395
+\c@savedliste=\count396
+\c@listf=\count397
+\c@savedlistf=\count398
+\c@location=\count399
+\c@savedlocation=\count400
+\c@organization=\count401
+\c@savedorganization=\count402
+\c@origlocation=\count403
+\c@savedoriglocation=\count404
+\c@origpublisher=\count405
+\c@savedorigpublisher=\count406
+\c@publisher=\count407
+\c@savedpublisher=\count408
+\c@language=\count409
+\c@savedlanguage=\count410
+\c@origlanguage=\count411
+\c@savedoriglanguage=\count412
+\c@pageref=\count413
+\c@savedpageref=\count414
 \shorthandwidth=\skip109
 \shortjournalwidth=\skip110
 \shortserieswidth=\skip111
@@ -687,71 +537,56 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \localshorteditorwidth=\skip122
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
-
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\
-blx-compat.def
+ (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
 File: blx-compat.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
-
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\
-biblatex.def
+ (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
 File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
-\c@textcitecount=\count419
-\c@textcitetotal=\count420
-\c@textcitemaxnames=\count421
-\c@biburlbigbreakpenalty=\count422
-\c@biburlbreakpenalty=\count423
-\c@biburlnumpenalty=\count424
-\c@biburlucpenalty=\count425
-\c@biburllcpenalty=\count426
+\c@textcitecount=\count415
+\c@textcitetotal=\count416
+\c@textcitemaxnames=\count417
+\c@biburlbigbreakpenalty=\count418
+\c@biburlbreakpenalty=\count419
+\c@biburlnumpenalty=\count420
+\c@biburlucpenalty=\count421
+\c@biburllcpenalty=\count422
 \biburlbigskip=\muskip18
 \biburlnumskip=\muskip19
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
-\c@smartand=\count427
+\c@smartand=\count423
 )
 Package biblatex Info: Trying to load natbib compatibility...
 Package biblatex Info: ... file 'blx-natbib.def' found.
-
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\
-blx-natbib.def
+ (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-natbib.def
 File: blx-natbib.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
-Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined,
- overwriting.
+Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined, overwriting.
 )
 Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.bbx' found.
-
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/
-bbx\numeric-comp.bbx
+ (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\numeric-comp.bbx
 File: numeric-comp.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
-
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/
-bbx\numeric.bbx
+ (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\numeric.bbx
 File: numeric.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
-
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/
-bbx\standard.bbx
+ (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
 File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count428
-\c@bbx:relatedtotal=\count429
+\c@bbx:relatedcount=\count424
+\c@bbx:relatedtotal=\count425
 )))
 Package biblatex Info: Trying to load citation style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.cbx' found.
-
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/
-cbx\numeric-comp.cbx
+ (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\numeric-comp.cbx
 File: numeric-comp.cbx 2023/03/05 v3.19 biblatex citation style (PK/MW)
-\c@cbx@tempcnta=\count430
-\c@cbx@tempcntb=\count431
-\c@cbx@tempcntc=\count432
-\c@cbx@tempcntd=\count433
+\c@cbx@tempcnta=\count426
+\c@cbx@tempcntb=\count427
+\c@cbx@tempcntc=\count428
+\c@cbx@tempcntd=\count429
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -766,28 +601,20 @@ Package biblatex Info: Redefining '\smartcites'.
 )
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
-
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\
-biblatex.cfg
+ (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.cfg
 File: biblatex.cfg 
 )
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Document encoding is UTF8 ....
 Package biblatex Info: ... and expl3
-(biblatex)             2023-05-15 L3 programming layer (loader) 
+(biblatex)             2023-06-30 L3 programming layer (loader) 
 (biblatex)             is new enough (at least 2020/04/06),
 (biblatex)             setting 'casechanger=expl3'.
-
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\
-blx-case-expl3.sty
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/l3package
-s/xparse\xparse.sty
+ (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-expl3.sty (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse.sty
 Package: xparse 2023-02-02 L3 Experimental document command parser
 )
 Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
-))
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/cleveref\
-cleveref.sty
+)) (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/cleveref\cleveref.sty
 Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
 Package cleveref Info: `hyperref' support loaded on input line 2370.
 LaTeX Info: Redefining \cref on input line 2370.
@@ -800,97 +627,92 @@ LaTeX Info: Redefining \cpagerefrange on input line 2370.
 LaTeX Info: Redefining \Cpagerefrange on input line 2370.
 LaTeX Info: Redefining \labelcref on input line 2370.
 LaTeX Info: Redefining \labelcpageref on input line 2370.
-)
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/fmtcount\
-fmtcount.sty
+) (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/fmtcount\fmtcount.sty
 Package: fmtcount 2020/01/30 v3.07
-
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\x
-keyval.sty
+ (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
 Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
-
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval
-\xkeyval.tex
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval
-\xkvutils.tex
-\XKV@toks=\toks31
-\XKV@tempa@toks=\toks32
+ (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+\XKV@toks=\toks29
+\XKV@tempa@toks=\toks30
 )
-\XKV@depth=\count434
+\XKV@depth=\count430
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-))
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/fmtcount\
-fcprefix.sty
+)) (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/fmtcount\fcprefix.sty
 Package: fcprefix 2012/09/28
-
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/fmtcount\
-fcnumparser.sty
+ (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/fmtcount\fcnumparser.sty
 Package: fcnumparser 2017/06/15
-\fc@digit@counter=\count435
+\fc@digit@counter=\count431
 ))
-\c@padzeroesN=\count436
-\fc@tmpcatcode=\count437
-\@DT@modctr=\count438
-\@ordinalctr=\count439
-\@orgargctr=\count440
-\@strctr=\count441
-\@tmpstrctr=\count442
-\@DT@loopN=\count443
-\@DT@X=\count444
+\c@padzeroesN=\count432
+\fc@tmpcatcode=\count433
+\@DT@modctr=\count434
+\@ordinalctr=\count435
+\@orgargctr=\count436
+\@strctr=\count437
+\@tmpstrctr=\count438
+\@DT@loopN=\count439
+\@DT@X=\count440
 )
-\@quotelevel=\count445
-\@quotereset=\count446
+\@quotelevel=\count441
+\@quotereset=\count442
  (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+ (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count443
+\scratchdimen=\dimen184
+\scratchbox=\box59
+\nofMPsegments=\count444
+\nofMParguments=\count445
+\everyMPshowfont=\toks31
+\MPscratchCnt=\count446
+\MPscratchDim=\dimen185
+\MPnumerator=\count447
+\makeMPintoPDFobject=\count448
+\everyMPtoPDFconversion=\toks32
+) (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/graphics\
-color.sty
+ (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
 Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
-
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/graphics-
-cfg\color.cfg
+ (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package color Info: Driver file: dvips.def on input line 149.
-
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/graphics\
-dvipsnam.def
-File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
-)
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/graphics\
-mathcolor.ltx))
-Package hyperref Info: Link coloring ON on input line 32.
+Package color Info: Driver file: pdftex.def on input line 149.
+ (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx))
+Package hyperref Info: Link coloring ON on input line 33.
  (main.out) (main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
-
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/
-lbx\english.lbx
+ (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\english.lbx
 File: english.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
 )
 Package biblatex Info: Input encoding 'utf8' detected.
@@ -901,14 +723,12 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (main.bbl)
-Package biblatex Info: Reference section=0 on input line 32.
-Package biblatex Info: Reference segment=0 on input line 32.
-
-(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/fmtcount\
-fc-english.def
+Package biblatex Info: Reference section=0 on input line 33.
+Package biblatex Info: Reference segment=0 on input line 33.
+ (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/fmtcount\fc-english.def
 File: fc-english.def 2016/01/12
 )
-Package hyperref Info: Option `breaklinks' set `true' on input line 35.
+Package hyperref Info: Option `breaklinks' set `true' on input line 36.
  [1
 
 
@@ -917,30 +737,35 @@ Package hyperref Info: Option `breaklinks' set `true' on input line 35.
 
 
 
-] [1
+{C:/Users/aryan/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.43  \makepreliminarypages
+                            [1
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 42--42
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--42
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--42
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--42
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--42
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
 
  []
 
@@ -970,8 +795,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--42
 
 
 
-] [8]
-(../chapters/chapter1/ch1.tex
+] [8] (../chapters/chapter1/ch1.tex
 Chapter 1.
 ) (../chapters/chapter2/ch2.tex [1
 
@@ -982,20 +806,13 @@ Chapter 1.
 Chapter 2.
 ) [2
 
-]
-Overfull \hbox (93.11188pt too wide) in paragraph at lines 74--74
-\T1/cmr/m/it/12 Trans. Power Syst. \T1/cmr/m/n/12 37.3 (Sept. 2021), pp. 1750^^
-U1759. \T1/cmr/m/sc/12 issn\T1/cmr/m/n/12 : 1558-0679. \T1/cmr/m/sc/12 doi\T1/c
-mr/m/n/12 : [][][]$10 . 1109 / TPWRS . 2021 . 3115636$[][][][]. 
- []
-
-(../chapters/appendix/app.tex [3
+] (../chapters/appendix/app.tex [3
 
 ] [4] (../chapters/appendix/branchFlowModel.tex
 Appendix A.
 (../tables/bfmTable.tex)
 Overfull \hbox (60.73299pt too wide) in paragraph at lines 6--34
- [][][] 
+ [][] 
  []
 
 
@@ -1013,22 +830,54 @@ Appendix B.
 
 ]
 Appendix C.
-)) [8
+[8
+
+]
+Appendix D.
+) (../chapters/appendix/models.tex [9
+
+]
+Appendix E.
+
+Overfull \hbox (16.08705pt too wide) in paragraph at lines 10--10
+ []|$[]$| 
+ []
+
+
+Overfull \hbox (65.5472pt too wide) in paragraph at lines 10--11
+ []|$[]$| 
+ []
+
+
+Overfull \hbox (19.26271pt too wide) in paragraph at lines 8--19
+ [][][][] 
+ []
+
+)) [10
 
 ] (main.aux)
+ ***********
+LaTeX2e <2023-06-01> patch level 1
+L3 programming layer <2023-06-30>
+ ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 3F13CF53F117236492B0A73069819FAF;3211.
+(rerunfilecheck)             Checksum: AD97E3424AEFFFA900A9000482DD1D79;3796.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21956 strings out of 476412
- 409733 string characters out of 5782516
- 1866842 words of memory out of 5000000
- 42025 multiletter control sequences out of 15000+600000
- 523933 words of font info for 58 fonts, out of 8000000 for 9000
+ 22111 strings out of 475551
+ 403613 string characters out of 5762555
+ 1933238 words of memory out of 5000000
+ 42978 multiletter control sequences out of 15000+600000
+ 572802 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 90i,16n,91p,1151b,1438s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,16n,107p,1276b,1387s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\aryan\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\aryan\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\aryan\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\aryan\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\aryan\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\aryan\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\aryan\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\aryan\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk><C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on main.pdf (19 pages, 233548 bytes).
+PDF statistics:
+ 576 PDF objects out of 1000 (max. 8388607)
+ 50 named destinations out of 1000 (max. 500000)
+ 169 words of extra memory for PDF output out of 10000 (max. 10000000)
 
-Output written on main.dvi (17 pages, 44664 bytes).

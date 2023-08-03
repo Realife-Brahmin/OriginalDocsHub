@@ -19,7 +19,7 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
-    \entry{ddp01}{article}{}
+    \entry{ddp_sugar_01}{article}{}
       \name{author}{2}{}{%
         {{hash=b86ce5f3ac83e5352263301d1bfef622}{%
            family={Agarwal},
@@ -170,6 +170,43 @@
       \endverb
       \verb{eprint}
       \verb 1906.04108
+      \endverb
+    \endentry
+    \entry{Qian2014Jul}{incollection}{}
+      \name{author}{2}{}{%
+        {{hash=3bd5b80b50ad835cc62e7e4f6ffd592f}{%
+           family={Qian},
+           familyi={Q\bibinitperiod},
+           given={Xiaodong},
+           giveni={X\bibinitperiod}}}%
+        {{hash=cdb1b6a9edc7eabddae67b91964a5dda}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Yuanguo},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{d1afdca8904ab0421563713bd8f06468}
+      \strng{fullhash}{d1afdca8904ab0421563713bd8f06468}
+      \strng{bibnamehash}{d1afdca8904ab0421563713bd8f06468}
+      \strng{authorbibnamehash}{d1afdca8904ab0421563713bd8f06468}
+      \strng{authornamehash}{d1afdca8904ab0421563713bd8f06468}
+      \strng{authorfullhash}{d1afdca8904ab0421563713bd8f06468}
+      \field{sortinit}{Q}
+      \field{sortinithash}{ce69a400a872ddd02ee7fdb3b38c6abd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{{2014 Seventh International Joint Conference on Computational Sciences and Optimization}}
+      \field{journaltitle}{2014 Seventh International Joint Conference on Computational Sciences and Optimization}
+      \field{month}{7}
+      \field{title}{{Differential Dynamic Programming for Multistage Uncertain Optimal Control}}
+      \field{year}{2014}
+      \field{pages}{88\bibrangedash 92}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/CSO.2014.25
       \endverb
     \endentry
   \enddatalist

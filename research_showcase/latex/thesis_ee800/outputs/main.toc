@@ -13,3 +13,5 @@
 \contentsline {chapter}{\numberline {A}Branch Flow Model: Relaxations and Convexification}{5}{appendix.A}%
 \contentsline {chapter}{\numberline {B}Abstracts: Optimization-based Methods for solving MP-OPF}{7}{appendix.B}%
 \contentsline {chapter}{\numberline {C}Abstracts: Dynamic Programming Methods for solving MP-OPF}{8}{appendix.C}%
+\contentsline {chapter}{\numberline {D}Abstracts: Differential Dynamic Programming}{9}{appendix.D}%
+\contentsline {chapter}{\numberline {E}Models: Battery Model for Mutli-Period OPF}{10}{appendix.E}%
