@@ -35,33 +35,33 @@
 \renewcommand{\cref}[1]{\Cref*{#1}}
 \hypersetup{breaklinks=true}
 
- % Start page counting in roman numerals
- \frontmatter
+% Start page counting in roman numerals
+\frontmatter
 
- % This command makes the formal preliminary pages.
- % You can comment it out during the drafting process if you want to save paper.
- \makepreliminarypages
- \clearpage
+% This command makes the formal preliminary pages.
+% You can comment it out during the drafting process if you want to save paper.
+\makepreliminarypages
+\clearpage
 
- \doublespace
- % Make the table of contents.
- \tableofcontents
- \thispagestyle{plain}
+\doublespace
+% Make the table of contents.
+\tableofcontents
+\thispagestyle{plain}
 
- % Make the list of tables
- \mylistoftables
- \thispagestyle{plain}
- 
- % Make the list of figures
- \mylistoffigures
- \thispagestyle{plain}
+% Make the list of tables
+\mylistoftables
+\thispagestyle{plain}
 
-  % This page is OPTIONAL. To remove, comment out and \dedicationpage in diss.tex
- \dedicationpage
- \clearemptydoublepage
+% Make the list of figures
+\mylistoffigures
+\thispagestyle{plain}
 
- % Start regular page counting at page 1
- \mainmatter
+% This page is OPTIONAL. To remove, comment out and \dedicationpage in diss.tex
+\dedicationpage
+\clearemptydoublepage
+
+% Start regular page counting at page 1
+\mainmatter
 
 % OK. Everything is set up. Type your thesis here.
 %include does NOT work for relative paths going UP the directory, so am using input.

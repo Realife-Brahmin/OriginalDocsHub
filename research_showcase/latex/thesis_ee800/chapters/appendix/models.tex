@@ -1,20 +1,26 @@
 \chapter{Models: Battery Model for Mutli-Period OPF}
 
-% define T, G, B, \Delta t etc.
-
 \begin{table}[htbp]
 	\label{tab:grid_Nazir2018Jun}
 	\centering
 	\caption{Description of Grid Parameters}
 	\begin{tabular}{>{\raggedright\arraybackslash $}p{2.5cm}<{$} 
-		>{\raggedright\arraybackslash}p{5cm}}
+		>{\raggedright\arraybackslash}p{7.5cm}}
 		\toprule
 		\text{Variable} & \text{Description}\\
 		\midrule
-		\mathcal{G} & Set of all nodes \\
-		\mathcal{L} & {} \\
-		\mathcal{T} & {} \\
-		\mathcal{\Delta t} & {} \\
+		\mathcal{N} & {Set of all nodes. $\mathcal{N} = \{1,2, \ldots n\}$} \\
+		\mathcal{L} & {Set of all branches. $\mathcal{L} = \{1,2, \ldots l\} = \{(i, k)\} \subset (\mathcal{N} \times \mathcal{N})$.} \\
+		\mathcal{D} & {Set of all nodes containing DERs. $\mathcal{D} 
+		\subset \mathcal{N}$} \\
+		\mathcal{B} & {Set of all nodes containing storage. $\mathcal{B} 
+		\subset \mathcal{N}$} \\
+		{\Delta t} & {Duration of a single time period. Here $\Delta t = 15 
+		\text{ min.} = 0.25 \text{ h}$.} \\
+		T & {Prediction Horizon Duration. Total time duration solved for as part
+		of one instance of MP-OPF.} \\
+		K & {Prediction Horizon Number. Total number of discrete-time steps 
+		solved for in one instance of MP-OPF. $T = K \Delta t$} \\
 		\bottomrule
 	\end{tabular}%
 \end{table}%
@@ -45,8 +51,8 @@ In \cite{Nazir2018Jun, Nazir2019Jun}, the batteries are modelled using four stat
 	\item[$k \in \{0, 1, 2, \ldots, T/\Delta t\}$] The index of the discretized time intervals, where $k$ represents
 	the $k$-th time interval of duration $\Delta t$ within the continuous time range
 	$[0, T]$. The corresponding continuous time interval is $[(k-1)\Delta t, k\Delta t]$.
-	\item[$n \in \mathcal{G}$] The node $n$ is an element of the set of all nodes
-	in the power grid $\mathcal{G}$.
+	\item[$n \in \mathcal{N}$] The node $n$ is an element of the set of all nodes
+	in the power grid $\mathcal{N}$.
 	% Add more items as needed
 \end{description}
 
