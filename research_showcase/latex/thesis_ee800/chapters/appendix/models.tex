@@ -4,49 +4,49 @@
 	\label{tab:grid_Nazir2018Jun}
 	\centering
 	\caption{Description of Grid Parameters}
-	\begin{tabular}{>{\raggedright\arraybackslash $}p{2.5cm}<{$} 
+	\begin{tabular}{>{\raggedright\arraybackslash $}p{2.5cm}<{$}
 		>{\raggedright\arraybackslash}p{7.5cm}}
 		\toprule
-		\text{Variable} & \text{Description}\\
+		\text{Variable} & \text{Description}                                                   \\
 		\midrule
-		\mathcal{N} & {Set of all nodes. $\mathcal{N} = \{1,2, \ldots n\}$} \\
-		\mathcal{L} & {Set of all branches. $\mathcal{L} = 
-		\{1,2, \ldots l\} = \{(i, k)\} \subset (\mathcal{N} \times \mathcal{N})$.} \\
-		\mathcal{D} & {Set of all nodes containing DERs. $\mathcal{D} 
-		\subset \mathcal{N}$} \\
-		\mathcal{B} & {Set of all nodes containing storage. $\mathcal{B} 
-		\subset \mathcal{N}$} \\
-		{\Delta t} & {Duration of a single time period. Here $\Delta t = 15 
-		\text{ min.} = 0.25 \text{ h}$.} \\
-		T & {Prediction Horizon Duration. Total time duration solved for as part
-		of one instance of MP-OPF.} \\
-		K & {Prediction Horizon Number. Total number of discrete-time steps 
-		solved for in one instance of MP-OPF. $T = K \Delta t$} \\
+		\mathcal{N}     & {Set of all nodes. $\mathcal{N} = \{1,2, \ldots n\}$}                \\
+		\mathcal{L}     & {Set of all branches. $\mathcal{L} =
+		\{1,2, \ldots l\} = \{(i, k)\} \subset (\mathcal{N} \times \mathcal{N})$.}             \\
+		\mathcal{D}     & {Set of all nodes containing DERs. $\mathcal{D}
+		\subset \mathcal{N}$}                                                                  \\
+		\mathcal{B}     & {Set of all nodes containing storage. $\mathcal{B}
+		\subset \mathcal{N}$}                                                                  \\
+		{\Delta t}      & {Duration of a single time period. Here $\Delta t = 15
+		\text{ min.} = 0.25 \text{ h}$.}                                                       \\
+		T               & {Prediction Horizon Duration. Total time duration solved for as part
+		of one instance of MP-OPF.}                                                            \\
+		K               & {Prediction Horizon Number. Total number of discrete-time steps
+		solved for in one instance of MP-OPF. $T = K \Delta t$}                                \\
 		\bottomrule
 	\end{tabular}%
 \end{table}%
 
-In \cite{Nazir2018Jun, Nazir2019Jun}, the batteries are modelled using 
+In \cite{Nazir2018Jun, Nazir2019Jun}, the batteries are modelled using
 four state/control variables, which are:
 \begin{table}[htbp]
 	\label{tab:batt_Nazir2018Jun}
 	\centering
 	\caption{Description of Battery Variables}
-	\begin{tabular}{>{\raggedright\arraybackslash $}p{2.5cm}<{$} 
-		>{\raggedright\arraybackslash}p{5cm} 
-		>{\centering\arraybackslash $}p{2.5cm}<{$} 
+	\begin{tabular}{>{\raggedright\arraybackslash $}p{2.5cm}<{$}
+			>{\raggedright\arraybackslash}p{5cm}
+			>{\centering\arraybackslash $}p{2.5cm}<{$}
 		>{\centering\arraybackslash\arraybackslash $}p{2.5cm}<{$}}
-		\toprule
-		\text{Variable} & \text{Description} & \text{Dimension} & 
-		\text{Dimension $pu$} \\
-		\midrule
-		B_{n, k} & State of Charge (SOC) of Battery& [kWh] & [pu\,h] \\
-		P^c_{n, k} & Average Charging Power of the Battery during the 
-		$k$-th time interval. & [kW] & [pu] \\
-		P^d_{n, k} & Average Discharging Power of the Battery during the 
-		$k$-th time interval. & [kW] & [pu] \\
-		q_{B_{n, k}} & Average Reactive Power Output from the Battery 
-		Inverter during the $k$-th time interval. & [kVAr] & [pu] \\
+			\toprule
+		\text{Variable}                           & \text{Description}                                  & \text{Dimension} &
+		\text{Dimension $pu$}                                                                                                        \\
+			\midrule
+		B_{n, k}                                  & State of Charge (SOC) of Battery                    & [kWh]            & [pu\,h] \\
+		P^c_{n, k}                                & Average Charging Power of the Battery during the
+		$k$-th time interval.                     & [kW]                                                & [pu]                       \\
+		P^d_{n, k}                                & Average Discharging Power of the Battery during the
+		$k$-th time interval.                     & [kW]                                                & [pu]                       \\
+		q_{B_{n, k}}                              & Average Reactive Power Output from the Battery
+		Inverter during the $k$-th time interval. & [kVAr]                                              & [pu]                       \\
 		\bottomrule
 	\end{tabular}%
 \end{table}%
@@ -55,13 +55,13 @@ four state/control variables, which are:
 \text{where, }
 \begin{description}
 	\item[$k \in \{0, 1, 2, \ldots, T/\Delta t\}$] The index of the discretized time intervals, where $k$ represents
-	the $k$-th time interval of duration $\Delta t$ within the continuous time range
-	$[0, T]$. The corresponding continuous time interval is $[(k-1)\Delta t, k\Delta t]$.
+		the $k$-th time interval of duration $\Delta t$ within the continuous time range
+		$[0, T]$. The corresponding continuous time interval is $[(k-1)\Delta t, k\Delta t]$.
 	\item[$n \in \mathcal{N}$] The node $n$ is an element of the set of all nodes
-	in the power grid $\mathcal{N}$. Note that $n$ can be used both as an iterator or
-	as the total number of nodes in the grid (i.e. the cardinality of $\mathcal{N}$),
-	and its meaning should be obvious from context.
-	% Add more items as needed
+		in the power grid $\mathcal{N}$. Note that $n$ can be used both as an iterator or
+		as the total number of nodes in the grid (i.e. the cardinality of $\mathcal{N}$),
+		and its meaning should be obvious from context.
+		% Add more items as needed
 \end{description}
 
 \begin{table}[htbp]
@@ -69,22 +69,38 @@ four state/control variables, which are:
 	\centering
 	\caption{Values, Lower Bounds and Upper Bounds on Battery Variables}
 	\begin{tabular}{>{\raggedright\arraybackslash $}p{2.5cm}<{$}
-		>{\raggedright\arraybackslash $}p{5.5cm}<{$}
+			>{\raggedright\arraybackslash $}p{5.5cm}<{$}
 		>{\raggedright\arraybackslash}p{5.5cm}<{}}
 		\toprule
-		\text{Variable} & \text{Value or Limits} & \text{Description}\\
+		\text{Variable}   & \text{Value or Limits}                        & \text{Description}                    \\
 		\midrule
-		{P_{Max}} & {P_{Rated} \text{ of corresponding DER.}} & {}\\
-		{q_{B_{Max}}} & {q_{D_{Rated}} \text{ of corresponding DER.}} & {}\\
-		{P_d, P_c} & {[0, P_{Max}]} & {}\\
-		{E_{Rated}} & {P_{Max} \times 4\text{ h}} & {$4 \text{ h}$ of 
-		one-way Charging/Discharging at Maximum Power}\\
-		{B} & {[0.30E_{Rated}, 0.95E_{Rated}]} & {$2.4 \text{ h}$ of
-		one-way Charging/Discharging at Maximum Power}\\
-		{B_0} & {0.625E_{Rated}} & {Batteries start with an SOC value in
-		the middle of their SOC range.} \\
-		{\eta_d , \eta_c} & {0.8} & {} \\
+		{P_{Max}}         & {P_{Rated} \text{ of corresponding DER.}}     & {}                                    \\
+		{q_{B_{Max}}}     & {q_{D_{Rated}} \text{ of corresponding DER.}} & {}                                    \\
+		{P_d, P_c}        & {[0, P_{Max}]}                                & {}                                    \\
+		{E_{Rated}}       & {P_{Max} \times 4\text{ h}}                   & {$4 \text{ h}$ of
+		one-way Charging/Discharging at Maximum Power}                                                            \\
+		{B}               & {[0.30E_{Rated}, 0.95E_{Rated}]}              & {$2.4 \text{ h}$ of
+		one-way Charging/Discharging at Maximum Power}                                                            \\
+		{B_0}             & {0.625E_{Rated}}                              & {Batteries start with an SOC value in
+		the middle of their SOC range.}                                                                           \\
+		{\eta_d , \eta_c} & {0.8}                                         & {}                                    \\
 		\bottomrule
 	\end{tabular}%
 \end{table}%
 % 
+
+\section*{Optimization Equations}
+
+\subsection*{Full Optimization Model - Single Time Step Greedy Approach}
+
+
+\begin{gather}
+    \min_{P_{ij}^t, Q_{ij}^t, v_{j}^t, l_{ij}^t, q_{D_j}^t, B_{j}^{t+1},
+	 P_{c_j}^t, P_d{_j}^t, q_{B_j}^t} \Sigma (r_{ij}^tl_{ij}^t) \\
+	\begin{align}
+		{p_j^t} & = {\Sigma P_{jk}^t + \Sigma (P_{ij}^t - r_{ij}^tl_{ij}^t) + P_{d_j}^t - P_{c_j}^t} && \\
+		{q_j^t} & = {\Sigma Q_{jk}^t + \Sigma (Q_{ij}^t - x_{ij}^tl_{ij}^t) + q_{D_j}^t + q_{B_j}^t} && \\
+		{v_j^t} & = {v_{i}^t +  ((r_{ij}^{t})^2 + (x_{ij}^{t})^2)l_{ij}^t - 2(r_{ij}^tP_{ij}^t + x_{ij}^tQ_{ij}^t)} && \\
+		{l_{ij}^t} & = {\frac{(P_{ij}^{t})^2 + (Q_{ij}^{t})^2}{v_j^t}} &&
+	\end{align}
+\end{gather}

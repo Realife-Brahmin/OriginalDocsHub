@@ -291,11 +291,15 @@ INPUT ..\chapters\appendix\models.tex
 INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm0800.tfm
 INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm0600.tfm
 INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm1440.tfm
+INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx1440.tfm
 INPUT main.aux
 INPUT .\main.out
 INPUT .\main.out
 INPUT main.run.xml
 OUTPUT main.run.xml
+INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk
+INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk
 INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk
 INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk
 INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1200.pk
