@@ -127,7 +127,7 @@ four state/control variables, which are:
 		\text{s.t.} & {}\nonumber \\
 		{p_j^t} & = {\sum_{\fromto{j,k} \in \mathcal{L}} P_{jk}^t - \sum_{\fromto{i,j} \in \mathcal{L}}\left(P_{ij}^t\right) + P_{d_j}^t - P_{c_j}^t} && \\
 		{q_j^t} & = {\sum_{\fromto{j,k} \in \mathcal{L}} Q_{jk}^t - \sum_{\fromto{i,j} \in \mathcal{L}}\left(Q_{ij}^t\right) + q_{D_j}^t + q_{B_j}^t} && \\
-		{v_j^t} & = {v_{i}^t - 2(r_{ij}^tP_{ij}^t + x_{ij}^tQ_{ij}^t)} && \\
+		{v_{0j}^t} & = {v_{0i}^t - 2(r_{ij}^tP_{ij}^t + x_{ij}^tQ_{ij}^t)} && \\
 		{B_{j}^{t+1}} &= {B_{j}^{t} - \Delta t  \eta_c P_{c_j}^t + \Delta t\frac{1}{\eta_d} P_{d_j}^t}
 	\end{align}
 \end{gather}
