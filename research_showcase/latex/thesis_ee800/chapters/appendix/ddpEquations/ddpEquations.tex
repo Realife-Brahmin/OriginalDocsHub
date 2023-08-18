@@ -3,28 +3,87 @@
 \usepackage{amssymb}
 % apparently standalone and align don't like each other
 % so using gather environment
+
+\providecommand{\gen}[1]{% #1 is the function symbol, e.g., f or L
+    \expandafter\providecommand\csname #1k\endcsname{#1(x_k, u_k, k)}
+    \expandafter\providecommand\csname #1bark\endcsname{#1(\bar{x}_k, \bar{u}_k, k)}
+    \expandafter\providecommand\csname #1kp\endcsname{#1(x_{k+1}, u_{k+1}, k+1)}
+    \expandafter\providecommand\csname #1barkp\endcsname{#1(\bar{x}_{k+1}, \bar{u}_{k+1}, k+1)}
+    \expandafter\providecommand\csname #1j\endcsname{#1(x_j, u_j, j)}
+
+    \expandafter\providecommand\csname #1kdelx\endcsname{#1_x \delta x_k}
+    \expandafter\providecommand\csname #1kdelxx\endcsname{\frac{1}{2} #1_{xx} (\delta x_k)^2}
+    \expandafter\providecommand\csname #1kdelu\endcsname{#1_u \delta u_k}
+    \expandafter\providecommand\csname #1kdeluu\endcsname{\frac{1}{2} #1_{uu} (\delta u_k)^2}
+    \expandafter\providecommand\csname #1kdelxu\endcsname{\frac{1}{2} #1_{xu} (\delta x_k) (\delta u_k)}
+
+    \expandafter\providecommand\csname #1kpdelx\endcsname{#1_x \delta x_{k+1}}
+    \expandafter\providecommand\csname #1kpdelxx\endcsname{\frac{1}{2} #1_{xx} (\delta x_{k+1})^2}
+    \expandafter\providecommand\csname #1kpdelu\endcsname{#1_u \delta u_{k+1}}
+    \expandafter\providecommand\csname #1kpdeluu\endcsname{\frac{1}{2} #1_{uu} (\delta u_{k+1})^2}
+    \expandafter\providecommand\csname #1kpdelxu\endcsname{\frac{1}{2} #1_{xu} (\delta x_{k+1}) (\delta u_{k+1})}
+}
+
+\gen{f} % Generate commands for f
+\gen{L} % Generate commands for L
+
+\providecommand{\Jzero}{J(x_0, 0)}
+\providecommand{\Jk}{J(x_k, k)}
+\providecommand{\JN}{J(x_N, N)}
+\providecommand{\Jbark}{J(\bar{x}_k, k)}
+\providecommand{\Jkp}{J(x_{k+1}, k+1)}
+\providecommand{\Jbarkp}{J(\bar{x}_{k+1}, k+1)}
+\providecommand{\Jnomk}{\bar{J}(\bar{x}_k, k)}
+\providecommand{\Jnomkp}{\bar{J}(\bar{x}_{k+1}, k+1)}
+
+\providecommand{\GN}{G(x_N, N)}
+\providecommand{\GbarN}{G(\bar(x)_N, N)}
+
+\providecommand{\xk}{x_k}
+\providecommand{\xkp}{x_{k+1}}
+\providecommand{\xj}{x_j}
+\providecommand{\xjp}{x_{j+1}}
+\providecommand{\xbark}{\bar{x}_k}
+\providecommand{\xbarj}{\bar{x}_j}
+\providecommand{\xbarkp}{\bar{x}_{k+1}}
+\providecommand{\xbarjp}{\bar{x}_{j+1}}
+
+\providecommand{\noisek}{\sigma_k \xi_k}
+\providecommand{\noisej}{\sigma_j \xi_j}
+\providecommand{\noisekp}{\sigma_{k+1} \xi_{k+1}}
+\providecommand{\noisejp}{\sigma_{j+1} \xi_{j+1}}
+
+
 \begin{document}
 \begin{minipage}{0.8\linewidth}
+
     \begin{align}
-        J(x_0, 0) &= \min_{
+        \Jzero &= \min_{
             \substack{
                 u_j \in U_j \\
                 j = 0, 1 \dots N-1 \\
             }
         }
-        \mathbb{E} \left[ \sum_{j=0}^{N-1} \{L(x_j, u_j, j)\} + G(x_N, N)\right] \nonumber\\
+        \mathbb{E} \left[ \sum_{j=0}^{N-1} \{\Lj\} + \GN\right] \nonumber\\
         s.t. &{} \\
-        x_{j+1} &= f(x_j, u_j, j) + \sigma_{j+1}\xi_{j+1} \nonumber\\
+        \xkp &= \fj + \noisejp \nonumber\\
         j &= 0, 1, \dots N-1 \nonumber
     \end{align}
-\end{minipage}
 
-\begin{minipage}{0.8\linewidth}
     \begin{align}
-        J(x_N, N) &= G(x_N, N)  \\
-        J(x_k, k) &= \min_{u_k \in U_k} \mathbb{E} \left[ 
-            J(x_{k+1}, k+1) + L(x_k, u_k, k) 
+        \JN &= \GN  \\
+        \Jk &= \min_{u_k \in U_k} \mathbb{E} \left[ 
+            \Jkp + \Lk 
         \right]
+    \end{align}
+
+    \begin{align}
+        \xbarkp &= \fbark \\
+        \bar{x}_0 &= x_0 \nonumber
+    \end{align}
+
+    \begin{align}
+        \fk &= \fbark
     \end{align}
 \end{minipage}
 
