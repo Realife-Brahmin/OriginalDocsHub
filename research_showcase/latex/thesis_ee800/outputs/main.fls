@@ -229,6 +229,9 @@ INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex\latex\varwi
 INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex\latex\varwidth\varwidth.sty
 INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex\latex\filemod\filemod-expmin.sty
 INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex\latex\filemod\filemod-expmin.sty
+INPUT .\mymacros.tex
+INPUT .\mymacros.tex
+INPUT mymacros.tex
 INPUT .\main.aux
 INPUT .\main.aux
 INPUT main.aux
