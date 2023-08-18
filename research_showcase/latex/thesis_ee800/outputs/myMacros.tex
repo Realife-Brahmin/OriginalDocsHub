@@ -1,0 +1,48 @@
+\newcommand{\gen}[1]{% #1 is the function symbol, e.g., f or L
+    \expandafter\newcommand\csname #1k\endcsname{#1(x_k, u_k, k)}
+    \expandafter\newcommand\csname #1bark\endcsname{#1(\bar{x}_k, \bar{u}_k, k)}
+    \expandafter\newcommand\csname #1kp\endcsname{#1(x_{k+1}, u_{k+1}, k+1)}
+    \expandafter\newcommand\csname #1barkp\endcsname{#1(\bar{x}_{k+1}, \bar{u}_{k+1}, k+1)}
+    \expandafter\newcommand\csname #1j\endcsname{#1(x_j, u_j, j)}
+
+    \expandafter\newcommand\csname #1kdelx\endcsname{#1_x \delta x_k}
+    \expandafter\newcommand\csname #1kdelxx\endcsname{\frac{1}{2} #1_{xx} (\delta x_k)^2}
+    \expandafter\newcommand\csname #1kdelu\endcsname{#1_u \delta u_k}
+    \expandafter\newcommand\csname #1kdeluu\endcsname{\frac{1}{2} #1_{uu} (\delta u_k)^2}
+    \expandafter\newcommand\csname #1kdelxu\endcsname{\frac{1}{2} #1_{xu} (\delta x_k) (\delta u_k)}
+
+    \expandafter\newcommand\csname #1kpdelx\endcsname{#1_x \delta x_{k+1}}
+    \expandafter\newcommand\csname #1kpdelxx\endcsname{\frac{1}{2} #1_{xx} (\delta x_{k+1})^2}
+    \expandafter\newcommand\csname #1kpdelu\endcsname{#1_u \delta u_{k+1}}
+    \expandafter\newcommand\csname #1kpdeluu\endcsname{\frac{1}{2} #1_{uu} (\delta u_{k+1})^2}
+    \expandafter\newcommand\csname #1kpdelxu\endcsname{\frac{1}{2} #1_{xu} (\delta x_{k+1}) (\delta u_{k+1})}
+}
+
+\gen{f} % Generate commands for f
+\gen{L} % Generate commands for L
+
+\newcommand{\Jzero}{J(x_0, 0)}
+\newcommand{\Jk}{J(x_k, k)}
+\newcommand{\JN}{J(x_N, N)}
+\newcommand{\Jbark}{J(\bar{x}_k, k)}
+\newcommand{\Jkp}{J(x_{k+1}, k+1)}
+\newcommand{\Jbarkp}{J(\bar{x}_{k+1}, k+1)}
+\newcommand{\Jnomk}{\bar{J}(\bar{x}_k, k)}
+\newcommand{\Jnomkp}{\bar{J}(\bar{x}_{k+1}, k+1)}
+
+\newcommand{\GN}{G(x_N, N)}
+\newcommand{\GbarN}{G(\bar(x)_N, N)}
+
+\newcommand{\xk}{x_k}
+\newcommand{\xkp}{x_{k+1}}
+\newcommand{\xj}{x_j}
+\newcommand{\xjp}{x_{j+1}}
+\newcommand{\xbark}{\bar{x}_k}
+\newcommand{\xbarj}{\bar{x}_j}
+\newcommand{\xbarkp}{\bar{x}_{k+1}}
+\newcommand{\xbarjp}{\bar{x}_{j+1}}
+
+\newcommand{\noisek}{\sigma_k \xi_k}
+\newcommand{\noisej}{\sigma_j \xi_j}
+\newcommand{\noisekp}{\sigma_{k+1} \xi_{k+1}}
+\newcommand{\noisejp}{\sigma_{j+1} \xi_{j+1}}
