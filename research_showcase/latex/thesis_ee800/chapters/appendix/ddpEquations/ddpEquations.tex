@@ -1,0 +1,14 @@
+\documentclass[varwidth]{standalone}
+\usepackage{amsmath}
+
+\begin{document}
+    \begin{gather}
+        J(x_0, 0) = \min_{
+            \substack{
+                u_j \in U_j \\
+                j = 0, 1 \dots N-1 \\
+                }
+            }
+            \left[ \sum_{j=0}^{N-1} \{L(x_j, u_j, j)\} + G(x_N, N)\right]
+    \end{gather}
+\end{document}
