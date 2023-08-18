@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.8.17)  17 AUG 2023 20:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.8.17)  17 AUG 2023 20:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -860,17 +860,12 @@ Chapter 1.
 
 ]
 Chapter 2.
-)
+) [2
 
-LaTeX Warning: Empty bibliography on input line 78.
+] (../chapters/appendix/app.tex [3
 
-(../chapters/appendix/app.tex [2
-
-] [3] (../chapters/appendix/branchFlowModel.tex
+] [4] (../chapters/appendix/branchFlowModel.tex
 Appendix A.
-
-LaTeX Warning: Citation 'bfm01' on page 4 undefined on input line 3.
-
 (../tables/bfmTable.tex)
 Overfull \hbox (60.73299pt too wide) in paragraph at lines 6--34
  [][] 
@@ -882,81 +877,54 @@ LaTeX Warning: Float too large for page by 15.88425pt on input line 34.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (../chapters/appendix/abstracts.tex [4
+) (../chapters/appendix/abstracts.tex [5
 
 
-] [5]
+] [6]
 Appendix B.
-
-LaTeX Warning: Citation 'Nazir2019Jun' on page 6 undefined on input line 2.
-
-
-LaTeX Warning: Citation 'Nazir2018Jun' on page 6 undefined on input line 4.
-
-[6
-
-]
-Appendix C.
-
-LaTeX Warning: Citation 'ddp_sugar_01' on page 7 undefined on input line 8.
-
 [7
 
 ]
+Appendix C.
+[8
+
+]
 Appendix D.
-
-LaTeX Warning: Citation 'Qian2014Jul' on page 8 undefined on input line 12.
-
-(../chapters/appendix/ddpEquations/ddpEquations.tex)) (../chapters/appendix/models.tex [8
+(../chapters/appendix/ddpEquations/ddpEquations.tex)) (../chapters/appendix/models.tex [9
 
 ]
 Appendix E.
+[10
 
-LaTeX Warning: Citation 'Nazir2018Jun' on page 9 undefined on input line 29.
-
-
-LaTeX Warning: Citation 'Nazir2019Jun' on page 9 undefined on input line 29.
-
-[9
-
-] [10] [11]
+] [11] [12]
 
 LaTeX Warning: Float too large for page by 69.31242pt on input line 95.
 
-[12
+[13
 
-] [13] [14])) [15] (main.aux)
+] [14] [15])) [16] (main.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-06-30>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 43A5F229161C25AA26620F50C31EBEDF;3803.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
-
+(rerunfilecheck)             Checksum: AD97E3424AEFFFA900A9000482DD1D79;3796.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23523 strings out of 475551
- 435751 string characters out of 5755910
+ 23578 strings out of 475551
+ 437144 string characters out of 5755910
  1943238 words of memory out of 5000000
- 44310 multiletter control sequences out of 15000+600000
- 572331 words of font info for 66 fonts, out of 8000000 for 9000
+ 44357 multiletter control sequences out of 15000+600000
+ 573015 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 95i,18n,107p,1286b,1138s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\Aryan Ritwajeet Jha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\Aryan Ritwajeet Jha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\Aryan Ritwajeet Jha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\Aryan Ritwajeet Jha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\Aryan Ritwajeet Jha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\Aryan Ritwajeet Jha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\Aryan Ritwajeet Jha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\Aryan Ritwajeet Jha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk><C:/Users/Aryan Ritwajeet Jha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Aryan Ritwajeet Jha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Aryan Ritwajeet Jha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Aryan Ritwajeet Jha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Aryan Ritwajeet Jha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Aryan Ritwajeet Jha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Aryan Ritwajeet Jha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Aryan Ritwajeet Jha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Aryan Ritwajeet Jha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Aryan Ritwajeet Jha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Aryan Ritwajeet Jha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (24 pages, 277002 bytes).
+ 95i,18n,107p,1286b,1387s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\Aryan Ritwajeet Jha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\Aryan Ritwajeet Jha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\Aryan Ritwajeet Jha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\Aryan Ritwajeet Jha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\Aryan Ritwajeet Jha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\Aryan Ritwajeet Jha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\Aryan Ritwajeet Jha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\Aryan Ritwajeet Jha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\Aryan Ritwajeet Jha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk><C:/Users/Aryan Ritwajeet Jha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Aryan Ritwajeet Jha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Aryan Ritwajeet Jha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Aryan Ritwajeet Jha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Aryan Ritwajeet Jha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Aryan Ritwajeet Jha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Aryan Ritwajeet Jha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Aryan Ritwajeet Jha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Aryan Ritwajeet Jha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Aryan Ritwajeet Jha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Aryan Ritwajeet Jha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on main.pdf (25 pages, 299473 bytes).
 PDF statistics:
- 608 PDF objects out of 1000 (max. 8388607)
- 72 named destinations out of 1000 (max. 500000)
+ 685 PDF objects out of 1000 (max. 8388607)
+ 79 named destinations out of 1000 (max. 500000)
  169 words of extra memory for PDF output out of 10000 (max. 10000000)
 

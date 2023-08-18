@@ -8,10 +8,10 @@
 \contentsline {section}{\numberline {1.1}Chapter one tittle section}{1}{section.1.1}%
 \contentsline {chapter}{\numberline {2}FIGURES AND TABLES}{2}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Examples of a figure}{2}{section.2.1}%
-\contentsline {part}{REFERENCES}{2}{section.2.1}%
+\contentsline {part}{REFERENCES}{3}{chapter*.7}%
  \vspace {.5em} \noindent \textbf {APPENDIX}\par 
-\contentsline {chapter}{\numberline {A}Branch Flow Model: Relaxations and Convexification}{4}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Abstracts: Optimization-based Methods for solving MP-OPF}{6}{appendix.B}%
-\contentsline {chapter}{\numberline {C}Abstracts: Dynamic Programming Methods for solving MP-OPF}{7}{appendix.C}%
-\contentsline {chapter}{\numberline {D}Abstracts: Differential Dynamic Programming}{8}{appendix.D}%
-\contentsline {chapter}{\numberline {E}Models: Battery Model for Mutli-Period OPF}{9}{appendix.E}%
+\contentsline {chapter}{\numberline {A}Branch Flow Model: Relaxations and Convexification}{5}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Abstracts: Optimization-based Methods for solving MP-OPF}{7}{appendix.B}%
+\contentsline {chapter}{\numberline {C}Abstracts: Dynamic Programming Methods for solving MP-OPF}{8}{appendix.C}%
+\contentsline {chapter}{\numberline {D}Abstracts: Differential Dynamic Programming}{9}{appendix.D}%
+\contentsline {chapter}{\numberline {E}Models: Battery Model for Mutli-Period OPF}{10}{appendix.E}%

@@ -302,13 +302,14 @@ INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\fonts\tfm\jknap
 INPUT ..\chapters\chapter2\ch2.tex
 INPUT ..\chapters\chapter2\ch2.tex
 INPUT ..\chapters\chapter2\ch2.tex
-INPUT ..\chapters\appendix\app.tex
-INPUT ..\chapters\appendix\app.tex
-INPUT ..\chapters\appendix\app.tex
-INPUT ..\chapters\appendix\branchFlowModel.tex
-INPUT ..\chapters\appendix\branchFlowModel.tex
-INPUT ..\chapters\appendix\branchFlowModel.tex
+INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecti1200.tfm
 INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\eccc1200.tfm
+INPUT ..\chapters\appendix\app.tex
+INPUT ..\chapters\appendix\app.tex
+INPUT ..\chapters\appendix\app.tex
+INPUT ..\chapters\appendix\branchFlowModel.tex
+INPUT ..\chapters\appendix\branchFlowModel.tex
+INPUT ..\chapters\appendix\branchFlowModel.tex
 INPUT ..\tables\bfmTable.tex
 INPUT ..\tables\bfmTable.tex
 INPUT ..\tables\bfmTable.tex
@@ -341,6 +342,8 @@ INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen
 INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk
 INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1200.pk
 INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1200.pk
+INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk
+INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk
 INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk
 INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk
 INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk
