@@ -1,5 +1,6 @@
 \documentclass[varwidth]{standalone}
 \usepackage{amsmath}
+\usepackage{amssymb}
 % apparently standalone and align don't like each other
 % so using gather environment
 \begin{document}
@@ -11,7 +12,7 @@
                 j = 0, 1 \dots N-1 \\
             }
         }
-        \left[ \sum_{j=0}^{N-1} \{L(x_j, u_j, j)\} + G(x_N, N)\right] \nonumber\\
+        \mathbb{E} \left[ \sum_{j=0}^{N-1} \{L(x_j, u_j, j)\} + G(x_N, N)\right] \nonumber\\
         s.t. &{} \\
         x_{j+1} &= f(x_j, u_j, j) + \sigma_{j+1}\xi_{j+1} \nonumber\\
         j &= 0, 1, \dots N-1 \nonumber
@@ -21,7 +22,9 @@
 \begin{minipage}{\linewidth}
     \begin{align}
         J(x_N, N) &= G(x_N, N)  \\
-        J(x_k, k) &= \min_{u_k \in U_k} \mathcal{E} J(x_{k+1}, k+1) + L(x_k, u_k, k)
+        J(x_k, k) &= \min_{u_k \in U_k} \mathbb{E} \left[ 
+            J(x_{k+1}, k+1) + L(x_k, u_k, k) 
+        \right]
     \end{align}
 \end{minipage}
 
