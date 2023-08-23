@@ -39,20 +39,27 @@
 \providecommand{\GN}{G(x_N, N)}
 \providecommand{\GbarN}{G(\bar(x)_N, N)}
 
-\providecommand{\xk}{x_k}
-\providecommand{\xkp}{x_{k+1}}
-\providecommand{\xj}{x_j}
-\providecommand{\xjp}{x_{j+1}}
-\providecommand{\xbark}{\bar{x}_k}
-\providecommand{\xbarj}{\bar{x}_j}
-\providecommand{\xbarkp}{\bar{x}_{k+1}}
-\providecommand{\xbarjp}{\bar{x}_{j+1}}
-
 \providecommand{\noisek}{\sigma_k \xi_k}
 \providecommand{\noisej}{\sigma_j \xi_j}
 \providecommand{\noisekp}{\sigma_{k+1} \xi_{k+1}}
 \providecommand{\noisejp}{\sigma_{j+1} \xi_{j+1}}
 
+\providecommand{\createVarProvideCommands}[1]{%
+    \expandafter\providecommand\csname #1k\endcsname{#1_k}
+    \expandafter\providecommand\csname #1kp\endcsname{#1_{k+1}}
+    \expandafter\providecommand\csname #1j\endcsname{#1_j}
+    \expandafter\providecommand\csname #1jp\endcsname{#1_{j+1}}
+    \expandafter\providecommand\csname #1bark\endcsname{\bar{#1}_k}
+    \expandafter\providecommand\csname #1barj\endcsname{\bar{#1}_j}
+    \expandafter\providecommand\csname #1barkp\endcsname{\bar{#1}_{k+1}}
+    \expandafter\providecommand\csname #1barjp\endcsname{\bar{#1}_{j+1}}
+    \expandafter\providecommand\csname delk#1\endcsname{\delta #1_k}
+    \expandafter\providecommand\csname delj#1\endcsname{\delta #1_j}
+}
+
+
+\createVarProvideCommands{x}
+\createVarProvideCommands{u}
 
 \begin{document}
 \begin{minipage}{0.8\linewidth}
@@ -79,11 +86,15 @@
 
     \begin{align}
         \xbarkp &= \fbark \\
-        \bar{x}_0 &= x_0 \nonumber
+        \bar{x}_0 &= x_0 \nonumber \\
     \end{align}
 
     \begin{align}
-        \fk &= \fbark
+        {\fk} &= {\fbark + \fkdelx + \fkdelu} \\
+        {}  &\quad + {\fkdelxx + \fkdeluu} \nonumber\\
+        {where} & {}\nonumber\\
+        {\delkx} &= {\xk - \xbark} \nonumber\\
+        {\delku} &= {\uk - \ubark} \nonumber
     \end{align}
 \end{minipage}
 

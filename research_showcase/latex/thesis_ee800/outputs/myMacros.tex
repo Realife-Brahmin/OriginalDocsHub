@@ -33,14 +33,21 @@
 \newcommand{\GN}{G(x_N, N)}
 \newcommand{\GbarN}{G(\bar(x)_N, N)}
 
-\newcommand{\xk}{x_k}
-\newcommand{\xkp}{x_{k+1}}
-\newcommand{\xj}{x_j}
-\newcommand{\xjp}{x_{j+1}}
-\newcommand{\xbark}{\bar{x}_k}
-\newcommand{\xbarj}{\bar{x}_j}
-\newcommand{\xbarkp}{\bar{x}_{k+1}}
-\newcommand{\xbarjp}{\bar{x}_{j+1}}
+\newcommand{\createVarCommands}[1]{%
+    \expandafter\newcommand\csname #1k\endcsname{#1_k}
+    \expandafter\newcommand\csname #1kp\endcsname{#1_{k+1}}
+    \expandafter\newcommand\csname #1j\endcsname{#1_j}
+    \expandafter\newcommand\csname #1jp\endcsname{#1_{j+1}}
+    \expandafter\newcommand\csname #1bark\endcsname{\bar{#1}_k}
+    \expandafter\newcommand\csname #1barj\endcsname{\bar{#1}_j}
+    \expandafter\newcommand\csname #1barkp\endcsname{\bar{#1}_{k+1}}
+    \expandafter\newcommand\csname #1barjp\endcsname{\bar{#1}_{j+1}}
+    \expandafter\newcommand\csname delk#1\endcsname{\delta #1_k}
+    \expandafter\newcommand\csname delj#1\endcsname{\delta #1_j}
+}
+
+\createVarCommands{x}
+\createVarCommands{u}
 
 \newcommand{\noisek}{\sigma_k \xi_k}
 \newcommand{\noisej}{\sigma_j \xi_j}
