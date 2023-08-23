@@ -35,6 +35,9 @@
 \providecommand{\Jbarkp}{J(\bar{x}_{k+1}, k+1)}
 \providecommand{\Jnomk}{\bar{J}(\bar{x}_k, k)}
 \providecommand{\Jnomkp}{\bar{J}(\bar{x}_{k+1}, k+1)}
+\providecommand{\Jkdelx}{\delta x }
+\providecommand{\Jkdelx}{J_x \delta x_{k}}
+\providecommand{\Jkdelxx}{\frac{1}{2} J_{xx} (\delta x_{k+1})^2}
 
 \providecommand{\GN}{G(x_N, N)}
 \providecommand{\GbarN}{G(\bar(x)_N, N)}
@@ -54,7 +57,8 @@
     \expandafter\providecommand\csname #1barkp\endcsname{\bar{#1}_{k+1}}
     \expandafter\providecommand\csname #1barjp\endcsname{\bar{#1}_{j+1}}
     \expandafter\providecommand\csname delk#1\endcsname{\delta #1_k}
-    \expandafter\providecommand\csname delj#1\endcsname{\delta #1_j}
+    \expandafter\providecommand\csname delkp#1\endcsname{\delta #1_{k+1}}
+    \expandafter\providecommand\csname deljp#1\endcsname{\delta #1_{j+1}}
 }
 
 
@@ -86,7 +90,7 @@
 
     \begin{align}
         \xbarkp &= \fbark \\
-        \bar{x}_0 &= x_0 \nonumber \\
+        \bar{x}_0 &= x_0 \nonumber
     \end{align}
 
     \begin{align}
@@ -95,6 +99,18 @@
         {where} & {}\nonumber\\
         {\delkx} &= {\xk - \xbark} \nonumber\\
         {\delku} &= {\uk - \ubark} \nonumber
+    \end{align}
+
+    \begin{align}
+        {\delkpx} &= {\fk + \noisekp - \fbark} \nonumber\\
+        {\text{or, } \delkpx} &= {\fkdelx + \fkdelu + \fkdelxu} \\
+        {} &\quad {+ \fkdelxx + \fkdeluu + \noisekp} \nonumber \\
+        % {\text{Similarly, }} & {} \nonumber\\
+        \intertext{Similarly, }
+        {\Lk} &= {\Lbark + \Lkdelx + \Lkdelu} \nonumber\\
+        {} &\quad {+ \Lkdelxx + \Lkdeluu} \\
+        \intertext{and, }
+        {\Jk} &= {\Jbark + \Jkdelx + \Jkdelxx}
     \end{align}
 \end{minipage}
 
