@@ -138,6 +138,9 @@
 \newcommand{\HonorsDean}[1]{\gdef\@HonorsDean{#1}}
 
 % Set default values for fields
+  % \makeatletter
+  %   \providecommand{\@Year}{\the\year}
+  % \makeatother
   \Year{1905}
   \Month{January}
   \Author{Author}

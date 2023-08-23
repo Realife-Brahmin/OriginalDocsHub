@@ -19,6 +19,11 @@
 \usepackage[citestyle=IEEE,natbib=true,backend=biber,style=numeric-comp]{biblatex}
 \addbibresource{BibFile.bib}
 
+\usepackage{enumitem}
+\usepackage[most]{tcolorbox}
+\newlist{mynotes}{enumerate}{1}
+\setlist[mynotes,1]{label=\arabic*.,left=0em,labelsep=1em,font=\bfseries\itshape, before={\tcbset{enhanced,boxrule=0.8pt,colback=white,drop shadow,sharp corners,squeeze tight,attach boxed title to top left={xshift=1cm,yshift*=1mm-\tcboxedtitleheight},boxed title style={colback=white}}\begin{tcolorbox}},after={\end{tcolorbox}},resume}
+
 \usepackage{hyperref}
 \usepackage{cleveref}
 % Make chapter numbers into string words 1 -> ONE
