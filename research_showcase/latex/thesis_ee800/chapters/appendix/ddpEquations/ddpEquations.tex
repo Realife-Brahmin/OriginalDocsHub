@@ -35,7 +35,6 @@
 \providecommand{\Jbarkp}{J(\bar{x}_{k+1}, k+1)}
 \providecommand{\Jnomk}{\bar{J}(\bar{x}_k, k)}
 \providecommand{\Jnomkp}{\bar{J}(\bar{x}_{k+1}, k+1)}
-\providecommand{\Jkdelx}{\delta x }
 \providecommand{\Jkdelx}{J_x \delta x_{k}}
 \providecommand{\Jkdelxx}{\frac{1}{2} J_{xx} (\delta x_{k+1})^2}
 
@@ -57,10 +56,10 @@
     \expandafter\providecommand\csname #1barkp\endcsname{\bar{#1}_{k+1}}
     \expandafter\providecommand\csname #1barjp\endcsname{\bar{#1}_{j+1}}
     \expandafter\providecommand\csname delk#1\endcsname{\delta #1_k}
+    \expandafter\providecommand\csname delj#1\endcsname{\delta #1_j}
     \expandafter\providecommand\csname delkp#1\endcsname{\delta #1_{k+1}}
     \expandafter\providecommand\csname deljp#1\endcsname{\delta #1_{j+1}}
 }
-
 
 \createVarProvideCommands{x}
 \createVarProvideCommands{u}
@@ -101,6 +100,9 @@
         {\delku} &= {\uk - \ubark} \nonumber
     \end{align}
 
+\end{minipage}
+
+\begin{minipage}{0.8\linewidth}
     \begin{align}
         {\delkpx} &= {\fk + \noisekp - \fbark} \nonumber\\
         {\text{or, } \delkpx} &= {\fkdelx + \fkdelu + \fkdelxu} \\
@@ -113,6 +115,5 @@
         {\Jk} &= {\Jbark + \Jkdelx + \Jkdelxx}
     \end{align}
 \end{minipage}
-
 
 \end{document}

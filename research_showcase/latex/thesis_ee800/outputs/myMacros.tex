@@ -29,9 +29,16 @@
 \newcommand{\Jbarkp}{J(\bar{x}_{k+1}, k+1)}
 \newcommand{\Jnomk}{\bar{J}(\bar{x}_k, k)}
 \newcommand{\Jnomkp}{\bar{J}(\bar{x}_{k+1}, k+1)}
+\newcommand{\Jkdelx}{J_x \delta x_{k}}
+\newcommand{\Jkdelxx}{\frac{1}{2} J_{xx} (\delta x_{k+1})^2}
 
 \newcommand{\GN}{G(x_N, N)}
 \newcommand{\GbarN}{G(\bar(x)_N, N)}
+
+\newcommand{\noisek}{\sigma_k \xi_k}
+\newcommand{\noisej}{\sigma_j \xi_j}
+\newcommand{\noisekp}{\sigma_{k+1} \xi_{k+1}}
+\newcommand{\noisejp}{\sigma_{j+1} \xi_{j+1}}
 
 \newcommand{\createVarCommands}[1]{%
     \expandafter\newcommand\csname #1k\endcsname{#1_k}
@@ -50,8 +57,3 @@
 
 \createVarCommands{x}
 \createVarCommands{u}
-
-\newcommand{\noisek}{\sigma_k \xi_k}
-\newcommand{\noisej}{\sigma_j \xi_j}
-\newcommand{\noisekp}{\sigma_{k+1} \xi_{k+1}}
-\newcommand{\noisejp}{\sigma_{j+1} \xi_{j+1}}
