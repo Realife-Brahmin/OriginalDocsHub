@@ -1,0 +1,22 @@
+\documentclass{article}
+% \usepackage{mathtools}
+\usepackage{amsmath}
+\usepackage{xcolor}
+\newenvironment{colalign}[1]{%
+    \color{#1}
+    \align
+}{%
+    \endalign
+}
+\begin{document}
+    \begin{colalign}{red}
+        lhs1 &= rhs1 \nonumber\\
+        lhs2 &= rhs2 \nonumber
+    \end{colalign}
+    \begin{colalign}{blue}
+			{B_{j}^{t+1}} &= { B_{j}^{t} - \Delta t  \eta_c P_{c_j}^t + \Delta t\frac{1}{\eta_d} P_{d_j}^t } \\
+    \end{colalign}
+    % \begin{align}
+    %     lhs_3 &= rhs_3
+    % \end{align}
+\end{document}
