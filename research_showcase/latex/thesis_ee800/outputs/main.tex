@@ -46,6 +46,11 @@
 \begin{document}
 \let\oldcref\cref
 \renewcommand{\cref}[1]{\Cref*{#1}}
+
+\newcommand{\ismaindoc}{} % Define a new command to indicate this is the main document
+
+\newcommand{\figpath}{../figures/} % Path when compiled from main.tex
+
 \hypersetup{breaklinks=true}
 
 % Start page counting in roman numerals

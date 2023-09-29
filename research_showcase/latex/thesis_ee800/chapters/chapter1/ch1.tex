@@ -1,3 +1,27 @@
-\addchapheadtotoc
-\chapter{SOME FORMATTING EXAMPLES}
-\section{Chapter one tittle section}
+\documentclass[varwidth]{standalone}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage{import}
+\usepackage{transparent}
+
+\ifdefined\ismaindoc
+    \providecommand{\figpath}{../figures/} % Path when compiled from main.tex
+\else
+    \providecommand{\figpath}{../../figures/} % Path when compiled as stand-alone
+\fi
+
+% \addchapheadtotoc
+% \chapter{SOME FORMATTING EXAMPLES}
+% \section{Chapter one tittle section}
+
+\begin{document}
+    \begin{figure}
+        \centering
+        \import{\figpath}{ieee123-FourAreas.pdf_tex}
+        \caption{IEEE 123 Node System divided into four areas with DER nodes labelled.}
+        \label{fig:ieee123-fourareas}
+    \end{figure}
+\end{document}
+
