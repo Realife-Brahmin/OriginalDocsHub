@@ -1,0 +1,29 @@
+%% Creator: Inkscape 1.2 (dc2aedaf03, 2022-05-15), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'ieee123-FourAreas.pdf' (pdf, eps, ps)
+
+\begingroup%
+\makeatletter%
+\providecommand\color[2][]{}%
+\providecommand\transparent[1]{}%
+\providecommand\rotatebox[2]{#2}%
+\newcommand*\fsize{\dimexpr\f@size pt\relax}%
+\newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+
+%% Adjust the width here.
+\def\svgwidth{0.5\textwidth}
+
+\setlength{\unitlength}{\svgwidth}%
+
+\global\let\svgwidth\undefined%
+\global\let\svgscale\undefined%
+\makeatother%
+\begin{picture}(2,1)%
+	\lineheight{1}%
+	\setlength\tabcolsep{0pt}%
+	
+%	\begin{minipage}{\unitlength}
+		\includegraphics[width=\linewidth]{ieee123-FourAreas.pdf}
+%	\end{minipage}
+\end{picture}%
+\endgroup%
