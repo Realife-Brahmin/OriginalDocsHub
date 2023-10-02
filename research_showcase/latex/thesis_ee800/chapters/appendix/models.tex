@@ -13,29 +13,29 @@ All subscripts $j$ for a variable imply the node in the power grid (for node $j$
 All superscripts $t$ refer to the time period number $t$.
 
 \begin{table}[htbp]
+	\begin{threeparttable}
 	\label{tab:grid_Nazir2018Jun}
 	\centering
 	\caption{Description of Grid Parameters}
-	\begin{tabular}{>{\raggedright\arraybackslash $}p{2.5cm}<{$}
-		>{\raggedright\arraybackslash}p{7.5cm}}
-		\toprule
-		\text{Variable} & \text{Description}                                                   \\
-		\midrule
-		\mathcal{N}     & {Set of all nodes. $\mathcal{N} = \{1,2, \ldots n\}$}                \\
-		\mathcal{L}     & {Set of all branches. $\mathcal{L} =
-		\{1,2, \ldots l\} = \{(i, k)\} \subset (\mathcal{N} \times \mathcal{N})$.}             \\
-		\mathcal{D}     & {Set of all nodes containing DERs. $\mathcal{D}
-		\subset \mathcal{N}$}                                                                  \\
-		\mathcal{B}     & {Set of all nodes containing storage. $\mathcal{B}
-		\subset \mathcal{N}$}                                                                  \\
-		{\Delta t}      & {Duration of a single time period. Here $\Delta t = 15
-		\text{ min.} = 0.25 \text{ h}$.}                                                       \\
-		T               & {Prediction Horizon Duration. Total time duration solved for as part
-		of one instance of MP-OPF.}                                                            \\
-		K               & {Prediction Horizon Number. Total number of discrete-time steps
-		solved for in one instance of MP-OPF. $T = K \Delta t$}                                \\
-		\bottomrule
-	\end{tabular}%
+		\begin{tabular}{>{\raggedright\arraybackslash $}p{2.5cm}<{$}
+			>{\raggedright\arraybackslash}p{7.5cm}}
+			\toprule
+			\text{Variable} & \text{Description}                                                   \\
+			\midrule
+			\mathcal{N}     & {Set of all nodes. $\mathcal{N} = \{1,2, \ldots n\}$}                \\
+			\mathcal{L}     & {Set of all branches. $\mathcal{L} =
+			\{1,2, \ldots l\} = \{(i, k)\} \subset (\mathcal{N} \times \mathcal{N})$.}             \\
+			\mathcal{D}     & {Set of all nodes containing DERs. $\mathcal{D}
+			\subset \mathcal{N}$}                                                                  \\
+			\mathcal{B}     & {Set of all nodes containing storage. $\mathcal{B}
+			\subset \mathcal{N}$}                                                                  \\
+			{\Delta t}      & {Duration of a single time period. Here $\Delta t = 15
+			\text{ min.} = 0.25 \text{ h}$.}                                                       \\
+			{T}               & {Prediction Horizon Duration. Total number of time-intervals solved for as part
+			of one instance of MP-OPF.}                                                            \\
+			\bottomrule
+		\end{tabular}%
+	\end{threeparttable}
 \end{table}%
 
 \begin{table}[htbp]
@@ -72,13 +72,14 @@ four state/control variables, which are:
 		\text{Variable}                           & \text{Description}                                  & \text{Dimension} &
 		\text{Dimension $pu$}                                                                                                        \\
 			\midrule
-		B_{n, k}                                  & State of Charge (SOC) of Battery after time-interval $k$                   & [kWh]            & [pu\,h] \\
-		P^c_{n, k}                                & Average Charging Power of the Battery during the
-		$k$-th time interval.                     & [kW]                                                & [pu]                       \\
-		P^d_{n, k}                                & Average Discharging Power of the Battery during the
-		$k$-th time interval.                     & [kW]                                                & [pu]                       \\
-		q_{B_{n, k}}                              & Average Reactive Power Output from the Battery
-		Inverter during the $k$-th time interval. & [kVAr]                                              & [pu]                       \\
+		B_{n, t}                                  & State of Charge (SOC) of Battery after the
+		$t$-th time interval.                   & [kWh]            & [pu\,h] \\
+		P^c_{n, t}                                & Average Charging Power of the Battery during the
+		$t$-th time interval.                     & [kW]                                                & [pu]                       \\
+		P^d_{n, t}                                & Average Discharging Power of the Battery during the
+		$t$-th time interval.                     & [kW]                                                & [pu]                       \\
+		q_{B_{n, t}}                              & Average Reactive Power Output from the Battery
+		Inverter during the $t$-th time interval. & [kVAr]                                              & [pu]                       \\
 		\bottomrule
 	\end{tabular}%
 \end{table}%
@@ -86,9 +87,8 @@ four state/control variables, which are:
 \clearpage
 \text{where, }
 \begin{description}
-	\item[$k \in \{0, 1, 2, \ldots, T/\Delta t\}$] The index of the discretized time intervals, where $k$ represents
-		the $k$-th time interval of duration $\Delta t$ within the continuous time range
-		$[0, T]$. The corresponding continuous time interval is $[(k-1)\Delta t, k\Delta t]$.
+	\item[$t \in \{1, 2, \ldots, T\}$] The index of the discretized time intervals, where $t$ represents
+		the $t$-th time interval of duration $\Delta t$.
 	\item[$n \in \mathcal{N}$] The node $n$ is an element of the set of all nodes
 		in the power grid $\mathcal{N}$. Note that $n$ can be used both as an iterator or
 		as the total number of nodes in the grid (i.e. the cardinality of $\mathcal{N}$),
@@ -97,7 +97,8 @@ four state/control variables, which are:
 \end{description}
 
 \begin{table}[htbp]
-	\label{tab:bounds_batt_Nazir2018Jun}
+	\begin{threeparttable}
+	\label{tab:bounds_batt_Nazir2018Jun_2}
 	\centering
 	\caption{Values, Lower Bounds and Upper Bounds on Battery Variables}
 	\begin{tabular}{>{\raggedright\arraybackslash $}p{2.5cm}<{$}
@@ -116,16 +117,39 @@ four state/control variables, which are:
 		{B_0}             & {0.625E_{Rated}}                              & {Batteries start with an SOC value in
 		the middle of their SOC range.}                                                                           \\
 		{\eta_d , \eta_c} & {0.95}                                         & {}                                    \\
-		{\alpha} & {3\mathrm{e}{-5}} & {Value depends on the magnitude 
-		of the loss term in the objective function (for IEEE 123 node system, 
-		it is $\approx (1\mathrm{e}{-5}, 10\mathrm{e}{-5}))$. Too big a value of 
-		$\alpha$ would reduce both $P_c$ and $P_d$ terms to zero, whereas
-		too small a value would not penalize SCD, causing physically infeasible 
-		solutions.} \\
 		\bottomrule
 	\end{tabular}%
+\end{threeparttable}
+\end{table}%
+
+\begin{table}[htbp]
+	\begin{threeparttable}
+	\label{tab:bounds_batt_Nazir2018Jun}
+	\centering
+	\caption{Values, Lower Bounds and Upper Bounds on Battery Variables}
+	\begin{tabular}{>{\raggedright\arraybackslash $}p{2.5cm}<{$}
+			>{\raggedright\arraybackslash $}p{5.5cm}<{$}
+		>{\raggedright\arraybackslash}p{4.5cm}<{}}
+		\toprule
+		\text{Variable}   & \text{Value or Limits}                        & \text{Description}                    \\
+		\midrule
+		{\alpha} & {1\mathrm{e}{-3}} & {Coefficient of auxiliary objective function penalizing SCD. Value depends on the magnitude 
+		of the loss term in the objective function} \\
+		{\gamma} & {50} & {Coefficient of auxiliary objective function penalizing deviation of final SOC value from a reference.} \\
+		\bottomrule
+	\end{tabular}%
+	\begin{tablenotes}
+		\item[1] A note on $\alpha$:
+		Too big a value of $\alpha$ would reduce both $P_c$ and $P_d$ terms to zero, whereas too small a value would not penalize SCD, causing physically infeasible solutions.
+	\end{tablenotes}
+\end{threeparttable}
 \end{table}%
 % 
+
+% \begin{float}
+% Notes on $\alpha$:
+% Too big a value of $\alpha$ would reduce both $P_c$ and $P_d$ terms to zero, whereas too small a value would not penalize SCD, causing physically infeasible solutions.
+% \end{float}
 
 \section*{Optimization Equations}
 
