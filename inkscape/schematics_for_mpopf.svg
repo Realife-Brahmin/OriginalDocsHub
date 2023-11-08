@@ -25,8 +25,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="2.587745"
-     inkscape:cx="242.48912"
-     inkscape:cy="312.62741"
+     inkscape:cx="141.6291"
+     inkscape:cy="311.4681"
      inkscape:window-width="2560"
      inkscape:window-height="1417"
      inkscape:window-x="-8"
@@ -35,6 +35,17 @@
      inkscape:current-layer="layer1" />
   <defs
      id="defs1733">
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect9835"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
     <marker
        style="overflow:visible"
        id="EmptyTriangleIn"
@@ -149,6 +160,66 @@
          d="M 5.77,0 -2.88,5 V -5 Z"
          id="path153-6" />
     </marker>
+    <marker
+       style="overflow:visible"
+       id="EmptyTriangleIn-2"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="EmptyTriangleIn"
+       markerWidth="5.8241119"
+       markerHeight="6.7330775"
+       viewBox="0 0 5.8241121 6.7330776"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-fill;fill-rule:evenodd;stroke:context-stroke;stroke-width:2"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path153-8" />
+    </marker>
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect9835-1"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <marker
+       style="overflow:visible"
+       id="EmptyTriangleIn-8"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="EmptyTriangleIn"
+       markerWidth="5.8241119"
+       markerHeight="6.7330775"
+       viewBox="0 0 5.8241121 6.7330776"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-fill;fill-rule:evenodd;stroke:context-stroke;stroke-width:2"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path153-9" />
+    </marker>
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect9835-8"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
   </defs>
   <g
      inkscape:label="Layer 1"
@@ -162,6 +233,20 @@
        x="21.147837"
        y="30.349865"
        inkscape:highlight-color="#fcdbee" />
+    <path
+       style="fill:#696969;fill-opacity:1;fill-rule:evenodd;stroke:#2ebf03;stroke-width:0.909811;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:5.2;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#EmptyTriangleIn-8);paint-order:normal"
+       d="m 69.207373,90.605629 c 0.105043,-2.920846 0.210088,-5.841758 2.122801,-8.013359 1.912713,-2.171601 5.632852,-3.59346 9.352761,-5.015231"
+       id="path9833-2"
+       inkscape:path-effect="#path-effect9835-8"
+       inkscape:original-d="m 69.207373,90.605629 c 0.105324,-2.920836 0.210369,-5.841748 0.315146,-8.763014 3.720474,-1.42167 7.440612,-2.843529 11.160416,-4.265576"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="fill:#696969;fill-opacity:1;fill-rule:evenodd;stroke:#2ebf03;stroke-width:0.909811;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:5.2;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#EmptyTriangleIn-2);paint-order:normal"
+       d="M 84.275629,61.818739 C 84.170586,58.897893 84.065541,55.976981 82.152828,53.80538 80.240115,51.633779 76.519976,50.21192 72.800067,48.790149"
+       id="path9833-6"
+       inkscape:path-effect="#path-effect9835-1"
+       inkscape:original-d="M 84.275629,61.818739 C 84.170305,58.897903 84.06526,55.976991 83.960483,53.055725 80.240009,51.634055 76.519871,50.212196 72.800067,48.790149"
+       sodipodi:nodetypes="ccc" />
     <path
        style="fill:#696969;fill-opacity:1;fill-rule:evenodd;stroke:#bf8e03;stroke-width:0.911472;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:5.2;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#EmptyTriangleIn-9);paint-order:normal"
        d="M 90.874497,64.735476 C 92.755463,49.930623 86.961468,43.603883 75.748191,43.263523"
@@ -179,6 +264,18 @@
        height="14.390941"
        x="56.196274"
        y="94.231316" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:6.56104px;font-family:'Tw Cen MT';-inkscape-font-specification:'Tw Cen MT, Bold';fill:#ff0025;fill-opacity:1;fill-rule:evenodd;stroke:#e96868;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:5.2;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       x="61.741837"
+       y="94.184006"
+       id="text10437-8"
+       transform="scale(0.90813935,1.1011526)"><tspan
+         sodipodi:role="line"
+         id="tspan10435-0"
+         style="fill:#ff0025;fill-opacity:1;stroke:#e96868;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+         x="61.741837"
+         y="94.184006">Area 3</tspan></text>
     <rect
        style="fill:#e8ec04;fill-opacity:1;fill-rule:evenodd;stroke:#696969;stroke-width:0.188324;stroke-miterlimit:5.2;stroke-dasharray:0.564972, 0.188324"
        id="rect1911-16"
@@ -186,6 +283,18 @@
        height="14.390941"
        x="80.939507"
        y="64.887077" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:6.56104px;font-family:'Tw Cen MT';-inkscape-font-specification:'Tw Cen MT, Bold';fill:#ff0025;fill-opacity:1;fill-rule:evenodd;stroke:#e96868;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:5.2;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       x="89.010094"
+       y="67.999611"
+       id="text10437-5"
+       transform="scale(0.90813936,1.1011526)"><tspan
+         sodipodi:role="line"
+         id="tspan10435-6"
+         style="fill:#ff0025;fill-opacity:1;stroke:#e96868;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+         x="89.010094"
+         y="67.999611">Area 2</tspan></text>
     <rect
        style="fill:#e8ec04;fill-opacity:1;fill-rule:evenodd;stroke:#696969;stroke-width:0.188324;stroke-miterlimit:5.2;stroke-dasharray:0.564972, 0.188324"
        id="rect1911-1"
@@ -214,5 +323,36 @@
            sodipodi:nodetypes="cc" />
       </g>
     </g>
+    <path
+       style="fill:#696969;fill-opacity:1;fill-rule:evenodd;stroke:#2ebf03;stroke-width:0.909811;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:5.2;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#EmptyTriangleIn);paint-order:normal"
+       d="m 44.857278,61.818739 c 0.105043,-2.920846 0.210088,-5.841758 2.122801,-8.013359 1.912713,-2.171601 5.632852,-3.59346 9.352761,-5.015231"
+       id="path9833"
+       inkscape:path-effect="#path-effect9835"
+       inkscape:original-d="m 44.857278,61.818739 c 0.105324,-2.920836 0.210369,-5.841748 0.315146,-8.763014 3.720474,-1.42167 7.440612,-2.843529 11.160416,-4.265576"
+       sodipodi:nodetypes="ccc" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:6.56104px;font-family:'Tw Cen MT';-inkscape-font-specification:'Tw Cen MT, Bold';fill:#ff0025;fill-opacity:1;fill-rule:evenodd;stroke:#e96868;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:5.2;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       x="62.028866"
+       y="41.274075"
+       id="text10437"
+       transform="scale(0.90813937,1.1011526)"><tspan
+         sodipodi:role="line"
+         id="tspan10435"
+         style="fill:#ff0025;fill-opacity:1;stroke:#e96868;stroke-width:0.1;stroke-opacity:1;stroke-dasharray:none"
+         x="62.028866"
+         y="41.274075">Area 1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:6.56104px;font-family:'Tw Cen MT';-inkscape-font-specification:'Tw Cen MT, Bold';fill:#ff0025;fill-opacity:1;fill-rule:evenodd;stroke:#e96868;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:5.2;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       x="36.718674"
+       y="67.535347"
+       id="text10437-0"
+       transform="scale(0.90813935,1.1011526)"><tspan
+         sodipodi:role="line"
+         id="tspan10435-5"
+         style="fill:#ff0025;fill-opacity:1;stroke:#e96868;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+         x="36.718674"
+         y="67.535347">Area 4</tspan></text>
   </g>
 </svg>
