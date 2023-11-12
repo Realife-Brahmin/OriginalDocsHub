@@ -19,6 +19,13 @@
 \frenchspacing              % Better looking spacings after periods
 \pagestyle{empty}           % No pagenumbers/headers/footers
 
+% Define the colors
+\definecolor{pythonblue}{HTML}{3776AB}
+\definecolor{matlaborange}{HTML}{E67E22}
+\definecolor{juliapurple}{HTML}{9558B2}
+\definecolor{github}{HTML}{181717}
+\definecolor{linkedinblue}{HTML}{0A66C2}
+
 %%% Custom sectioning (sectsty package)
 %%% ------------------------------------------------------------
 \usepackage{sectsty}
@@ -96,7 +103,8 @@
 				{} & Apt A102 Steptoe Village Apartments \\
 				{} & Pullman, WA, 99163\\
 				\textbf{Phone} & 509-338-8770 \\
-				\textbf{E-mail} & \url{aryan.r.jha@gmail.com}, \url{aryan.jha@wsu.edu}
+				\textbf{E-mail} & \href{mailto:aryan.r.jha@gmail.com}{aryan.r.jha@gmail.com}, \href{mailto:aryan.jha@wsu.edu}{aryan.jha@wsu.edu} \\
+				\textbf{Other Sites} & \href{https://www.linkedin.com/in/aryan-r-jha}{\textcolor{linkedinblue}{\faLinkedin}} \href{https://Github.com/Realife-Brahmin}{\textcolor{github}{\faGithub}}
 			\end{tabular}
 	\end{table}
 	
@@ -129,18 +137,29 @@ Secondary Education \\ Secured 10.00/10.00 CGPA}
 %%% ------------------------------------------------------------
 \NewPart{Projects}{}
 
-\WorkEntry{Ongoing Doctoral Thesis}{Aug '22 - }{Multi-Period Optimal Power Flow in Distribution Systems\\ Supervisor : Dr. Anamika Dubey, Associate Professor, School of Electrical Engineering and Computer Sciences, Washington State University}{My thesis problem statement is devising an Optimal Multi-time Period Powerflow Strategy for a radial power distribution system equipped with renewables and storage elements. The algorithm facilitating the same will allow for decomposing the computation burden of computing a minimizer of an objective function (say, line losses) both spatially and temporally. The modelling and algorithm development is part of the ``\href{https://www.energy.gov/eere/solar/connected-communities-funding-program}{Connected Communities}" project sponsored by the Department of Energy, and involves the partnership of Washington State University, \href{https://investor.avistacorp.com/}{Avista Utilities}, \href{https://edoenergy.com/about-edo/}{Edo Energy} and \href{https://www.pnnl.gov/about}{Pacific Northwest National Lab}.}
+\WorkEntry{Ongoing Doctoral Thesis}{Aug '22 - }{Multi-Period Optimal Power Flow in Distribution Systems \href{https://github.com/Realife-Brahmin/MultiPeriod-DistOPF-Benchmark}{\textcolor{matlaborange}{\faGithub}}, \href{https://github.com/Realife-Brahmin/MultiPeriod-DistOPF-AlgoTesting}{\textcolor{matlaborange}{\faGithub}}\\ Supervisor : Dr. Anamika Dubey, Associate Professor, School of Electrical Engineering and Computer Sciences, Washington State University}{My thesis problem statement is devising an Optimal Multi-time Period Powerflow Strategy for a radial power distribution system equipped with renewables and storage elements. The algorithm facilitating the same will allow for decomposing the computational burden of computing a minimizer of an objective function (say, line losses) both spatially and temporally. The modelling and algorithm development is part of the ``\href{https://www.energy.gov/eere/solar/connected-communities-funding-program}{Connected Communities}" project sponsored by the Department of Energy, and involves the partnership of Washington State University, \href{https://investor.avistacorp.com/}{Avista Utilities}, \href{https://edoenergy.com/about-edo/}{Edo Energy} and \href{https://www.pnnl.gov/about}{Pacific Northwest National Lab}. Current status of the MATLAB simulations may be viewed by clicking on the GitHub logo icons next to the project title.}
 
-\WorkEntry{Research Project}{Sep '20 - Aug '22}{Data Analysis for Predicting Instabilities in Power Systems\\ Supervisor : Dr. Nilanjan Senroy, Professor, Department of Electrical Engineering, IIT Delhi}{An accumulation of stochastic disturbances in the power grid causes various steady state instabilities to develop, which can lead to blackout without any early warning indicators. My tasks was to statistically analyze the bus voltage magnitudes of the power grid for symptoms of \textit{Critical Slowing Down}, detected via statistical parameters such as autocorrelation and variance in order to develop a reliable early warning service which may be used to avoid blackouts or at least mitigate its effects. Dynamic simulations were done in Siemens PSS®E 34.3 coupled with Python 2.7 being used for automation. Data Analysis was done in MATLAB.}
+\sepspace 
+
+\WorkEntry{Course Project}{Aug '22 - Aug '23}{Power System Analysis and Stability \href{https://github.com/Realife-Brahmin/PowerSystems-Analysis-Stability-WSU}{\textcolor{matlaborange}{\faGithub}}, \href{https://github.com/ninadkgaikwad/PowerEdu}{\textcolor{juliapurple}{ \faGithub }} \\ Supervisors: Dr. Noel Schulz and Dr. Mani V. Venkatasubramanian, Professors at the School of Electrical and Engineering and Computer Sciences, Washington State University}{As part of the two core graduate courses for Power Systems at WSU, a codebase was developed for performing various kinds of analysis on Power Transmission Systems, including Powerflow, Sparse Powerflow, Continuation Powerflow, State Estimation, Optimal Powerflow, Small Signal Stability and Transient Stability. The original codebase for course evaluation was developed in MATLAB. An all new Julia package based on the same projects is being developed, with a few already being re-impemented.}
+
 \sepspace
+% \sepspace 
 
+\WorkEntry{Research Project}{Sep '20 - Aug '22}{Data Analysis for Predicting Instabilities in Power Systems \href{https://github.com/Realife-Brahmin/eld895_simulation_psse}{\textcolor{pythonblue}{\faGithub}}, \href{https://github.com/Realife-Brahmin/eld895_analysis_simulated_grids}{\textcolor{matlaborange}{\faGithub}}, \href{https://github.com/Realife-Brahmin/eld895_analysis_real_grids}{\textcolor{matlaborange}{\faGithub}}\\ Supervisor : Dr. Nilanjan Senroy, Professor, Department of Electrical Engineering, IIT Delhi}{An accumulation of stochastic disturbances in the power grid causes various steady state instabilities to develop, which can lead to blackout without any early warning indicators. My tasks was to statistically analyze the bus voltage magnitudes of the power grid for symptoms of \textit{Critical Slowing Down}, detected via statistical parameters such as autocorrelation and variance in order to develop a reliable early warning service which may be used to avoid blackouts or at least mitigate its effects. Dynamic simulations were done in Siemens PSS®E 34.3 coupled with Python 2.7 being used for automation. Data Analysis was done in MATLAB.}
+
+\clearpage
+% \sepspace
+% \sepspace
+% \sepspace
 
 \WorkEntry{Bachelor's Thesis}{Jan - May '20}{Coordination Schemes for Load Frequency Control of Distributed Energy Resources\\ Supervisor: Dr. Alivelu Manga Parimi, Associate Professor, Department of Electrical and Electronics Engineering, BITS Pilani, Hyderabad Campus}{In order to achieve a more robust control of the grid frequency in a power grid consisting of varied energy resources including photo-voltaics and diesel engine generators, inclusion of storage elements such as large scale batteries and flywheels was proposed. A dynamic state simulation in MATLAB Simulink confirmed the effectiveness of the strategy. Further, an upper limit to the number of such incorporable storage elements, breaching which would otherwise cause the grid to blow up, was also found.}
 \sepspace
 
 \WorkEntry{Project Type Course}{Aug - Dec '19}{Generalized Transfer Function Based Algorithm to Localize Partial Discharge in a Transformer \\ Supervisor: Dr. Mithun Mondal, Assistant Professor, Department of Electrical and Electronics Engineering, BITS Pilani, Hyderabad Campus}{Due to large amounts of current and voltage transacted via power transformers, locations within the inner dielectrics or oils sometimes tend to ionize and develop a partial discharge, which can cause equipment damage in the long term. Utilizing the RLC ladder network of a transformer to form a MIMO transfer function, an algorithm was designed in MATLAB which, given the current measurements at the live and neutral terminals, would output the location of the single partial discharge affecting the transformer.}
 
-\sepspace
+\sepspace 
+
 \WorkEntry{Course Project}{Jan - May '19}{Simulation and Design of Fast Charging Infrastructure for a University-Based e-Carsharing System\\ Supervisor: Dr. Sudha Radhika, Assistant Professor, Department of Electrical and Electronics Engineering, BITS Pilani, Hyderabad Campus}{Based on the IEEE Transactions on Intelligent Transportation Systems paper of the same name, implemented an intelligent battery charging station in MATLAB Simulink which during the day would check the state of charge of incoming e-vehicles and charge as per the distance to the destination location. During night time, the station batteries would get recharged through the grid power via AC to DC converters.}
 
 \NewPart{Teaching Experience}{}
@@ -176,11 +195,8 @@ Secondary Education \\ Secured 10.00/10.00 CGPA}
 \WorkEntry{Introduction to Power Electronics}{}{University of Colorado Boulder on Coursera \href{https://www.coursera.org/account/accomplishments/verify/GRD3KP9KSDYW}{\faExternalLink*}{}}
 
 
+\clearpage
 
-%\faExternalLink*
-%\url{https://t.ly/q6Ml}
-%%% Skills
-%%% ------------------------------------------------------------
 \NewPart{Skills}{}
 
 \SkillsEntry{Languages}{Maithili (mother tongue)}
