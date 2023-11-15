@@ -246,5 +246,18 @@
        id="path4404"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0" />
+    <rect
+       style="fill:#ffaaaa;fill-rule:evenodd;stroke-width:0;stroke-linejoin:round;stroke-miterlimit:5.2;stroke-dasharray:2.55464, 0.106443"
+       id="rect184-1-0"
+       width="6.579114"
+       height="3.1811101"
+       x="63.658348"
+       y="104.47054" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#TriangleStart)"
+       d="m 66.443973,98.650556 0.503933,5.819984"
+       id="path6106"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0" />
   </g>
 </svg>
