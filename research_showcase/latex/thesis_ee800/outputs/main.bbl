@@ -209,6 +209,21 @@
       \verb 10.1109/CSO.2014.25
       \endverb
     \endentry
+    \entry{nercRes01}{misc}{}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labeltitlesource}{title}
+      \field{month}{2}
+      \field{note}{[Online; accessed 12. Feb. 2024]}
+      \field{title}{{Resources}}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.nerc.com/pa/Stand/Resources/Pages/default.aspx
+      \endverb
+      \verb{url}
+      \verb https://www.nerc.com/pa/Stand/Resources/Pages/default.aspx
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
