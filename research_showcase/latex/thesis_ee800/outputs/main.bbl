@@ -96,6 +96,21 @@
       \verb 10.1109/CDC.2012.6425870
       \endverb
     \endentry
+    \entry{nercIBR00}{misc}{}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labeltitlesource}{title}
+      \field{month}{2}
+      \field{note}{[Online; accessed 14. Feb. 2024]}
+      \field{title}{{Inverter-Based Resource Performance Subcommittee (IRPS)xn--zug}}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.nerc.com/comm/RSTC/Pages/IRPS.aspx
+      \endverb
+      \verb{url}
+      \verb https://www.nerc.com/comm/RSTC/Pages/IRPS.aspx
+      \endverb
+    \endentry
     \entry{Nazir2018Jun}{article}{}
       \name{author}{2}{}{%
         {{hash=40293358c63768a4e798c7f93cc5e8b1}{%
