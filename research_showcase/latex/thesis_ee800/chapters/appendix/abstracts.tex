@@ -1,7 +1,9 @@
 \chapter{Abstracts: Optimization-based Methods for solving MP-OPF}
-In \cite{Nazir2019Jun}, the authors use a two-step paradigm for solving the MP-OPF problem, by first solving for a more relaxed SOCP problem for the all of the time-steps in a horizon, and using the SOC values from its solution, solve for the NLP OPF problem for every time-step in parallel.
+In \cite{Nazir2019Jun}, the authors use a two-step paradigm for solving the MP-OPF problem, by first solving for a more relaxed SOCP problem for the all of the time-steps in a horizon, and using the SOC values from its solution, solve for the NLP OPF problem for every time-step in parallel.`'
 
 In \cite{Nazir2018Jun}, they prove that for 'realistic' systems, appending an additional `complementarity' cost function to the original objective function, Simultaneous Charging and Discharging (SCD) in the optimal solution is avoided, and that the Mixed-Integer SOCP problem of AC-OPF with energy storage can be relaxed into a regular SOCP problem without violating the battery physics in the optimal solution.
+
+In \cite{usman01}, the authors present a linear approximation based on Taylor's second order terms of a grid with various components associated with nonlinear and mixed-integer decision variables, and use a \textit{Successive Linear Approximation} algorithm to tighthen the relaxation to capture the nonlinearity of the original system.
 
 \chapter{Abstracts: Dynamic Programming Methods for solving MP-OPF}
 
@@ -14,4 +16,5 @@ Dynamic Programming can be utilized to solve a Mutli-Stage Uncertain
 Optimal Control problem programmatically.
 
 \input{../chapters/appendix/ddpEquations/ddpEquations.tex}
+
 

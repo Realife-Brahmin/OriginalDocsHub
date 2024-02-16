@@ -239,6 +239,36 @@
       \verb https://www.nerc.com/pa/Stand/Resources/Pages/default.aspx
       \endverb
     \endentry
+    \entry{usman01}{article}{}
+      \name{author}{2}{}{%
+        {{hash=9b188d486913142cb26c6acb66a85531}{%
+           family={Usman},
+           familyi={U\bibinitperiod},
+           given={Muhammad},
+           giveni={M\bibinitperiod}}}%
+        {{hash=f399a5bbd78b7c75c6518fdace03fd25}{%
+           family={Capitanescu},
+           familyi={C\bibinitperiod},
+           given={Florin},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{4dbd215abfb9cd16edbdfc0edc1249df}
+      \strng{fullhash}{4dbd215abfb9cd16edbdfc0edc1249df}
+      \strng{bibnamehash}{4dbd215abfb9cd16edbdfc0edc1249df}
+      \strng{authorbibnamehash}{4dbd215abfb9cd16edbdfc0edc1249df}
+      \strng{authornamehash}{4dbd215abfb9cd16edbdfc0edc1249df}
+      \strng{authorfullhash}{4dbd215abfb9cd16edbdfc0edc1249df}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Power Systems}
+      \field{title}{A Novel Tractable Methodology to Stochastic Multi-Period AC OPF in Active Distribution Systems Using Sequential Linearization Algorithm}
+      \field{year}{2022}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
