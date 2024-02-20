@@ -320,4 +320,13 @@ Here are some key definitions used in this thesis, which have been aligned as pe
 	\item Grid Following Interters (GFL): Depend on an external constant voltage source to generate current \cite*{nercIBR00}. They \textit{track} an AC Voltage Waveform
 	\item Grid Forming Inverters (GFM): Generate their own constant voltage \cite*{nercIBR00}. They \textit{generate} their own AC Voltage waveform. Actually have been in use in off-grid power systems for decades. NERC Inverter-based Resource Performance Working Group (IRPWG) proposed a unified definition: ``An inverter that maintains a constant voltage phasor in
 	the transient and sub-transient time frames"
+	\item Short Circuit Ratio (SCR): (for a bus on the grid, potentially where an IBR is to be connected) Ratio of the total fault current (power) at the bus to the rated current (power) of the generator to be connected at the point. An indicator for the `grid strength' at the point. An SCR value greated that $5$ is considered healthy, and a value of less than $3$ is considered weak. For a weak point with low SCR, EMT studies are usually conducted by the grid operators to detect transient issues which may not be caught by conventional Dyanmic Studies.
+	\begin{align*}
+		SCR_{POI} &= \frac{SCMVA_{POI}}{MW_{VER}}
+	\end{align*}
+	Here, VER denotes a Variable Energy Resources, like a PV.
+	\item Weighted Short Circuit Ratio (WSCR): (for a grid with many buses where IBRs are potentially to be connected) A weighted average of the SCRs across the whole grid, to denote a relative `grid strength'.
+	\begin{align*}
+		WSCR &= \frac{\Sigma^{N}_{j} SCMVA_{j} * P_{Rated MW j}}{(\Sigma^{N}_{j} P_{Rated MW j})^2}
+	\end{align*}
 \end{itemize}
