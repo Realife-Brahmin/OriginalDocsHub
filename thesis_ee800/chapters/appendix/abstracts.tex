@@ -20,7 +20,8 @@ In \cite{usman01}, the authors present a linear approximation based on Taylor's 
 		{ \sum_{(j, k) \in \mathcal{L}} Q^t_{jk} } &= {Q_{ij}^t  + (q^t_{D_j}) + () - \left(q^t_{L0j} + \tan(\psi^t_j)(p^t_{Lodj} - p^t_{Ludj}) \right) } && \\
 		{P^t_{jk}} &= { g_{jk} (V^t_j)^2 - g_{jk} V^t_j V^t_k \cos(\theta^t_{jk}) - b_{jk} V^t_j V^t_k \sin(\theta^t_{jk}) } && \\
 		{Q^t_{jk}} &= { -b_{jk} (V^t_j)^2 + b_{jk} V^t_j V^t_k \cos(\theta^t_{jk}) - g_{jk} V^t_j V^t_k \sin(\theta^t_{jk}) } && \\
-		{l_{ij}^t} & = {\frac{(P_{ij}^{t})^2 + (Q_{ij}^{t})^2}{v_i^t}} \\
+		% {l_{ij}^t} & = {\frac{(P_{ij}^{t})^2 + (Q_{ij}^{t})^2}{v_i^t}} \\
+		{\left[(V^t_j)^2 + (V^t_k)^2 - 2V^t_j V^t_k \cos(\theta^t_{jk}) (g_{jk}^2 + b_{jk}^2)  \right] } &\in {[0, |\overline{I}_{jk}|^2]} && \\
 		{\color{darkgreen}{ B_{j}^{t} }} &\color{darkgreen}{=} { \color{darkgreen}{ B_{j}^{t-1} + z \Delta t  \eta_c P_{c_j}^t - (1-z) \Delta t\frac{1}{\eta_d} P_{d_j}^t } } \\
 		{ B_{j}^{0} } &= { 0.5(soc_{max}+soc_{min})E_{Rated} = 0.625E_{Rated}} \\
 		{ B_{j}^{T} } &= { B_{j}^{0}} \\
