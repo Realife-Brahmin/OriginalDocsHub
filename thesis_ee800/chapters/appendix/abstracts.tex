@@ -15,7 +15,8 @@ In \cite{usman01}, the authors present a linear approximation based on Taylor's 
 	\sum_{t = 1}^{T} \sum_{(i, j) \in \mathcal{L}} (r_{ij}l_{ij}^t) \\
 	\begin{align}
 		\text{s.t.} & {}\nonumber \\
-		{p_j^t} & = {\sum_{(j, k) \in \mathcal{L}} P_{jk}^t - \sum_{(i, j) \in \mathcal{L}}\left\{P_{ij}^t - r_{ij}l_{ij}^t\right\} - P_{d_j}^t + P_{c_j}^t} && \\
+		% {P_{ij}^t  + (p^t_{D0_j} - p^t_{Dcurt_j} ) + (P^t_{cj} + P^t_{dj}) - (P^t_{L0j} + P^t_{Lodj} - P^t_{Ludj} ) } &= { \sum_{(j, k) \in \mathcal{L}} P^t_{jk} } && \\
+		{ \sum_{(j, k) \in \mathcal{L}} P^t_{jk} } &= {P_{ij}^t  + (p^t_{D0_j} - p^t_{Dcurt_j} ) + (P^t_{cj} + P^t_{dj}) - (P^t_{L0j} + P^t_{Lodj} - P^t_{Ludj} ) } && \\
 		{q_j^t} & = {\sum_{(j, k) \in \mathcal{L}} Q_{jk}^t - \sum_{(i, j) \in \mathcal{L}}\left\{Q_{ij}^t - x_{ij}l_{ij}^t\right\} - q_{D_j}^t - q_{B_j}^t} && \\
 		{v_j^t} & = {v_{i}^t +  \left\{r_{ij}^2 + x_{ij}^2\right\}l_{ij}^t - 2(r_{ij}P_{ij}^t + x_{ij}Q_{ij}^t)} && \\
 		{l_{ij}^t} & = {\frac{(P_{ij}^{t})^2 + (Q_{ij}^{t})^2}{v_i^t}} \\
