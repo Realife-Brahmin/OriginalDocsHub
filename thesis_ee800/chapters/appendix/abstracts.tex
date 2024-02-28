@@ -16,8 +16,8 @@ In \cite{usman01}, the authors present a linear approximation based on Taylor's 
 	\begin{align}
 		\text{s.t.} & {}\nonumber \\
 		% {P_{ij}^t  + (p^t_{D0_j} - p^t_{Dcurt_j} ) + (P^t_{cj} + P^t_{dj}) - (P^t_{L0j} + P^t_{Lodj} - P^t_{Ludj} ) } &= { \sum_{(j, k) \in \mathcal{L}} P^t_{jk} } && \\
-		{ \sum_{(j, k) \in \mathcal{L}} P^t_{jk} } &= {P_{ij}^t  + (p^t_{D0_j} - p^t_{Dcurt_j} ) + (P^t_{cj} + P^t_{dj}) - (P^t_{L0j} + P^t_{Lodj} - P^t_{Ludj} ) } && \\
-		{q_j^t} & = {\sum_{(j, k) \in \mathcal{L}} Q_{jk}^t - \sum_{(i, j) \in \mathcal{L}}\left\{Q_{ij}^t - x_{ij}l_{ij}^t\right\} - q_{D_j}^t - q_{B_j}^t} && \\
+		{ \sum_{(j, k) \in \mathcal{L}} P^t_{jk} } &= {P_{ij}^t  + (p^t_{D0_j} - p^t_{Dcurt_j} ) + (P^t_{cj} + P^t_{dj}) - (p^t_{L0j} + p^t_{Lodj} - p^t_{Ludj} ) } && \\
+		{ \sum_{(j, k) \in \mathcal{L}} Q^t_{jk} } &= {Q_{ij}^t  + (q^t_{D_j}) + () - \left(q^t_{L0j} + \tan(\psi_j)(p^t_{Lodj} - p^t_{Ludj}) \right) } && \\
 		{v_j^t} & = {v_{i}^t +  \left\{r_{ij}^2 + x_{ij}^2\right\}l_{ij}^t - 2(r_{ij}P_{ij}^t + x_{ij}Q_{ij}^t)} && \\
 		{l_{ij}^t} & = {\frac{(P_{ij}^{t})^2 + (Q_{ij}^{t})^2}{v_i^t}} \\
 		{\color{darkgreen}{ B_{j}^{t} }} &\color{darkgreen}{=} { \color{darkgreen}{ B_{j}^{t-1} + z \Delta t  \eta_c P_{c_j}^t - (1-z) \Delta t\frac{1}{\eta_d} P_{d_j}^t } } \\
