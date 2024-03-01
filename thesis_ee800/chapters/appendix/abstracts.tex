@@ -1,9 +1,38 @@
+\definecolor{darkgreen}{rgb}{0.0,0.5,0.0}
+
 \chapter{Abstracts: Optimization-based Methods for solving MP-OPF}
 In \cite{Nazir2019Jun}, the authors use a two-step paradigm for solving the MP-OPF problem, by first solving for a more relaxed SOCP problem for the all of the time-steps in a horizon, and using the SOC values from its solution, solve for the NLP OPF problem for every time-step in parallel.`'
 
 In \cite{Nazir2018Jun}, they prove that for 'realistic' systems, appending an additional `complementarity' cost function to the original objective function, Simultaneous Charging and Discharging (SCD) in the optimal solution is avoided, and that the Mixed-Integer SOCP problem of AC-OPF with energy storage can be relaxed into a regular SOCP problem without violating the battery physics in the optimal solution.
 
 In \cite{usman01}, the authors present a linear approximation based on Taylor's second order terms of a grid with various components associated with nonlinear and mixed-integer decision variables, and use a \textit{Successive Linear Approximation} algorithm to tighthen the relaxation to capture the nonlinearity of the original system.
+
+\subsection*{Original Problem: Mixed-Integer Nonlinear Optimization Model - Full Horizon}
+
+\begin{gather}
+    \min_{q_{D_j}^t,
+	P_{c_j}^t, P_d{_j}^t, q_{B_j}^t} \quad
+	\sum_{t = 1}^{T} \sum_{(i, j) \in \mathcal{L}} (r_{ij}l_{ij}^t) \\
+	\begin{align}
+		\text{s.t.} & {}\nonumber \\
+		% {P_{ij}^t  + (p^t_{D0_j} - p^t_{Dcurt_j} ) + (P^t_{cj} + P^t_{dj}) - (P^t_{L0j} + P^t_{Lodj} - P^t_{Ludj} ) } &= { \sum_{(j, k) \in \mathcal{L}} P^t_{jk} } && \\
+		{ \sum_{(j, k) \in \mathcal{L}} P^t_{jk} } &= {P_{ij}^t  + (p^t_{D0_j} - p^t_{Dcurt_j} ) + (P^t_{cj} + P^t_{dj}) - (p^t_{L0j} + p^t_{Lodj} - p^t_{Ludj} ) } && \\
+		{ \sum_{(j, k) \in \mathcal{L}} Q^t_{jk} } &= {Q_{ij}^t  + (q^t_{D_j}) + () - \left(q^t_{L0j} + \tan(\psi^t_j)(p^t_{Lodj} - p^t_{Ludj}) \right) } && \\
+		{P^t_{jk}} &= { g_{jk} (V^t_j)^2 - g_{jk} V^t_j V^t_k \cos(\theta^t_{jk}) - b_{jk} V^t_j V^t_k \sin(\theta^t_{jk}) } && \\
+		{Q^t_{jk}} &= { -b_{jk} (V^t_j)^2 + b_{jk} V^t_j V^t_k \cos(\theta^t_{jk}) - g_{jk} V^t_j V^t_k \sin(\theta^t_{jk}) } && \\
+		% {l_{ij}^t} & = {\frac{(P_{ij}^{t})^2 + (Q_{ij}^{t})^2}{v_i^t}} \\
+		{\left[(V^t_j)^2 + (V^t_k)^2 - 2V^t_j V^t_k \cos(\theta^t_{jk}) (g_{jk}^2 + b_{jk}^2)  \right] } &\in {[0, |\overline{I}_{jk}|^2]} && \\
+		{\color{darkgreen}{ B_{j}^{t} }} &\color{darkgreen}{=} { \color{darkgreen}{ B_{j}^{t-1} + z \Delta t  \eta_c P_{c_j}^t - (1-z) \Delta t\frac{1}{\eta_d} P_{d_j}^t } } \\
+		{ B_{j}^{0} } &= { 0.5(soc_{max}+soc_{min})E_{Rated} = 0.625E_{Rated}} \\
+		{ B_{j}^{T} } &= { B_{j}^{0}} \\
+		{where,} & {} \\
+		{(i, j)} &: {\text{Branch connecting nodes $i$ and $j$}} \\
+		{p_j^t} &= {p_D{_j}^t - p_L{_j}^t} \\
+		{q_j^t} &= {-q_L{_j}^t} \\
+		{t} &= {\{1, 2, \ldots T\}} \\
+		{z} &= {\{0, 1\}}
+	\end{align}
+\end{gather}
 
 \chapter{Abstracts: Dynamic Programming Methods for solving MP-OPF}
 
