@@ -26,77 +26,83 @@
      inkscape:document-units="mm"
      labelstyle="default"
      inkscape:zoom="3.3692059"
-     inkscape:cx="278.84909"
+     inkscape:cx="278.70068"
      inkscape:cy="269.2029"
      inkscape:window-width="3840"
      inkscape:window-height="2126"
      inkscape:window-x="-11"
      inkscape:window-y="133"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
+     inkscape:current-layer="layer1"
+     inkscape:export-bgcolor="#ffffff00" />
   <defs
      id="defs1">
-    <pattern
-       inkscape:collect="always"
-       xlink:href="#Grid"
-       id="pattern55"
-       patternTransform="matrix(0.04,0,0,0.04,-22.89205,2.8699606)"
-       x="0"
-       y="0"
-       preserveAspectRatio="none" />
-    <pattern
-       patternUnits="userSpaceOnUse"
-       width="100"
-       height="100"
-       id="Grid"
-       inkscape:stockid="Grid"
-       patternTransform="scale(0.3,0.3)"
-       inkscape:collect="always"
-       style="fill:#0a3cda"
-       inkscape:isstock="true"
-       inkscape:label="Grid">
-      <g
-   id="g63950">
-        <rect
-   style="fill-opacity:0.5;stroke:none;stroke-width:1;stroke-dasharray:none"
-   id="rect62492"
-   width="50"
-   height="100"
-   x="50"
-   y="0" />
-
-        <rect
-   style="fill-opacity:0.5;stroke:none;stroke-width:1;stroke-dasharray:none"
-   id="rect63583"
-   width="50"
-   height="100"
-   x="-100"
-   y="0"
-   transform="rotate(-90)" />
-
-      </g>
-
-    </pattern>
     <marker
        style="overflow:visible"
-       id="RoundedArrow"
+       id="marker64"
        refX="0"
        refY="0"
        orient="auto-start-reverse"
-       inkscape:stockid="Rounded arrow"
+       inkscape:stockid="Triangle arrow"
        markerWidth="1"
        markerHeight="1"
        viewBox="0 0 1 1"
        inkscape:isstock="true"
        inkscape:collect="always"
-       preserveAspectRatio="xMidYMid"
-       markerUnits="strokeWidth">
+       preserveAspectRatio="xMidYMid">
       <path
-         transform="scale(0.7)"
-         d="m -0.21114562,-4.1055728 6.42229122,3.21114561 a 1,1 90 0 1 0,1.78885438 L -0.21114562,4.1055728 A 1.236068,1.236068 31.717474 0 1 -2,3 v -6 a 1.236068,1.236068 148.28253 0 1 1.78885438,-1.1055728 z"
-         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
-         id="path8" />
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path64" />
     </marker>
+    <marker
+       style="overflow:visible"
+       id="Triangle"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135" />
+    </marker>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#invert grid"
+       preserveAspectRatio="xMidYMid"
+       id="pattern64"
+       patternTransform="matrix(0.2,0,0,0.2,-24.296834,70.267029)"
+       x="0"
+       y="0" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="12"
+       height="12"
+       preserveAspectRatio="xMidYMid"
+       id="invert grid"
+       x="0"
+       y="0"
+       style="fill:#2b6fac"
+       inkscape:label="Inverted grid"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <rect
+         style="stroke:none;paint-order:markers fill stroke"
+         id="rect2-0"
+         width="10"
+         height="10"
+         x="0"
+         y="0" />
+    </pattern>
     <linearGradient
        id="swatch4"
        inkscape:swatch="solid">
@@ -111,23 +117,22 @@
        id="color-profile2" />
     <marker
        style="overflow:visible"
-       id="RoundedArrow-4"
+       id="Triangle-6"
        refX="0"
        refY="0"
        orient="auto-start-reverse"
-       inkscape:stockid="Rounded arrow"
+       inkscape:stockid="Triangle arrow"
        markerWidth="1"
        markerHeight="1"
        viewBox="0 0 1 1"
        inkscape:isstock="true"
        inkscape:collect="always"
-       preserveAspectRatio="xMidYMid"
-       markerUnits="strokeWidth">
+       preserveAspectRatio="xMidYMid">
       <path
-         transform="scale(0.7)"
-         d="m -0.21114562,-4.1055728 6.42229122,3.21114561 a 1,1 90 0 1 0,1.78885438 L -0.21114562,4.1055728 A 1.236068,1.236068 31.717474 0 1 -2,3 v -6 a 1.236068,1.236068 148.28253 0 1 1.78885438,-1.1055728 z"
-         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
-         id="path8-5" />
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135-0" />
     </marker>
   </defs>
   <g
@@ -415,6 +420,9 @@
          transform="translate(3.9342331e-7,0.46836567)" />
     </g>
     <g
+       id="g29"
+       transform="translate(-4.8099551,-0.74603385)" />
+    <g
        id="g28-7"
        transform="matrix(4,0,0,4,99.541954,6.4601433)">
       <rect
@@ -484,26 +492,32 @@
          id="use27-1-8"
          transform="translate(3.9342331e-7,0.46836567)" />
     </g>
-    <g
-       id="g29"
-       transform="translate(-4.8099551,-0.74603385)" />
     <path
-       style="fill:#ff0000;fill-opacity:1;stroke:#b24367;stroke-width:2.188;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#RoundedArrow)"
-       d="m 128.01526,54.272641 v 2.700848 15.383084"
+       style="fill:#ff0000;fill-opacity:1;stroke:#b24367;stroke-width:2.188;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Triangle)"
+       d="m 124.40289,55.13647 v 2.700848 15.383084"
        id="path28"
        sodipodi:nodetypes="ccc" />
     <path
-       style="fill:#55d400;fill-opacity:1;stroke:#43b263;stroke-width:2.188;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#RoundedArrow-4)"
-       d="M 146.48738,62.597265 V 59.896417 44.513333"
+       style="fill:#55d400;fill-opacity:1;stroke:#43b263;stroke-width:2.188;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker64)"
+       d="M 148.13651,66.209639 V 63.508791 48.125707"
        id="path28-3"
        sodipodi:nodetypes="ccc" />
     <rect
-       style="fill:url(#pattern55);fill-opacity:1;stroke:#1757de;stroke-width:0.577032;stroke-dasharray:none;stroke-opacity:0.94402"
+       style="fill:url(#pattern64);fill-opacity:1;stroke:#1757de;stroke-width:0.577032;stroke-dasharray:none;stroke-opacity:0.94402"
        id="rect34"
        width="16.883738"
        height="24.080889"
-       x="115.15749"
-       y="-7.4872122"
+       x="90.860672"
+       y="62.779819"
        transform="matrix(0.75561427,0.65501685,-0.63168087,0.77522853,0,0)" />
+    <path
+       style="fill:#a2b6f3;fill-opacity:1;stroke:#1757de;stroke-width:1;stroke-linecap:square;stroke-dasharray:8, 1;stroke-dashoffset:0.1;stroke-opacity:0.94402"
+       d="m 37.537283,125.0981 22.06689,0.0785"
+       id="path65" />
+    <path
+       style="fill:#ff0000;fill-opacity:1;stroke:#9d43b2;stroke-width:2.188;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Triangle-6);marker-end:url(#Triangle)"
+       d="m 85.31524,54.601001 v 2.700848 15.383084"
+       id="path28-2"
+       sodipodi:nodetypes="ccc" />
   </g>
 </svg>
