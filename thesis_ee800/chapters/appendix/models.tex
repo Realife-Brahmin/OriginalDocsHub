@@ -204,16 +204,24 @@ four state/control variables, which are:
 		{\color{black}{ B_{j}^{t} }} &\color{black}{=} { \color{black}{ B_{j}^{t-1} + \Delta t  \eta_c P_{c_j}^t - \Delta t\frac{1}{\eta_d} P_{d_j}^t } } \\
 		{ B_{j}^{T} } &= { B_{j}^{0}} \\
 		{ B_{j}^{0} } &= { 0.625E_{Rated, j} } \\
-		{\text{where,}} & {} \\
-		{E_{Rated, j}} &: {\text{Rated Maximum SOC of Battery $j$}} \\
-		{B^0_j} &: {\text{SOC of Battery $j$ at the beginning of the horizon}} \\
-		{B^t_j} &: {\text{SOC of Battery $j$ at the end of $t$ time-steps}} \\
+		{\text{where,}} & {} \nonumber\\
+		{P^t_{c,j}} &: {\text{Average Charging Power of Battery $j$ during time-step $t$}} \nonumber\\
+		{P^t_{d,j}} &: {\text{Average Discharging Power of Battery $j$ during time-step $t$}} \nonumber\\
+		{B^t_j} &: {\text{SOC of Battery $j$ at the end of $t$ time-steps}} \nonumber\\
+		{q^t_{Bj}} &: {\text{Average Reactive Power of Battery $j$ during time-step $t$ }} \nonumber\\
+		{B^0_j} &: {\text{SOC of Battery $j$ at the beginning of the horizon}} \nonumber\\
+		{P_{Rated, j}} &: {\text{Rated Charging/Discharging Power of Battery $j$}} \nonumber\\
+		{E_{Rated, j}} &: {\text{Rated Maximum SOC of Battery $j$}} \nonumber\\
+		{S_{Rated, j}} &: {\text{Rated Apparent Power of Inverter at Battery $j$}} \nonumber\\
 		{ soc_{min}, soc_{max} } &= {0.30, 0.95} \\
 		{ \eta_c, \eta_d } &= {0.95, 0.95} \\
 		{P^t_{cj}, P^t_{dj}} &\in {[0, P_{Rated, j}]} \\
+		{S_{Rated,j}} &= {1.2P_{Rated,j}} \\
+		% { (P^t_{dj} - P^t_{cj})^2 + (q^t_{Bj})^2} &\leq {(S_{Rated,j})^2} \\
 		% {B^t_{j}} &\in {[soc_{min}E_{Rated, j}, soc_{max}E_{Rated, j}]} \\
 		{B^t_{j}} &\in {[soc_{min}, soc_{max}]*E_{Rated, j}} \\
-		{t} &= {\{1, 2, \ldots T\}} \\
+		{q^t_{Bj}} &\in {[-\sqrt{0.44}, \sqrt{0.44}]*S_{Rated,j}} \\
+		{t} &= {\{1, 2, \ldots T\}}
 	\end{align}
 \end{gather}
 
