@@ -907,7 +907,10 @@
     </g>
     <g
        id="g9"
-       inkscape:label="branch-flow-model">
+       inkscape:label="branch-flow-model"
+       inkscape:export-filename="branch-flow-network.png"
+       inkscape:export-xdpi="400.03"
+       inkscape:export-ydpi="400.03">
       <path
          style="fill:#666f64;fill-opacity:1;stroke:#decc40;stroke-width:1.64387;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Triangle-2-4)"
          d="m 62.518099,193.09179 v -1.6741 -9.53495"
