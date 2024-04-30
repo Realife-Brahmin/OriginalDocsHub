@@ -225,6 +225,20 @@ four state/control variables, which are:
 	\end{align}
 \end{gather}
 
+\subsubsection*{Solar PV Modelling}
+
+\begin{gather}
+	\begin{align}
+		{p^t_{D,j}} &: {\text{Average Generated Real Power of DER $j$ during time-step $t$}} \nonumber\\
+		{q^t_{Dj}} &: {\text{Average Reactive Power of DER $j$ during time-step $t$ }} \nonumber\\
+		{S_{Rated, j}} &: {\text{Rated Apparent Power of Inverter at DER $j$}} \nonumber\\
+		{S_{Rated,j}} &= {1.2P_{Rated,j}} \\
+		{ (p^t_{Dj})^2 + (q^t_{Dj})^2} &\leq {(S_{Rated,j})^2} \\
+		{q^t_{Dj}} &\in {[-\sqrt{0.44}, \sqrt{0.44}]*S_{Rated,j}} \\
+		{t} &= {\{1, 2, \ldots T\}}\nonumber
+	\end{align}
+\end{gather}
+
 \begin{gather}
     % \min_{P_{ij}^t, Q_{ij}^t, v_{j}^t, l_{ij}^t, q_{D_j}^t, B_{j}^{t},
 	% P_{c_j}^t, P_d{_j}^t, q_{B_j}^t} \quad
