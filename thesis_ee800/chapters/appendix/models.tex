@@ -260,6 +260,39 @@ four state/control variables, which are:
 	\end{align}
 \end{gather}
 
+\subsubsection{Objective Function Examples}
+
+Minimizing Line Losses with soft constraint on SCD
+\begin{gather}
+	\begin{align}
+		\min_{
+		\substack{
+		q_{D_j}^t, P_{c_j}^t, P_d{_j}^t, q_{B_j}^t}
+		} 
+		\vspace{-15ex} % Adjust the space here
+		& \quad
+		\sum_{t = 1}^{T} \sum_{(i, j) \in \mathcal{L}} (r_{ij}l_{ij}^t) \\
+		&+ \alpha \sum_{t = 1}^{T} \sum_{j \in \mathcal{B}} \left\{ (1- \eta_c)P_{c_j}^t + \left(\frac{1}{\eta_d}-1\right) P_{d_j}^t \right\} \nonumber
+		\text{s.t.} & {}\nonumber
+	\end{align}
+\end{gather}
+
+Minimizing Line Losses with soft constraints on Terminal SOC and SCD
+\begin{gather}
+	\begin{align}
+		\min_{
+		\substack{
+		q_{D_j}^t, P_{c_j}^t, P_d{_j}^t, q_{B_j}^t}
+		} 
+		\vspace{-15ex} % Adjust the space here
+		& \quad
+		\sum_{t = 1}^{T} \sum_{(i, j) \in \mathcal{L}} (r_{ij}l_{ij}^t) \\
+		&+ \alpha \sum_{t = 1}^{T} \sum_{j \in \mathcal{B}} \left\{ (1- \eta_c)P_{c_j}^t + \left(\frac{1}{\eta_d}-1\right) P_{d_j}^t \right\} \nonumber\\
+		&+ \gamma \sum_{j \in \mathcal{B}} \left\{ \left(B^{T}_{j} - B_{ref_{j}}]\right)^2\right\} \nonumber\\
+		\text{s.t.} & {}\nonumber
+	\end{align}
+\end{gather}
+
 \begin{gather}
     % \min_{P_{ij}^t, Q_{ij}^t, v_{j}^t, l_{ij}^t, q_{D_j}^t, B_{j}^{t},
 	% P_{c_j}^t, P_d{_j}^t, q_{B_j}^t} \quad
