@@ -209,6 +209,11 @@ four state/control variables, which are:
 		{p_j^t} &= {p_D{_j}^t - p_L{_j}^t} \\
 		{q_j^t} &= {-q_L{_j}^t} \\
 		{t} &= {\{1, 2, \ldots T\}} \\
+		{\text{where,}} & {} \nonumber\\
+		{P^t_{ij}} &: { \text{Average Real Power Flow in Branch $(i, j)$ during time-step $t$} }\nonumber\\
+		{ v^t_{j} } &\in {[0.95^2, 1.05^2]} \\
+		{ l^t_{ij} } &\in {[0, I_{Rated_{ij}}^2]} \\
+		{P^t_{Subs}} &\in {[0, P_{SubsPeak}]}
 	\end{align}
 \end{gather}
 
