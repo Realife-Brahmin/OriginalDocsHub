@@ -338,6 +338,21 @@ Minimizing Line Losses with soft constraints on Terminal SOC and SCD
 	\end{align}
 \end{gather}
 
+Minimizing Voltage Deviations with soft constraint on SCD
+\begin{gather}
+	\begin{align}
+		\min_{
+		\substack{
+		q_{D_j}^t, P_{c_j}^t, P_d{_j}^t, q_{B_j}^t}
+		} 
+		\vspace{-15ex} % Adjust the space here
+		& \quad
+		\sum_{t = 1}^{T} \sum_{j \in \mathcal{N}} (v^t_{j} - v_{ref, j}) \\
+		&+ \alpha \sum_{t = 1}^{T} \sum_{j \in \mathcal{B}} \left\{ (1- \eta_c)P_{c_j}^t + \left(\frac{1}{\eta_d}-1\right) P_{d_j}^t \right\} \nonumber\\
+		\text{s.t.} & {}\nonumber
+	\end{align}
+\end{gather}
+
 \begin{gather}
 	\begin{align}
 		\min_{
