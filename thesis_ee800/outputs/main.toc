@@ -1,0 +1,15 @@
+\nobreakspace {}\hfill \textbf {Page}\par 
+\contentsline {part}{ACKNOWLEDGMENT}{iii}{section*.1}%
+\contentsline {part}{ABSTRACT}{iv}{section*.2}%
+\contentsline {part}{LIST OF TABLES}{vi}{section*.3}%
+\contentsline {part}{LIST OF FIGURES}{vii}{section*.5}%
+\contentsline {chapter}{\numberline {1}FIGURES AND TABLES}{2}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Examples of a figure}{2}{section.1.1}%
+\contentsline {part}{REFERENCES}{3}{chapter*.8}%
+ \vspace {.5em} \noindent \textbf {APPENDIX}\par 
+\contentsline {chapter}{\numberline {A}Branch Flow Model: Relaxations and Convexification}{5}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Abstracts: Optimization-based Methods for solving MP-OPF}{7}{appendix.B}%
+\contentsline {chapter}{\numberline {C}Abstracts: Dynamic Programming Methods for solving MP-OPF}{9}{appendix.C}%
+\contentsline {chapter}{\numberline {D}Abstracts: Differential Dynamic Programming}{10}{appendix.D}%
+\contentsline {chapter}{\numberline {E}Models: Battery Model for Multi-Period OPF}{13}{appendix.E}%
+\contentsline {subsubsection}{Objective Function Examples}{22}{section*.28}%
