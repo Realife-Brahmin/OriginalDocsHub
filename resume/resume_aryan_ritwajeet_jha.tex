@@ -111,11 +111,13 @@
 
 %%% Education
 %%% ------------------------------------------------------------
-\NewPart{Education}{}
+\NewPart{Education and Internships}{}
 
-\EducationEntry{Doctor of Philosophy\\ Electrical and Computing Engineering \\ Washington State University \\ Pullman, WA}{Aug '22 -}{Currently 4.00/4.00 GPA}{}
+\EducationEntry{Doctor of Philosophy\\ Electrical and Computing Engineering \\ Washington State University \\ Pullman, WA}{Aug '22 -}{Currently 3.94/4.00 GPA}{}
 \sepspace
-\EducationEntry{Graduate Work \\ Electrical Engineering \\ Indian Institute of Technology Delhi}{Sep '20 - Aug '22}{}
+\WorkEntry{Summer Internship \\ North American Electric Reliability Corporation (NERC) \\ Advanced System Analytics and Modelling}{May '24 - Aug '24}{}{}
+\sepspace
+\EducationEntry{Graduate Work \\ Electrical Engineering \\ Indian Institute of Technology Delhi}{Sep '20 - Aug '22}{}{}
 \sepspace
 \EducationEntry{Bachelor of Engineering. \\ Electrical and Electronics Engineering\\
 with a Minor in Data Science \\
@@ -137,17 +139,25 @@ Birla Institute of Technology and Science Pilani\\ Hyderabad Campus}{Aug '16 - M
 %%% ------------------------------------------------------------
 \NewPart{Projects}{}
 
-\WorkEntry{Ongoing Doctoral Thesis}{Aug '22 - }{Multi-Period Optimal Power Flow in Distribution Systems \href{https://github.com/Realife-Brahmin/MultiPeriod-DistOPF-Benchmark}{\textcolor{matlaborange}{\faGithub}}\\ Supervisor : Dr. Anamika Dubey, Associate Professor, School of Electrical Engineering and Computer Sciences, Washington State University}{My goal is to devise scalable Multi-time Period Optimal Powerflow strategies for Active Radial Power Distribution Systems. These strategies will allow for decomposing the computational burden of solving for a minimizer of an objective function (say, line losses) both spatially and temporally. This work is part of the ``\href{https://www.energy.gov/eere/solar/connected-communities-funding-program}{Connected Communities}" project sponsored by the Department of Energy, and involves the partnership of Washington State University, \href{https://investor.avistacorp.com/}{Avista Utilities}, \href{https://edoenergy.com/about-edo/}{Edo Energy} and \href{https://www.pnnl.gov/about}{Pacific Northwest National Lab}. Current status of the MATLAB simulations and their validation via OpenDSS may be viewed by clicking on the GitHub logo icon next to the project title.}
+\WorkEntry{Ongoing Doctoral Thesis}{Aug '22 - }{Scalable Multi-Period Optimal Power Flow in Active Distribution Systems \href{https://github.com/Realife-Brahmin/MultiPeriod-DistOPF-Benchmark}{\textcolor{matlaborange}{\faGithub}}\\ Supervisor : Dr. Anamika Dubey, Associate Professor, School of Electrical Engineering and Computer Sciences, Washington State University}{My goal is to devise scalable Multi-time Period Optimal Powerflow strategies for Active Radial Power Distribution Systems. These strategies will allow for decomposing the computational burden of solving for a minimizer of an objective function (say, line losses) both spatially and temporally. This work is part of the ``\href{https://www.energy.gov/eere/solar/connected-communities-funding-program}{Connected Communities}" project sponsored by the Department of Energy, and involves the partnership of Washington State University, \href{https://investor.avistacorp.com/}{Avista Utilities}, \href{https://edoenergy.com/about-edo/}{Edo Energy} and \href{https://www.pnnl.gov/about}{Pacific Northwest National Lab}. Current status of the MATLAB simulations and their validation via OpenDSS may be viewed by clicking on the GitHub logo icon next to the project title. A paper based on the work so far has been accepted in NAPS 2024.}
 
-% \sepspace 
-\clearpage
+\sepspace 
+% \clearpage
 
-\WorkEntry{Course Project}{Aug '22 - Aug '23}{Power System Analysis and Stability \href{https://github.com/Realife-Brahmin/PowerSystems-Analysis-Stability-WSU}{\textcolor{matlaborange}{\faGithub}}, \href{https://github.com/ninadkgaikwad/PowerEdu}{\textcolor{juliapurple}{ \faGithub }} \\ Supervisors: Dr. Noel Schulz and Dr. Mani V. Venkatasubramanian, Professors at the School of Electrical and Engineering and Computer Sciences, Washington State University}{As part of the two core graduate courses for Power Systems at WSU, a codebase was developed for performing various kinds of analysis on Power Transmission Systems, including Powerflow, Sparse Powerflow, Continuation Powerflow, State Estimation, Optimal Powerflow, Small Signal Stability and Transient Stability. The original codebase for course evaluation was developed in MATLAB. A Julia package based on the same projects is being developed, with a few already re-implemented.}
+\WorkEntry{Summer Internship Work at NERC 1}{May '24 - Aug '24}{Mapping Generator Data (GADS) and Transmission Data (TADS) for Extreme Weather Resiliency Studies \href{https://github.com/Realife-Brahmin/Mapping-GADS-and-TADS-repo}{\textcolor{pythonblue}{\faGithub}}\\ Supervisor : Svetlana Ekisheva, Principal Data Scientist, Advanced System Analytics and Modelling, NERC}
+{NREC has an yearly updated database on Bulk Power System assets such as Generator Units and Transmission Lines, respectively known as Generator/Transmission Availability Database System (GADS/TADS). It is of NERC's interest to analyze how susceptible the assets are to extreme weather conditions, but the databases do not contain any geographical information. My task was to use a third party software, namely Hitachi Energy's Velocity Suite, which has an approximate geographical mapping of such assets, to indirectly `map' the assets in GADS/TADS to their nearest weather station. A python codebase was developed which would input GADS/TADS as well as Velocity Suite databases, and parse them to finally output a table of transmision lines and generator units `mapped' to their nearest weather station, for any user-input weather station.}
 
-\sepspace
-% \sepspace 
+\sepspace 
 
-\WorkEntry{Course Project}{Aug '23 - }{Convex, Nonlinear, Nonsmooth Analysis and Optimization \href{https://github.com/Realife-Brahmin/WSU-Convex-Nonlinear-Nonsmooth-Analysis-and-Optimization}{\textcolor{juliapurple}{\faGithub}} \\ Supervisor: Dr. Thomas Asaki, Professor at the Department of Mathematics, Washington State University}{In order to solve various constrained/unconstrained/nonlinear/nonsmooth optimization problems using a variety of optimization algorithms, a solver in Julia has been developed and is still being updated.}
+\WorkEntry{Summer Internship Work at NERC 2}{May '24 - Aug '24}{System Strength Concept Development and EMT Simulation\\ Supervisor : Aung Thant, Senior Engineer, Advanced System Analytics and Modelling, NERC}
+{Increasing penetration of IBRs, mostly Grid Following Inverters in the Bulk Power System are causing a `weakening' of the grid, making it more susceptible to voltage collapse. Power System operators are actively researching ways to tackle this decrease in `System Strength', including trying to quantify it. While existing quasi steady state metrics such as Short Circuit Ratios are somewhat useful for this, they do not give much information on fault dynamics, especially in grid conditions calling for `ride-through' operation of IBRs. My task was to conduct a literature review on what progress has the industry or working groups (such as AEMO, CIGRE, EPRI, ERCOT, ESIG, PES) made on studying the concept of System Strength and present it to the engineering team. A PSCAD EMT simulation was developed with the aim of demonstrating to stakeholders from a wide variety of technical and non-technical backgrounds on how particular changes to the grid cause a `decrease' or `increase' in System Strength.}
+
+% \WorkEntry{Course Project}{Aug '22 - Aug '23}{Power System Analysis and Stability \href{https://github.com/Realife-Brahmin/PowerSystems-Analysis-Stability-WSU}{\textcolor{matlaborange}{\faGithub}}, \href{https://github.com/ninadkgaikwad/PowerEdu}{\textcolor{juliapurple}{ \faGithub }} \\ Supervisors: Dr. Noel Schulz and Dr. Mani V. Venkatasubramanian, Professors at the School of Electrical and Engineering and Computer Sciences, Washington State University}{As part of the two core graduate courses for Power Systems at WSU, a codebase was developed for performing various kinds of analysis on Power Transmission Systems, including Powerflow, Sparse Powerflow, Continuation Powerflow, State Estimation, Optimal Powerflow, Small Signal Stability and Transient Stability. The original codebase for course evaluation was developed in MATLAB. A Julia package based on the same projects is being developed, with a few already re-implemented.}
+
+% \sepspace
+% % \sepspace 
+
+% \WorkEntry{Course Project}{Aug '23 - }{Convex, Nonlinear, Nonsmooth Analysis and Optimization \href{https://github.com/Realife-Brahmin/WSU-Convex-Nonlinear-Nonsmooth-Analysis-and-Optimization}{\textcolor{juliapurple}{\faGithub}} \\ Supervisor: Dr. Thomas Asaki, Professor at the Department of Mathematics, Washington State University}{In order to solve various constrained/unconstrained/nonlinear/nonsmooth optimization problems using a variety of optimization algorithms, a solver in Julia has been developed and is still being updated.}
 
 \sepspace
 
@@ -157,9 +167,11 @@ Birla Institute of Technology and Science Pilani\\ Hyderabad Campus}{Aug '16 - M
 % \sepspace
 % \sepspace
 % \sepspace
-%%% Work experience
-%%% ------------------------------------------------------------
+%% Work experience
+% %% ------------------------------------------------------------
 % \NewPart{Internships}{}
+
+% \WorkEntry{Summer Internship}{May - Aug '24}{North American Electric Reliability Corporation (NERC)}{Advanced System Analytics and Modelling}
 
 % \WorkEntry{Summer Internship}{May - Jul '18}{Power Grid Corporation of India Limited, Gurgaon, Haryana}{Title : Monitoring Power Systems: SCADA vs WAMS\\Supervisor : Dr. R. K. Mittal, Professor, Department of Mechanical Engineering, BITS Pilani, Pilani Campus}
 
@@ -172,25 +184,40 @@ Birla Institute of Technology and Science Pilani\\ Hyderabad Campus}{Aug '16 - M
 
 % \WorkEntry{Course Project}{Jan - May '19}{Simulation and Design of Fast Charging Infrastructure for a University-Based e-Carsharing System\\ Supervisor: Dr. Sudha Radhika, Assistant Professor, Department of Electrical and Electronics Engineering, BITS Pilani, Hyderabad Campus}{Based on the IEEE Transactions on Intelligent Transportation Systems paper of the same name, implemented an intelligent battery charging station in MATLAB Simulink which during the day would check the state of charge of incoming e-vehicles and charge as per the distance to the destination location. During night time, the station batteries would get recharged through the grid power via AC to DC converters.}
 
-\NewPart{Teaching Experience}{}
+% \NewPart{Teaching Experience}{}
 
-% \WorkEntry{TA for Power Engineering I course}{Jan - May '22}{IIT Delhi\\ (taken by Undergraduate $3^{rd}$ year students)}{Assigned evaluation of minor (mid-semester) answer scripts.}
+% % \WorkEntry{TA for Power Engineering I course}{Jan - May '22}{IIT Delhi\\ (taken by Undergraduate $3^{rd}$ year students)}{Assigned evaluation of minor (mid-semester) answer scripts.}
+% % \sepspace
+
+% % \WorkEntry{TA for Power Systems Laboratory course}{Aug - Dec '21}{IIT Delhi\\ (taken by Undergraduate $4^{th}$ year students)}{Moderated a doubt session. Made one question paper set for the minor (mid-semester) exam and later graded corresponding responses.}
+% % \sepspace
+% % \sepspace
+% % \WorkEntry{TA for Mathematics III: Differential Equations}{Aug - Dec '18}{BITS Pilani Hyderabad Campus\\ (taken by Undergraduate $2^{nd}$ year students)}{Checked mid-semester answer scripts and made slides for a tutorial session.}
+
+% \WorkEntry{TA for Power Engineering I course}{Jan - May '22}{IIT Delhi (taken by Undergraduate $3^{rd}$ year students)}{}
 % \sepspace
 
-% \WorkEntry{TA for Power Systems Laboratory course}{Aug - Dec '21}{IIT Delhi\\ (taken by Undergraduate $4^{th}$ year students)}{Moderated a doubt session. Made one question paper set for the minor (mid-semester) exam and later graded corresponding responses.}
+% \WorkEntry{TA for Power Systems Laboratory course}{Aug - Dec '21}{IIT Delhi (taken by Undergraduate $4^{th}$ year students)}{}
 % \sepspace
 % \sepspace
-% \WorkEntry{TA for Mathematics III: Differential Equations}{Aug - Dec '18}{BITS Pilani Hyderabad Campus\\ (taken by Undergraduate $2^{nd}$ year students)}{Checked mid-semester answer scripts and made slides for a tutorial session.}
-
-\WorkEntry{TA for Power Engineering I course}{Jan - May '22}{IIT Delhi (taken by Undergraduate $3^{rd}$ year students)}{}
-\sepspace
-
-\WorkEntry{TA for Power Systems Laboratory course}{Aug - Dec '21}{IIT Delhi (taken by Undergraduate $4^{th}$ year students)}{}
-\sepspace
-\sepspace
-\WorkEntry{TA for Mathematics III: Differential Equations}{Aug - Dec '18}{BITS Pilani Hyderabad Campus (taken by Undergraduate $2^{nd}$ year students)}{}
+% \WorkEntry{TA for Mathematics III: Differential Equations}{Aug - Dec '18}{BITS Pilani Hyderabad Campus (taken by Undergraduate $2^{nd}$ year students)}{}
 
 \clearpage
+
+\NewPart{Publications}{}
+
+\WorkEntry{Conference Paper}{}{\textbf{Jha, A.}, Subho, P., \& Dubey, A. 2024. Spatially distributed multi-period optimal power flow with battery energy storage systems . Accepted for Publication in North American Power Symposium (NAPS) 2024.}
+
+% \WorkEntry{Conference Paper}{}{Jha, Aryan, Subho, Paul, \& Dubey, Anamika NAPS 2024.}
+
+\NewPart{Notable Course Projects}{}
+
+\WorkEntry{Course Project}{Aug '22 - Aug '23}{Power System Analysis and Stability \href{https://github.com/Realife-Brahmin/PowerSystems-Analysis-Stability-WSU}{\textcolor{matlaborange}{\faGithub}}, \href{https://github.com/ninadkgaikwad/PowerEdu}{\textcolor{juliapurple}{ \faGithub }} \\ Supervisors: Dr. Noel Schulz and Dr. Mani V. Venkatasubramanian, Professors at the School of Electrical and Engineering and Computer Sciences, Washington State University}{As part of the two core graduate courses for Power Systems at WSU, a codebase was developed for performing various kinds of analysis on Power Transmission Systems, including Powerflow, Sparse Powerflow, Continuation Powerflow, State Estimation, Optimal Powerflow, Small Signal Stability and Transient Stability. The original codebase for course evaluation was developed in MATLAB. A Julia package based on the same projects is being developed, with a few already re-implemented.}
+
+\sepspace
+% \sepspace 
+
+\WorkEntry{Course Project}{Aug '23 - }{Convex, Nonlinear, Nonsmooth Analysis and Optimization \href{https://github.com/Realife-Brahmin/WSU-Convex-Nonlinear-Nonsmooth-Analysis-and-Optimization}{\textcolor{juliapurple}{\faGithub}} \\ Supervisor: Dr. Thomas Asaki, Professor at the Department of Mathematics, Washington State University}{In order to solve various constrained/unconstrained/nonlinear/nonsmooth optimization problems using a variety of optimization algorithms, a solver in Julia has been developed and is still being updated.}
 
 \NewPart{Courses}{}
 
@@ -203,14 +230,14 @@ Birla Institute of Technology and Science Pilani\\ Hyderabad Campus}{Aug '16 - M
 % \sepspace
 %\WorkEntry{Courses in Mathematics}{}{}{Calculus \\ Differential Equations \\ Linear Algebra and Complex Variables \\ Optimization \\ Applied Statistical Methods}
 % \clearpage
-\NewPart{Certified Online Courses}{}
+% \NewPart{Certified Online Courses}{}
 
-\WorkEntry{Wind Energy}{}{Denmark Technological University on Coursera \href{https://www.coursera.org/account/accomplishments/certificate/K7HX27Y43F2F}{\faExternalLink*}}{}
-\sepspace
-\WorkEntry{Battery State of Charge Estimation}{}{UC Colorado System on Coursera \href{https://www.coursera.org/account/accomplishments/certificate/VCFGDSAZUVX8}{\faExternalLink*}}{}
-\sepspace
-\WorkEntry{Introduction to Battery Management Systems}{}{UC Colorado System on Coursera \href{https://www.coursera.org/account/accomplishments/certificate/LBXFVNBBJG87}{\faExternalLink*}}{}
-\sepspace
+% \WorkEntry{Wind Energy}{}{Denmark Technological University on Coursera \href{https://www.coursera.org/account/accomplishments/certificate/K7HX27Y43F2F}{\faExternalLink*}}{}
+% \sepspace
+% \WorkEntry{Battery State of Charge Estimation}{}{UC Colorado System on Coursera \href{https://www.coursera.org/account/accomplishments/certificate/VCFGDSAZUVX8}{\faExternalLink*}}{}
+% \sepspace
+% \WorkEntry{Introduction to Battery Management Systems}{}{UC Colorado System on Coursera \href{https://www.coursera.org/account/accomplishments/certificate/LBXFVNBBJG87}{\faExternalLink*}}{}
+% \sepspace
 % \WorkEntry{Plasma Physics: Introduction}{}{EPFL on edX \href{https://courses.edx.org/certificates/6274a52faa2e42bfa52c463b9818021a}{\faExternalLink*}{}}
 % \sepspace
 % \WorkEntry{Introduction to Power Electronics}{}{University of Colorado Boulder on Coursera \href{https://www.coursera.org/account/accomplishments/verify/GRD3KP9KSDYW}{\faExternalLink*}{}}
@@ -231,7 +258,7 @@ Birla Institute of Technology and Science Pilani\\ Hyderabad Campus}{Aug '16 - M
 \SkillsEntry{Typesetting and Drawing}{\textsc{\LaTeX}, \textsc{Inkscape}}
 \sepspace
 
-\SkillsEntry{Software}{\textsc{OpenDSS}, \textsc{MATLAB Simulink}, \textsc{Siemens PSS®E}}
+\SkillsEntry{Software}{\textsc{OpenDSS}, \textsc{MATLAB Simulink}, \textsc{Siemens PSS®E}, \textsc{PSCAD},}{\textsc{Velocity Suite}}
 \sepspace
 
 % \NewPart{Standardized Tests}{}
