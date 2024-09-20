@@ -249,6 +249,61 @@ four state/control variables, which are:
 	\end{align}
 \end{gather}
 
+\subsection*{DDP Workflow: Forward Pass for the terminal \\ time-step $t = T$}
+
+
+\begin{gather}
+	\begin{align}
+		\min_{
+		% \substack{
+		% q_{D_j}^t, P_{c_j}^t, P_d{_j}^t, q_{B_j}^t}
+		} 
+		\vspace{-15ex} % Adjust the space here
+		& \quad
+		C^t P_{Subs}^t \\
+		&+ \alpha \sum_{j \in \mathcal{B}} \left\{ (1- \eta_c)P_{c_j}^t + \left(\frac{1}{\eta_d}-1\right) P_{d_j}^t \right\} \nonumber\\
+		% &+ \sum_{j \in \mathcal{B}} \lambda_7{_j}^t \left\{ B_{min_{j}} - B_{j}^t \right\} \nonumber\\
+		% &+ \sum_{j \in \mathcal{B}} \lambda_8{_j}^t \left\{ B_{j}^t - B_{Max_{j}} \right\} \nonumber\\
+		% &+ \sum_{j \in \mathcal{B}} { \mu_{SOC{_j}}^t \left\{ B_{j}^{t} - \left\{ { \textcolor{red}{B_{j}^{t-1}} + \Delta t  \eta_c P_{c_j}^t - \Delta t\frac{1}{\eta_d} P_{d_j}^t }  \right\} \right\} } \nonumber\\
+		% &+ \sum_{j \in \mathcal{B}} { \textcolor{blue}{ \mu_{SOC{_j}}^{t+1}} \left\{ - B_{j}^{t} \right\} } \nonumber\\
+		&+ \gamma \sum_{j \in \mathcal{B}} \left\{ \left(B^{T}_{j} - B_{ref_{j}}\right)^2\right\} \nonumber\\
+		\text{s.t.} & {}\nonumber\\
+	% \end{align}
+	% \min_{
+	% 	\substack{
+	% 	q_{D_j}^t, P_{c_j}^t, P_d{_j}^t, q_{B_j}^t}
+	% 	} 
+	% 	\vspace{-15ex} % Adjust the space here
+	% 	& \quad
+	% 	\sum_{t = 1}^{T} \sum_{(i, j) \in \mathcal{L}} (r_{ij}l_{ij}^t) \\
+	% 	&+ \alpha \sum_{t = 1}^{T} \sum_{j \in \mathcal{B}} \left\{ (1- \eta_c)P_{c_j}^t + \left(\frac{1}{\eta_d}-1\right) P_{d_j}^t \right\} \nonumber\\
+	% 	&+ \gamma \sum_{j \in \mathcal{B}} \left\{ \left(B^{T}_{j} - B_{ref_{j}}\right)^2\right\} \nonumber\\
+	% 	\text{s.t.} & {}\nonumber \\
+	% \begin{align}
+		% \text{s.t.} & {}\nonumber \\
+		{0} & = {\sum_{(j, k) \in \mathcal{L}} \left\{P_{jk}^t\right\} - \left\{P_{ij}^t - r_{ij}l_{ij}^t\right\} - (P_{d_j}^t - P_{c_j}^t)  - (p_D{_j}^t) + p_L{_j}^t} && \\
+		{0} & = {\sum_{(j, k) \in \mathcal{L}} \left\{Q_{jk}^t\right\} - \left\{Q_{ij}^t - x_{ij}l_{ij}^t\right\} - (q_{D_j}^t) - (q_{B_j}^t) + q_L{_j}^t} && \\
+		{0} & = {v_{i}^t - v_{j}^t - 2(r_{ij}P_{ij}^t + x_{ij}Q_{ij}^t) + \left\{r_{ij}^2 + x_{ij}^2\right\}l_{ij}^t}  && \\
+		{0} & = {(P_{ij}^{t})^2 + (Q_{ij}^{t})^2 - v_{i}^t l_{ij}^t } \\
+		{0} & = {B_{j}^{t} - \left\{ \textcolor{red}{ B_{j}^{t-1} } + \Delta t  \eta_c P_{c_j}^t - \Delta t\frac{1}{\eta_d} P_{d_j}^t \right\} } \\
+		% {0} & = {B_{j}^{t} - \left\{ { \textcolor{red}{B_{j}^{t-1}} + \Delta t  \eta_c P_{c_j}^t - \Delta t\frac{1}{\eta_d} P_{d_j}^t } \right\}} \\
+		% inequalities
+		% {0} & \geq {-\lambda_7{_j}^t} \\
+		% {0} & \geq {-\lambda_8{_j}^t} \\
+		{0} & \geq {B{_{min_{j}}}^t - B{_j}^t} \\
+		{0} & \geq {B{_j}^t - B{_{Max_{j}}}^t} \\
+		{0} & \geq {\text{All other inequality constraints}}
+		% { B_{j}^{0} } &= { 0.5(soc_{max}+soc_{min})E_{Rated} = 0.625E_{Rated}} \\
+		% { B_{j}^{T} } &= { B_{j}^{0}} \\
+		% {where,} & {} \\
+		% {(i, j)} &: {\text{Branch connecting nodes $i$ and $j$}} \\
+		% {p_j^t} &= {p_D{_j}^t - p_L{_j}^t} \\
+		% {q_j^t} &= {-q_L{_j}^t} \\
+		% {t} &= {\{1, 2, \ldots T-1\}} \\
+		% {z} &= {\{0, 1\}}
+	\end{align}
+\end{gather}
+
 \subsection*{(Integer Constraint Relaxed) Naive Brute Force Full Optimization Model - Full Horizon}
 
 \subsubsection*{Network Constraints}
