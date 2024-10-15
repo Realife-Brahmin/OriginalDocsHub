@@ -351,7 +351,7 @@ four state/control variables, which are:
 		{ (P^t_{dj} - P^t_{cj})^2 + (q^t_{Bj})^2} &\leq {(S_{Rated,j})^2} \\
 		% {B^t_{j}} &\in {[soc_{min}E_{Rated, j}, soc_{max}E_{Rated, j}]} \\
 		{B^t_{j}} &\in {[soc_{min}, soc_{max}]*E_{Rated, j}} \\
-		{q^t_{Bj}} &\in {[-\sqrt{0.44}, \sqrt{0.44}]*S_{Rated,j}} \\
+		{q^t_{Bj}} &\in {[-\sqrt{0.44}, \sqrt{0.44}]*P_{Rated,j}} \\
 		{t} &= {\{1, 2, \ldots T\}}
 	\end{align}
 \end{gather}
@@ -365,7 +365,7 @@ four state/control variables, which are:
 		{S_{Rated, j}} &: {\text{Rated Apparent Power of Inverter at DER $j$}} \nonumber\\
 		{S_{Rated,j}} &= {1.2P_{Rated,j}} \\
 		{ (p^t_{Dj})^2 + (q^t_{Dj})^2} &\leq {(S_{Rated,j})^2} \\
-		{q^t_{Dj}} &\in {[-\sqrt{0.44}, \sqrt{0.44}]*S_{Rated,j}} \\
+		{q^t_{Dj}} &\in {[-\sqrt{0.44}, \sqrt{0.44}]*p_{D_{R_j}}} \\
 		{t} &= {\{1, 2, \ldots T\}}\nonumber
 	\end{align}
 \end{gather}
